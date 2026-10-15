@@ -1,0 +1,21 @@
+name: ecbench build
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - name: Fetch pinned crypto source
+        run: ./tools/bootstrap_crypto.sh
+      - name: Check CLI
+        run: cargo check --locked --bin ecbench

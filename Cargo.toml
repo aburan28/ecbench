@@ -1,0 +1,17 @@
+[package]
+name = "ecbench"
+version = "0.1.0"
+edition = "2021"
+description = "ECDLP benchmark CLI backed by the crypto crate"
+
+[[bin]]
+name = "ecbench"
+path = "src/bin/ecbench.rs"
+
+[dependencies]
+crypto_lib = { package = "crypto", path = "deps/crypto" }
+clap = { version = "4", features = ["derive"] }
+num-bigint = "0.4"
+num-traits = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0", features = ["arbitrary_precision", "raw_value"] }

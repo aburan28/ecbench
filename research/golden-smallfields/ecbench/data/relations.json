@@ -1,0 +1,1112 @@
+{
+  "geometric_classes_over_base_field": [
+    {
+      "curve_ids": [
+        "p61-E4-0",
+        "p61-E4-1"
+      ],
+      "field_id": "p61",
+      "j": "0x00000000000006c0"
+    },
+    {
+      "curve_ids": [
+        "p61-E3-0",
+        "p61-E3-1",
+        "p61-E3-2",
+        "p61-E3-3",
+        "p61-E3-4",
+        "p61-E3-5"
+      ],
+      "field_id": "p61",
+      "j": "0x0000000000000000"
+    },
+    {
+      "curve_ids": [
+        "p61-G-0",
+        "p61-G-1"
+      ],
+      "field_id": "p61",
+      "j": "0x0000000000000900"
+    },
+    {
+      "curve_ids": [
+        "p64-E4-0",
+        "p64-E4-1",
+        "p64-E4-2",
+        "p64-E4-3"
+      ],
+      "field_id": "p64",
+      "j": "0x00000000000006c0"
+    },
+    {
+      "curve_ids": [
+        "p64-E3-0",
+        "p64-E3-1",
+        "p64-E3-2",
+        "p64-E3-3",
+        "p64-E3-4",
+        "p64-E3-5"
+      ],
+      "field_id": "p64",
+      "j": "0x0000000000000000"
+    },
+    {
+      "curve_ids": [
+        "p64-G-0",
+        "p64-G-1"
+      ],
+      "field_id": "p64",
+      "j": "0x0000000000000900"
+    },
+    {
+      "curve_ids": [
+        "p83s-E4-0",
+        "p83s-E4-1"
+      ],
+      "field_id": "p83s",
+      "j": "0x00000000000000000006c0"
+    },
+    {
+      "curve_ids": [
+        "p83s-E3-0",
+        "p83s-E3-1"
+      ],
+      "field_id": "p83s",
+      "j": "0x0000000000000000000000"
+    },
+    {
+      "curve_ids": [
+        "p83s-G-0",
+        "p83s-G-1"
+      ],
+      "field_id": "p83s",
+      "j": "0x0000000000000000000900"
+    },
+    {
+      "curve_ids": [
+        "p83-E4-0",
+        "p83-E4-1",
+        "p83-E4-2",
+        "p83-E4-3"
+      ],
+      "field_id": "p83",
+      "j": "0x00000000000000000006c0"
+    },
+    {
+      "curve_ids": [
+        "p83-E3-0",
+        "p83-E3-1",
+        "p83-E3-2",
+        "p83-E3-3",
+        "p83-E3-4",
+        "p83-E3-5"
+      ],
+      "field_id": "p83",
+      "j": "0x0000000000000000000000"
+    },
+    {
+      "curve_ids": [
+        "p83-G-0",
+        "p83-G-1"
+      ],
+      "field_id": "p83",
+      "j": "0x0000000000000000000900"
+    },
+    {
+      "curve_ids": [
+        "p83-S-0",
+        "p83-S-1"
+      ],
+      "field_id": "p83",
+      "j": "0x045f5a2b87c5f5a2b87c41"
+    },
+    {
+      "curve_ids": [
+        "K53-a0",
+        "K53-a1"
+      ],
+      "field_id": "b53",
+      "j": "0x00000000000001"
+    },
+    {
+      "curve_ids": [
+        "K79-a0",
+        "K79-a1"
+      ],
+      "field_id": "b79",
+      "j": "0x00000000000000000001"
+    },
+    {
+      "curve_ids": [
+        "K83-a0",
+        "K83-a1"
+      ],
+      "field_id": "b83",
+      "j": "0x0000000000000000000001"
+    },
+    {
+      "curve_ids": [
+        "B53-a0",
+        "B53-a1"
+      ],
+      "field_id": "b53",
+      "j": "0x10000000000023"
+    },
+    {
+      "curve_ids": [
+        "B79-a0",
+        "B79-a1"
+      ],
+      "field_id": "b79",
+      "j": "0x40000000000000000100"
+    },
+    {
+      "curve_ids": [
+        "B83-a0",
+        "B83-a1"
+      ],
+      "field_id": "b83",
+      "j": "0x040000000000000000004a"
+    },
+    {
+      "curve_ids": [
+        "S83-a0",
+        "S83-a1"
+      ],
+      "field_id": "b83",
+      "j": "0x03b3f95831290401c2cc4d"
+    }
+  ],
+  "isogeny_classes": [
+    {
+      "curve_ids": [
+        "p61-E4-0",
+        "p61-E4-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p61",
+      "trace": "0"
+    },
+    {
+      "curve_ids": [
+        "p61-E3-0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p61",
+      "trace": "-3010608196"
+    },
+    {
+      "curve_ids": [
+        "p61-E3-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p61",
+      "trace": "-1159316027"
+    },
+    {
+      "curve_ids": [
+        "p61-E3-2"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p61",
+      "trace": "1851292169"
+    },
+    {
+      "curve_ids": [
+        "p61-E3-3"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p61",
+      "trace": "3010608196"
+    },
+    {
+      "curve_ids": [
+        "p61-E3-4"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p61",
+      "trace": "1159316027"
+    },
+    {
+      "curve_ids": [
+        "p61-E3-5"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p61",
+      "trace": "-1851292169"
+    },
+    {
+      "curve_ids": [
+        "p61-G-0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p61",
+      "trace": "-2536646736"
+    },
+    {
+      "curve_ids": [
+        "p61-G-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p61",
+      "trace": "2536646736"
+    },
+    {
+      "curve_ids": [
+        "p64-E4-0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "-8589934590"
+    },
+    {
+      "curve_ids": [
+        "p64-E4-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "131072"
+    },
+    {
+      "curve_ids": [
+        "p64-E4-2"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "8589934590"
+    },
+    {
+      "curve_ids": [
+        "p64-E4-3"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "-131072"
+    },
+    {
+      "curve_ids": [
+        "p64-E3-0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "4294967294"
+    },
+    {
+      "curve_ids": [
+        "p64-E3-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "8589934591"
+    },
+    {
+      "curve_ids": [
+        "p64-E3-2"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "4294967297"
+    },
+    {
+      "curve_ids": [
+        "p64-E3-3"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "-4294967294"
+    },
+    {
+      "curve_ids": [
+        "p64-E3-4"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "-8589934591"
+    },
+    {
+      "curve_ids": [
+        "p64-E3-5"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "-4294967297"
+    },
+    {
+      "curve_ids": [
+        "p64-G-0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "-7816789861"
+    },
+    {
+      "curve_ids": [
+        "p64-G-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p64",
+      "trace": "7816789861"
+    },
+    {
+      "curve_ids": [
+        "p83s-E4-0",
+        "p83s-E4-1",
+        "p83s-E3-0",
+        "p83s-E3-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83s",
+      "trace": "0"
+    },
+    {
+      "curve_ids": [
+        "p83s-G-0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83s",
+      "trace": "423089571240"
+    },
+    {
+      "curve_ids": [
+        "p83s-G-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83s",
+      "trace": "-423089571240"
+    },
+    {
+      "curve_ids": [
+        "p83-E4-0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "-4516048014294"
+    },
+    {
+      "curve_ids": [
+        "p83-E4-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "4276790450824"
+    },
+    {
+      "curve_ids": [
+        "p83-E4-2"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "4516048014294"
+    },
+    {
+      "curve_ids": [
+        "p83-E4-3"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "-4276790450824"
+    },
+    {
+      "curve_ids": [
+        "p83-E3-0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "-785790761722"
+    },
+    {
+      "curve_ids": [
+        "p83-E3-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "-5736220125797"
+    },
+    {
+      "curve_ids": [
+        "p83-E3-2"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "-4950429364075"
+    },
+    {
+      "curve_ids": [
+        "p83-E3-3"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "785790761722"
+    },
+    {
+      "curve_ids": [
+        "p83-E3-4"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "5736220125797"
+    },
+    {
+      "curve_ids": [
+        "p83-E3-5"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "4950429364075"
+    },
+    {
+      "curve_ids": [
+        "p83-G-0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "1299209545187"
+    },
+    {
+      "curve_ids": [
+        "p83-G-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "-1299209545187"
+    },
+    {
+      "curve_ids": [
+        "p83-S-0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "282648742965"
+    },
+    {
+      "curve_ids": [
+        "p83-S-1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "p83",
+      "trace": "-282648742965"
+    },
+    {
+      "curve_ids": [
+        "K53-a0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b53",
+      "trace": "-56619371"
+    },
+    {
+      "curve_ids": [
+        "K53-a1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b53",
+      "trace": "56619371"
+    },
+    {
+      "curve_ids": [
+        "K79-a0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b79",
+      "trace": "-420247971347"
+    },
+    {
+      "curve_ids": [
+        "K79-a1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b79",
+      "trace": "420247971347"
+    },
+    {
+      "curve_ids": [
+        "K83-a0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b83",
+      "trace": "-6151469093347"
+    },
+    {
+      "curve_ids": [
+        "K83-a1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b83",
+      "trace": "6151469093347"
+    },
+    {
+      "curve_ids": [
+        "B53-a0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b53",
+      "trace": "120448001"
+    },
+    {
+      "curve_ids": [
+        "B53-a1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b53",
+      "trace": "-120448001"
+    },
+    {
+      "curve_ids": [
+        "B79-a0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b79",
+      "trace": "117766930433"
+    },
+    {
+      "curve_ids": [
+        "B79-a1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b79",
+      "trace": "-117766930433"
+    },
+    {
+      "curve_ids": [
+        "B83-a0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b83",
+      "trace": "-5450226835455"
+    },
+    {
+      "curve_ids": [
+        "B83-a1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b83",
+      "trace": "5450226835455"
+    },
+    {
+      "curve_ids": [
+        "S83-a0"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b83",
+      "trace": "-478486250431"
+    },
+    {
+      "curve_ids": [
+        "S83-a1"
+      ],
+      "evidence": "Tate trace criterion",
+      "explicit_maps_computed": false,
+      "field_id": "b83",
+      "trace": "478486250431"
+    }
+  ],
+  "ordinary_endomorphism_order_classes": [
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "p61-E3-0",
+        "p61-E3-1",
+        "p61-E3-2",
+        "p61-E3-3",
+        "p61-E3-4",
+        "p61-E3-5",
+        "p64-E3-0",
+        "p64-E3-1",
+        "p64-E3-2",
+        "p64-E3-3",
+        "p64-E3-4",
+        "p64-E3-5",
+        "p83-E3-0",
+        "p83-E3-1",
+        "p83-E3-2",
+        "p83-E3-3",
+        "p83-E3-4",
+        "p83-E3-5"
+      ],
+      "field_discriminant": "-3",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "p61-G-0",
+        "p61-G-1"
+      ],
+      "field_discriminant": "-725493073255807",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "p64-E4-0",
+        "p64-E4-1",
+        "p64-E4-2",
+        "p64-E4-3",
+        "p83-E4-0",
+        "p83-E4-1",
+        "p83-E4-2",
+        "p83-E4-3"
+      ],
+      "field_discriminant": "-4",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "p64-G-0",
+        "p64-G-1"
+      ],
+      "field_discriminant": "-12684772546625937963",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "p83s-G-0",
+        "p83s-G-1"
+      ],
+      "field_discriminant": "-9626654784133269335441519",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "p83-G-0",
+        "p83-G-1"
+      ],
+      "field_discriminant": "-36997680785363122195732443",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "p83-S-0",
+        "p83-S-1"
+      ],
+      "field_discriminant": "-38605735915768438953606187",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "K53-a0",
+        "K53-a1",
+        "K79-a0",
+        "K79-a1",
+        "K83-a0",
+        "K83-a1"
+      ],
+      "field_discriminant": "-7",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "B53-a0",
+        "B53-a1"
+      ],
+      "field_discriminant": "-21521076074067967",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "B79-a0",
+        "B79-a1"
+      ],
+      "field_discriminant": "-2403982589325647287844863",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "B83-a0",
+        "B83-a1"
+      ],
+      "field_discriminant": "-8980653669754309945540607",
+      "relation": "abstract_order_isomorphism"
+    },
+    {
+      "conductor": "1",
+      "curve_ids": [
+        "S83-a0",
+        "S83-a1"
+      ],
+      "field_discriminant": "-38456677135816615942911871",
+      "relation": "abstract_order_isomorphism"
+    }
+  ],
+  "reference_maps": [
+    {
+      "characteristic_condition": "p > 3",
+      "exceptional_points_map_to": "infinity",
+      "kernel": [
+        "infinity",
+        "(0,0)"
+      ],
+      "map": {
+        "X": "x-1/x",
+        "Y": "y*(1+1/x^2)"
+      },
+      "source_equation": "y^2=x^3-x",
+      "target_equation": "Y^2=X^3+4X",
+      "target_is_auxiliary_model": true,
+      "type": "separable_degree_two_isogeny"
+    },
+    {
+      "characteristic_condition": "2",
+      "degree": "2",
+      "map": {
+        "X": "x^2",
+        "Y": "y^2"
+      },
+      "source_equation": "y^2+xy=x^3+a*x^2+b (a in F2)",
+      "target_equation": "y^2+xy=x^3+a*x^2+b^2",
+      "target_is_auxiliary_model": true,
+      "type": "relative_frobenius_isogeny"
+    },
+    {
+      "characteristic_condition": "p > 3, p = 1 mod 4",
+      "map": {
+        "X": "-x",
+        "Y": "i*y; i^2=-1"
+      },
+      "source_equation": "y^2=x^3+A*x",
+      "target_is_auxiliary_model": false,
+      "type": "gaussian_automorphism"
+    },
+    {
+      "characteristic_condition": "p > 3, p = 1 mod 3",
+      "map": {
+        "X": "zeta*x; zeta^3=1, zeta!=1",
+        "Y": "y"
+      },
+      "source_equation": "y^2=x^3+B",
+      "target_is_auxiliary_model": false,
+      "type": "eisenstein_automorphism"
+    }
+  ],
+  "twist_pairs": [
+    {
+      "curve_ids": [
+        "p61-E4-0",
+        "p61-E4-0"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p61",
+      "may_be_self_isomorphic": true
+    },
+    {
+      "curve_ids": [
+        "p61-E4-1",
+        "p61-E4-1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p61",
+      "may_be_self_isomorphic": true
+    },
+    {
+      "curve_ids": [
+        "p61-E3-0",
+        "p61-E3-3"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p61",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p61-E3-1",
+        "p61-E3-4"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p61",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p61-E3-2",
+        "p61-E3-5"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p61",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p61-G-0",
+        "p61-G-1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p61",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p64-E4-0",
+        "p64-E4-2"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p64",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p64-E4-1",
+        "p64-E4-3"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p64",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p64-E3-0",
+        "p64-E3-3"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p64",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p64-E3-1",
+        "p64-E3-4"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p64",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p64-E3-2",
+        "p64-E3-5"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p64",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p64-G-0",
+        "p64-G-1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p64",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p83s-E4-0",
+        "p83s-E4-0"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83s",
+      "may_be_self_isomorphic": true
+    },
+    {
+      "curve_ids": [
+        "p83s-E4-1",
+        "p83s-E4-1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83s",
+      "may_be_self_isomorphic": true
+    },
+    {
+      "curve_ids": [
+        "p83s-E3-0",
+        "p83s-E3-1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83s",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p83s-G-0",
+        "p83s-G-1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83s",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p83-E4-0",
+        "p83-E4-2"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p83-E4-1",
+        "p83-E4-3"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p83-E3-0",
+        "p83-E3-3"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p83-E3-1",
+        "p83-E3-4"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p83-E3-2",
+        "p83-E3-5"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p83-G-0",
+        "p83-G-1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "p83-S-0",
+        "p83-S-1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "p83",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "K53-a0",
+        "K53-a1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "b53",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "K79-a0",
+        "K79-a1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "b79",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "K83-a0",
+        "K83-a1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "b83",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "B53-a0",
+        "B53-a1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "b53",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "B79-a0",
+        "B79-a1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "b79",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "B83-a0",
+        "B83-a1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "b83",
+      "may_be_self_isomorphic": false
+    },
+    {
+      "curve_ids": [
+        "S83-a0",
+        "S83-a1"
+      ],
+      "evidence": "quadratic twist model and trace reversal",
+      "field_id": "b83",
+      "may_be_self_isomorphic": false
+    }
+  ]
+}

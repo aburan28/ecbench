@@ -1,2 +1,8 @@
 /target/
 /deps/crypto/
+**/__pycache__/
+*.py[cod]
+/research/golden-smallfields/.venv/
+/research/golden-smallfields/*.egg-info/
+/research/golden-smallfields/build/lib/
+/research/golden-smallfields/build/bdist.*/

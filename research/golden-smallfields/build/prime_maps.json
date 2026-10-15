@@ -1,0 +1,2713 @@
+{
+  "schema": "ecbench-prime-maps-raw-v1",
+  "vectors": [
+    {
+      "curve_id": "p61-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "O",
+      "point": null,
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p61-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "G",
+      "point": [
+        1,
+        0
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p61-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "R",
+      "point": [
+        6,
+        605782482086620655
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": [
+        384307168202282331,
+        1839582472562920814
+      ]
+    },
+    {
+      "curve_id": "p61-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p61-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "T2",
+      "point": [
+        1,
+        0
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p61-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p61-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        255601601932576332,
+        1780808007151256255
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        1648990681328873804,
+        1780808007151256255
+      ]
+    },
+    {
+      "curve_id": "p61-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        1,
+        2147483648
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        1669582390241348315,
+        2147483648
+      ]
+    },
+    {
+      "curve_id": "p61-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        1
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        0,
+        1
+      ]
+    },
+    {
+      "curve_id": "p61-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "T2",
+      "point": [
+        636260618972345636,
+        0
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        1669582390241348316,
+        0
+      ]
+    },
+    {
+      "curve_id": "p61-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 37
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p61-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        2135073168933340795,
+        1588117047327622791
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 37
+      },
+      "result": [
+        671262283159948849,
+        1588117047327622791
+      ]
+    },
+    {
+      "curve_id": "p61-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        1,
+        1013433362578841545
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 37
+      },
+      "result": [
+        1669582390241348315,
+        1013433362578841545
+      ]
+    },
+    {
+      "curve_id": "p61-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        1,
+        1013433362578841545
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 37
+      },
+      "result": [
+        1669582390241348315,
+        1013433362578841545
+      ]
+    },
+    {
+      "curve_id": "p61-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1369
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p61-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        1402026996707583096,
+        1013019727044413442
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1369
+      },
+      "result": [
+        1914848585583876505,
+        1013019727044413442
+      ]
+    },
+    {
+      "curve_id": "p61-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        3,
+        771619567592140414
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1369
+      },
+      "result": [
+        397061152296657043,
+        771619567592140414
+      ]
+    },
+    {
+      "curve_id": "p61-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        37
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1369
+      },
+      "result": [
+        0,
+        37
+      ]
+    },
+    {
+      "curve_id": "p61-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 50653
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p61-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        1643233992562661487,
+        1587415595507016170
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 50653
+      },
+      "result": [
+        348006844739576230,
+        1587415595507016170
+      ]
+    },
+    {
+      "curve_id": "p61-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        2,
+        1109454938498344254
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 50653
+      },
+      "result": [
+        1033321771269002679,
+        1109454938498344254
+      ]
+    },
+    {
+      "curve_id": "p61-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        1,
+        741817453808678359
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 50653
+      },
+      "result": [
+        1669582390241348315,
+        741817453808678359
+      ]
+    },
+    {
+      "curve_id": "p61-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "T2",
+      "point": [
+        2305843009213693914,
+        0
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 50653
+      },
+      "result": [
+        483212809839849022,
+        0
+      ]
+    },
+    {
+      "curve_id": "p61-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1874161
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p61-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        1547063082759224368,
+        1567648214161351515
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1874161
+      },
+      "result": [
+        2154295548733398993,
+        1567648214161351515
+      ]
+    },
+    {
+      "curve_id": "p61-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        2,
+        290168658891466909
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1874161
+      },
+      "result": [
+        1033321771269002679,
+        290168658891466909
+      ]
+    },
+    {
+      "curve_id": "p61-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        1369
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1874161
+      },
+      "result": [
+        0,
+        1369
+      ]
+    },
+    {
+      "curve_id": "p61-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 69343957
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p61-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        2220098993836452612,
+        2271665918870330060
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 69343957
+      },
+      "result": [
+        1463564014727681396,
+        2271665918870330060
+      ]
+    },
+    {
+      "curve_id": "p61-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        1,
+        185074697215987025
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 69343957
+      },
+      "result": [
+        1669582390241348315,
+        185074697215987025
+      ]
+    },
+    {
+      "curve_id": "p61-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        1,
+        185074697215987025
+      ],
+      "parameter": 1669582390241348315,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 69343957
+      },
+      "result": [
+        1669582390241348315,
+        185074697215987025
+      ]
+    },
+    {
+      "curve_id": "p64-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "O",
+      "point": null,
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "G",
+      "point": [
+        11709758004365223670,
+        5681178662062911155
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": [
+        2241727043411201536,
+        4369717799070602851
+      ]
+    },
+    {
+      "curve_id": "p64-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "R",
+      "point": [
+        12,
+        8823689169123363557
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": [
+        1537228672451215372,
+        2095538151693852408
+      ]
+    },
+    {
+      "curve_id": "p64-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "T2",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E4-0",
+      "operation": "gaussian_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584320,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E4-0",
+      "operation": "gaussian_automorphism",
+      "point_name": "G",
+      "point": [
+        11709758004365223670,
+        5681178662062911155
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584320,
+        "a6": 0
+      },
+      "result": [
+        6736986065049360651,
+        9842504600922036063
+      ]
+    },
+    {
+      "curve_id": "p64-E4-0",
+      "operation": "gaussian_automorphism",
+      "point_name": "R",
+      "point": [
+        12,
+        8823689169123363557
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584320,
+        "a6": 0
+      },
+      "result": [
+        18446744069414584309,
+        6156884748769877885
+      ]
+    },
+    {
+      "curve_id": "p64-E4-0",
+      "operation": "gaussian_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584320,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E4-0",
+      "operation": "gaussian_automorphism",
+      "point_name": "T2",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584320,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E4-1",
+      "operation": "gaussian_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584314,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E4-1",
+      "operation": "gaussian_automorphism",
+      "point_name": "G",
+      "point": [
+        7177118793599950890,
+        12999054192344348289
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584314,
+        "a6": 0
+      },
+      "result": [
+        11269625275814633431,
+        11631529808887074014
+      ]
+    },
+    {
+      "curve_id": "p64-E4-1",
+      "operation": "gaussian_automorphism",
+      "point_name": "R",
+      "point": [
+        7,
+        1008798619832154368
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584314,
+        "a6": 0
+      },
+      "result": [
+        18446744069414584314,
+        17437930056419637505
+      ]
+    },
+    {
+      "curve_id": "p64-E4-1",
+      "operation": "gaussian_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584314,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E4-1",
+      "operation": "gaussian_automorphism",
+      "point_name": "T2",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584314,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E4-2",
+      "operation": "gaussian_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584272,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E4-2",
+      "operation": "gaussian_automorphism",
+      "point_name": "G",
+      "point": [
+        15809828666618322461,
+        9708503202846575389
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584272,
+        "a6": 0
+      },
+      "result": [
+        2636915402796261860,
+        1393479708582467291
+      ]
+    },
+    {
+      "curve_id": "p64-E4-2",
+      "operation": "gaussian_automorphism",
+      "point_name": "R",
+      "point": [
+        19,
+        9015842217306189086
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584272,
+        "a6": 0
+      },
+      "result": [
+        18446744069414584302,
+        2438850386627721568
+      ]
+    },
+    {
+      "curve_id": "p64-E4-2",
+      "operation": "gaussian_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584272,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E4-2",
+      "operation": "gaussian_automorphism",
+      "point_name": "T2",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414584272,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E4-3",
+      "operation": "gaussian_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414583978,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E4-3",
+      "operation": "gaussian_automorphism",
+      "point_name": "G",
+      "point": [
+        13279271743225590052,
+        725841644838997548
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414583978,
+        "a6": 0
+      },
+      "result": [
+        5167472326188994269,
+        237947305487931933
+      ]
+    },
+    {
+      "curve_id": "p64-E4-3",
+      "operation": "gaussian_automorphism",
+      "point_name": "R",
+      "point": [
+        11,
+        2519140183693337618
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414583978,
+        "a6": 0
+      },
+      "result": [
+        18446744069414584310,
+        17057502830771400855
+      ]
+    },
+    {
+      "curve_id": "p64-E4-3",
+      "operation": "gaussian_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414583978,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E4-3",
+      "operation": "gaussian_automorphism",
+      "point_name": "T2",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 281474976710656,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 18446744069414583978,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        17580609299449593464,
+        7665487165774047347
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        533081191570136836,
+        7665487165774047347
+      ]
+    },
+    {
+      "curve_id": "p64-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        6,
+        7223931154319340209
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        18446744043644780545,
+        7223931154319340209
+      ]
+    },
+    {
+      "curve_id": "p64-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        1
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        0,
+        1
+      ]
+    },
+    {
+      "curve_id": "p64-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "T2",
+      "point": [
+        18446744069414584320,
+        0
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        4294967296,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 7
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        2237673979425444737,
+        1951799891164206517
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 7
+      },
+      "result": [
+        17737528137665597602,
+        1951799891164206517
+      ]
+    },
+    {
+      "curve_id": "p64-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        1,
+        2198989700608
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 7
+      },
+      "result": [
+        18446744065119617025,
+        2198989700608
+      ]
+    },
+    {
+      "curve_id": "p64-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        1,
+        2198989700608
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 7
+      },
+      "result": [
+        18446744065119617025,
+        2198989700608
+      ]
+    },
+    {
+      "curve_id": "p64-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 49
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        2937480907323445409,
+        1299580390018866550
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 49
+      },
+      "result": [
+        8627322437614438227,
+        1299580390018866550
+      ]
+    },
+    {
+      "curve_id": "p64-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        1,
+        5497474251520
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 49
+      },
+      "result": [
+        18446744065119617025,
+        5497474251520
+      ]
+    },
+    {
+      "curve_id": "p64-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        7
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 49
+      },
+      "result": [
+        0,
+        7
+      ]
+    },
+    {
+      "curve_id": "p64-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 343
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        18446744069414584314,
+        0
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 343
+      },
+      "result": [
+        30064771072,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        4,
+        2570107450586130550
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 343
+      },
+      "result": [
+        18446744052234715137,
+        2570107450586130550
+      ]
+    },
+    {
+      "curve_id": "p64-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        4,
+        2570107450586130550
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 343
+      },
+      "result": [
+        18446744052234715137,
+        2570107450586130550
+      ]
+    },
+    {
+      "curve_id": "p64-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "T2",
+      "point": [
+        18446744069414584314,
+        0
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 343
+      },
+      "result": [
+        30064771072,
+        0
+      ]
+    },
+    {
+      "curve_id": "p64-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 2401
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        12959957955400543011,
+        14385138098054170281
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 2401
+      },
+      "result": [
+        15023814583885956378,
+        14385138098054170281
+      ]
+    },
+    {
+      "curve_id": "p64-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        2,
+        4315666066871336898
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 2401
+      },
+      "result": [
+        18446744060824649729,
+        4315666066871336898
+      ]
+    },
+    {
+      "curve_id": "p64-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        49
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 2401
+      },
+      "result": [
+        0,
+        49
+      ]
+    },
+    {
+      "curve_id": "p64-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 16807
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p64-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        12671465266451656507,
+        1483028119286128152
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 16807
+      },
+      "result": [
+        5303193339629803143,
+        1483028119286128152
+      ]
+    },
+    {
+      "curve_id": "p64-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        1,
+        8630048057499513675
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 16807
+      },
+      "result": [
+        18446744065119617025,
+        8630048057499513675
+      ]
+    },
+    {
+      "curve_id": "p64-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        1,
+        8630048057499513675
+      ],
+      "parameter": 18446744065119617025,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 16807
+      },
+      "result": [
+        18446744065119617025,
+        8630048057499513675
+      ]
+    },
+    {
+      "curve_id": "p83s-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "O",
+      "point": null,
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83s-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "G",
+      "point": [
+        6664455030083431140998784,
+        6682259384415654573275743
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": [
+        1298560548089309591155978,
+        7695253652959570701891938
+      ]
+    },
+    {
+      "curve_id": "p83s-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "R",
+      "point": [
+        22,
+        2796757885984430351475995
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": [
+        439609362748012777010291,
+        8137795395628668951702847
+      ]
+    },
+    {
+      "curve_id": "p83s-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83s-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "T2",
+      "point": [
+        1,
+        0
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "O",
+      "point": null,
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "G",
+      "point": [
+        758290109962300676566569,
+        5659986485010669066700191
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": [
+        307457985502661241034362,
+        6693323108581813209290327
+      ]
+    },
+    {
+      "curve_id": "p83-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "R",
+      "point": [
+        10,
+        13194139533312
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": [
+        6769984589841923378354557,
+        9284550294653678142672024
+      ]
+    },
+    {
+      "curve_id": "p83-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E4-0",
+      "operation": "degree2_isogeny",
+      "point_name": "T2",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": null,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 4,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E4-0",
+      "operation": "gaussian_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649352,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E4-0",
+      "operation": "gaussian_automorphism",
+      "point_name": "G",
+      "point": [
+        758290109962300676566569,
+        5659986485010669066700191
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649352,
+        "a6": 0
+      },
+      "result": [
+        8913116446954732721082784,
+        765751786506486785060711
+      ]
+    },
+    {
+      "curve_id": "p83-E4-0",
+      "operation": "gaussian_automorphism",
+      "point_name": "R",
+      "point": [
+        10,
+        13194139533312
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649352,
+        "a6": 0
+      },
+      "result": [
+        9671406556917033397649343,
+        120206299895016013188329
+      ]
+    },
+    {
+      "curve_id": "p83-E4-0",
+      "operation": "gaussian_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649352,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E4-0",
+      "operation": "gaussian_automorphism",
+      "point_name": "T2",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649352,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E4-1",
+      "operation": "gaussian_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649346,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E4-1",
+      "operation": "gaussian_automorphism",
+      "point_name": "G",
+      "point": [
+        9018887285552347064115343,
+        5420523066638445823796711
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649346,
+        "a6": 0
+      },
+      "result": [
+        652519271364686333534010,
+        3220323600089718896284785
+      ]
+    },
+    {
+      "curve_id": "p83-E4-1",
+      "operation": "gaussian_automorphism",
+      "point_name": "R",
+      "point": [
+        7,
+        703464373121898388848733
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649346,
+        "a6": 0
+      },
+      "result": [
+        9671406556917033397649346,
+        6469070519680122710786582
+      ]
+    },
+    {
+      "curve_id": "p83-E4-1",
+      "operation": "gaussian_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649346,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E4-1",
+      "operation": "gaussian_automorphism",
+      "point_name": "T2",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649346,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E4-2",
+      "operation": "gaussian_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649304,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E4-2",
+      "operation": "gaussian_automorphism",
+      "point_name": "G",
+      "point": [
+        4631859567706246733308698,
+        3891860820443658155894754
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649304,
+        "a6": 0
+      },
+      "result": [
+        5039546989210786664340655,
+        4434599416700409374282693
+      ]
+    },
+    {
+      "curve_id": "p83-E4-2",
+      "operation": "gaussian_automorphism",
+      "point_name": "R",
+      "point": [
+        15,
+        3289507978373293116822350
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649304,
+        "a6": 0
+      },
+      "result": [
+        9671406556917033397649338,
+        3474933909233752193285890
+      ]
+    },
+    {
+      "curve_id": "p83-E4-2",
+      "operation": "gaussian_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649304,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E4-2",
+      "operation": "gaussian_automorphism",
+      "point_name": "T2",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649304,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E4-3",
+      "operation": "gaussian_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649010,
+        "a6": 0
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E4-3",
+      "operation": "gaussian_automorphism",
+      "point_name": "G",
+      "point": [
+        3429059265923026602691837,
+        2815494734833375944667899
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649010,
+        "a6": 0
+      },
+      "result": [
+        6242347290994006794957516,
+        514055571205310044969333
+      ]
+    },
+    {
+      "curve_id": "p83-E4-3",
+      "operation": "gaussian_automorphism",
+      "point_name": "R",
+      "point": [
+        5,
+        3671394660613838216631
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649010,
+        "a6": 0
+      },
+      "result": [
+        9671406556917033397649348,
+        1058331236892061747066631
+      ]
+    },
+    {
+      "curve_id": "p83-E4-3",
+      "operation": "gaussian_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649010,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E4-3",
+      "operation": "gaussian_automorphism",
+      "point_name": "T2",
+      "point": [
+        0,
+        0
+      ],
+      "parameter": 2494706553885074050457712,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 9671406556917033397649010,
+        "a6": 0
+      },
+      "result": [
+        0,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        3486100602381700386808770,
+        1595122732820245681102634
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        1908849546205249063814485,
+        1595122732820245681102634
+      ]
+    },
+    {
+      "curve_id": "p83-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        6,
+        1253937970878054887938680
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        8776823797562215822122681,
+        1253937970878054887938680
+      ]
+    },
+    {
+      "curve_id": "p83-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        1
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        0,
+        1
+      ]
+    },
+    {
+      "curve_id": "p83-E3-0",
+      "operation": "eisenstein_automorphism",
+      "point_name": "T2",
+      "point": [
+        9671406556917033397649352,
+        0
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 1
+      },
+      "result": [
+        3372899312198147395137563,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 7
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        9502549135637252506191166,
+        4886661713318853676265283
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 7
+      },
+      "result": [
+        1540414797269863990237490,
+        4886661713318853676265283
+      ]
+    },
+    {
+      "curve_id": "p83-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        1,
+        4690734355211046102190506
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 7
+      },
+      "result": [
+        6298507244718886002511790,
+        4690734355211046102190506
+      ]
+    },
+    {
+      "curve_id": "p83-E3-1",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        1,
+        4690734355211046102190506
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 7
+      },
+      "result": [
+        6298507244718886002511790,
+        4690734355211046102190506
+      ]
+    },
+    {
+      "curve_id": "p83-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 49
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        21949175591496091395405,
+        6040392554064237296437455
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 49
+      },
+      "result": [
+        4421535581097647675660515,
+        6040392554064237296437455
+      ]
+    },
+    {
+      "curve_id": "p83-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        1,
+        2055429331110581857826912
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 49
+      },
+      "result": [
+        6298507244718886002511790,
+        2055429331110581857826912
+      ]
+    },
+    {
+      "curve_id": "p83-E3-2",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        7
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 49
+      },
+      "result": [
+        0,
+        7
+      ]
+    },
+    {
+      "curve_id": "p83-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 343
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        7412556676355814941056103,
+        1250780744345001392124966
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 343
+      },
+      "result": [
+        3145466233253984305956360,
+        1250780744345001392124966
+      ]
+    },
+    {
+      "curve_id": "p83-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        1,
+        3732064897170550780036714
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 343
+      },
+      "result": [
+        6298507244718886002511790,
+        3732064897170550780036714
+      ]
+    },
+    {
+      "curve_id": "p83-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        1,
+        3732064897170550780036714
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 343
+      },
+      "result": [
+        6298507244718886002511790,
+        3732064897170550780036714
+      ]
+    },
+    {
+      "curve_id": "p83-E3-3",
+      "operation": "eisenstein_automorphism",
+      "point_name": "T2",
+      "point": [
+        9671406556917033397649346,
+        0
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 343
+      },
+      "result": [
+        4267482071552964970664235,
+        0
+      ]
+    },
+    {
+      "curve_id": "p83-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 2401
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        3068117006852892510461303,
+        4387383435605625626185155
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 2401
+      },
+      "result": [
+        6966664206247287003031584,
+        4387383435605625626185155
+      ]
+    },
+    {
+      "curve_id": "p83-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        2,
+        4695080247998369484671760
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 2401
+      },
+      "result": [
+        2925607932520738607374227,
+        4695080247998369484671760
+      ]
+    },
+    {
+      "curve_id": "p83-E3-4",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        0,
+        49
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 2401
+      },
+      "result": [
+        0,
+        49
+      ]
+    },
+    {
+      "curve_id": "p83-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "O",
+      "point": null,
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 16807
+      },
+      "result": null
+    },
+    {
+      "curve_id": "p83-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "G",
+      "point": [
+        1305911884931231701559901,
+        7242705585353092047506456
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 16807
+      },
+      "result": [
+        3007466871161787565748388,
+        7242705585353092047506456
+      ]
+    },
+    {
+      "curve_id": "p83-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "R",
+      "point": [
+        1,
+        877137050586309366568357
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 16807
+      },
+      "result": [
+        6298507244718886002511790,
+        877137050586309366568357
+      ]
+    },
+    {
+      "curve_id": "p83-E3-5",
+      "operation": "eisenstein_automorphism",
+      "point_name": "P",
+      "point": [
+        1,
+        877137050586309366568357
+      ],
+      "parameter": 6298507244718886002511790,
+      "target_coefficients": {
+        "a1": 0,
+        "a2": 0,
+        "a3": 0,
+        "a4": 0,
+        "a6": 16807
+      },
+      "result": [
+        6298507244718886002511790,
+        877137050586309366568357
+      ]
+    }
+  ],
+  "scope": "Explicit auxiliary degree-two targets and rational CM unit automorphisms; no added primary curves",
+  "verification": {
+    "target_on_curve_checks": 138,
+    "unit_order_and_homomorphism_checks": 188,
+    "pari_version": "2.17.2",
+    "pari_map_answer_checks": 138,
+    "pari_degree2_target_checks": 20
+  }
+}

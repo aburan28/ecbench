@@ -1,0 +1,1724 @@
+{
+  "schema": "binary elliptic-curve computations v2",
+  "fields": [
+    {
+      "degree": 53,
+      "exponents": [
+        53,
+        6,
+        2,
+        1,
+        0
+      ],
+      "irreducible": true,
+      "rabin_x_2_power_m_equals_x": true,
+      "rabin_gcds": {
+        "53": 1
+      }
+    },
+    {
+      "degree": 79,
+      "exponents": [
+        79,
+        9,
+        0
+      ],
+      "irreducible": true,
+      "rabin_x_2_power_m_equals_x": true,
+      "rabin_gcds": {
+        "79": 1
+      }
+    },
+    {
+      "degree": 83,
+      "exponents": [
+        83,
+        7,
+        4,
+        2,
+        0
+      ],
+      "irreducible": true,
+      "rabin_x_2_power_m_equals_x": true,
+      "rabin_gcds": {
+        "83": 1
+      }
+    }
+  ],
+  "curves": [
+    {
+      "label": "K53-a0",
+      "field_degree": 53,
+      "q": 9007199254740992,
+      "a": 0,
+      "b": 1,
+      "equation": "y^2 + x*y = x^3 + 0*x^2 + 1",
+      "base_field": "F_2",
+      "base_trace": -1,
+      "trace": -56619371,
+      "group_order": 9007199311360364,
+      "group_order_factors": {
+        "2": 2,
+        "107": 1,
+        "21044858204113": 1
+      },
+      "group_invariant_factors": [
+        1,
+        9007199311360364
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 21044858204113,
+      "r_bit_length": 45,
+      "r_log2": 44.258533022667656,
+      "cofactor": 428,
+      "generic_security_log2_sqrt_r": 22.129266511333828,
+      "embedding_degree": 66178799384,
+      "embedding_degree_details": {
+        "k": 66178799384,
+        "k_factors": {
+          "2": 3,
+          "17": 1,
+          "149": 1,
+          "3265831": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "2": true,
+          "17": true,
+          "149": true,
+          "3265831": true
+        },
+        "ord_r_2": 3507476367352
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "107": {
+          "k": 2,
+          "k_factors": {
+            "2": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true
+          },
+          "ord_r_2": 106
+        },
+        "21044858204113": {
+          "k": 66178799384,
+          "k_factors": {
+            "2": 3,
+            "17": 1,
+            "149": 1,
+            "3265831": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "17": true,
+            "149": true,
+            "3265831": true
+          },
+          "ord_r_2": 3507476367352
+        }
+      },
+      "curve_discriminant_in_field": 1,
+      "j_invariant": 1,
+      "ordinary": true,
+      "CM_field_discriminant": -7,
+      "CM_field": "Q(sqrt(-7))",
+      "endomorphism_ring": "Z[(1 + sqrt(-7))/2]",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -7,
+      "endomorphism_ring_class_number": 1,
+      "frobenius_discriminant": -32823043846528327,
+      "frobenius_order_conductor": 68476319,
+      "frobenius_order_conductor_factors": {
+        "68476319": 1
+      },
+      "frobenius_order_class_number": 68476318,
+      "possible_endomorphism_orders_in_isogeny_class": [
+        {
+          "conductor": 1,
+          "order_discriminant": -7,
+          "order_class_number": 1
+        },
+        {
+          "conductor": 68476319,
+          "order_discriminant": -32823043846528327,
+          "order_class_number": 68476318
+        }
+      ],
+      "frobenius_CM_coordinates_basis_1_w": [
+        -62547845,
+        68476319
+      ],
+      "twist_label": "K53-a1",
+      "F2_frobenius_scalar_on_largest_subgroup": 10244141222326,
+      "F2_frobenius_order_on_largest_subgroup": 53,
+      "log2_sqrt_r_divided_by_sqrt_m": 19.26530628405223
+    },
+    {
+      "label": "K53-a1",
+      "field_degree": 53,
+      "q": 9007199254740992,
+      "a": 1,
+      "b": 1,
+      "equation": "y^2 + x*y = x^3 + 1*x^2 + 1",
+      "base_field": "F_2",
+      "base_trace": 1,
+      "trace": 56619371,
+      "group_order": 9007199198121622,
+      "group_order_factors": {
+        "2": 1,
+        "107": 1,
+        "3488143": 1,
+        "12066511": 1
+      },
+      "group_invariant_factors": [
+        1,
+        9007199198121622
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 12066511,
+      "r_bit_length": 24,
+      "r_log2": 23.524505249115713,
+      "cofactor": 746462602,
+      "generic_security_log2_sqrt_r": 11.762252624557856,
+      "embedding_degree": 113835,
+      "embedding_degree_details": {
+        "k": 113835,
+        "k_factors": {
+          "3": 1,
+          "5": 1,
+          "7589": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "3": true,
+          "5": true,
+          "7589": true
+        },
+        "ord_r_2": 6033255
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "107": {
+          "k": 2,
+          "k_factors": {
+            "2": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true
+          },
+          "ord_r_2": 106
+        },
+        "3488143": {
+          "k": 10969,
+          "k_factors": {
+            "7": 1,
+            "1567": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "7": true,
+            "1567": true
+          },
+          "ord_r_2": 581357
+        },
+        "12066511": {
+          "k": 113835,
+          "k_factors": {
+            "3": 1,
+            "5": 1,
+            "7589": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "3": true,
+            "5": true,
+            "7589": true
+          },
+          "ord_r_2": 6033255
+        }
+      },
+      "curve_discriminant_in_field": 1,
+      "j_invariant": 1,
+      "ordinary": true,
+      "CM_field_discriminant": -7,
+      "CM_field": "Q(sqrt(-7))",
+      "endomorphism_ring": "Z[(1 + sqrt(-7))/2]",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -7,
+      "endomorphism_ring_class_number": 1,
+      "frobenius_discriminant": -32823043846528327,
+      "frobenius_order_conductor": 68476319,
+      "frobenius_order_conductor_factors": {
+        "68476319": 1
+      },
+      "frobenius_order_class_number": 68476318,
+      "possible_endomorphism_orders_in_isogeny_class": [
+        {
+          "conductor": 1,
+          "order_discriminant": -7,
+          "order_class_number": 1
+        },
+        {
+          "conductor": 68476319,
+          "order_discriminant": -32823043846528327,
+          "order_class_number": 68476318
+        }
+      ],
+      "frobenius_CM_coordinates_basis_1_w": [
+        -5928474,
+        68476319
+      ],
+      "twist_label": "K53-a0",
+      "F2_frobenius_scalar_on_largest_subgroup": 10459496,
+      "F2_frobenius_order_on_largest_subgroup": 53,
+      "log2_sqrt_r_divided_by_sqrt_m": 8.898292397276258
+    },
+    {
+      "label": "K79-a0",
+      "field_degree": 79,
+      "q": 604462909807314587353088,
+      "a": 0,
+      "b": 1,
+      "equation": "y^2 + x*y = x^3 + 0*x^2 + 1",
+      "base_field": "F_2",
+      "base_trace": -1,
+      "trace": -420247971347,
+      "group_order": 604462909807734835324436,
+      "group_order_factors": {
+        "2": 2,
+        "149627": 1,
+        "14377452373": 1,
+        "70245379": 1
+      },
+      "group_invariant_factors": [
+        1,
+        604462909807734835324436
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 14377452373,
+      "r_bit_length": 34,
+      "r_log2": 33.743089007511955,
+      "cofactor": 42042421294532,
+      "generic_security_log2_sqrt_r": 16.871544503755977,
+      "embedding_degree": 181993068,
+      "embedding_degree_details": {
+        "k": 181993068,
+        "k_factors": {
+          "2": 2,
+          "3": 4,
+          "331": 1,
+          "1697": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "2": true,
+          "3": true,
+          "331": true,
+          "1697": true
+        },
+        "ord_r_2": 14377452372
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "149627": {
+          "k": 1894,
+          "k_factors": {
+            "2": 1,
+            "947": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "947": true
+          },
+          "ord_r_2": 149626
+        },
+        "14377452373": {
+          "k": 181993068,
+          "k_factors": {
+            "2": 2,
+            "3": 4,
+            "331": 1,
+            "1697": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "3": true,
+            "331": true,
+            "1697": true
+          },
+          "ord_r_2": 14377452372
+        },
+        "70245379": {
+          "k": 889182,
+          "k_factors": {
+            "2": 1,
+            "3": 2,
+            "7": 1,
+            "7057": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "3": true,
+            "7": true,
+            "7057": true
+          },
+          "ord_r_2": 70245378
+        }
+      },
+      "curve_discriminant_in_field": 1,
+      "j_invariant": 1,
+      "ordinary": true,
+      "CM_field_discriminant": -7,
+      "CM_field": "Q(sqrt(-7))",
+      "endomorphism_ring": "Z[(1 + sqrt(-7))/2]",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -7,
+      "endomorphism_ring_class_number": 1,
+      "frobenius_discriminant": -2241243281807989416417943,
+      "frobenius_order_conductor": 565842391207,
+      "frobenius_order_conductor_factors": {
+        "4423": 1,
+        "127931809": 1
+      },
+      "frobenius_order_class_number": 565970327440,
+      "possible_endomorphism_orders_in_isogeny_class": [
+        {
+          "conductor": 1,
+          "order_discriminant": -7,
+          "order_class_number": 1
+        },
+        {
+          "conductor": 4423,
+          "order_discriminant": -136940503,
+          "order_class_number": 4424
+        },
+        {
+          "conductor": 127931809,
+          "order_discriminant": -114565834278087367,
+          "order_class_number": 127931810
+        },
+        {
+          "conductor": 565842391207,
+          "order_discriminant": -2241243281807989416417943,
+          "order_class_number": 565970327440
+        }
+      ],
+      "frobenius_CM_coordinates_basis_1_w": [
+        -493045181277,
+        565842391207
+      ],
+      "twist_label": "K79-a1",
+      "F2_frobenius_scalar_on_largest_subgroup": 906429976,
+      "F2_frobenius_order_on_largest_subgroup": 79,
+      "log2_sqrt_r_divided_by_sqrt_m": 13.719654129667425
+    },
+    {
+      "label": "K79-a1",
+      "field_degree": 79,
+      "q": 604462909807314587353088,
+      "a": 1,
+      "b": 1,
+      "equation": "y^2 + x*y = x^3 + 1*x^2 + 1",
+      "base_field": "F_2",
+      "base_trace": 1,
+      "trace": 420247971347,
+      "group_order": 604462909806894339381742,
+      "group_order_factors": {
+        "2": 1,
+        "317": 1,
+        "953411529663871197763": 1
+      },
+      "group_invariant_factors": [
+        1,
+        604462909806894339381742
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 953411529663871197763,
+      "r_bit_length": 70,
+      "r_log2": 69.69166096985958,
+      "cofactor": 634,
+      "generic_security_log2_sqrt_r": 34.84583048492979,
+      "embedding_degree": 12068500375492040478,
+      "embedding_degree_details": {
+        "k": 12068500375492040478,
+        "k_factors": {
+          "2": 1,
+          "3": 1,
+          "19": 1,
+          "149": 1,
+          "710496901889323": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "2": true,
+          "3": true,
+          "19": true,
+          "149": true,
+          "710496901889323": true
+        },
+        "ord_r_2": 953411529663871197762
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "317": {
+          "k": 4,
+          "k_factors": {
+            "2": 2
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true
+          },
+          "ord_r_2": 316
+        },
+        "953411529663871197763": {
+          "k": 12068500375492040478,
+          "k_factors": {
+            "2": 1,
+            "3": 1,
+            "19": 1,
+            "149": 1,
+            "710496901889323": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "3": true,
+            "19": true,
+            "149": true,
+            "710496901889323": true
+          },
+          "ord_r_2": 953411529663871197762
+        }
+      },
+      "curve_discriminant_in_field": 1,
+      "j_invariant": 1,
+      "ordinary": true,
+      "CM_field_discriminant": -7,
+      "CM_field": "Q(sqrt(-7))",
+      "endomorphism_ring": "Z[(1 + sqrt(-7))/2]",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -7,
+      "endomorphism_ring_class_number": 1,
+      "frobenius_discriminant": -2241243281807989416417943,
+      "frobenius_order_conductor": 565842391207,
+      "frobenius_order_conductor_factors": {
+        "4423": 1,
+        "127931809": 1
+      },
+      "frobenius_order_class_number": 565970327440,
+      "possible_endomorphism_orders_in_isogeny_class": [
+        {
+          "conductor": 1,
+          "order_discriminant": -7,
+          "order_class_number": 1
+        },
+        {
+          "conductor": 4423,
+          "order_discriminant": -136940503,
+          "order_class_number": 4424
+        },
+        {
+          "conductor": 127931809,
+          "order_discriminant": -114565834278087367,
+          "order_class_number": 127931810
+        },
+        {
+          "conductor": 565842391207,
+          "order_discriminant": -2241243281807989416417943,
+          "order_class_number": 565970327440
+        }
+      ],
+      "frobenius_CM_coordinates_basis_1_w": [
+        -72797209930,
+        565842391207
+      ],
+      "twist_label": "K79-a0",
+      "F2_frobenius_scalar_on_largest_subgroup": 104806059662470324091,
+      "F2_frobenius_order_on_largest_subgroup": 79,
+      "log2_sqrt_r_divided_by_sqrt_m": 31.69394011084124
+    },
+    {
+      "label": "K83-a0",
+      "field_degree": 83,
+      "q": 9671406556917033397649408,
+      "a": 0,
+      "b": 1,
+      "equation": "y^2 + x*y = x^3 + 0*x^2 + 1",
+      "base_field": "F_2",
+      "base_trace": -1,
+      "trace": -6151469093347,
+      "group_order": 9671406556923184866742756,
+      "group_order_factors": {
+        "2": 2,
+        "2417851639230796216685689": 1
+      },
+      "group_invariant_factors": [
+        1,
+        9671406556923184866742756
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 2417851639230796216685689,
+      "r_bit_length": 82,
+      "r_log2": 81.00000000000092,
+      "cofactor": 4,
+      "generic_security_log2_sqrt_r": 40.50000000000046,
+      "embedding_degree": 14565371320667447088468,
+      "embedding_degree_details": {
+        "k": 14565371320667447088468,
+        "k_factors": {
+          "2": 2,
+          "3": 1,
+          "11": 1,
+          "109": 1,
+          "1012327725929069161": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "2": true,
+          "3": true,
+          "11": true,
+          "109": true,
+          "1012327725929069161": true
+        },
+        "ord_r_2": 1208925819615398108342844
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "2417851639230796216685689": {
+          "k": 14565371320667447088468,
+          "k_factors": {
+            "2": 2,
+            "3": 1,
+            "11": 1,
+            "109": 1,
+            "1012327725929069161": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "3": true,
+            "11": true,
+            "109": true,
+            "1012327725929069161": true
+          },
+          "ord_r_2": 1208925819615398108342844
+        }
+      },
+      "curve_discriminant_in_field": 1,
+      "j_invariant": 1,
+      "ordinary": true,
+      "CM_field_discriminant": -7,
+      "CM_field": "Q(sqrt(-7))",
+      "endomorphism_ring": "Z[(1 + sqrt(-7))/2]",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -7,
+      "endomorphism_ring_class_number": 1,
+      "frobenius_discriminant": -845054221264771390935223,
+      "frobenius_order_conductor": 347450761417,
+      "frobenius_order_conductor_factors": {
+        "6473": 1,
+        "53676929": 1
+      },
+      "frobenius_order_class_number": 347504444820,
+      "possible_endomorphism_orders_in_isogeny_class": [
+        {
+          "conductor": 1,
+          "order_discriminant": -7,
+          "order_class_number": 1
+        },
+        {
+          "conductor": 6473,
+          "order_discriminant": -293298103,
+          "order_class_number": 6474
+        },
+        {
+          "conductor": 53676929,
+          "order_discriminant": -20168488948097287,
+          "order_class_number": 53676930
+        },
+        {
+          "conductor": 347450761417,
+          "order_discriminant": -845054221264771390935223,
+          "order_class_number": 347504444820
+        }
+      ],
+      "frobenius_CM_coordinates_basis_1_w": [
+        -2902009165965,
+        -347450761417
+      ],
+      "twist_label": "K83-a1",
+      "F2_frobenius_scalar_on_largest_subgroup": 254512724090651164922414,
+      "F2_frobenius_order_on_largest_subgroup": 83,
+      "log2_sqrt_r_divided_by_sqrt_m": 37.312480284327
+    },
+    {
+      "label": "K83-a1",
+      "field_degree": 83,
+      "q": 9671406556917033397649408,
+      "a": 1,
+      "b": 1,
+      "equation": "y^2 + x*y = x^3 + 1*x^2 + 1",
+      "base_field": "F_2",
+      "base_trace": 1,
+      "trace": 6151469093347,
+      "group_order": 9671406556910881928556062,
+      "group_order_factors": {
+        "2": 1,
+        "10459": 1,
+        "53951": 1,
+        "8569786107849059": 1
+      },
+      "group_invariant_factors": [
+        1,
+        9671406556910881928556062
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 8569786107849059,
+      "r_bit_length": 53,
+      "r_log2": 52.92818062006404,
+      "cofactor": 1128547018,
+      "generic_security_log2_sqrt_r": 26.46409031003202,
+      "embedding_degree": 103250435034326,
+      "embedding_degree_details": {
+        "k": 103250435034326,
+        "k_factors": {
+          "2": 1,
+          "53": 1,
+          "1091": 1,
+          "892814581": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "2": true,
+          "53": true,
+          "1091": true,
+          "892814581": true
+        },
+        "ord_r_2": 8569786107849058
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "10459": {
+          "k": 126,
+          "k_factors": {
+            "2": 1,
+            "3": 2,
+            "7": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "3": true,
+            "7": true
+          },
+          "ord_r_2": 10458
+        },
+        "53951": {
+          "k": 325,
+          "k_factors": {
+            "5": 2,
+            "13": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "5": true,
+            "13": true
+          },
+          "ord_r_2": 26975
+        },
+        "8569786107849059": {
+          "k": 103250435034326,
+          "k_factors": {
+            "2": 1,
+            "53": 1,
+            "1091": 1,
+            "892814581": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "53": true,
+            "1091": true,
+            "892814581": true
+          },
+          "ord_r_2": 8569786107849058
+        }
+      },
+      "curve_discriminant_in_field": 1,
+      "j_invariant": 1,
+      "ordinary": true,
+      "CM_field_discriminant": -7,
+      "CM_field": "Q(sqrt(-7))",
+      "endomorphism_ring": "Z[(1 + sqrt(-7))/2]",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -7,
+      "endomorphism_ring_class_number": 1,
+      "frobenius_discriminant": -845054221264771390935223,
+      "frobenius_order_conductor": 347450761417,
+      "frobenius_order_conductor_factors": {
+        "6473": 1,
+        "53676929": 1
+      },
+      "frobenius_order_class_number": 347504444820,
+      "possible_endomorphism_orders_in_isogeny_class": [
+        {
+          "conductor": 1,
+          "order_discriminant": -7,
+          "order_class_number": 1
+        },
+        {
+          "conductor": 6473,
+          "order_discriminant": -293298103,
+          "order_class_number": 6474
+        },
+        {
+          "conductor": 53676929,
+          "order_discriminant": -20168488948097287,
+          "order_class_number": 53676930
+        },
+        {
+          "conductor": 347450761417,
+          "order_discriminant": -845054221264771390935223,
+          "order_class_number": 347504444820
+        }
+      ],
+      "frobenius_CM_coordinates_basis_1_w": [
+        3249459927382,
+        -347450761417
+      ],
+      "twist_label": "K83-a0",
+      "F2_frobenius_scalar_on_largest_subgroup": 2998004823950457,
+      "F2_frobenius_order_on_largest_subgroup": 83,
+      "log2_sqrt_r_divided_by_sqrt_m": 23.276570594358557
+    }
+  ],
+  "generic_curves": [
+    {
+      "label": "B53-a0",
+      "field_degree": 53,
+      "q": 9007199254740992,
+      "a": 0,
+      "b": "u",
+      "b_exponent": 1,
+      "equation": "y^2 + x*y = x^3 + 0*x^2 + u",
+      "trace": 120448001,
+      "group_order": 9007199134292992,
+      "group_order_factors": {
+        "2": 10,
+        "439": 1,
+        "20036658097": 1
+      },
+      "group_invariant_factors": [
+        1,
+        9007199134292992
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 20036658097,
+      "r_bit_length": 35,
+      "r_log2": 34.22192285117232,
+      "cofactor": 449536,
+      "generic_security_log2_sqrt_r": 17.11096142558616,
+      "embedding_degree": 1252291131,
+      "embedding_degree_details": {
+        "k": 1252291131,
+        "k_factors": {
+          "3": 3,
+          "7": 1,
+          "13": 1,
+          "283": 1,
+          "1801": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "3": true,
+          "7": true,
+          "13": true,
+          "283": true,
+          "1801": true
+        },
+        "ord_r_2": 1252291131
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "439": {
+          "k": 73,
+          "k_factors": {
+            "73": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "73": true
+          },
+          "ord_r_2": 73
+        },
+        "20036658097": {
+          "k": 1252291131,
+          "k_factors": {
+            "3": 3,
+            "7": 1,
+            "13": 1,
+            "283": 1,
+            "1801": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "3": true,
+            "7": true,
+            "13": true,
+            "283": true,
+            "1801": true
+          },
+          "ord_r_2": 1252291131
+        }
+      },
+      "curve_discriminant_in_field": "u",
+      "j_invariant": "(u)^-1",
+      "ordinary": true,
+      "frobenius_discriminant": -21521076074067967,
+      "frobenius_discriminant_abs_factors": {
+        "79": 1,
+        "5156159": 1,
+        "52833647": 1
+      },
+      "CM_field_discriminant": -21521076074067967,
+      "CM_field": "Q(sqrt(-21521076074067967))",
+      "frobenius_order_conductor": 1,
+      "endomorphism_ring": "maximal order O_K",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -21521076074067967,
+      "endomorphism_ring_class_number": null,
+      "endomorphism_ring_class_number_status": "Not certified/computed for this report",
+      "twist_label": "B53-a1",
+      "descends_to_F2": false,
+      "field_of_definition_degree_from_j": 53,
+      "cardinality_method": "PARI ellcard",
+      "group_method": "PARI ellgroup"
+    },
+    {
+      "label": "B53-a1",
+      "field_degree": 53,
+      "q": 9007199254740992,
+      "a": 1,
+      "b": "u",
+      "b_exponent": 1,
+      "equation": "y^2 + x*y = x^3 + 1*x^2 + u",
+      "trace": -120448001,
+      "group_order": 9007199375188994,
+      "group_order_factors": {
+        "2": 1,
+        "7": 1,
+        "5741713": 1,
+        "112052167": 1
+      },
+      "group_invariant_factors": [
+        1,
+        9007199375188994
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 112052167,
+      "r_bit_length": 27,
+      "r_log2": 26.739595308794353,
+      "cofactor": 80383982,
+      "generic_security_log2_sqrt_r": 13.369797654397177,
+      "embedding_degree": 56026083,
+      "embedding_degree_details": {
+        "k": 56026083,
+        "k_factors": {
+          "3": 1,
+          "31": 1,
+          "602431": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "3": true,
+          "31": true,
+          "602431": true
+        },
+        "ord_r_2": 56026083
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "7": {
+          "k": 3,
+          "k_factors": {
+            "3": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "3": true
+          },
+          "ord_r_2": 3
+        },
+        "5741713": {
+          "k": 39873,
+          "k_factors": {
+            "3": 1,
+            "13291": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "3": true,
+            "13291": true
+          },
+          "ord_r_2": 39873
+        },
+        "112052167": {
+          "k": 56026083,
+          "k_factors": {
+            "3": 1,
+            "31": 1,
+            "602431": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "3": true,
+            "31": true,
+            "602431": true
+          },
+          "ord_r_2": 56026083
+        }
+      },
+      "curve_discriminant_in_field": "u",
+      "j_invariant": "(u)^-1",
+      "ordinary": true,
+      "frobenius_discriminant": -21521076074067967,
+      "frobenius_discriminant_abs_factors": {
+        "79": 1,
+        "5156159": 1,
+        "52833647": 1
+      },
+      "CM_field_discriminant": -21521076074067967,
+      "CM_field": "Q(sqrt(-21521076074067967))",
+      "frobenius_order_conductor": 1,
+      "endomorphism_ring": "maximal order O_K",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -21521076074067967,
+      "endomorphism_ring_class_number": null,
+      "endomorphism_ring_class_number_status": "Not certified/computed for this report",
+      "twist_label": "B53-a0",
+      "descends_to_F2": false,
+      "field_of_definition_degree_from_j": 53,
+      "cardinality_method": "PARI ellcard",
+      "group_method": "PARI ellgroup"
+    },
+    {
+      "label": "B79-a0",
+      "field_degree": 79,
+      "q": 604462909807314587353088,
+      "a": 0,
+      "b": "u",
+      "b_exponent": 1,
+      "equation": "y^2 + x*y = x^3 + 0*x^2 + u",
+      "trace": 117766930433,
+      "group_order": 604462909807196820422656,
+      "group_order_factors": {
+        "2": 14,
+        "5153": 1,
+        "7159613457677453": 1
+      },
+      "group_invariant_factors": [
+        1,
+        604462909807196820422656
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 7159613457677453,
+      "r_bit_length": 53,
+      "r_log2": 52.66880312284669,
+      "cofactor": 84426752,
+      "generic_security_log2_sqrt_r": 26.334401561423345,
+      "embedding_degree": 7159613457677452,
+      "embedding_degree_details": {
+        "k": 7159613457677452,
+        "k_factors": {
+          "2": 2,
+          "17": 1,
+          "4901021": 1,
+          "21482959": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "2": true,
+          "17": true,
+          "4901021": true,
+          "21482959": true
+        },
+        "ord_r_2": 7159613457677452
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "5153": {
+          "k": 112,
+          "k_factors": {
+            "2": 4,
+            "7": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "7": true
+          },
+          "ord_r_2": 112
+        },
+        "7159613457677453": {
+          "k": 7159613457677452,
+          "k_factors": {
+            "2": 2,
+            "17": 1,
+            "4901021": 1,
+            "21482959": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "17": true,
+            "4901021": true,
+            "21482959": true
+          },
+          "ord_r_2": 7159613457677452
+        }
+      },
+      "curve_discriminant_in_field": "u",
+      "j_invariant": "(u)^-1",
+      "ordinary": true,
+      "frobenius_discriminant": -2403982589325647287844863,
+      "frobenius_discriminant_abs_factors": {
+        "23": 1,
+        "2645902442041": 1,
+        "39502961441": 1
+      },
+      "CM_field_discriminant": -2403982589325647287844863,
+      "CM_field": "Q(sqrt(-2403982589325647287844863))",
+      "frobenius_order_conductor": 1,
+      "endomorphism_ring": "maximal order O_K",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -2403982589325647287844863,
+      "endomorphism_ring_class_number": null,
+      "endomorphism_ring_class_number_status": "Not certified/computed for this report",
+      "twist_label": "B79-a1",
+      "descends_to_F2": false,
+      "field_of_definition_degree_from_j": 79,
+      "cardinality_method": "PARI ellcard",
+      "group_method": "PARI ellgroup"
+    },
+    {
+      "label": "B79-a1",
+      "field_degree": 79,
+      "q": 604462909807314587353088,
+      "a": 1,
+      "b": "u",
+      "b_exponent": 1,
+      "equation": "y^2 + x*y = x^3 + 1*x^2 + u",
+      "trace": -117766930433,
+      "group_order": 604462909807432354283522,
+      "group_order_factors": {
+        "2": 1,
+        "29": 1,
+        "307": 1,
+        "27851": 1,
+        "1218884333772037": 1
+      },
+      "group_invariant_factors": [
+        1,
+        604462909807432354283522
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 1218884333772037,
+      "r_bit_length": 51,
+      "r_log2": 50.114482650982374,
+      "cofactor": 495914906,
+      "generic_security_log2_sqrt_r": 25.057241325491187,
+      "embedding_degree": 1218884333772036,
+      "embedding_degree_details": {
+        "k": 1218884333772036,
+        "k_factors": {
+          "2": 2,
+          "3": 1,
+          "101573694481003": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "2": true,
+          "3": true,
+          "101573694481003": true
+        },
+        "ord_r_2": 1218884333772036
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "29": {
+          "k": 28,
+          "k_factors": {
+            "2": 2,
+            "7": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "7": true
+          },
+          "ord_r_2": 28
+        },
+        "307": {
+          "k": 102,
+          "k_factors": {
+            "2": 1,
+            "3": 1,
+            "17": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "3": true,
+            "17": true
+          },
+          "ord_r_2": 102
+        },
+        "27851": {
+          "k": 27850,
+          "k_factors": {
+            "2": 1,
+            "5": 2,
+            "557": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "5": true,
+            "557": true
+          },
+          "ord_r_2": 27850
+        },
+        "1218884333772037": {
+          "k": 1218884333772036,
+          "k_factors": {
+            "2": 2,
+            "3": 1,
+            "101573694481003": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "3": true,
+            "101573694481003": true
+          },
+          "ord_r_2": 1218884333772036
+        }
+      },
+      "curve_discriminant_in_field": "u",
+      "j_invariant": "(u)^-1",
+      "ordinary": true,
+      "frobenius_discriminant": -2403982589325647287844863,
+      "frobenius_discriminant_abs_factors": {
+        "23": 1,
+        "2645902442041": 1,
+        "39502961441": 1
+      },
+      "CM_field_discriminant": -2403982589325647287844863,
+      "CM_field": "Q(sqrt(-2403982589325647287844863))",
+      "frobenius_order_conductor": 1,
+      "endomorphism_ring": "maximal order O_K",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -2403982589325647287844863,
+      "endomorphism_ring_class_number": null,
+      "endomorphism_ring_class_number_status": "Not certified/computed for this report",
+      "twist_label": "B79-a0",
+      "descends_to_F2": false,
+      "field_of_definition_degree_from_j": 79,
+      "cardinality_method": "PARI ellcard",
+      "group_method": "PARI ellgroup"
+    },
+    {
+      "label": "B83-a0",
+      "field_degree": 83,
+      "q": 9671406556917033397649408,
+      "a": 0,
+      "b": "u",
+      "b_exponent": 1,
+      "equation": "y^2 + x*y = x^3 + 0*x^2 + u",
+      "trace": -5450226835455,
+      "group_order": 9671406556922483624484864,
+      "group_order_factors": {
+        "2": 13,
+        "3": 1,
+        "11408200753": 1,
+        "34495408063": 1
+      },
+      "group_invariant_factors": [
+        1,
+        9671406556922483624484864
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 34495408063,
+      "r_bit_length": 36,
+      "r_log2": 35.00568527581794,
+      "cofactor": 280367941705728,
+      "generic_security_log2_sqrt_r": 17.50284263790897,
+      "embedding_degree": 17247704031,
+      "embedding_degree_details": {
+        "k": 17247704031,
+        "k_factors": {
+          "3": 3,
+          "37": 1,
+          "17264969": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "3": true,
+          "37": true,
+          "17264969": true
+        },
+        "ord_r_2": 17247704031
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "3": {
+          "k": 2,
+          "k_factors": {
+            "2": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true
+          },
+          "ord_r_2": 2
+        },
+        "11408200753": {
+          "k": 1901366792,
+          "k_factors": {
+            "2": 3,
+            "13": 1,
+            "811": 1,
+            "22543": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "13": true,
+            "811": true,
+            "22543": true
+          },
+          "ord_r_2": 1901366792
+        },
+        "34495408063": {
+          "k": 17247704031,
+          "k_factors": {
+            "3": 3,
+            "37": 1,
+            "17264969": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "3": true,
+            "37": true,
+            "17264969": true
+          },
+          "ord_r_2": 17247704031
+        }
+      },
+      "curve_discriminant_in_field": "u",
+      "j_invariant": "(u)^-1",
+      "ordinary": true,
+      "frobenius_discriminant": -8980653669754309945540607,
+      "frobenius_discriminant_abs_factors": {
+        "7": 1,
+        "1282950524250615706505801": 1
+      },
+      "CM_field_discriminant": -8980653669754309945540607,
+      "CM_field": "Q(sqrt(-8980653669754309945540607))",
+      "frobenius_order_conductor": 1,
+      "endomorphism_ring": "maximal order O_K",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -8980653669754309945540607,
+      "endomorphism_ring_class_number": null,
+      "endomorphism_ring_class_number_status": "Not certified/computed for this report",
+      "twist_label": "B83-a1",
+      "descends_to_F2": false,
+      "field_of_definition_degree_from_j": 83,
+      "cardinality_method": "PARI ellcard",
+      "group_method": "PARI ellgroup"
+    },
+    {
+      "label": "B83-a1",
+      "field_degree": 83,
+      "q": 9671406556917033397649408,
+      "a": 1,
+      "b": "u",
+      "b_exponent": 1,
+      "equation": "y^2 + x*y = x^3 + 1*x^2 + u",
+      "trace": 5450226835455,
+      "group_order": 9671406556911583170813954,
+      "group_order_factors": {
+        "2": 1,
+        "3": 1,
+        "293": 1,
+        "236699": 1,
+        "1181039": 1,
+        "19679320883": 1
+      },
+      "group_invariant_factors": [
+        1,
+        9671406556911583170813954
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 19679320883,
+      "r_bit_length": 35,
+      "r_log2": 34.19596138420356,
+      "cofactor": 491450218958838,
+      "generic_security_log2_sqrt_r": 17.09798069210178,
+      "embedding_degree": 1513793914,
+      "embedding_degree_details": {
+        "k": 1513793914,
+        "k_factors": {
+          "2": 1,
+          "756896957": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "2": true,
+          "756896957": true
+        },
+        "ord_r_2": 1513793914
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "3": {
+          "k": 2,
+          "k_factors": {
+            "2": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true
+          },
+          "ord_r_2": 2
+        },
+        "293": {
+          "k": 292,
+          "k_factors": {
+            "2": 2,
+            "73": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "73": true
+          },
+          "ord_r_2": 292
+        },
+        "236699": {
+          "k": 236698,
+          "k_factors": {
+            "2": 1,
+            "7": 1,
+            "11": 1,
+            "29": 1,
+            "53": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "7": true,
+            "11": true,
+            "29": true,
+            "53": true
+          },
+          "ord_r_2": 236698
+        },
+        "1181039": {
+          "k": 590519,
+          "k_factors": {
+            "31": 1,
+            "43": 1,
+            "443": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "31": true,
+            "43": true,
+            "443": true
+          },
+          "ord_r_2": 590519
+        },
+        "19679320883": {
+          "k": 1513793914,
+          "k_factors": {
+            "2": 1,
+            "756896957": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "756896957": true
+          },
+          "ord_r_2": 1513793914
+        }
+      },
+      "curve_discriminant_in_field": "u",
+      "j_invariant": "(u)^-1",
+      "ordinary": true,
+      "frobenius_discriminant": -8980653669754309945540607,
+      "frobenius_discriminant_abs_factors": {
+        "7": 1,
+        "1282950524250615706505801": 1
+      },
+      "CM_field_discriminant": -8980653669754309945540607,
+      "CM_field": "Q(sqrt(-8980653669754309945540607))",
+      "frobenius_order_conductor": 1,
+      "endomorphism_ring": "maximal order O_K",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -8980653669754309945540607,
+      "endomorphism_ring_class_number": null,
+      "endomorphism_ring_class_number_status": "Not certified/computed for this report",
+      "twist_label": "B83-a0",
+      "descends_to_F2": false,
+      "field_of_definition_degree_from_j": 83,
+      "cardinality_method": "PARI ellcard",
+      "group_method": "PARI ellgroup"
+    }
+  ],
+  "searched_examples": [
+    {
+      "label": "S83-a0",
+      "field_degree": 83,
+      "q": 9671406556917033397649408,
+      "a": 0,
+      "b": "u^251",
+      "b_exponent": 251,
+      "equation": "y^2 + x*y = x^3 + 0*x^2 + u^251",
+      "trace": -478486250431,
+      "group_order": 9671406556917511883899840,
+      "group_order_factors": {
+        "2": 6,
+        "5": 1,
+        "11": 1,
+        "1171": 1,
+        "2346335338123377427": 1
+      },
+      "group_invariant_factors": [
+        1,
+        9671406556917511883899840
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 2346335338123377427,
+      "r_bit_length": 62,
+      "r_log2": 61.025114925974194,
+      "cofactor": 4121920,
+      "generic_security_log2_sqrt_r": 30.512557462987097,
+      "embedding_degree": 782111779374459142,
+      "embedding_degree_details": {
+        "k": 782111779374459142,
+        "k_factors": {
+          "2": 1,
+          "7": 1,
+          "17": 1,
+          "47": 1,
+          "71": 1,
+          "877": 1,
+          "1122887041": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "2": true,
+          "7": true,
+          "17": true,
+          "47": true,
+          "71": true,
+          "877": true,
+          "1122887041": true
+        },
+        "ord_r_2": 782111779374459142
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "5": {
+          "k": 4,
+          "k_factors": {
+            "2": 2
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true
+          },
+          "ord_r_2": 4
+        },
+        "11": {
+          "k": 10,
+          "k_factors": {
+            "2": 1,
+            "5": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "5": true
+          },
+          "ord_r_2": 10
+        },
+        "1171": {
+          "k": 1170,
+          "k_factors": {
+            "2": 1,
+            "3": 2,
+            "5": 1,
+            "13": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "3": true,
+            "5": true,
+            "13": true
+          },
+          "ord_r_2": 1170
+        },
+        "2346335338123377427": {
+          "k": 782111779374459142,
+          "k_factors": {
+            "2": 1,
+            "7": 1,
+            "17": 1,
+            "47": 1,
+            "71": 1,
+            "877": 1,
+            "1122887041": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "7": true,
+            "17": true,
+            "47": true,
+            "71": true,
+            "877": true,
+            "1122887041": true
+          },
+          "ord_r_2": 782111779374459142
+        }
+      },
+      "curve_discriminant_in_field": "u^251",
+      "j_invariant": "(u^251)^-1",
+      "ordinary": true,
+      "frobenius_discriminant": -38456677135816615942911871,
+      "frobenius_discriminant_abs_factors": {
+        "190271": 1,
+        "313561": 1,
+        "644580428217641": 1
+      },
+      "CM_field_discriminant": -38456677135816615942911871,
+      "CM_field": "Q(sqrt(-38456677135816615942911871))",
+      "frobenius_order_conductor": 1,
+      "endomorphism_ring": "maximal order O_K",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -38456677135816615942911871,
+      "endomorphism_ring_class_number": null,
+      "endomorphism_ring_class_number_status": "Not certified/computed for this report",
+      "twist_label": "S83-a1",
+      "descends_to_F2": false,
+      "field_of_definition_degree_from_j": 83,
+      "cardinality_method": "PARI ellcard",
+      "group_method": "PARI ellgroup"
+    },
+    {
+      "label": "S83-a1",
+      "field_degree": 83,
+      "q": 9671406556917033397649408,
+      "a": 1,
+      "b": "u^251",
+      "b_exponent": 251,
+      "equation": "y^2 + x*y = x^3 + 1*x^2 + u^251",
+      "trace": 478486250431,
+      "group_order": 9671406556916554911398978,
+      "group_order_factors": {
+        "2": 1,
+        "4835703278458277455699489": 1
+      },
+      "group_invariant_factors": [
+        1,
+        9671406556916554911398978
+      ],
+      "group_cyclic": true,
+      "largest_prime_subgroup": 4835703278458277455699489,
+      "r_bit_length": 82,
+      "r_log2": 81.99999999999993,
+      "cofactor": 2,
+      "generic_security_log2_sqrt_r": 40.999999999999964,
+      "embedding_degree": 805950546409712909283248,
+      "embedding_degree_details": {
+        "k": 805950546409712909283248,
+        "k_factors": {
+          "2": 4,
+          "23": 1,
+          "14411": 1,
+          "5813": 1,
+          "26143644793627": 1
+        },
+        "q_power_k_mod_r": 1,
+        "minimality_checks": {
+          "2": true,
+          "23": true,
+          "14411": true,
+          "5813": true,
+          "26143644793627": true
+        },
+        "ord_r_2": 805950546409712909283248
+      },
+      "all_odd_subgroup_embedding_degrees": {
+        "4835703278458277455699489": {
+          "k": 805950546409712909283248,
+          "k_factors": {
+            "2": 4,
+            "23": 1,
+            "14411": 1,
+            "5813": 1,
+            "26143644793627": 1
+          },
+          "q_power_k_mod_r": 1,
+          "minimality_checks": {
+            "2": true,
+            "23": true,
+            "14411": true,
+            "5813": true,
+            "26143644793627": true
+          },
+          "ord_r_2": 805950546409712909283248
+        }
+      },
+      "curve_discriminant_in_field": "u^251",
+      "j_invariant": "(u^251)^-1",
+      "ordinary": true,
+      "frobenius_discriminant": -38456677135816615942911871,
+      "frobenius_discriminant_abs_factors": {
+        "190271": 1,
+        "313561": 1,
+        "644580428217641": 1
+      },
+      "CM_field_discriminant": -38456677135816615942911871,
+      "CM_field": "Q(sqrt(-38456677135816615942911871))",
+      "frobenius_order_conductor": 1,
+      "endomorphism_ring": "maximal order O_K",
+      "endomorphism_ring_conductor": 1,
+      "endomorphism_ring_discriminant": -38456677135816615942911871,
+      "endomorphism_ring_class_number": null,
+      "endomorphism_ring_class_number_status": "Not certified/computed for this report",
+      "twist_label": "S83-a0",
+      "descends_to_F2": false,
+      "field_of_definition_degree_from_j": 83,
+      "cardinality_method": "PARI ellcard",
+      "group_method": "PARI ellgroup"
+    }
+  ],
+  "search_metadata": {
+    "rule": "b=u^i, i=1,...,256; a=0,1; require h<=4 and r>=2^79; prefer twist largest prime >=2^74",
+    "tested_exponents": 256,
+    "curve_candidates": 512,
+    "primary_hits": 1,
+    "selected_exponent": 251,
+    "selected_a": 1,
+    "preferred_twist_threshold_met": false,
+    "randomness": "Deterministic search; these are not independent random coefficients. Frobenius-related exponents duplicate arithmetic.",
+    "cardinality_method": "PARI ellcard, with second twist order 2q+2-N during screening; final ellcard both sides",
+    "group_method": "PARI ellgroup"
+  },
+  "verification": {
+    "trace_method": "Koblitz: S0=2, S1=t0, Sn=t0*S_(n-1)-2*S_(n-2); B-style: PARI ellcard",
+    "prime_certificates_file": "binary_certificates.json",
+    "embedding_method": "Exact multiplicative order plus pow/minimality checks",
+    "group_method": "Koblitz: Smith invariants of multiplication by pi^m-1 on maximal CM ring; B-style: PARI ellgroup"
+  }
+}

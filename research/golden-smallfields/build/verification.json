@@ -1,0 +1,27 @@
+{
+  "class_numbers": "known small endomorphism-order class numbers checked; remaining evidence retained as source metadata",
+  "curves": 56,
+  "dataset_id": "ecbench-golden-smallfields-v1",
+  "elapsed_seconds": 2.8868,
+  "endomorphism_orders": "source-proven metadata; discriminant consistency checked, model-specific ring proofs not recomputed",
+  "fields": 7,
+  "named_points": 741,
+  "pari": {
+    "cardinality_checks": 56,
+    "curve_arithmetic_checks": 2447,
+    "curves": 56,
+    "fields": 7,
+    "group_structure_checks": 56,
+    "named_point_order_checks": 741,
+    "oracle": "PARI/GP",
+    "pari_version": "2.17.2",
+    "status": "passed",
+    "subgroup_generator_order_checks": 56,
+    "total_checks": 3356,
+    "vectors_outside_oracle_scope": 4484
+  },
+  "point_counts": "independently recomputed with PARI/GP",
+  "primality_certificates": 418,
+  "status": "pass",
+  "vectors": 6931
+}

@@ -1,0 +1,715 @@
+{
+  "core": {
+    "class_numbers": "known small endomorphism-order class numbers checked; remaining evidence retained as source metadata",
+    "curves": 56,
+    "dataset_id": "ecbench-golden-smallfields-v1",
+    "elapsed_seconds": 2.8864,
+    "endomorphism_orders": "source-proven metadata; discriminant consistency checked, model-specific ring proofs not recomputed",
+    "fields": 7,
+    "named_points": 741,
+    "point_counts": "stored_verified_values; not independently recomputed in core mode",
+    "primality_certificates": 418,
+    "status": "pass",
+    "vectors": 6931
+  },
+  "glv2_frobenius": {
+    "binary_frobenius_cases": 6,
+    "checks": [
+      "canonical map units",
+      "characteristic roots",
+      "selected cyclic subgroup stability",
+      "endomorphism polynomial identities",
+      "binary tau^m",
+      "kernel lattice determinant",
+      "Gauss-reduced basis",
+      "exact nearest-plane bounds",
+      "signed scalar congruence and point reconstruction"
+    ],
+    "curves_classified": 56,
+    "scalar_vectors_checked": 480,
+    "schema": "ecbench-endomorphism-glv2-cases-v1",
+    "status": "pass",
+    "supported_cases": 30,
+    "unsupported_cases": 26
+  },
+  "glv4": {
+    "case_count": 1,
+    "cases": [
+      {
+        "base_prime_bits": 41,
+        "case_id": "j0-glv-gls4-p41",
+        "decomposition_vectors": 16,
+        "endomorphism_proof_boundary": "special ordinary j=0 model and explicit cubic automorphism; no general endomorphism-ring algorithm",
+        "endomorphism_vectors": 24,
+        "field_bits": 82,
+        "field_vectors": 12,
+        "guaranteed_glv2_component_bits": 40,
+        "guaranteed_glv4_component_bits": 20,
+        "named_point_orders": 8,
+        "point_count_proof": {
+          "base_points_used": 2,
+          "incorrect_traces_eliminated": 5,
+          "method": "j0 CM trace theorem and exact scalar-multiplication elimination"
+        },
+        "point_group_proof": "twist point count, certified factorization, and full rational two-torsion",
+        "primality_certificates": 28,
+        "source_pari_checks": 51,
+        "source_pari_recomputed": false,
+        "status": "pass",
+        "subgroup_bits": 80
+      }
+    ],
+    "elapsed_ms": 96.92357,
+    "primary_dataset_modified": false,
+    "status": "pass"
+  },
+  "polynomial_fixtures": {
+    "cases_checked": 69,
+    "domain_assignments_checked": 36528,
+    "elapsed_seconds": 2.653448376000597,
+    "fields_checked": 7,
+    "results": [
+      {
+        "case_id": "K83-a0-f3-low_monomials-d2-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.011249905999648036,
+        "ordered_relations": 1,
+        "polynomial_roots": 1,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K83-a0-f3-low_monomials-d2-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.010882672000661842,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K83-a0-f3-low_monomials-d3-planted",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.02229956600058358,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K83-a0-f3-low_monomials-d3-seeded_subgroup",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.022139258000606787,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K83-a0-f3-low_monomials-d4-planted",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.03461297200010449,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K83-a0-f3-low_monomials-d4-seeded_subgroup",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.03409321899925999,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K83-a0-f3-low_monomials-d5-planted",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.05720865300099831,
+        "ordered_relations": 4,
+        "polynomial_roots": 4,
+        "status": "pass",
+        "unordered_relations": 2
+      },
+      {
+        "case_id": "K83-a0-f3-low_monomials-d5-seeded_subgroup",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.06747939600063546,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K83-a0-f3-low_monomials-d6-planted",
+        "domain_assignments_checked": 4096,
+        "elapsed_seconds": 0.11344060600094963,
+        "ordered_relations": 4,
+        "polynomial_roots": 4,
+        "status": "pass",
+        "unordered_relations": 2
+      },
+      {
+        "case_id": "K83-a0-f3-low_monomials-d6-seeded_subgroup",
+        "domain_assignments_checked": 4096,
+        "elapsed_seconds": 0.1793810469989694,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K83-a0-f3-subgroup_seeded_basis-d2-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.01761539300059667,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K83-a0-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.01636395499917853,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K83-a0-f3-subgroup_seeded_basis-d3-planted",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.018352658000367228,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K83-a0-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.01679231100024481,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K83-a0-f3-subgroup_seeded_basis-d4-planted",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.02563420399928873,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K83-a0-f3-subgroup_seeded_basis-d4-seeded_subgroup",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.024782069000139018,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K83-a0-f3-subgroup_seeded_basis-d5-planted",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.05710377800096467,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K83-a0-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.057540975998563226,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "S83-a1-f3-low_monomials-d2-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.023366897999949288,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "S83-a1-f3-low_monomials-d2-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.0233345009983168,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "S83-a1-f3-low_monomials-d3-planted",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.03150966300017899,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "S83-a1-f3-low_monomials-d3-seeded_subgroup",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.03093071399962355,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "S83-a1-f3-low_monomials-d4-planted",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.057383523000680725,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "S83-a1-f3-low_monomials-d4-seeded_subgroup",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.055905418001202634,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "S83-a1-f3-low_monomials-d5-planted",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.10071708400028001,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "S83-a1-f3-low_monomials-d5-seeded_subgroup",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.09503304799909529,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "S83-a1-f3-low_monomials-d6-planted",
+        "domain_assignments_checked": 4096,
+        "elapsed_seconds": 0.2807868130003044,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "S83-a1-f3-low_monomials-d6-seeded_subgroup",
+        "domain_assignments_checked": 4096,
+        "elapsed_seconds": 0.2811522749998403,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "S83-a1-f3-subgroup_seeded_basis-d2-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.02424776599946199,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "S83-a1-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.02296107599977404,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "S83-a1-f3-subgroup_seeded_basis-d3-planted",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.03279402899897832,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "S83-a1-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.031315535999965505,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "S83-a1-f3-subgroup_seeded_basis-d4-planted",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.05736073800107988,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "S83-a1-f3-subgroup_seeded_basis-d4-seeded_subgroup",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.05559940400053165,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "S83-a1-f3-subgroup_seeded_basis-d5-planted",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.10876867200022389,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "S83-a1-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.10912495199954719,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "B83-a0-f3-low_monomials-d2-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.0029803729994455352,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "B83-a0-f3-low_monomials-d3-seeded_subgroup",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.0033640319998085033,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "B83-a0-f3-low_monomials-d4-seeded_subgroup",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.005200937999688904,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "B83-a0-f3-low_monomials-d5-seeded_subgroup",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.01766186200075026,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "B83-a0-f3-low_monomials-d6-seeded_subgroup",
+        "domain_assignments_checked": 4096,
+        "elapsed_seconds": 0.08163893900018593,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "B83-a0-f3-subgroup_seeded_basis-d2-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.010149703999559279,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "B83-a0-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.008656686999529484,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "B83-a0-f3-subgroup_seeded_basis-d3-planted",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.01047663899953477,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "B83-a0-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.008901840999897104,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "B83-a0-f3-subgroup_seeded_basis-d4-planted",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.012689291999777197,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "B83-a0-f3-subgroup_seeded_basis-d4-seeded_subgroup",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.01098414199987019,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "B83-a0-f3-subgroup_seeded_basis-d5-planted",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.025090246001127525,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "B83-a0-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+        "domain_assignments_checked": 1024,
+        "elapsed_seconds": 0.0235134160011512,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "p83-S-0-f3-fb4-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.002794157000607811,
+        "ordered_relations": 4,
+        "polynomial_roots": 4,
+        "status": "pass",
+        "unordered_relations": 2
+      },
+      {
+        "case_id": "p83-S-0-f3-fb4-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.003229763000490493,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "p83-S-0-f3-fb8-planted",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.006026173001373536,
+        "ordered_relations": 12,
+        "polynomial_roots": 12,
+        "status": "pass",
+        "unordered_relations": 6
+      },
+      {
+        "case_id": "p83-S-0-f3-fb8-seeded_subgroup",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.005937111000093864,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "p83-S-0-f3-fb16-planted",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.013207811998654506,
+        "ordered_relations": 28,
+        "polynomial_roots": 28,
+        "status": "pass",
+        "unordered_relations": 14
+      },
+      {
+        "case_id": "p83-S-0-f3-fb16-seeded_subgroup",
+        "domain_assignments_checked": 256,
+        "elapsed_seconds": 0.011590651000005892,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K53-a1-f3-subgroup_seeded_basis-d2-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.00503159799882269,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K53-a1-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.00410502199883922,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K53-a1-f3-subgroup_seeded_basis-d3-planted",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.005425121000371291,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K53-a1-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.004458416999113979,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K79-a1-f3-subgroup_seeded_basis-d2-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.017712517001200467,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K79-a1-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.016436633999546757,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "K79-a1-f3-subgroup_seeded_basis-d3-planted",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.01826650900147797,
+        "ordered_relations": 2,
+        "polynomial_roots": 2,
+        "status": "pass",
+        "unordered_relations": 1
+      },
+      {
+        "case_id": "K79-a1-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+        "domain_assignments_checked": 64,
+        "elapsed_seconds": 0.0166805260014371,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "p61-G-0-f3-fb4-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.0008715830008441117,
+        "ordered_relations": 4,
+        "polynomial_roots": 4,
+        "status": "pass",
+        "unordered_relations": 2
+      },
+      {
+        "case_id": "p61-G-0-f3-fb4-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.0007325569986278424,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "p64-G-0-f3-fb4-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.0011285040000075242,
+        "ordered_relations": 4,
+        "polynomial_roots": 4,
+        "status": "pass",
+        "unordered_relations": 2
+      },
+      {
+        "case_id": "p64-G-0-f3-fb4-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.0011419649999879766,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      },
+      {
+        "case_id": "p83s-G-0-f3-fb4-planted",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.0018404309994366486,
+        "ordered_relations": 4,
+        "polynomial_roots": 4,
+        "status": "pass",
+        "unordered_relations": 2
+      },
+      {
+        "case_id": "p83s-G-0-f3-fb4-seeded_subgroup",
+        "domain_assignments_checked": 16,
+        "elapsed_seconds": 0.0019464990000415128,
+        "ordered_relations": 0,
+        "polynomial_roots": 0,
+        "status": "pass",
+        "unordered_relations": 0
+      }
+    ],
+    "scope": "Exhaustive evaluation of original sparse systems over declared finite domains, independent subgroup checks and signed point reconstruction; not a Groebner benchmark or ideal-equality certificate",
+    "status": "pass"
+  },
+  "research_payloads": {
+    "counts": {
+      "coverage_polynomial_cases": 14,
+      "fields_with_polynomial_cases": 7,
+      "glv2_frobenius_scalar_vectors": 480,
+      "glv2_frobenius_supported": 30,
+      "glv2_frobenius_unsupported": 26,
+      "glv_gls4_decomposition_vectors": 16,
+      "glv_gls4_supplements": 1,
+      "main_polynomial_cases": 55,
+      "polynomial_cases": 69,
+      "primary_curves": 56,
+      "primary_fields": 7,
+      "primary_vectors": 6931
+    },
+    "files_checked": 13,
+    "status": "pass"
+  }
+}

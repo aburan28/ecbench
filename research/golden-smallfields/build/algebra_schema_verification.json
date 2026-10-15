@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "case_catalogs": 2,
+  "cases": 69,
+  "result_collections": 4,
+  "measured_results": 138,
+  "primary_vectors": 6931,
+  "malformed_cases_rejected": [
+    "extra catalog property",
+    "extra case property",
+    "math integer as JSON number",
+    "leading-zero decimal",
+    "negative zero coefficient",
+    "numeric coefficient",
+    "negative exponent",
+    "fractional exponent",
+    "duplicate variable",
+    "nonfinite target",
+    "extra coordinate property",
+    "uppercase field element",
+    "odd-width field element",
+    "false primary modification boundary",
+    "wrong relation arity",
+    "invalid solve status",
+    "numeric root coordinate",
+    "measured solving-degree substitution",
+    "success fraction over one",
+    "extra solver property"
+  ]
+}

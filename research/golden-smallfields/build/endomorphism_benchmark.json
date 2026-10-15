@@ -1,0 +1,811 @@
+{
+  "dataset_id": "ecbench-golden-smallfields-v1",
+  "environment": {
+    "machine": "x86_64",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "processor": "",
+    "python": "3.12.14",
+    "python_implementation": "CPython"
+  },
+  "fixture_source_hashes": {
+    "curves.json": "a5e81537a17541a4b5972e501936eda9bc10c95901d192e9ffb0895139d8c6cf",
+    "fields.json": "ef2a4a5b23f63c182738a4aaafb58302bb00345b0b703c0857e41c76e0a5fd3d"
+  },
+  "implementation": "variable-time Python reference",
+  "precomputed_scope": "glv2_joint_mul_precomputed excludes decomposition and endomorphism; glv2_scalar_mul_full includes both",
+  "preflight": {
+    "binary_frobenius_cases": 6,
+    "checks": [
+      "canonical map units",
+      "characteristic roots",
+      "selected cyclic subgroup stability",
+      "endomorphism polynomial identities",
+      "binary tau^m",
+      "kernel lattice determinant",
+      "Gauss-reduced basis",
+      "exact nearest-plane bounds",
+      "signed scalar congruence and point reconstruction"
+    ],
+    "curves_classified": 56,
+    "scalar_vectors_checked": 480,
+    "schema": "ecbench-endomorphism-glv2-cases-v1",
+    "status": "pass",
+    "supported_cases": 30,
+    "unsupported_cases": 26
+  },
+  "results": [
+    {
+      "components": [
+        "-91338194",
+        "102818826"
+      ],
+      "curve_id": "p61-E3-5",
+      "field_id": "p61",
+      "iterations_per_sample": 1,
+      "mean": 7818.333333333333,
+      "median": 7992.0,
+      "min": 6910.0,
+      "operation": "endomorphism",
+      "p95": 8553.0,
+      "sample_values": [
+        8553.0,
+        7992.0,
+        6910.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "39803847403356485",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-91338194",
+        "102818826"
+      ],
+      "curve_id": "p61-E3-5",
+      "field_id": "p61",
+      "iterations_per_sample": 1,
+      "mean": 39218.333333333336,
+      "median": 30706.0,
+      "min": 26249.0,
+      "operation": "scalar_decompose",
+      "p95": 60700.0,
+      "sample_values": [
+        60700.0,
+        30706.0,
+        26249.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "39803847403356485",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-91338194",
+        "102818826"
+      ],
+      "curve_id": "p61-E3-5",
+      "field_id": "p61",
+      "iterations_per_sample": 1,
+      "mean": 249921.33333333334,
+      "median": 247047.0,
+      "min": 246857.0,
+      "operation": "scalar_mul_subgroup_baseline",
+      "p95": 255860.0,
+      "sample_values": [
+        255860.0,
+        246857.0,
+        247047.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "39803847403356485",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-91338194",
+        "102818826"
+      ],
+      "curve_id": "p61-E3-5",
+      "field_id": "p61",
+      "iterations_per_sample": 1,
+      "mean": 155200.33333333334,
+      "median": 154579.0,
+      "min": 150183.0,
+      "operation": "glv2_joint_mul_precomputed",
+      "p95": 160839.0,
+      "sample_values": [
+        160839.0,
+        154579.0,
+        150183.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "39803847403356485",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-91338194",
+        "102818826"
+      ],
+      "curve_id": "p61-E3-5",
+      "field_id": "p61",
+      "iterations_per_sample": 1,
+      "mean": 200878.0,
+      "median": 191384.0,
+      "min": 186997.0,
+      "operation": "glv2_scalar_mul_full",
+      "p95": 224253.0,
+      "sample_values": [
+        224253.0,
+        191384.0,
+        186997.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "39803847403356485",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-588484",
+        "269704"
+      ],
+      "curve_id": "p64-E4-2",
+      "field_id": "p64",
+      "iterations_per_sample": 1,
+      "mean": 5061.0,
+      "median": 5028.0,
+      "min": 4807.0,
+      "operation": "endomorphism",
+      "p95": 5348.0,
+      "sample_values": [
+        5348.0,
+        5028.0,
+        4807.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "1261716538583",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-588484",
+        "269704"
+      ],
+      "curve_id": "p64-E4-2",
+      "field_id": "p64",
+      "iterations_per_sample": 1,
+      "mean": 27624.333333333332,
+      "median": 22423.0,
+      "min": 22083.0,
+      "operation": "scalar_decompose",
+      "p95": 38367.0,
+      "sample_values": [
+        38367.0,
+        22423.0,
+        22083.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "1261716538583",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-588484",
+        "269704"
+      ],
+      "curve_id": "p64-E4-2",
+      "field_id": "p64",
+      "iterations_per_sample": 1,
+      "mean": 174949.66666666666,
+      "median": 174879.0,
+      "min": 171655.0,
+      "operation": "scalar_mul_subgroup_baseline",
+      "p95": 178315.0,
+      "sample_values": [
+        178315.0,
+        174879.0,
+        171655.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "1261716538583",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-588484",
+        "269704"
+      ],
+      "curve_id": "p64-E4-2",
+      "field_id": "p64",
+      "iterations_per_sample": 1,
+      "mean": 148948.33333333334,
+      "median": 141130.0,
+      "min": 126729.0,
+      "operation": "glv2_joint_mul_precomputed",
+      "p95": 178986.0,
+      "sample_values": [
+        141130.0,
+        178986.0,
+        126729.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "1261716538583",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-588484",
+        "269704"
+      ],
+      "curve_id": "p64-E4-2",
+      "field_id": "p64",
+      "iterations_per_sample": 1,
+      "mean": 185782.33333333334,
+      "median": 161780.0,
+      "min": 146307.0,
+      "operation": "glv2_scalar_mul_full",
+      "p95": 249260.0,
+      "sample_values": [
+        161780.0,
+        146307.0,
+        249260.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "1261716538583",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-181328404164",
+        "275233097128"
+      ],
+      "curve_id": "p83-E4-2",
+      "field_id": "p83",
+      "iterations_per_sample": 1,
+      "mean": 5718.666666666667,
+      "median": 5578.0,
+      "min": 5188.0,
+      "operation": "endomorphism",
+      "p95": 6390.0,
+      "sample_values": [
+        6390.0,
+        5578.0,
+        5188.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "141623169228360282760171",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-181328404164",
+        "275233097128"
+      ],
+      "curve_id": "p83-E4-2",
+      "field_id": "p83",
+      "iterations_per_sample": 1,
+      "mean": 23642.0,
+      "median": 23345.0,
+      "min": 22744.0,
+      "operation": "scalar_decompose",
+      "p95": 24837.0,
+      "sample_values": [
+        24837.0,
+        23345.0,
+        22744.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "141623169228360282760171",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-181328404164",
+        "275233097128"
+      ],
+      "curve_id": "p83-E4-2",
+      "field_id": "p83",
+      "iterations_per_sample": 1,
+      "mean": 527951.0,
+      "median": 545130.0,
+      "min": 488175.0,
+      "operation": "scalar_mul_subgroup_baseline",
+      "p95": 550548.0,
+      "sample_values": [
+        545130.0,
+        488175.0,
+        550548.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "141623169228360282760171",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-181328404164",
+        "275233097128"
+      ],
+      "curve_id": "p83-E4-2",
+      "field_id": "p83",
+      "iterations_per_sample": 1,
+      "mean": 557527.6666666666,
+      "median": 329078.0,
+      "min": 311322.0,
+      "operation": "glv2_joint_mul_precomputed",
+      "p95": 1032183.0,
+      "sample_values": [
+        329078.0,
+        311322.0,
+        1032183.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "141623169228360282760171",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-181328404164",
+        "275233097128"
+      ],
+      "curve_id": "p83-E4-2",
+      "field_id": "p83",
+      "iterations_per_sample": 1,
+      "mean": 337985.0,
+      "median": 325323.0,
+      "min": 322318.0,
+      "operation": "glv2_scalar_mul_full",
+      "p95": 366314.0,
+      "sample_values": [
+        366314.0,
+        325323.0,
+        322318.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "141623169228360282760171",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-5345422021",
+        "533329480"
+      ],
+      "curve_id": "p83-E3-3",
+      "field_id": "p83",
+      "iterations_per_sample": 1,
+      "mean": 7811.666666666667,
+      "median": 7421.0,
+      "min": 7251.0,
+      "operation": "endomorphism",
+      "p95": 8763.0,
+      "sample_values": [
+        8763.0,
+        7421.0,
+        7251.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "12170805703690430063",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-5345422021",
+        "533329480"
+      ],
+      "curve_id": "p83-E3-3",
+      "field_id": "p83",
+      "iterations_per_sample": 1,
+      "mean": 29941.333333333332,
+      "median": 30205.0,
+      "min": 29134.0,
+      "operation": "scalar_decompose",
+      "p95": 30485.0,
+      "sample_values": [
+        30205.0,
+        30485.0,
+        29134.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "12170805703690430063",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-5345422021",
+        "533329480"
+      ],
+      "curve_id": "p83-E3-3",
+      "field_id": "p83",
+      "iterations_per_sample": 1,
+      "mean": 402701.6666666667,
+      "median": 406765.0,
+      "min": 386073.0,
+      "operation": "scalar_mul_subgroup_baseline",
+      "p95": 415267.0,
+      "sample_values": [
+        406765.0,
+        415267.0,
+        386073.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "12170805703690430063",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-5345422021",
+        "533329480"
+      ],
+      "curve_id": "p83-E3-3",
+      "field_id": "p83",
+      "iterations_per_sample": 1,
+      "mean": 283911.6666666667,
+      "median": 275329.0,
+      "min": 271453.0,
+      "operation": "glv2_joint_mul_precomputed",
+      "p95": 304953.0,
+      "sample_values": [
+        304953.0,
+        275329.0,
+        271453.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "12170805703690430063",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-5345422021",
+        "533329480"
+      ],
+      "curve_id": "p83-E3-3",
+      "field_id": "p83",
+      "iterations_per_sample": 1,
+      "mean": 345446.6666666667,
+      "median": 344272.0,
+      "min": 325674.0,
+      "operation": "glv2_scalar_mul_full",
+      "p95": 366394.0,
+      "sample_values": [
+        344272.0,
+        325674.0,
+        366394.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "12170805703690430063",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "855356",
+        "1278973"
+      ],
+      "curve_id": "K53-a0",
+      "field_id": "b53",
+      "iterations_per_sample": 1,
+      "mean": 42029.0,
+      "median": 41632.0,
+      "min": 41341.0,
+      "operation": "endomorphism",
+      "p95": 43114.0,
+      "sample_values": [
+        43114.0,
+        41632.0,
+        41341.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "19524833563805",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "855356",
+        "1278973"
+      ],
+      "curve_id": "K53-a0",
+      "field_id": "b53",
+      "iterations_per_sample": 1,
+      "mean": 26957.0,
+      "median": 25738.0,
+      "min": 24647.0,
+      "operation": "scalar_decompose",
+      "p95": 30486.0,
+      "sample_values": [
+        30486.0,
+        25738.0,
+        24647.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "19524833563805",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "855356",
+        "1278973"
+      ],
+      "curve_id": "K53-a0",
+      "field_id": "b53",
+      "iterations_per_sample": 1,
+      "mean": 2293663.0,
+      "median": 2293466.0,
+      "min": 2240077.0,
+      "operation": "scalar_mul_subgroup_baseline",
+      "p95": 2347446.0,
+      "sample_values": [
+        2347446.0,
+        2293466.0,
+        2240077.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "19524833563805",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "855356",
+        "1278973"
+      ],
+      "curve_id": "K53-a0",
+      "field_id": "b53",
+      "iterations_per_sample": 1,
+      "mean": 1446445.3333333333,
+      "median": 1455903.0,
+      "min": 1421221.0,
+      "operation": "glv2_joint_mul_precomputed",
+      "p95": 1462212.0,
+      "sample_values": [
+        1462212.0,
+        1421221.0,
+        1455903.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "19524833563805",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "855356",
+        "1278973"
+      ],
+      "curve_id": "K53-a0",
+      "field_id": "b53",
+      "iterations_per_sample": 1,
+      "mean": 1552986.6666666667,
+      "median": 1517334.0,
+      "min": 1503363.0,
+      "operation": "glv2_scalar_mul_full",
+      "p95": 1638263.0,
+      "sample_values": [
+        1503363.0,
+        1638263.0,
+        1517334.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "19524833563805",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-13702548770",
+        "-8712236181"
+      ],
+      "curve_id": "K79-a1",
+      "field_id": "b79",
+      "iterations_per_sample": 1,
+      "mean": 65837.66666666667,
+      "median": 65147.0,
+      "min": 64606.0,
+      "operation": "endomorphism",
+      "p95": 67760.0,
+      "sample_values": [
+        67760.0,
+        65147.0,
+        64606.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "472955434473602092224",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-13702548770",
+        "-8712236181"
+      ],
+      "curve_id": "K79-a1",
+      "field_id": "b79",
+      "iterations_per_sample": 1,
+      "mean": 28696.0,
+      "median": 27971.0,
+      "min": 27591.0,
+      "operation": "scalar_decompose",
+      "p95": 30526.0,
+      "sample_values": [
+        30526.0,
+        27971.0,
+        27591.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "472955434473602092224",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-13702548770",
+        "-8712236181"
+      ],
+      "curve_id": "K79-a1",
+      "field_id": "b79",
+      "iterations_per_sample": 1,
+      "mean": 5023892.0,
+      "median": 5016721.0,
+      "min": 4988119.0,
+      "operation": "scalar_mul_subgroup_baseline",
+      "p95": 5066836.0,
+      "sample_values": [
+        5016721.0,
+        5066836.0,
+        4988119.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "472955434473602092224",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-13702548770",
+        "-8712236181"
+      ],
+      "curve_id": "K79-a1",
+      "field_id": "b79",
+      "iterations_per_sample": 1,
+      "mean": 3038803.6666666665,
+      "median": 3038433.0,
+      "min": 3034748.0,
+      "operation": "glv2_joint_mul_precomputed",
+      "p95": 3043230.0,
+      "sample_values": [
+        3034748.0,
+        3043230.0,
+        3038433.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "472955434473602092224",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-13702548770",
+        "-8712236181"
+      ],
+      "curve_id": "K79-a1",
+      "field_id": "b79",
+      "iterations_per_sample": 1,
+      "mean": 3148419.3333333335,
+      "median": 3143759.0,
+      "min": 3143439.0,
+      "operation": "glv2_scalar_mul_full",
+      "p95": 3158060.0,
+      "sample_values": [
+        3158060.0,
+        3143759.0,
+        3143439.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "472955434473602092224",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-351944780889",
+        "-779954757585"
+      ],
+      "curve_id": "K83-a0",
+      "field_id": "b83",
+      "iterations_per_sample": 1,
+      "mean": 68355.0,
+      "median": 68221.0,
+      "min": 66099.0,
+      "operation": "endomorphism",
+      "p95": 70745.0,
+      "sample_values": [
+        70745.0,
+        68221.0,
+        66099.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "585535110718328989198132",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-351944780889",
+        "-779954757585"
+      ],
+      "curve_id": "K83-a0",
+      "field_id": "b83",
+      "iterations_per_sample": 1,
+      "mean": 28833.333333333332,
+      "median": 28603.0,
+      "min": 27121.0,
+      "operation": "scalar_decompose",
+      "p95": 30776.0,
+      "sample_values": [
+        30776.0,
+        28603.0,
+        27121.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "585535110718328989198132",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-351944780889",
+        "-779954757585"
+      ],
+      "curve_id": "K83-a0",
+      "field_id": "b83",
+      "iterations_per_sample": 1,
+      "mean": 6302294.333333333,
+      "median": 6305145.0,
+      "min": 6285026.0,
+      "operation": "scalar_mul_subgroup_baseline",
+      "p95": 6316712.0,
+      "sample_values": [
+        6316712.0,
+        6285026.0,
+        6305145.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "585535110718328989198132",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-351944780889",
+        "-779954757585"
+      ],
+      "curve_id": "K83-a0",
+      "field_id": "b83",
+      "iterations_per_sample": 1,
+      "mean": 4196393.0,
+      "median": 4197565.0,
+      "min": 4172958.0,
+      "operation": "glv2_joint_mul_precomputed",
+      "p95": 4218656.0,
+      "sample_values": [
+        4218656.0,
+        4172958.0,
+        4197565.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "585535110718328989198132",
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "components": [
+        "-351944780889",
+        "-779954757585"
+      ],
+      "curve_id": "K83-a0",
+      "field_id": "b83",
+      "iterations_per_sample": 1,
+      "mean": 4372027.333333333,
+      "median": 4338845.0,
+      "min": 4334208.0,
+      "operation": "glv2_scalar_mul_full",
+      "p95": 4443029.0,
+      "sample_values": [
+        4334208.0,
+        4443029.0,
+        4338845.0
+      ],
+      "samples": 3,
+      "scalar_mod_r": "585535110718328989198132",
+      "unit": "nanoseconds_per_operation"
+    }
+  ],
+  "schema": "ecbench-endomorphism-glv2-cases-v1",
+  "timestamp_utc": "2026-10-12T04:28:08.882881+00:00",
+  "timing_scope": "arithmetic call only; dataset loading and fixture verification excluded"
+}

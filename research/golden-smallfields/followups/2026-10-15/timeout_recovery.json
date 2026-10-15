@@ -1,0 +1,2543 @@
+{
+  "environment": {
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "primary_dataset_modified": false,
+  "results": [
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "buchberger",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "K83-a0-f3-low_monomials-d6-seeded_subgroup",
+        "case_sha256": "802553319a287804b79e6637fc8a2fe81b7e285f28e06987090ee81a87c4c95f",
+        "censored": false,
+        "cohort": "seeded_subgroup",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "seeded_subgroup"
+        },
+        "curve_id": "K83-a0",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            12,
+            55,
+            120,
+            126,
+            54,
+            3,
+            0
+          ],
+          "homogeneous_basis_size": 79,
+          "quotient_dimension": 371,
+          "value": 7
+        },
+        "factor_base_counts": {
+          "points": 28,
+          "x_coordinates": 14
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 0,
+          "size": 1,
+          "terms": 1,
+          "unit_ideal": true,
+          "zero_dimensional": false
+        },
+        "input": {
+          "domain_grid_size": 4096,
+          "max_total_degree": 5,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 12,
+              "terms": 24
+            },
+            "factor_base_membership": {
+              "max_total_degree": 5,
+              "polynomials": 2,
+              "terms": 74
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1943
+            }
+          },
+          "polynomials": 97,
+          "terms": 2041,
+          "variables": 12
+        },
+        "input_serialization_seconds": 0.0019355120002728654,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 3.0880330919999324,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [],
+          "ordered_relations": 0,
+          "polynomial_roots": 0,
+          "relation_root_assignments": 0,
+          "root_assignments": [],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 30,
+          "successful_root_assignments": [],
+          "target_success": false,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 0
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 1.3650472190001892,
+          "groebner_seconds": 1.3111139940001522,
+          "parse_and_polynomial_setup_seconds": 0.0546098320000965,
+          "relation_verification_seconds": 0.0841494149999562,
+          "root_extraction_seconds": 3.899995135725476e-07,
+          "total_solve_seconds": 1.4501526670001113
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": null,
+      "original_status": "timeout",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "buchberger",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "S83-a1-f3-low_monomials-d6-planted",
+        "case_sha256": "95ac1259441f53f1f8cf1f3c824d65ce8cfbf9999050e24d20ef6e745520420c",
+        "censored": false,
+        "cohort": "planted",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "planted"
+        },
+        "curve_id": "S83-a1",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            12,
+            55,
+            120,
+            126,
+            56,
+            5,
+            0
+          ],
+          "homogeneous_basis_size": 77,
+          "quotient_dimension": 375,
+          "value": 7
+        },
+        "factor_base_counts": {
+          "points": 42,
+          "x_coordinates": 21
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 2,
+          "size": 12,
+          "terms": 17,
+          "unit_ideal": false,
+          "zero_dimensional": true
+        },
+        "input": {
+          "domain_grid_size": 4096,
+          "max_total_degree": 6,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 12,
+              "terms": 24
+            },
+            "factor_base_membership": {
+              "max_total_degree": 6,
+              "polynomials": 2,
+              "terms": 30
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1902
+            }
+          },
+          "polynomials": 97,
+          "terms": 1956,
+          "variables": 12
+        },
+        "input_serialization_seconds": 0.0015981719998308108,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 6.494149830000424,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [
+            [
+              {
+                "x": "0x0000000000000000000001",
+                "y": "0x075d6494aafe8ff2b169c0"
+              },
+              {
+                "x": "0x0000000000000000000003",
+                "y": "0x0037cd5d4cb8108af041bd"
+              }
+            ],
+            [
+              {
+                "x": "0x0000000000000000000003",
+                "y": "0x0037cd5d4cb8108af041bd"
+              },
+              {
+                "x": "0x0000000000000000000001",
+                "y": "0x075d6494aafe8ff2b169c0"
+              }
+            ]
+          ],
+          "ordered_relations": 2,
+          "polynomial_roots": 2,
+          "relation_root_assignments": 2,
+          "root_assignments": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 44,
+          "successful_root_assignments": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target_success": true,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 1
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 1.5110202429996207,
+          "groebner_seconds": 4.489716181000404,
+          "parse_and_polynomial_setup_seconds": 0.05470686300031957,
+          "relation_verification_seconds": 0.1668023339998399,
+          "root_extraction_seconds": 0.013387164000050689,
+          "total_solve_seconds": 4.725385940000706
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": null,
+      "original_status": "timeout",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "buchberger",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "S83-a1-f3-low_monomials-d6-seeded_subgroup",
+        "case_sha256": "590765bef9824302e54cb535c465b05470626ec4e506665b9fb382fde5382d15",
+        "censored": false,
+        "cohort": "seeded_subgroup",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "seeded_subgroup"
+        },
+        "curve_id": "S83-a1",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            12,
+            55,
+            120,
+            126,
+            56,
+            5,
+            0
+          ],
+          "homogeneous_basis_size": 77,
+          "quotient_dimension": 375,
+          "value": 7
+        },
+        "factor_base_counts": {
+          "points": 42,
+          "x_coordinates": 21
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 0,
+          "size": 1,
+          "terms": 1,
+          "unit_ideal": true,
+          "zero_dimensional": false
+        },
+        "input": {
+          "domain_grid_size": 4096,
+          "max_total_degree": 6,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 12,
+              "terms": 24
+            },
+            "factor_base_membership": {
+              "max_total_degree": 6,
+              "polynomials": 2,
+              "terms": 30
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 2170
+            }
+          },
+          "polynomials": 97,
+          "terms": 2224,
+          "variables": 12
+        },
+        "input_serialization_seconds": 0.0016563299996050773,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 6.130996786999276,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [],
+          "ordered_relations": 0,
+          "polynomial_roots": 0,
+          "relation_root_assignments": 0,
+          "root_assignments": [],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 44,
+          "successful_root_assignments": [],
+          "target_success": false,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 0
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 1.8135359130001234,
+          "groebner_seconds": 3.84235950799939,
+          "parse_and_polynomial_setup_seconds": 0.05460466699969402,
+          "relation_verification_seconds": 0.16714474800028256,
+          "root_extraction_seconds": 4.410003384691663e-07,
+          "total_solve_seconds": 4.064747841000099
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": null,
+      "original_status": "timeout",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "K83-a0-f3-low_monomials-d5-planted",
+        "case_sha256": "8c43eb594d99dad9d77d890b2e84d5da72f48d1c3f17cc71bf246c90d9004344",
+        "censored": false,
+        "cohort": "planted",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "planted"
+        },
+        "curve_id": "K83-a0",
+        "degree_of_regularity": {
+          "reason": "diagnostic_timeout",
+          "value": null
+        },
+        "diagnostic_status": "timeout",
+        "factor_base_counts": {
+          "points": 16,
+          "x_coordinates": 8
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 2,
+          "size": 13,
+          "terms": 25,
+          "unit_ideal": false,
+          "zero_dimensional": true
+        },
+        "input": {
+          "domain_grid_size": 1024,
+          "max_total_degree": 4,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 10,
+              "terms": 20
+            },
+            "factor_base_membership": {
+              "max_total_degree": 4,
+              "polynomials": 2,
+              "terms": 42
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 95
+            }
+          },
+          "polynomials": 95,
+          "terms": 157,
+          "variables": 10
+        },
+        "input_serialization_seconds": 0.0004348249995018705,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 20.008861946999787,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [
+            [
+              {
+                "x": "0x0000000000000000000002",
+                "y": "0x01849f751f2b04fb3595ad"
+              },
+              {
+                "x": "0x0000000000000000000004",
+                "y": "0x03093eea3e5609f66b2b53"
+              }
+            ],
+            [
+              {
+                "x": "0x0000000000000000000002",
+                "y": "0x01849f751f2b04fb3595af"
+              },
+              {
+                "x": "0x0000000000000000000010",
+                "y": "0x0424fba8f95827d9acad88"
+              }
+            ],
+            [
+              {
+                "x": "0x0000000000000000000004",
+                "y": "0x03093eea3e5609f66b2b53"
+              },
+              {
+                "x": "0x0000000000000000000002",
+                "y": "0x01849f751f2b04fb3595ad"
+              }
+            ],
+            [
+              {
+                "x": "0x0000000000000000000010",
+                "y": "0x0424fba8f95827d9acad88"
+              },
+              {
+                "x": "0x0000000000000000000002",
+                "y": "0x01849f751f2b04fb3595af"
+              }
+            ]
+          ],
+          "ordered_relations": 4,
+          "polynomial_roots": 4,
+          "relation_root_assignments": 4,
+          "root_assignments": [
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          ],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 18,
+          "successful_root_assignments": [
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          ],
+          "target_success": true,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 2
+        },
+        "stage_times": {
+          "groebner_seconds": 13.68054187100006,
+          "parse_and_polynomial_setup_seconds": 0.020244900000761845,
+          "relation_verification_seconds": 0.05034032899948215,
+          "root_extraction_seconds": 0.004567138000311388,
+          "total_solve_seconds": 13.756412835999981
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": -9
+      }
+    },
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "K83-a0-f3-low_monomials-d5-seeded_subgroup",
+        "case_sha256": "2c68442d90d124322a75bd7b36ef3dfeabb9842a2d531cc4c067172f65b3e973",
+        "censored": false,
+        "cohort": "seeded_subgroup",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "seeded_subgroup"
+        },
+        "curve_id": "K83-a0",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            10,
+            36,
+            56,
+            33,
+            2,
+            0
+          ],
+          "homogeneous_basis_size": 43,
+          "quotient_dimension": 138,
+          "value": 6
+        },
+        "factor_base_counts": {
+          "points": 16,
+          "x_coordinates": 8
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 0,
+          "size": 1,
+          "terms": 1,
+          "unit_ideal": true,
+          "zero_dimensional": false
+        },
+        "input": {
+          "domain_grid_size": 1024,
+          "max_total_degree": 4,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 10,
+              "terms": 20
+            },
+            "factor_base_membership": {
+              "max_total_degree": 4,
+              "polynomials": 2,
+              "terms": 42
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1313
+            }
+          },
+          "polynomials": 95,
+          "terms": 1375,
+          "variables": 10
+        },
+        "input_serialization_seconds": 0.0010323930000595283,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 18.40483445300015,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [],
+          "ordered_relations": 0,
+          "polynomial_roots": 0,
+          "relation_root_assignments": 0,
+          "root_assignments": [],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 18,
+          "successful_root_assignments": [],
+          "target_success": false,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 0
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 17.41606640899954,
+          "groebner_seconds": 0.6617945039997721,
+          "parse_and_polynomial_setup_seconds": 0.03972107900062838,
+          "relation_verification_seconds": 0.051606660000288684,
+          "root_extraction_seconds": 4.7100002120714635e-07,
+          "total_solve_seconds": 0.7533936549998543
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": null,
+      "original_status": "timeout",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "K83-a0-f3-low_monomials-d6-planted",
+        "case_sha256": "f670fa6ed6aee6fec1508ab58c07f26a5ec0cf25bcffa55b0d828a9a24c9f19f",
+        "censored": true,
+        "cohort": "planted",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "planted"
+        },
+        "curve_id": "K83-a0",
+        "degree_of_regularity": {
+          "reason": "solve_incomplete",
+          "value": null
+        },
+        "factor_base_counts": {
+          "points": 28,
+          "x_coordinates": 14
+        },
+        "field_id": "b83",
+        "groebner_basis": null,
+        "input": {
+          "domain_grid_size": 4096,
+          "max_total_degree": 5,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 12,
+              "terms": 24
+            },
+            "factor_base_membership": {
+              "max_total_degree": 5,
+              "polynomials": 2,
+              "terms": 74
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 132
+            }
+          },
+          "polynomials": 97,
+          "terms": 230,
+          "variables": 12
+        },
+        "input_serialization_seconds": 0.00038633299936918775,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 20.022384554999917,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": null,
+        "stage_times": {
+          "parse_and_polynomial_setup_seconds": 0.02287867399991228
+        },
+        "status": "timeout",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": -9
+      }
+    },
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "K83-a0-f3-low_monomials-d6-seeded_subgroup",
+        "case_sha256": "802553319a287804b79e6637fc8a2fe81b7e285f28e06987090ee81a87c4c95f",
+        "censored": false,
+        "cohort": "seeded_subgroup",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "seeded_subgroup"
+        },
+        "curve_id": "K83-a0",
+        "degree_of_regularity": {
+          "reason": "diagnostic_timeout",
+          "value": null
+        },
+        "diagnostic_status": "timeout",
+        "factor_base_counts": {
+          "points": 28,
+          "x_coordinates": 14
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 0,
+          "size": 1,
+          "terms": 1,
+          "unit_ideal": true,
+          "zero_dimensional": false
+        },
+        "input": {
+          "domain_grid_size": 4096,
+          "max_total_degree": 5,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 12,
+              "terms": 24
+            },
+            "factor_base_membership": {
+              "max_total_degree": 5,
+              "polynomials": 2,
+              "terms": 74
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1943
+            }
+          },
+          "polynomials": 97,
+          "terms": 2041,
+          "variables": 12
+        },
+        "input_serialization_seconds": 0.0015039019999676384,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 20.01888395199967,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [],
+          "ordered_relations": 0,
+          "polynomial_roots": 0,
+          "relation_root_assignments": 0,
+          "root_assignments": [],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 30,
+          "successful_root_assignments": [],
+          "target_success": false,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 0
+        },
+        "stage_times": {
+          "groebner_seconds": 1.2409897199995612,
+          "parse_and_polynomial_setup_seconds": 0.05238765899957798,
+          "relation_verification_seconds": 0.08117792600023677,
+          "root_extraction_seconds": 3.410004865145311e-07,
+          "total_solve_seconds": 1.3748971029999666
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": -9
+      }
+    },
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "K83-a0-f3-subgroup_seeded_basis-d5-planted",
+        "case_sha256": "e8447d08eb5abf5fdb4b4e517e26e1b6b4c0c3a79f28f052abd6538722d9ec64",
+        "censored": false,
+        "cohort": "planted",
+        "cohort_dimensions": {
+          "basis_kind": "subgroup_seeded_basis",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "planted"
+        },
+        "curve_id": "K83-a0",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            10,
+            31,
+            40,
+            25,
+            4,
+            0
+          ],
+          "homogeneous_basis_size": 30,
+          "quotient_dimension": 111,
+          "value": 6
+        },
+        "factor_base_counts": {
+          "points": 14,
+          "x_coordinates": 7
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 2,
+          "size": 10,
+          "terms": 16,
+          "unit_ideal": false,
+          "zero_dimensional": true
+        },
+        "input": {
+          "domain_grid_size": 1024,
+          "max_total_degree": 5,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 10,
+              "terms": 20
+            },
+            "factor_base_membership": {
+              "max_total_degree": 5,
+              "polynomials": 2,
+              "terms": 38
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1413
+            }
+          },
+          "polynomials": 95,
+          "terms": 1471,
+          "variables": 10
+        },
+        "input_serialization_seconds": 0.0011565360000531655,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 3.0569729139997435,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [
+            [
+              {
+                "x": "0x04a3adabd8b9228badaa99",
+                "y": "0x04233c9775a51dfcf20bff"
+              },
+              {
+                "x": "0x066cecececececececec95",
+                "y": "0x0029b8ed654eea6e1ee415"
+              }
+            ],
+            [
+              {
+                "x": "0x066cecececececececec95",
+                "y": "0x0029b8ed654eea6e1ee415"
+              },
+              {
+                "x": "0x04a3adabd8b9228badaa99",
+                "y": "0x04233c9775a51dfcf20bff"
+              }
+            ]
+          ],
+          "ordered_relations": 2,
+          "polynomial_roots": 2,
+          "relation_root_assignments": 2,
+          "root_assignments": [
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 16,
+          "successful_root_assignments": [
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target_success": true,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 1
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 1.593964679000237,
+          "groebner_seconds": 1.1300501510004324,
+          "parse_and_polynomial_setup_seconds": 0.0397011390004991,
+          "relation_verification_seconds": 0.0453117380002368,
+          "root_extraction_seconds": 0.00302074299997912,
+          "total_solve_seconds": 1.2186913530003949
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "K83-a0-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+        "case_sha256": "5dd78bc55af0634c3d42efdff9042ea4fab630989540c8aec3f5876cfb486b99",
+        "censored": false,
+        "cohort": "seeded_subgroup",
+        "cohort_dimensions": {
+          "basis_kind": "subgroup_seeded_basis",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "seeded_subgroup"
+        },
+        "curve_id": "K83-a0",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            10,
+            31,
+            40,
+            25,
+            4,
+            0
+          ],
+          "homogeneous_basis_size": 30,
+          "quotient_dimension": 111,
+          "value": 6
+        },
+        "factor_base_counts": {
+          "points": 14,
+          "x_coordinates": 7
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 0,
+          "size": 1,
+          "terms": 1,
+          "unit_ideal": true,
+          "zero_dimensional": false
+        },
+        "input": {
+          "domain_grid_size": 1024,
+          "max_total_degree": 5,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 10,
+              "terms": 20
+            },
+            "factor_base_membership": {
+              "max_total_degree": 5,
+              "polynomials": 2,
+              "terms": 38
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1521
+            }
+          },
+          "polynomials": 95,
+          "terms": 1579,
+          "variables": 10
+        },
+        "input_serialization_seconds": 0.0011348340003678459,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 2.6257942960000946,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [],
+          "ordered_relations": 0,
+          "polynomial_roots": 0,
+          "relation_root_assignments": 0,
+          "root_assignments": [],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 16,
+          "successful_root_assignments": [],
+          "target_success": false,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 0
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 1.2993524029998298,
+          "groebner_seconds": 0.9897463269999207,
+          "parse_and_polynomial_setup_seconds": 0.040864582000722294,
+          "relation_verification_seconds": 0.04437829699963913,
+          "root_extraction_seconds": 4.7100002120714635e-07,
+          "total_solve_seconds": 1.0752667380002094
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "S83-a1-f3-low_monomials-d5-planted",
+        "case_sha256": "6c6842176817bca1f51abf08d61232546f2be16842d28cbd54288fc9f86b1e51",
+        "censored": false,
+        "cohort": "planted",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "planted"
+        },
+        "curve_id": "S83-a1",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            10,
+            36,
+            56,
+            33,
+            2,
+            0
+          ],
+          "homogeneous_basis_size": 45,
+          "quotient_dimension": 138,
+          "value": 6
+        },
+        "factor_base_counts": {
+          "points": 20,
+          "x_coordinates": 10
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 2,
+          "size": 10,
+          "terms": 15,
+          "unit_ideal": false,
+          "zero_dimensional": true
+        },
+        "input": {
+          "domain_grid_size": 1024,
+          "max_total_degree": 4,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 10,
+              "terms": 20
+            },
+            "factor_base_membership": {
+              "max_total_degree": 4,
+              "polynomials": 2,
+              "terms": 20
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1384
+            }
+          },
+          "polynomials": 95,
+          "terms": 1424,
+          "variables": 10
+        },
+        "input_serialization_seconds": 0.001077378999980283,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 17.19276379100029,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [
+            [
+              {
+                "x": "0x0000000000000000000001",
+                "y": "0x075d6494aafe8ff2b169c0"
+              },
+              {
+                "x": "0x0000000000000000000003",
+                "y": "0x0037cd5d4cb8108af041bd"
+              }
+            ],
+            [
+              {
+                "x": "0x0000000000000000000003",
+                "y": "0x0037cd5d4cb8108af041bd"
+              },
+              {
+                "x": "0x0000000000000000000001",
+                "y": "0x075d6494aafe8ff2b169c0"
+              }
+            ]
+          ],
+          "ordered_relations": 2,
+          "polynomial_roots": 2,
+          "relation_root_assignments": 2,
+          "root_assignments": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 22,
+          "successful_root_assignments": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target_success": true,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 1
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 16.132454745999894,
+          "groebner_seconds": 0.6802465090004262,
+          "parse_and_polynomial_setup_seconds": 0.03863302000081603,
+          "relation_verification_seconds": 0.08415531599985115,
+          "root_extraction_seconds": 0.0028633490001084283,
+          "total_solve_seconds": 0.806500638000216
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "S83-a1-f3-low_monomials-d5-seeded_subgroup",
+        "case_sha256": "b8a61aba4b48da3fbaeaa84671c05f457f7695d699faa80450b31e7698a6df1a",
+        "censored": false,
+        "cohort": "seeded_subgroup",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "seeded_subgroup"
+        },
+        "curve_id": "S83-a1",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            10,
+            36,
+            56,
+            33,
+            2,
+            0
+          ],
+          "homogeneous_basis_size": 45,
+          "quotient_dimension": 138,
+          "value": 6
+        },
+        "factor_base_counts": {
+          "points": 20,
+          "x_coordinates": 10
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 0,
+          "size": 1,
+          "terms": 1,
+          "unit_ideal": true,
+          "zero_dimensional": false
+        },
+        "input": {
+          "domain_grid_size": 1024,
+          "max_total_degree": 4,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 10,
+              "terms": 20
+            },
+            "factor_base_membership": {
+              "max_total_degree": 4,
+              "polynomials": 2,
+              "terms": 20
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1385
+            }
+          },
+          "polynomials": 95,
+          "terms": 1425,
+          "variables": 10
+        },
+        "input_serialization_seconds": 0.00427221300014935,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 14.65210573999957,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [],
+          "ordered_relations": 0,
+          "polynomial_roots": 0,
+          "relation_root_assignments": 0,
+          "root_assignments": [],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 22,
+          "successful_root_assignments": [],
+          "target_success": false,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 0
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 13.619522281999707,
+          "groebner_seconds": 0.6683173530000204,
+          "parse_and_polynomial_setup_seconds": 0.03841317100068409,
+          "relation_verification_seconds": 0.08314507100021729,
+          "root_extraction_seconds": 4.4099942897446454e-07,
+          "total_solve_seconds": 0.7902026209994801
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": null,
+      "original_status": "timeout",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "S83-a1-f3-low_monomials-d6-planted",
+        "case_sha256": "95ac1259441f53f1f8cf1f3c824d65ce8cfbf9999050e24d20ef6e745520420c",
+        "censored": false,
+        "cohort": "planted",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "planted"
+        },
+        "curve_id": "S83-a1",
+        "degree_of_regularity": {
+          "reason": "diagnostic_timeout",
+          "value": null
+        },
+        "diagnostic_status": "timeout",
+        "factor_base_counts": {
+          "points": 42,
+          "x_coordinates": 21
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 2,
+          "size": 12,
+          "terms": 17,
+          "unit_ideal": false,
+          "zero_dimensional": true
+        },
+        "input": {
+          "domain_grid_size": 4096,
+          "max_total_degree": 6,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 12,
+              "terms": 24
+            },
+            "factor_base_membership": {
+              "max_total_degree": 6,
+              "polynomials": 2,
+              "terms": 30
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1902
+            }
+          },
+          "polynomials": 97,
+          "terms": 1956,
+          "variables": 12
+        },
+        "input_serialization_seconds": 0.0014717550002387725,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 20.017128699999375,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [
+            [
+              {
+                "x": "0x0000000000000000000001",
+                "y": "0x075d6494aafe8ff2b169c0"
+              },
+              {
+                "x": "0x0000000000000000000003",
+                "y": "0x0037cd5d4cb8108af041bd"
+              }
+            ],
+            [
+              {
+                "x": "0x0000000000000000000003",
+                "y": "0x0037cd5d4cb8108af041bd"
+              },
+              {
+                "x": "0x0000000000000000000001",
+                "y": "0x075d6494aafe8ff2b169c0"
+              }
+            ]
+          ],
+          "ordered_relations": 2,
+          "polynomial_roots": 2,
+          "relation_root_assignments": 2,
+          "root_assignments": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 44,
+          "successful_root_assignments": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target_success": true,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 1
+        },
+        "stage_times": {
+          "groebner_seconds": 4.690308231000017,
+          "parse_and_polynomial_setup_seconds": 0.05180348999965645,
+          "relation_verification_seconds": 0.16482977399937226,
+          "root_extraction_seconds": 0.012131127000429842,
+          "total_solve_seconds": 4.919800421999753
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": -9
+      }
+    },
+    {
+      "original_diagnostic_status": null,
+      "original_status": "timeout",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "S83-a1-f3-low_monomials-d6-seeded_subgroup",
+        "case_sha256": "590765bef9824302e54cb535c465b05470626ec4e506665b9fb382fde5382d15",
+        "censored": false,
+        "cohort": "seeded_subgroup",
+        "cohort_dimensions": {
+          "basis_kind": "low_monomials",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "seeded_subgroup"
+        },
+        "curve_id": "S83-a1",
+        "degree_of_regularity": {
+          "reason": "diagnostic_timeout",
+          "value": null
+        },
+        "diagnostic_status": "timeout",
+        "factor_base_counts": {
+          "points": 42,
+          "x_coordinates": 21
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 0,
+          "size": 1,
+          "terms": 1,
+          "unit_ideal": true,
+          "zero_dimensional": false
+        },
+        "input": {
+          "domain_grid_size": 4096,
+          "max_total_degree": 6,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 12,
+              "terms": 24
+            },
+            "factor_base_membership": {
+              "max_total_degree": 6,
+              "polynomials": 2,
+              "terms": 30
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 2170
+            }
+          },
+          "polynomials": 97,
+          "terms": 2224,
+          "variables": 12
+        },
+        "input_serialization_seconds": 0.0016276460000881343,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 20.018464996000148,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [],
+          "ordered_relations": 0,
+          "polynomial_roots": 0,
+          "relation_root_assignments": 0,
+          "root_assignments": [],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 44,
+          "successful_root_assignments": [],
+          "target_success": false,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 0
+        },
+        "stage_times": {
+          "groebner_seconds": 3.846326552999926,
+          "parse_and_polynomial_setup_seconds": 0.05547096200007218,
+          "relation_verification_seconds": 0.1670628060001036,
+          "root_extraction_seconds": 4.900002750218846e-07,
+          "total_solve_seconds": 4.069141668999691
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": -9
+      }
+    },
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "S83-a1-f3-subgroup_seeded_basis-d5-planted",
+        "case_sha256": "e601dc4f82bb788304aac0364a656315a96d197b7428182743a740b4c7f6cff9",
+        "censored": false,
+        "cohort": "planted",
+        "cohort_dimensions": {
+          "basis_kind": "subgroup_seeded_basis",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "planted"
+        },
+        "curve_id": "S83-a1",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            10,
+            31,
+            40,
+            25,
+            4,
+            0
+          ],
+          "homogeneous_basis_size": 30,
+          "quotient_dimension": 111,
+          "value": 6
+        },
+        "factor_base_counts": {
+          "points": 22,
+          "x_coordinates": 11
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 2,
+          "size": 10,
+          "terms": 16,
+          "unit_ideal": false,
+          "zero_dimensional": true
+        },
+        "input": {
+          "domain_grid_size": 1024,
+          "max_total_degree": 5,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 10,
+              "terms": 20
+            },
+            "factor_base_membership": {
+              "max_total_degree": 5,
+              "polynomials": 2,
+              "terms": 34
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1471
+            }
+          },
+          "polynomials": 95,
+          "terms": 1525,
+          "variables": 10
+        },
+        "input_serialization_seconds": 0.0011417449995860807,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 2.83954934600024,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [
+            [
+              {
+                "x": "0x0000000000000000977315",
+                "y": "0x075d736a9e2f3dfaa49b7b"
+              },
+              {
+                "x": "0x03da75bcbbf67a7b42db8d",
+                "y": "0x036c2ff989ee18ec6a4d62"
+              }
+            ],
+            [
+              {
+                "x": "0x03da75bcbbf67a7b42db8d",
+                "y": "0x036c2ff989ee18ec6a4d62"
+              },
+              {
+                "x": "0x0000000000000000977315",
+                "y": "0x075d736a9e2f3dfaa49b7b"
+              }
+            ]
+          ],
+          "ordered_relations": 2,
+          "polynomial_roots": 2,
+          "relation_root_assignments": 2,
+          "root_assignments": [
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 24,
+          "successful_root_assignments": [
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target_success": true,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 1
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 1.3478144010005053,
+          "groebner_seconds": 1.1167346540005383,
+          "parse_and_polynomial_setup_seconds": 0.03969783699994878,
+          "relation_verification_seconds": 0.09093414200015104,
+          "root_extraction_seconds": 0.0028314730006968603,
+          "total_solve_seconds": 1.2507939609995447
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "S83-a1-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+        "case_sha256": "d2336d55d1e2e7666806b125e40bcaecc662de0553f8884e7649d0115069a15c",
+        "censored": false,
+        "cohort": "seeded_subgroup",
+        "cohort_dimensions": {
+          "basis_kind": "subgroup_seeded_basis",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "seeded_subgroup"
+        },
+        "curve_id": "S83-a1",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            10,
+            31,
+            40,
+            25,
+            4,
+            0
+          ],
+          "homogeneous_basis_size": 30,
+          "quotient_dimension": 111,
+          "value": 6
+        },
+        "factor_base_counts": {
+          "points": 22,
+          "x_coordinates": 11
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 0,
+          "size": 1,
+          "terms": 1,
+          "unit_ideal": true,
+          "zero_dimensional": false
+        },
+        "input": {
+          "domain_grid_size": 1024,
+          "max_total_degree": 5,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 10,
+              "terms": 20
+            },
+            "factor_base_membership": {
+              "max_total_degree": 5,
+              "polynomials": 2,
+              "terms": 34
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1373
+            }
+          },
+          "polynomials": 95,
+          "terms": 1427,
+          "variables": 10
+        },
+        "input_serialization_seconds": 0.0010298789993612445,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 3.332229814999664,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [],
+          "ordered_relations": 0,
+          "polynomial_roots": 0,
+          "relation_root_assignments": 0,
+          "root_assignments": [],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 24,
+          "successful_root_assignments": [],
+          "target_success": false,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 0
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 1.634207372999299,
+          "groebner_seconds": 1.3235953000003065,
+          "parse_and_polynomial_setup_seconds": 0.03910759100017458,
+          "relation_verification_seconds": 0.09056242000042403,
+          "root_extraction_seconds": 4.5100023271515965e-07,
+          "total_solve_seconds": 1.4535385569997743
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "B83-a0-f3-subgroup_seeded_basis-d5-planted",
+        "case_sha256": "476c16a7fd6a6abef1fe6ece02e07c34d34d6e4e44704c2ab81f82629535d976",
+        "censored": false,
+        "cohort": "planted",
+        "cohort_dimensions": {
+          "basis_kind": "subgroup_seeded_basis",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "planted"
+        },
+        "curve_id": "B83-a0",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            10,
+            31,
+            40,
+            23,
+            2,
+            0
+          ],
+          "homogeneous_basis_size": 32,
+          "quotient_dimension": 107,
+          "value": 6
+        },
+        "factor_base_counts": {
+          "points": 4,
+          "x_coordinates": 2
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 2,
+          "size": 10,
+          "terms": 16,
+          "unit_ideal": false,
+          "zero_dimensional": true
+        },
+        "input": {
+          "domain_grid_size": 1024,
+          "max_total_degree": 4,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 10,
+              "terms": 20
+            },
+            "factor_base_membership": {
+              "max_total_degree": 4,
+              "polynomials": 2,
+              "terms": 34
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1395
+            }
+          },
+          "polynomials": 95,
+          "terms": 1449,
+          "variables": 10
+        },
+        "input_serialization_seconds": 0.0010328839998692274,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 4.105559581999842,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [
+            [
+              {
+                "x": "0x017b4bd58f578a1601bba0",
+                "y": "0x031a5818745eee3a30292b"
+              },
+              {
+                "x": "0x07819b4ee8e3a3aa42c6ae",
+                "y": "0x049357fd35350632113a2a"
+              }
+            ],
+            [
+              {
+                "x": "0x07819b4ee8e3a3aa42c6ae",
+                "y": "0x049357fd35350632113a2a"
+              },
+              {
+                "x": "0x017b4bd58f578a1601bba0",
+                "y": "0x031a5818745eee3a30292b"
+              }
+            ]
+          ],
+          "ordered_relations": 2,
+          "polynomial_roots": 2,
+          "relation_root_assignments": 2,
+          "root_assignments": [
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 6,
+          "successful_root_assignments": [
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target_success": true,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 1
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 2.699829889999819,
+          "groebner_seconds": 1.0993663489998653,
+          "parse_and_polynomial_setup_seconds": 0.04064070799995534,
+          "relation_verification_seconds": 0.01069977299994207,
+          "root_extraction_seconds": 0.002917911000622553,
+          "total_solve_seconds": 1.1542642099993827
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    },
+    {
+      "original_diagnostic_status": "timeout",
+      "original_status": "ok",
+      "original_wall_budget_seconds": 2.5,
+      "result": {
+        "backend": {
+          "characteristic": "2",
+          "method": "f5b",
+          "monomial_order": "grevlex",
+          "name": "sympy",
+          "solving_degree": null,
+          "solving_degree_reason": "SymPy does not expose maximal degree reached during computation",
+          "version": "1.14.0"
+        },
+        "case_id": "B83-a0-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+        "case_sha256": "9cd8a9588ef15eb339d76995d7f199d3586e89e2298edad04c95d17ba4891124",
+        "censored": false,
+        "cohort": "seeded_subgroup",
+        "cohort_dimensions": {
+          "basis_kind": "subgroup_seeded_basis",
+          "model_variant": "strict_selected_subgroup_factor_base",
+          "target_sampling": "seeded_subgroup"
+        },
+        "curve_id": "B83-a0",
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            10,
+            31,
+            40,
+            23,
+            2,
+            0
+          ],
+          "homogeneous_basis_size": 32,
+          "quotient_dimension": 107,
+          "value": 6
+        },
+        "factor_base_counts": {
+          "points": 4,
+          "x_coordinates": 2
+        },
+        "field_id": "b83",
+        "groebner_basis": {
+          "max_total_degree": 0,
+          "size": 1,
+          "terms": 1,
+          "unit_ideal": true,
+          "zero_dimensional": false
+        },
+        "input": {
+          "domain_grid_size": 1024,
+          "max_total_degree": 4,
+          "polynomial_roles": {
+            "boolean_field_equation": {
+              "max_total_degree": 2,
+              "polynomials": 10,
+              "terms": 20
+            },
+            "factor_base_membership": {
+              "max_total_degree": 4,
+              "polynomials": 2,
+              "terms": 34
+            },
+            "semaev_f3_coordinate": {
+              "max_total_degree": 2,
+              "polynomials": 83,
+              "terms": 1378
+            }
+          },
+          "polynomials": 95,
+          "terms": 1432,
+          "variables": 10
+        },
+        "input_serialization_seconds": 0.0010077460001411964,
+        "model_variant": "strict_selected_subgroup_factor_base",
+        "observed_subprocess_wall_seconds": 3.662075121000271,
+        "relation_policy": {
+          "decomposition_arity": 2,
+          "factor_base_identity": "excluded",
+          "relation_counting": "distinct unordered signed point decompositions, with ordered decompositions retained separately",
+          "repeated_factors": "allowed; a repeated signed point has swap-orbit size one",
+          "signed_sum": "P + Q must equal the supplied target exactly",
+          "target_identity": "reference arithmetic permits identity; current golden fixtures use nonidentity targets"
+        },
+        "relations": {
+          "ordered_relation_points": [],
+          "ordered_relations": 0,
+          "polynomial_roots": 0,
+          "relation_root_assignments": 0,
+          "root_assignments": [],
+          "selected_subgroup_membership_verified": true,
+          "subgroup_membership_cache_entries": 6,
+          "successful_root_assignments": [],
+          "target_success": false,
+          "truth_checks": {
+            "ordered_point_decompositions": true,
+            "ordered_relations": true,
+            "polynomial_roots": true,
+            "root_assignments": true,
+            "unordered_relations": true
+          },
+          "truth_matches": true,
+          "unordered_relations": 0
+        },
+        "stage_times": {
+          "degree_regularity_diagnostic_seconds": 2.3615151669991974,
+          "groebner_seconds": 0.994271782999931,
+          "parse_and_polynomial_setup_seconds": 0.04396821800037287,
+          "relation_verification_seconds": 0.009534633999464859,
+          "root_extraction_seconds": 4.90999809699133e-07,
+          "total_solve_seconds": 1.048031366000032
+        },
+        "status": "ok",
+        "timeout_seconds": 20.0,
+        "worker_exit_code": 0
+      }
+    }
+  ],
+  "schema": "ecbench-timeout-recovery-v1",
+  "scope": "One new run only for each original incomplete solve or timed-out regularity diagnostic; historical runs unchanged",
+  "summary": {
+    "all_completed_truth_matches": true,
+    "attempts": 17,
+    "completed_regularity_diagnostics": 12,
+    "completed_solves": 16,
+    "previous_solve_timeouts": 6,
+    "recovered_solve_timeouts": 5
+  },
+  "timeout_seconds": 20.0,
+  "timestamp_utc": "2026-10-15T06:16:40.123853+00:00"
+}

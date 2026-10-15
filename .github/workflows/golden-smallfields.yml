@@ -1,0 +1,40 @@
+name: Golden small-field reference suite
+
+on:
+  pull_request:
+    paths:
+      - research/golden-smallfields/**
+      - .github/workflows/golden-smallfields.yml
+  push:
+    branches: [main]
+    paths:
+      - research/golden-smallfields/**
+      - .github/workflows/golden-smallfields.yml
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: research/golden-smallfields
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: research/golden-smallfields/pyproject.toml
+      - name: Install reference and validation dependencies
+        run: python -m pip install '.[algebra,validation]' 'sympy==1.14.0'
+      - name: Run arithmetic, solver, map, and preprocessing tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify corpus, polynomial fixtures, and endomorphism catalogs
+        run: python -m ecbench battery-verify --output /tmp/golden-battery-verification.json
+      - name: Check research certificates, measured-case hashes, and frozen release files
+        run: python tools/verify_followup.py
+      - name: Validate the golden dataset and recorded results against the published schemas
+        run: python ../../tools/validate_golden_smallfields.py

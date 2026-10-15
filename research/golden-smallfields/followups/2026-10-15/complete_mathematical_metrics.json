@@ -1,0 +1,2448 @@
+{
+  "cases": 69,
+  "environment": {
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "monomial_order": "grevlex",
+  "primary_dataset_modified": false,
+  "rows": [
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/0"
+      },
+      "case_id": "K83-a0-f3-low_monomials-d2-planted",
+      "case_sha256": "20ea7a98672ea91bb26a51b8ffe5160431def3a28b1d2cc85f1a383ef93d3125",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          3,
+          0
+        ],
+        "homogeneous_basis_size": 7,
+        "quotient_dimension": 4,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 1,
+        "size": 4,
+        "terms": 6,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 1,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/0"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/1"
+      },
+      "case_id": "K83-a0-f3-low_monomials-d2-seeded_subgroup",
+      "case_sha256": "002fed7ba1e1b58fbc3a5e7186b6f8a6983deed2ba01a9d638569304b6bee034",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 5,
+        "quotient_dimension": 3,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/1"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/2"
+      },
+      "case_id": "K83-a0-f3-low_monomials-d3-planted",
+      "case_sha256": "820c04684c877e79574e3974dcc7aeed9672c048bca4e1a99827abe59eab3972",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          5,
+          6,
+          0
+        ],
+        "homogeneous_basis_size": 12,
+        "quotient_dimension": 12,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 6,
+        "terms": 12,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/2"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/3"
+      },
+      "case_id": "K83-a0-f3-low_monomials-d3-seeded_subgroup",
+      "case_sha256": "e530ab44e5c88515981e0193cdfb90a7820388af50a4b2fb48dd62ed67fc6f0e",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          6,
+          10,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 15,
+        "quotient_dimension": 19,
+        "value": 4
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/3"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/4"
+      },
+      "case_id": "K83-a0-f3-low_monomials-d4-planted",
+      "case_sha256": "72e517b50f335d5e5c82bd13e5014344fd97c7c6a3f6b81b3496be2170adc9e3",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          7,
+          15,
+          10,
+          0
+        ],
+        "homogeneous_basis_size": 20,
+        "quotient_dimension": 33,
+        "value": 4
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 8,
+        "terms": 14,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/4"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/5"
+      },
+      "case_id": "K83-a0-f3-low_monomials-d4-seeded_subgroup",
+      "case_sha256": "5e65c699734d8292689a0703d7d38bf4a3f402cfd09445e4ba03b2ff19cd7fbf",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          8,
+          21,
+          20,
+          3,
+          0
+        ],
+        "homogeneous_basis_size": 25,
+        "quotient_dimension": 53,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/5"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/6"
+      },
+      "case_id": "K83-a0-f3-low_monomials-d5-planted",
+      "case_sha256": "8c43eb594d99dad9d77d890b2e84d5da72f48d1c3f17cc71bf246c90d9004344",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          9,
+          28,
+          35,
+          13,
+          0
+        ],
+        "homogeneous_basis_size": 35,
+        "quotient_dimension": 86,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 13,
+        "terms": 25,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 4,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/6"
+      },
+      "unordered_relations": 2
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/7"
+      },
+      "case_id": "K83-a0-f3-low_monomials-d5-seeded_subgroup",
+      "case_sha256": "2c68442d90d124322a75bd7b36ef3dfeabb9842a2d531cc4c067172f65b3e973",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          10,
+          36,
+          56,
+          33,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 43,
+        "quotient_dimension": 138,
+        "value": 6
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/7"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/8"
+      },
+      "case_id": "K83-a0-f3-low_monomials-d6-planted",
+      "case_sha256": "f670fa6ed6aee6fec1508ab58c07f26a5ec0cf25bcffa55b0d828a9a24c9f19f",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          11,
+          45,
+          84,
+          70,
+          19,
+          0
+        ],
+        "homogeneous_basis_size": 61,
+        "quotient_dimension": 230,
+        "value": 6
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 15,
+        "terms": 27,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 4,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/8"
+      },
+      "unordered_relations": 2
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/9"
+      },
+      "case_id": "K83-a0-f3-low_monomials-d6-seeded_subgroup",
+      "case_sha256": "802553319a287804b79e6637fc8a2fe81b7e285f28e06987090ee81a87c4c95f",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          12,
+          55,
+          120,
+          126,
+          54,
+          3,
+          0
+        ],
+        "homogeneous_basis_size": 79,
+        "quotient_dimension": 371,
+        "value": 7
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "followups/2026-10-15/timeout_recovery.json",
+        "json_pointer": "/results/0/result"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/10"
+      },
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d2-planted",
+      "case_sha256": "7b6f8e6bc4963cbbaa54fc9c0d9670f748a5a89e68d61a34f0c51ce5e51a6c30",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 5,
+        "quotient_dimension": 3,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 4,
+        "terms": 10,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/10"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/11"
+      },
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+      "case_sha256": "ff5c960a651adcee4e0147659cd8623ec95d689476f846d7357fda794310cd7d",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 4,
+        "quotient_dimension": 2,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/11"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/12"
+      },
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d3-planted",
+      "case_sha256": "c1e777f7552e0dc5895fc97ecef53fcf548933ffb06c4fca11d244636cc251a3",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          6,
+          7,
+          0
+        ],
+        "homogeneous_basis_size": 16,
+        "quotient_dimension": 14,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 6,
+        "terms": 12,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/12"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/13"
+      },
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+      "case_sha256": "e75e519dd173dff28f40437119b0936ace469742af29fa2af57c101513d67638",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          5,
+          3,
+          0
+        ],
+        "homogeneous_basis_size": 13,
+        "quotient_dimension": 9,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/13"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/14"
+      },
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d4-planted",
+      "case_sha256": "254206da5d963ffa093e4bd9203db5ce7fd1725f42f06b3d83a4c622f89785c2",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          8,
+          18,
+          16,
+          3,
+          0
+        ],
+        "homogeneous_basis_size": 20,
+        "quotient_dimension": 46,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 8,
+        "terms": 14,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/14"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/15"
+      },
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d4-seeded_subgroup",
+      "case_sha256": "9c35507eb7e3312cd503547139757a593a4c39dd0067ece512a1abca0182d693",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          8,
+          18,
+          16,
+          3,
+          0
+        ],
+        "homogeneous_basis_size": 20,
+        "quotient_dimension": 46,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/15"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/16"
+      },
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d5-planted",
+      "case_sha256": "e8447d08eb5abf5fdb4b4e517e26e1b6b4c0c3a79f28f052abd6538722d9ec64",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          10,
+          31,
+          40,
+          25,
+          4,
+          0
+        ],
+        "homogeneous_basis_size": 30,
+        "quotient_dimension": 111,
+        "value": 6
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 10,
+        "terms": 16,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/16"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/17"
+      },
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+      "case_sha256": "5dd78bc55af0634c3d42efdff9042ea4fab630989540c8aec3f5876cfb486b99",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          10,
+          31,
+          40,
+          25,
+          4,
+          0
+        ],
+        "homogeneous_basis_size": 30,
+        "quotient_dimension": 111,
+        "value": 6
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/17"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/18"
+      },
+      "case_id": "S83-a1-f3-low_monomials-d2-planted",
+      "case_sha256": "a759e0869c50dfd4ba9e53b65211c7e5caa9c529aaab0312ccb4f5f78b525775",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 4,
+        "quotient_dimension": 2,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 4,
+        "terms": 9,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/18"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/19"
+      },
+      "case_id": "S83-a1-f3-low_monomials-d2-seeded_subgroup",
+      "case_sha256": "cc41ff89c03d8e934569a3ecef5d0094fbc5b5ae8a896a2c6fc465ea626bbf1b",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 4,
+        "quotient_dimension": 2,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/19"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/20"
+      },
+      "case_id": "S83-a1-f3-low_monomials-d3-planted",
+      "case_sha256": "f1862b80ca49c45fe468b1ae39a2a3bf53592007f89e6849cb877acd5e751fa6",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          5,
+          6,
+          0
+        ],
+        "homogeneous_basis_size": 12,
+        "quotient_dimension": 12,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 6,
+        "terms": 11,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/20"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/21"
+      },
+      "case_id": "S83-a1-f3-low_monomials-d3-seeded_subgroup",
+      "case_sha256": "d6a37dad2de126cb3c2082c2e5777ac85fbf3dd82ae6a9ebfa8874a79b6ec8a5",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          3,
+          3,
+          0
+        ],
+        "homogeneous_basis_size": 7,
+        "quotient_dimension": 7,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/21"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/22"
+      },
+      "case_id": "S83-a1-f3-low_monomials-d4-planted",
+      "case_sha256": "2b0fab9daa1b51b0fb4fc443d9bcb46b4c929e28a62d9f47a60cb31229f4a220",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          8,
+          21,
+          18,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 25,
+        "quotient_dimension": 49,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 8,
+        "terms": 13,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/22"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/23"
+      },
+      "case_id": "S83-a1-f3-low_monomials-d4-seeded_subgroup",
+      "case_sha256": "8cd0ae254959ae86bbb4c3c83221dafbc6ebc389f615926d882ba1e576792784",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          7,
+          14,
+          5,
+          0
+        ],
+        "homogeneous_basis_size": 21,
+        "quotient_dimension": 27,
+        "value": 4
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/23"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/24"
+      },
+      "case_id": "S83-a1-f3-low_monomials-d5-planted",
+      "case_sha256": "6c6842176817bca1f51abf08d61232546f2be16842d28cbd54288fc9f86b1e51",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          10,
+          36,
+          56,
+          33,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 45,
+        "quotient_dimension": 138,
+        "value": 6
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 10,
+        "terms": 15,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/24"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/25"
+      },
+      "case_id": "S83-a1-f3-low_monomials-d5-seeded_subgroup",
+      "case_sha256": "b8a61aba4b48da3fbaeaa84671c05f457f7695d699faa80450b31e7698a6df1a",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          10,
+          36,
+          56,
+          33,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 45,
+        "quotient_dimension": 138,
+        "value": 6
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/25"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "followups/2026-10-15/timeout_recovery.json",
+        "json_pointer": "/results/1/result"
+      },
+      "case_id": "S83-a1-f3-low_monomials-d6-planted",
+      "case_sha256": "95ac1259441f53f1f8cf1f3c824d65ce8cfbf9999050e24d20ef6e745520420c",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          12,
+          55,
+          120,
+          126,
+          56,
+          5,
+          0
+        ],
+        "homogeneous_basis_size": 77,
+        "quotient_dimension": 375,
+        "value": 7
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 12,
+        "terms": 17,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "followups/2026-10-15/timeout_recovery.json",
+        "json_pointer": "/results/1/result"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "followups/2026-10-15/timeout_recovery.json",
+        "json_pointer": "/results/2/result"
+      },
+      "case_id": "S83-a1-f3-low_monomials-d6-seeded_subgroup",
+      "case_sha256": "590765bef9824302e54cb535c465b05470626ec4e506665b9fb382fde5382d15",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          12,
+          55,
+          120,
+          126,
+          56,
+          5,
+          0
+        ],
+        "homogeneous_basis_size": 77,
+        "quotient_dimension": 375,
+        "value": 7
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "followups/2026-10-15/timeout_recovery.json",
+        "json_pointer": "/results/2/result"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/28"
+      },
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d2-planted",
+      "case_sha256": "d3203abb3b890f229e0f4bf1f20c01fb6995ebf8c11171a0bb2828bc668d9b88",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 4,
+        "quotient_dimension": 2,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 4,
+        "terms": 10,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/28"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/29"
+      },
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+      "case_sha256": "b5a03502e10ab5f62387ba27c4797a9a9db64be906e22047e57b973fedd6df50",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          0
+        ],
+        "homogeneous_basis_size": 1,
+        "value": 0
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/29"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/30"
+      },
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d3-planted",
+      "case_sha256": "6dd20590cde97b7f2d0d36b922397296d2eb1e90f63c4044ca61f8583502e8f6",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          4,
+          3,
+          0
+        ],
+        "homogeneous_basis_size": 10,
+        "quotient_dimension": 8,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 6,
+        "terms": 12,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/30"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/31"
+      },
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+      "case_sha256": "71de9e7add3fd4fb1a887fa0a87959d40156dc62eb078c612a47f3b471db8624",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          6,
+          9,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 14,
+        "quotient_dimension": 18,
+        "value": 4
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/31"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/32"
+      },
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d4-planted",
+      "case_sha256": "92f7c3b06b26c5578c5db1b968ee2a67f5e58551eed38b80744c576cc87cc801",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          8,
+          18,
+          14,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 21,
+        "quotient_dimension": 42,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 8,
+        "terms": 14,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/32"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/33"
+      },
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d4-seeded_subgroup",
+      "case_sha256": "192f23fe4d476aba63026f5db414b1a5b64d861fa8cc8abe9a86f80636337334",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          8,
+          18,
+          14,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 21,
+        "quotient_dimension": 42,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/33"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/34"
+      },
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d5-planted",
+      "case_sha256": "e601dc4f82bb788304aac0364a656315a96d197b7428182743a740b4c7f6cff9",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          10,
+          31,
+          40,
+          25,
+          4,
+          0
+        ],
+        "homogeneous_basis_size": 30,
+        "quotient_dimension": 111,
+        "value": 6
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 10,
+        "terms": 16,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/34"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/35"
+      },
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+      "case_sha256": "d2336d55d1e2e7666806b125e40bcaecc662de0553f8884e7649d0115069a15c",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          10,
+          31,
+          40,
+          25,
+          4,
+          0
+        ],
+        "homogeneous_basis_size": 30,
+        "quotient_dimension": 111,
+        "value": 6
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/35"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/36"
+      },
+      "case_id": "B83-a0-f3-low_monomials-d2-seeded_subgroup",
+      "case_sha256": "75d8d8c9cf90ff557658acc07671f710fa0f06f049c5cdf36b01bbe20214cb9e",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          0
+        ],
+        "homogeneous_basis_size": 1,
+        "value": 0
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/36"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/37"
+      },
+      "case_id": "B83-a0-f3-low_monomials-d3-seeded_subgroup",
+      "case_sha256": "3a78de1b75bec7da8bd3afd1d1425ccc6bccc298e4a1563f53700590379c5b6d",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          0
+        ],
+        "homogeneous_basis_size": 1,
+        "value": 0
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/37"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/38"
+      },
+      "case_id": "B83-a0-f3-low_monomials-d4-seeded_subgroup",
+      "case_sha256": "8bd7066ad41f3eceb136aae36ce07530a6242f1154ef79e91f35936e65728ea6",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          0
+        ],
+        "homogeneous_basis_size": 1,
+        "value": 0
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/38"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/39"
+      },
+      "case_id": "B83-a0-f3-low_monomials-d5-seeded_subgroup",
+      "case_sha256": "0c8cd1ebc53e79eb962f3882bdcd4fc220026b0c458e3dc1c15f3563ea71bc20",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          0
+        ],
+        "homogeneous_basis_size": 1,
+        "value": 0
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/39"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/40"
+      },
+      "case_id": "B83-a0-f3-low_monomials-d6-seeded_subgroup",
+      "case_sha256": "5eacd4b961e5d82de21cad940d754db0c74df5d1dda0737b88ba1452333f47b4",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          0
+        ],
+        "homogeneous_basis_size": 1,
+        "value": 0
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/40"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/41"
+      },
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d2-planted",
+      "case_sha256": "2158f30b6faaabdf781bf869a92022eab0cd97c706aaa2abe0e19b4029cc7424",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 5,
+        "quotient_dimension": 3,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 4,
+        "terms": 10,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/41"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/42"
+      },
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+      "case_sha256": "3465792495ba2984c4b91042ed972417c92ba80a686e546ea600188cd0bef216",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 4,
+        "quotient_dimension": 2,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/42"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/43"
+      },
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d3-planted",
+      "case_sha256": "2eea28d414735549fcb372b1d8b82dadfe551026d1c059da1c52c731bfb69b7c",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          6,
+          7,
+          0
+        ],
+        "homogeneous_basis_size": 16,
+        "quotient_dimension": 14,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 6,
+        "terms": 12,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/43"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/44"
+      },
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+      "case_sha256": "6370fb07073d06fc0d07167e78b3a7fd07b76ac4429d0c9897cf5051c5c56600",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          5,
+          3,
+          0
+        ],
+        "homogeneous_basis_size": 13,
+        "quotient_dimension": 9,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/44"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/45"
+      },
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d4-planted",
+      "case_sha256": "1f2ad6c98c8900904275ad898e04be55f9cabe24ff992ffca8aa2277e643d16d",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          8,
+          18,
+          14,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 22,
+        "quotient_dimension": 42,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 8,
+        "terms": 14,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/45"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/46"
+      },
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d4-seeded_subgroup",
+      "case_sha256": "9aa198c2bf446513931462fbd1bfbf9af1b66a5d243a42a92f2a01552b18a4fd",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          8,
+          18,
+          14,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 22,
+        "quotient_dimension": 42,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/46"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/47"
+      },
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d5-planted",
+      "case_sha256": "476c16a7fd6a6abef1fe6ece02e07c34d34d6e4e44704c2ab81f82629535d976",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          10,
+          31,
+          40,
+          23,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 32,
+        "quotient_dimension": 107,
+        "value": 6
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 10,
+        "terms": 16,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/47"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/48"
+      },
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+      "case_sha256": "9cd8a9588ef15eb339d76995d7f199d3586e89e2298edad04c95d17ba4891124",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          10,
+          31,
+          40,
+          23,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 32,
+        "quotient_dimension": 107,
+        "value": 6
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/48"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/49"
+      },
+      "case_id": "p83-S-0-f3-fb4-planted",
+      "case_sha256": "6207ce901fba06e42f07273c37ecf61c591bc2f0a97e90b13a6a2f47646aad3e",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 12,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 3,
+        "size": 3,
+        "terms": 9,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 4,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/49"
+      },
+      "unordered_relations": 2
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/50"
+      },
+      "case_id": "p83-S-0-f3-fb4-seeded_subgroup",
+      "case_sha256": "bae91771a30e75226feff68f13627c9a20405cbbd2db279b1ead7e63759ecd00",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 12,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/50"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/51"
+      },
+      "case_id": "p83-S-0-f3-fb8-planted",
+      "case_sha256": "4999c9efd67aaa48e5b7d5a3477cc6e97f0421c8d7f7849ee6f0da5bdb00db98",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 28,
+        "value": 9
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 5,
+        "size": 5,
+        "terms": 59,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 12,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/51"
+      },
+      "unordered_relations": 6
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/52"
+      },
+      "case_id": "p83-S-0-f3-fb8-seeded_subgroup",
+      "case_sha256": "e6484b5623ac5dee182e42f111af0dcb65c92058f735d2592ac24e7f3af7b53b",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 28,
+        "value": 9
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/52"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/53"
+      },
+      "case_id": "p83-S-0-f3-fb16-planted",
+      "case_sha256": "ed944862a368afbf8ea97ba05b5d194af0a3fa12b1d3cf46bdacabe3dae42d9f",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 60,
+        "value": 17
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 9,
+        "size": 5,
+        "terms": 123,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 28,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/53"
+      },
+      "unordered_relations": 14
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/54"
+      },
+      "case_id": "p83-S-0-f3-fb16-seeded_subgroup",
+      "case_sha256": "a7c0c609746b295bfc6c66d0a96866b40429bab06c4ab778264e2a2207549c5c",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 60,
+        "value": 17
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_buchberger.json",
+        "json_pointer": "/results/54"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/0"
+      },
+      "case_id": "K53-a1-f3-subgroup_seeded_basis-d2-planted",
+      "case_sha256": "f5fe3b5593caff524554c6f3a00907ac51b330c95e2ac1fa44e4212302322386",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 5,
+        "quotient_dimension": 3,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 4,
+        "terms": 10,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/0"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/1"
+      },
+      "case_id": "K53-a1-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+      "case_sha256": "a247e550285fc5e76ad772b533ae3330e866ed9aaf72ec3c0f5c07429334ac10",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 4,
+        "quotient_dimension": 2,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/1"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/2"
+      },
+      "case_id": "K53-a1-f3-subgroup_seeded_basis-d3-planted",
+      "case_sha256": "cf67bda0fcd88d42c1d3d8983728e4352db76a7d78d4c24fb76d605e31feb1dd",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          5,
+          4,
+          0
+        ],
+        "homogeneous_basis_size": 12,
+        "quotient_dimension": 10,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 6,
+        "terms": 12,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/2"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/3"
+      },
+      "case_id": "K53-a1-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+      "case_sha256": "339623f020d447969f6547b73fcaa27c8e33c8594abd4966a7b48d1d0f33a9ac",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          6,
+          7,
+          0
+        ],
+        "homogeneous_basis_size": 16,
+        "quotient_dimension": 14,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/3"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/4"
+      },
+      "case_id": "K79-a1-f3-subgroup_seeded_basis-d2-planted",
+      "case_sha256": "933e8d0a0efacf69b3b542dcca2c51d5724a7108c56de2fdcb13c8cb8c8393cf",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 4,
+        "quotient_dimension": 2,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 4,
+        "terms": 10,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/4"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/5"
+      },
+      "case_id": "K79-a1-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+      "case_sha256": "2b693fc96c88658346de34607fad89e80508127a1c9937e82e476f35915dba04",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          1,
+          0
+        ],
+        "homogeneous_basis_size": 4,
+        "quotient_dimension": 2,
+        "value": 2
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/5"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/6"
+      },
+      "case_id": "K79-a1-f3-subgroup_seeded_basis-d3-planted",
+      "case_sha256": "21a9d37e13012827e6f2745f39b7ff5f4ddb1ff2640f701df73685e8d669f169",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          5,
+          4,
+          0
+        ],
+        "homogeneous_basis_size": 12,
+        "quotient_dimension": 10,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 2,
+        "size": 6,
+        "terms": 12,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 2,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/6"
+      },
+      "unordered_relations": 1
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/7"
+      },
+      "case_id": "K79-a1-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+      "case_sha256": "1ed6927dff7e1bb0fdee940d452bf382e921a1e1e4370e64ec00d06d3c4fbae1",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          5,
+          4,
+          0
+        ],
+        "homogeneous_basis_size": 12,
+        "quotient_dimension": 10,
+        "value": 3
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/7"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/8"
+      },
+      "case_id": "p61-G-0-f3-fb4-planted",
+      "case_sha256": "030b0596632137fe64e6f3964c3ffe534ad95f01c1cc879afc66f1d2181ce143",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 12,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 3,
+        "size": 3,
+        "terms": 13,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 4,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/8"
+      },
+      "unordered_relations": 2
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/9"
+      },
+      "case_id": "p61-G-0-f3-fb4-seeded_subgroup",
+      "case_sha256": "0da0ec3c16ac34da3d2a613cb221d4adb08c5e52631f7af83aa26abe80b5cfbc",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 12,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/9"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/10"
+      },
+      "case_id": "p64-G-0-f3-fb4-planted",
+      "case_sha256": "a329fa06b4316071c9e80eeb0e7368d2b81b2546690177e2f7100739783277c9",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 12,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 3,
+        "size": 3,
+        "terms": 13,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 4,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/10"
+      },
+      "unordered_relations": 2
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/11"
+      },
+      "case_id": "p64-G-0-f3-fb4-seeded_subgroup",
+      "case_sha256": "7b0487519a2a131352af5a615d105a19312004bc653b93e3ea6a6f2788167f24",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 12,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/11"
+      },
+      "unordered_relations": 0
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/12"
+      },
+      "case_id": "p83s-G-0-f3-fb4-planted",
+      "case_sha256": "9b292b49f641e58747e2e6b3bb6bc9fbd5f317040d83d1c14e8651dc77f884ae",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 12,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 3,
+        "size": 3,
+        "terms": 13,
+        "unit_ideal": false,
+        "zero_dimensional": true
+      },
+      "ordered_relations": 4,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/12"
+      },
+      "unordered_relations": 2
+    },
+    {
+      "algorithm_maximum_working_degree": null,
+      "basis_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/13"
+      },
+      "case_id": "p83s-G-0-f3-fb4-seeded_subgroup",
+      "case_sha256": "7519c62fbce391e797a753b67b81cc025a68df31fd50e65a15b2f416c25f98a4",
+      "degree_of_regularity": {
+        "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+        "hilbert_function": [
+          1,
+          2,
+          3,
+          4,
+          2,
+          0
+        ],
+        "homogeneous_basis_size": 3,
+        "quotient_dimension": 12,
+        "value": 5
+      },
+      "groebner_basis_metrics": {
+        "max_total_degree": 0,
+        "size": 1,
+        "terms": 1,
+        "unit_ideal": true,
+        "zero_dimensional": false
+      },
+      "ordered_relations": 0,
+      "regularity_source": {
+        "file": "build/algebra_coverage_buchberger.json",
+        "json_pointer": "/results/13"
+      },
+      "unordered_relations": 0
+    }
+  ],
+  "schema": "ecbench-complete-mathematical-metrics-v1",
+  "scope": "Complete final-basis metrics and exact highest-input-part Hilbert diagnostics for original fixtures. Mathematical diagnostics are algorithm-independent. No method-specific timing is filled from another method.",
+  "source_files_sha256": {
+    "build/algebra_buchberger.json": "f9f3dac1b6d00427ae81809ff2713fc0b2c1775c8ef59c09008874d6771b4afd",
+    "build/algebra_coverage_buchberger.json": "260d01b4fe500075f463289d7f779330280388da17bf91afda7be96e3f696f41",
+    "followups/2026-10-15/timeout_recovery.json": "ae91c217ec498bc584fc66ce7aa43744117f5b50181765e28ecd5ae2cb74f7fc"
+  },
+  "timestamp_utc": "2026-10-15T06:24:55.823856+00:00"
+}

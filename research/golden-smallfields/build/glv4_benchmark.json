@@ -1,0 +1,119 @@
+{
+  "status": "pass",
+  "backend": "independent variable-time affine Python Fp2 oracle",
+  "samples_per_case": 3,
+  "iterations_per_sample": 1,
+  "cases": [
+    {
+      "case_id": "j0-glv-gls4-p41",
+      "samples": [
+        {
+          "scalar": "1049393193935802687785575",
+          "scalar_bits": 80,
+          "timings_ns_per_iteration": {
+            "ordinary_total_ns": 1976166.0,
+            "glv2_decomposition_ns": 40930.0,
+            "glv2_maps_ns": 2104.0,
+            "glv2_joint_multiplication_ns": 1267893.0,
+            "glv2_total_ns": 1310927.0,
+            "glv4_decomposition_ns": 161890.0,
+            "glv4_maps_ns": 5268.0,
+            "glv4_joint_multiplication_ns": 990171.0,
+            "glv4_total_ns": 1157329.0
+          },
+          "glv2_component_bits": 39,
+          "glv4_component_bits": 19,
+          "outputs_equal": true
+        },
+        {
+          "scalar": "707651043897052100519142",
+          "scalar_bits": 80,
+          "timings_ns_per_iteration": {
+            "ordinary_total_ns": 1991288.0,
+            "glv2_decomposition_ns": 38176.0,
+            "glv2_maps_ns": 1422.0,
+            "glv2_joint_multiplication_ns": 1169147.0,
+            "glv2_total_ns": 1208745.0,
+            "glv4_decomposition_ns": 159868.0,
+            "glv4_maps_ns": 5007.0,
+            "glv4_joint_multiplication_ns": 926206.0,
+            "glv4_total_ns": 1091081.0
+          },
+          "glv2_component_bits": 36,
+          "glv4_component_bits": 20,
+          "outputs_equal": true
+        },
+        {
+          "scalar": "1120989131464972673274638",
+          "scalar_bits": 80,
+          "timings_ns_per_iteration": {
+            "ordinary_total_ns": 1973642.0,
+            "glv2_decomposition_ns": 36114.0,
+            "glv2_maps_ns": 1312.0,
+            "glv2_joint_multiplication_ns": 1342454.0,
+            "glv2_total_ns": 1379880.0,
+            "glv4_decomposition_ns": 154850.0,
+            "glv4_maps_ns": 4757.0,
+            "glv4_joint_multiplication_ns": 797044.0,
+            "glv4_total_ns": 956651.0
+          },
+          "glv2_component_bits": 39,
+          "glv4_component_bits": 20,
+          "outputs_equal": true
+        }
+      ],
+      "median_timings_ns_per_iteration": {
+        "ordinary_total_ns": 1976166.0,
+        "glv2_decomposition_ns": 38176.0,
+        "glv2_maps_ns": 1422.0,
+        "glv2_joint_multiplication_ns": 1267893.0,
+        "glv2_total_ns": 1310927.0,
+        "glv4_decomposition_ns": 159868.0,
+        "glv4_maps_ns": 5007.0,
+        "glv4_joint_multiplication_ns": 926206.0,
+        "glv4_total_ns": 1091081.0
+      },
+      "measured_total_ratio_to_ordinary": {
+        "glv2": 0.6633688667854826,
+        "glv4": 0.5521201154154054
+      }
+    }
+  ],
+  "includes": [
+    "exact rational Babai decomposition",
+    "endomorphism map evaluation",
+    "signed interleaved binary multiplication"
+  ],
+  "verification_preflight": {
+    "status": "pass",
+    "cases": [
+      {
+        "case_id": "j0-glv-gls4-p41",
+        "status": "pass",
+        "base_prime_bits": 41,
+        "field_bits": 82,
+        "subgroup_bits": 80,
+        "primality_certificates": 28,
+        "named_point_orders": 8,
+        "field_vectors": 12,
+        "endomorphism_vectors": 24,
+        "decomposition_vectors": 16,
+        "point_count_proof": {
+          "method": "j0 CM trace theorem and exact scalar-multiplication elimination",
+          "base_points_used": 2,
+          "incorrect_traces_eliminated": 5
+        },
+        "point_group_proof": "twist point count, certified factorization, and full rational two-torsion",
+        "endomorphism_proof_boundary": "special ordinary j=0 model and explicit cubic automorphism; no general endomorphism-ring algorithm",
+        "guaranteed_glv4_component_bits": 20,
+        "guaranteed_glv2_component_bits": 40,
+        "source_pari_checks": 51,
+        "source_pari_recomputed": false
+      }
+    ],
+    "case_count": 1,
+    "elapsed_ms": 94.937252,
+    "primary_dataset_modified": false
+  },
+  "timing_limitations": "Python overhead and affine inversions are included; these measurements do not predict native implementation speed."
+}

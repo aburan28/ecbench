@@ -1,0 +1,10 @@
+research/golden-smallfields/ecbench/data/*.json linguist-generated=true
+research/golden-smallfields/build/*.json linguist-generated=true
+research/golden-smallfields/followups/**/*.json linguist-generated=true
+research/golden-smallfields/golden_ecbench.json linguist-generated=true
+research/golden-smallfields/golden_ecbench.jsonl linguist-generated=true
+research/golden-smallfields/*.whl binary
+research/golden-smallfields/docs/*.pdf binary
+# Preserve the published byte hashes of these historical source artifacts.
+research/golden-smallfields/build/algebra_summary.csv -text whitespace=cr-at-eol
+research/golden-smallfields/ecbench/endomorphisms.py whitespace=-blank-at-eof

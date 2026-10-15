@@ -1,0 +1,41 @@
+test_external_replay_enforces_case_hash_and_golden_roots (test_algebra.AlgebraTests.test_external_replay_enforces_case_hash_and_golden_roots) ... ok
+test_false_truth_is_rejected_after_real_solve (test_algebra.AlgebraTests.test_false_truth_is_rejected_after_real_solve) ... ok
+test_groebner_roots_then_group_verification_and_hilbert_degree (test_algebra.AlgebraTests.test_groebner_roots_then_group_verification_and_hilbert_degree) ... ok
+test_on_curve_point_outside_selected_subgroup_is_rejected (test_algebra.AlgebraTests.test_on_curve_point_outside_selected_subgroup_is_rejected) ... ok
+test_primary_yield_uses_all_attempts_including_completed_empty_case (test_algebra.AlgebraTests.test_primary_yield_uses_all_attempts_including_completed_empty_case) ... ok
+test_timeout_censored_and_excluded_from_success_denominator (test_algebra.AlgebraTests.test_timeout_censored_and_excluded_from_success_denominator) ... ok
+test_unit_ideal_is_completed_zero_yield_not_timeout (test_algebra.AlgebraTests.test_unit_ideal_is_completed_zero_yield_not_timeout) ... ok
+test_entire_catalog_verifies_480_signed_vectors (test_endomorphisms.EndomorphismTests.test_entire_catalog_verifies_480_signed_vectors) ... ok
+test_false_eigenvalue_and_lattice_index_are_rejected (test_endomorphisms.EndomorphismTests.test_false_eigenvalue_and_lattice_index_are_rejected) ... ok
+test_rational_torsion_does_not_establish_selected_cyclic_stability (test_endomorphisms.EndomorphismTests.test_rational_torsion_does_not_establish_selected_cyclic_stability) ... ok
+test_real_signed_components_reconstruct_prime_and_binary_points (test_endomorphisms.EndomorphismTests.test_real_signed_components_reconstruct_prime_and_binary_points) ... ok
+test_sign_corruption_is_rejected_before_point_reconstruction (test_endomorphisms.EndomorphismTests.test_sign_corruption_is_rejected_before_point_reconstruction) ... ok
+test_source_parameters_and_unstable_classification_cannot_be_silently_changed (test_endomorphisms.EndomorphismTests.test_source_parameters_and_unstable_classification_cannot_be_silently_changed) ... ok
+test_timing_scopes_distinguish_precomputed_and_full_paths (test_endomorphisms.EndomorphismTests.test_timing_scopes_distinguish_precomputed_and_full_paths) ... ok
+test_changed_polynomial_cannot_keep_old_golden_truth (test_fixtures.FixtureTests.test_changed_polynomial_cannot_keep_old_golden_truth) ... ok
+test_original_prime_and_binary_equations_match_signed_truth (test_fixtures.FixtureTests.test_original_prime_and_binary_equations_match_signed_truth) ... ok
+test_selection_cannot_silently_ignore_unknown_case (test_fixtures.FixtureTests.test_selection_cannot_silently_ignore_unknown_case) ... ok
+test_benchmark_measures_complete_equal_paths (test_glv4.GLV4Tests.test_benchmark_measures_complete_equal_paths) ... ok
+test_full_case_and_uniform_component_bounds (test_glv4.GLV4Tests.test_full_case_and_uniform_component_bounds) ... ok
+test_lattice_and_decomposition_tamper_rejected (test_glv4.GLV4Tests.test_lattice_and_decomposition_tamper_rejected) ... ok
+test_primality_witness_tamper_rejected (test_glv4.GLV4Tests.test_primality_witness_tamper_rejected) ... ok
+test_quadratic_field_reference (test_glv4.GLV4Tests.test_quadratic_field_reference) ... ok
+test_wrong_gls_eigenvalue_rejected (test_glv4.GLV4Tests.test_wrong_gls_eigenvalue_rejected) ... ok
+test_changed_nonpolynomial_semantics_rejected (test_preprocess.PreprocessingTests.test_changed_nonpolynomial_semantics_rejected) ... ok
+test_exposes_hidden_linear_equations_with_two_way_proof (test_preprocess.PreprocessingTests.test_exposes_hidden_linear_equations_with_two_way_proof) ... ok
+test_forged_unit_rejected_even_with_updated_case_hash (test_preprocess.PreprocessingTests.test_forged_unit_rejected_even_with_updated_case_hash) ... ok
+test_missing_generator_rejected_by_reverse_inclusion (test_preprocess.PreprocessingTests.test_missing_generator_rejected_by_reverse_inclusion) ... ok
+test_prime_characteristic_cannot_be_silently_changed (test_preprocess.PreprocessingTests.test_prime_characteristic_cannot_be_silently_changed) ... ok
+test_source_combination_witness_must_be_correct (test_preprocess.PreprocessingTests.test_source_combination_witness_must_be_correct) ... ok
+test_binary_torsion_and_scalar_domain (test_reference.ReferenceTests.test_binary_torsion_and_scalar_domain) ... ok
+test_certificate_tamper (test_reference.ReferenceTests.test_certificate_tamper) ... ok
+test_field_rejections_and_inverse (test_reference.ReferenceTests.test_field_rejections_and_inverse) ... ok
+test_full_release (test_reference.ReferenceTests.test_full_release) ... ok
+test_prime_known_curve (test_reference.ReferenceTests.test_prime_known_curve) ... ok
+test_rank_two_membership (test_reference.ReferenceTests.test_rank_two_membership) ... ok
+test_strict_encoding (test_reference.ReferenceTests.test_strict_encoding) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 7.938s
+
+OK

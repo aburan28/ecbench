@@ -1,0 +1,41 @@
+{
+  "boundaries": [
+    "Primary 56-curve corpus and its original canonical manifest are unchanged.",
+    "Main catalog covers 49 binary and 6 prime two-summand relation-search systems; a separate coverage catalog adds other fields. Not every primary curve has polynomial fixtures.",
+    "The GLV/GLS4 extension-field curve is supplemental; no index-calculus polynomial fixtures over that extension field are claimed.",
+    "Recorded solver measurements live in build/algebra_buchberger.json and build/algebra_f5b.json; timings are machine-specific.",
+    "All-curve endomorphism classification includes unsupported and subgroup-unstable cases explicitly."
+  ],
+  "core_dataset_id": "ecbench-golden-smallfields-v1",
+  "counts": {
+    "coverage_polynomial_cases": 14,
+    "fields_with_polynomial_cases": 7,
+    "glv2_frobenius_scalar_vectors": 480,
+    "glv2_frobenius_supported": 30,
+    "glv2_frobenius_unsupported": 26,
+    "glv_gls4_decomposition_vectors": 16,
+    "glv_gls4_supplements": 1,
+    "main_polynomial_cases": 55,
+    "polynomial_cases": 69,
+    "primary_curves": 56,
+    "primary_fields": 7,
+    "primary_vectors": 6931
+  },
+  "release_version": "1.0.0",
+  "schema": "ecbench-research-manifest-v1",
+  "sha256": {
+    "algebra_cases.json": "b8206a05d9c7064c8e657f8e90ea4732fbbcdc98c075d7e2de0fe7ccbd5fc557",
+    "algebra_cases.schema.json": "8830de5d91e59db907096d3751c2a9a4a3a0b8af51756fd65fef888e7139be22",
+    "algebra_coverage_cases.json": "6cb52713bd0d025460f2652ef07154c14166b1ed09777fdf8cac55e9c7591e62",
+    "algebra_results.schema.json": "b41bdff80ea6d2731269cd2d983f34ce64d5c4e51b37434d83d8eed2bb856380",
+    "certificates.json": "8deeaee364df8bb560aa341d97675f37bdc003abd83c84499f8445241a348df3",
+    "curves.json": "a5e81537a17541a4b5972e501936eda9bc10c95901d192e9ffb0895139d8c6cf",
+    "dataset.schema.json": "143f17febb6c4b45635928f29fd96fc1129fceefbb6afc4065a3ea79b6f6cae3",
+    "endomorphism_cases.json": "03527f8b9b272cb21b4d23ef1705754d542c6f74d4daee1bd23d77a4a77f766c",
+    "fields.json": "ef2a4a5b23f63c182738a4aaafb58302bb00345b0b703c0857e41c76e0a5fd3d",
+    "glv4.json": "5a12275a4320bc4685750b1b163e40c89bf234547fd42e1beb608513a18af9ac",
+    "manifest.json": "2fdd3772e98c7748ea0c272e6ac671cd368713aed954d440677255b6ae4123e1",
+    "relations.json": "5a5dce098630c107cf83c6208072d7f9ffffd4f8db07330229f4e4e70404eb27",
+    "vectors.json": "c0e29e263e411b2bda0a2b3ac9262f803170b744fb364326c7d276ac102cea40"
+  }
+}

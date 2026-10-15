@@ -1,0 +1,3369 @@
+{
+  "$defs": {
+    "binaryElementInput": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "a": {
+              "$ref": "#/$defs/element"
+            },
+            "b": {
+              "$ref": "#/$defs/element"
+            }
+          },
+          "required": [
+            "a",
+            "b"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "a": {
+              "$ref": "#/$defs/element"
+            },
+            "raw_b": {
+              "$ref": "#/$defs/integer"
+            }
+          },
+          "required": [
+            "a",
+            "raw_b"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "b": {
+              "$ref": "#/$defs/element"
+            },
+            "raw_a": {
+              "$ref": "#/$defs/integer"
+            }
+          },
+          "required": [
+            "raw_a",
+            "b"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "raw_a": {
+              "$ref": "#/$defs/integer"
+            },
+            "raw_b": {
+              "$ref": "#/$defs/integer"
+            }
+          },
+          "required": [
+            "raw_a",
+            "raw_b"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "booleanResult": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/expected_boolean"
+        },
+        {
+          "$ref": "#/$defs/expected_error"
+        }
+      ]
+    },
+    "certificate": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "method": {
+              "const": "base"
+            },
+            "n": {
+              "const": "2"
+            },
+            "n_minus_1_factorization": {
+              "items": {
+                "$ref": "#/$defs/factor"
+              },
+              "maxItems": 0,
+              "minItems": 0,
+              "type": "array"
+            },
+            "witnesses": {
+              "additionalProperties": false,
+              "maxProperties": 0,
+              "type": "object"
+            }
+          },
+          "required": [
+            "method",
+            "n",
+            "n_minus_1_factorization",
+            "witnesses"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "method": {
+              "const": "lucas_complete_n_minus_1"
+            },
+            "n": {
+              "$ref": "#/$defs/positive"
+            },
+            "n_minus_1_factorization": {
+              "items": {
+                "$ref": "#/$defs/factor"
+              },
+              "minItems": 1,
+              "type": "array"
+            },
+            "witnesses": {
+              "additionalProperties": {
+                "$ref": "#/$defs/positive"
+              },
+              "minProperties": 1,
+              "propertyNames": {
+                "$ref": "#/$defs/positive"
+              },
+              "type": "object"
+            }
+          },
+          "required": [
+            "method",
+            "n",
+            "n_minus_1_factorization",
+            "witnesses"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "coefficients": {
+      "additionalProperties": false,
+      "properties": {
+        "a1": {
+          "$ref": "#/$defs/element"
+        },
+        "a2": {
+          "$ref": "#/$defs/element"
+        },
+        "a3": {
+          "$ref": "#/$defs/element"
+        },
+        "a4": {
+          "$ref": "#/$defs/element"
+        },
+        "a6": {
+          "$ref": "#/$defs/element"
+        }
+      },
+      "required": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a6"
+      ],
+      "type": "object"
+    },
+    "curve": {
+      "additionalProperties": false,
+      "properties": {
+        "coefficients": {
+          "$ref": "#/$defs/coefficients"
+        },
+        "family": {
+          "enum": [
+            "B",
+            "E3",
+            "E4",
+            "G",
+            "K",
+            "S"
+          ],
+          "type": "string"
+        },
+        "field_id": {
+          "$ref": "#/$defs/fieldId"
+        },
+        "id": {
+          "$ref": "#/$defs/curveId"
+        },
+        "invariants": {
+          "additionalProperties": false,
+          "properties": {
+            "delta": {
+              "$ref": "#/$defs/element"
+            },
+            "endomorphism": {
+              "additionalProperties": false,
+              "properties": {
+                "base_field": {
+                  "additionalProperties": false,
+                  "allOf": [
+                    {
+                      "if": {
+                        "properties": {
+                          "class_number_status": {
+                            "const": "known_exact"
+                          }
+                        },
+                        "required": [
+                          "class_number_status"
+                        ]
+                      },
+                      "then": {
+                        "properties": {
+                          "class_number": {
+                            "$ref": "#/$defs/positive"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "if": {
+                        "properties": {
+                          "class_number_status": {
+                            "const": "not_computed"
+                          }
+                        },
+                        "required": [
+                          "class_number_status"
+                        ]
+                      },
+                      "then": {
+                        "properties": {
+                          "class_number": {
+                            "type": "null"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "properties": {
+                    "class_number": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "#/$defs/positive"
+                        }
+                      ]
+                    },
+                    "class_number_status": {
+                      "enum": [
+                        "known_exact",
+                        "not_computed"
+                      ],
+                      "type": "string"
+                    },
+                    "field_discriminant": {
+                      "$ref": "#/$defs/negative"
+                    },
+                    "field_discriminant_factorization": {
+                      "$ref": "#/$defs/factorization"
+                    },
+                    "maximal": {
+                      "type": "boolean"
+                    },
+                    "order_conductor": {
+                      "$ref": "#/$defs/positive"
+                    },
+                    "order_discriminant": {
+                      "$ref": "#/$defs/negative"
+                    },
+                    "type": {
+                      "enum": [
+                        "imaginary_quadratic_order"
+                      ],
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "class_number",
+                    "class_number_status",
+                    "field_discriminant",
+                    "field_discriminant_factorization",
+                    "maximal",
+                    "order_conductor",
+                    "order_discriminant",
+                    "type"
+                  ],
+                  "type": "object"
+                },
+                "frobenius_order": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "class_number": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "#/$defs/positive"
+                        }
+                      ]
+                    },
+                    "conductor": {
+                      "$ref": "#/$defs/positive"
+                    },
+                    "discriminant": {
+                      "$ref": "#/$defs/negative"
+                    }
+                  },
+                  "required": [
+                    "class_number",
+                    "conductor",
+                    "discriminant"
+                  ],
+                  "type": "object"
+                },
+                "geometric": {
+                  "oneOf": [
+                    {
+                      "additionalProperties": false,
+                      "properties": {
+                        "explicit_order_basis": {
+                          "type": "null"
+                        },
+                        "identification_status": {
+                          "enum": [
+                            "algebra_and_maximality_only"
+                          ],
+                          "type": "string"
+                        },
+                        "ramified_at_infinity": {
+                          "const": true
+                        },
+                        "ramified_prime": {
+                          "$ref": "#/$defs/positive"
+                        },
+                        "type": {
+                          "enum": [
+                            "maximal_quaternion_order"
+                          ],
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "explicit_order_basis",
+                        "identification_status",
+                        "ramified_at_infinity",
+                        "ramified_prime",
+                        "type"
+                      ],
+                      "type": "object"
+                    },
+                    {
+                      "additionalProperties": false,
+                      "allOf": [
+                        {
+                          "if": {
+                            "properties": {
+                              "class_number_status": {
+                                "const": "known_exact"
+                              }
+                            },
+                            "required": [
+                              "class_number_status"
+                            ]
+                          },
+                          "then": {
+                            "properties": {
+                              "class_number": {
+                                "$ref": "#/$defs/positive"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "if": {
+                            "properties": {
+                              "class_number_status": {
+                                "const": "not_computed"
+                              }
+                            },
+                            "required": [
+                              "class_number_status"
+                            ]
+                          },
+                          "then": {
+                            "properties": {
+                              "class_number": {
+                                "type": "null"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "properties": {
+                        "class_number": {
+                          "anyOf": [
+                            {
+                              "type": "null"
+                            },
+                            {
+                              "$ref": "#/$defs/positive"
+                            }
+                          ]
+                        },
+                        "class_number_status": {
+                          "enum": [
+                            "known_exact",
+                            "not_computed"
+                          ],
+                          "type": "string"
+                        },
+                        "field_discriminant": {
+                          "$ref": "#/$defs/negative"
+                        },
+                        "field_discriminant_factorization": {
+                          "$ref": "#/$defs/factorization"
+                        },
+                        "maximal": {
+                          "type": "boolean"
+                        },
+                        "order_conductor": {
+                          "$ref": "#/$defs/positive"
+                        },
+                        "order_discriminant": {
+                          "$ref": "#/$defs/negative"
+                        },
+                        "type": {
+                          "enum": [
+                            "imaginary_quadratic_order"
+                          ],
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "class_number",
+                        "class_number_status",
+                        "field_discriminant",
+                        "field_discriminant_factorization",
+                        "maximal",
+                        "order_conductor",
+                        "order_discriminant",
+                        "type"
+                      ],
+                      "type": "object"
+                    }
+                  ]
+                },
+                "proof_method": {
+                  "minLength": 1,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "base_field",
+                "frobenius_order",
+                "geometric",
+                "proof_method"
+              ],
+              "type": "object"
+            },
+            "frobenius_discriminant": {
+              "$ref": "#/$defs/negative"
+            },
+            "frobenius_polynomial": {
+              "items": false,
+              "maxItems": 3,
+              "minItems": 3,
+              "prefixItems": [
+                {
+                  "const": "1"
+                },
+                {
+                  "$ref": "#/$defs/integer"
+                },
+                {
+                  "$ref": "#/$defs/positive"
+                }
+              ],
+              "type": "array"
+            },
+            "group_cyclic": {
+              "type": "boolean"
+            },
+            "group_exponent": {
+              "$ref": "#/$defs/positive"
+            },
+            "group_invariant_factors": {
+              "items": {
+                "$ref": "#/$defs/unsigned"
+              },
+              "maxItems": 2,
+              "minItems": 2,
+              "type": "array"
+            },
+            "j": {
+              "$ref": "#/$defs/element"
+            },
+            "order": {
+              "$ref": "#/$defs/positive"
+            },
+            "order_factorization": {
+              "$ref": "#/$defs/factorization"
+            },
+            "ordinary": {
+              "type": "boolean"
+            },
+            "subgroup_embedding_degrees": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "degree": {
+                    "anyOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "$ref": "#/$defs/integer"
+                      }
+                    ]
+                  },
+                  "minimality_prime_divisors": {
+                    "items": {
+                      "$ref": "#/$defs/integer"
+                    },
+                    "minItems": 0,
+                    "type": "array",
+                    "uniqueItems": true
+                  },
+                  "prime": {
+                    "$ref": "#/$defs/positive"
+                  },
+                  "status": {
+                    "enum": [
+                      "characteristic_factor",
+                      "exact_multiplicative_order"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "degree",
+                  "prime",
+                  "status"
+                ],
+                "type": "object"
+              },
+              "minItems": 0,
+              "type": "array"
+            },
+            "trace": {
+              "$ref": "#/$defs/integer"
+            }
+          },
+          "required": [
+            "delta",
+            "endomorphism",
+            "frobenius_discriminant",
+            "frobenius_polynomial",
+            "group_cyclic",
+            "group_exponent",
+            "group_invariant_factors",
+            "j",
+            "order",
+            "order_factorization",
+            "ordinary",
+            "subgroup_embedding_degrees",
+            "trace"
+          ],
+          "type": "object"
+        },
+        "model": {
+          "enum": [
+            "ordinary_binary",
+            "short_weierstrass"
+          ],
+          "type": "string"
+        },
+        "named_points": {
+          "additionalProperties": false,
+          "properties": {
+            "G": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "H": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "O": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "P": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "P_plus_Q": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "Q": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "R": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "R_plus_Q": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "T": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "T2": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "double_G": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "double_P": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "double_R": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "mul_17_P": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "mul_7_G": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "neg_G": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "neg_P": {
+              "$ref": "#/$defs/namedPoint"
+            },
+            "neg_R": {
+              "$ref": "#/$defs/namedPoint"
+            }
+          },
+          "required": [
+            "G",
+            "O",
+            "P",
+            "Q",
+            "R"
+          ],
+          "type": "object"
+        },
+        "provenance": {
+          "additionalProperties": false,
+          "properties": {
+            "computation_engine": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "legacy_source_file": {
+              "enum": [
+                "binary_data.json",
+                "prime_data.json"
+              ],
+              "type": "string"
+            },
+            "scope": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "source_label": {
+              "$ref": "#/$defs/curveId"
+            }
+          },
+          "required": [
+            "computation_engine",
+            "legacy_source_file",
+            "scope",
+            "source_label"
+          ],
+          "type": "object"
+        },
+        "subgroup": {
+          "additionalProperties": false,
+          "properties": {
+            "cofactor": {
+              "$ref": "#/$defs/positive"
+            },
+            "cofactor_coprime_to_r": {
+              "type": "boolean"
+            },
+            "embedding_degree": {
+              "$ref": "#/$defs/positive"
+            },
+            "generator": {
+              "$ref": "#/$defs/finitePoint"
+            },
+            "generator_selection": {
+              "additionalProperties": false,
+              "properties": {
+                "G_scan_x": {
+                  "$ref": "#/$defs/unsigned"
+                },
+                "G_source": {
+                  "items": {
+                    "$ref": "#/$defs/unsigned"
+                  },
+                  "maxItems": 2,
+                  "minItems": 2,
+                  "type": "array"
+                },
+                "H_derivation": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "minLength": 1,
+                      "type": "string"
+                    }
+                  ]
+                },
+                "H_scan_x": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "$ref": "#/$defs/unsigned"
+                    }
+                  ]
+                },
+                "H_source": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "items": {
+                        "$ref": "#/$defs/unsigned"
+                      },
+                      "maxItems": 2,
+                      "minItems": 2,
+                      "type": "array"
+                    }
+                  ]
+                },
+                "P_scan_x": {
+                  "$ref": "#/$defs/unsigned"
+                },
+                "Q_scan_x": {
+                  "$ref": "#/$defs/unsigned"
+                },
+                "R_rule": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "R_scan_x": {
+                  "$ref": "#/$defs/unsigned"
+                },
+                "generator": {
+                  "items": {
+                    "$ref": "#/$defs/unsigned"
+                  },
+                  "maxItems": 2,
+                  "minItems": 2,
+                  "type": "array"
+                },
+                "generator_rule": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "order": {
+                  "$ref": "#/$defs/positive"
+                },
+                "projection_scalar": {
+                  "$ref": "#/$defs/positive"
+                },
+                "projector": {
+                  "$ref": "#/$defs/positive"
+                },
+                "projector_formula": {
+                  "enum": [
+                    "d2/r"
+                  ],
+                  "type": "string"
+                },
+                "rule": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "scan_final_x": {
+                  "$ref": "#/$defs/unsigned"
+                },
+                "scan_points_examined": {
+                  "$ref": "#/$defs/positive"
+                },
+                "source_point": {
+                  "items": {
+                    "$ref": "#/$defs/unsigned"
+                  },
+                  "maxItems": 2,
+                  "minItems": 2,
+                  "type": "array"
+                }
+              },
+              "required": [],
+              "type": "object"
+            },
+            "membership_rule": {
+              "enum": [
+                "exact_chosen_cyclic_subgroup_bsgs",
+                "on_curve_and_r_annihilation"
+              ],
+              "type": "string"
+            },
+            "order": {
+              "$ref": "#/$defs/positive"
+            },
+            "projection_formula": {
+              "enum": [
+                "group_exponent / r"
+              ],
+              "type": "string"
+            },
+            "projection_scalar": {
+              "$ref": "#/$defs/positive"
+            },
+            "r_torsion_rank": {
+              "maximum": 10000000,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "source_point": {
+              "$ref": "#/$defs/finitePoint"
+            },
+            "unique_order_r_subgroup": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "cofactor",
+            "cofactor_coprime_to_r",
+            "embedding_degree",
+            "generator",
+            "generator_selection",
+            "membership_rule",
+            "order",
+            "projection_formula",
+            "projection_scalar",
+            "r_torsion_rank",
+            "source_point",
+            "unique_order_r_subgroup"
+          ],
+          "type": "object"
+        },
+        "twist": {
+          "additionalProperties": false,
+          "properties": {
+            "kind": {
+              "enum": [
+                "quadratic"
+              ],
+              "type": "string"
+            },
+            "parameter": {
+              "$ref": "#/$defs/element"
+            },
+            "partner_id": {
+              "$ref": "#/$defs/curveId"
+            },
+            "partner_relation": {
+              "enum": [
+                "base_field_isomorphic_representative_of_standard_twist",
+                "literal_standard_quadratic_twist"
+              ],
+              "type": "string"
+            },
+            "representative_isomorphism_scale": {
+              "$ref": "#/$defs/element"
+            },
+            "representative_point_map": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "parameter",
+            "partner_id",
+            "partner_relation"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "coefficients",
+        "family",
+        "field_id",
+        "id",
+        "invariants",
+        "model",
+        "named_points",
+        "provenance",
+        "subgroup",
+        "twist"
+      ],
+      "type": "object"
+    },
+    "curveId": {
+      "enum": [
+        "p61-E4-0",
+        "p61-E4-1",
+        "p61-E3-0",
+        "p61-E3-1",
+        "p61-E3-2",
+        "p61-E3-3",
+        "p61-E3-4",
+        "p61-E3-5",
+        "p61-G-0",
+        "p61-G-1",
+        "p64-E4-0",
+        "p64-E4-1",
+        "p64-E4-2",
+        "p64-E4-3",
+        "p64-E3-0",
+        "p64-E3-1",
+        "p64-E3-2",
+        "p64-E3-3",
+        "p64-E3-4",
+        "p64-E3-5",
+        "p64-G-0",
+        "p64-G-1",
+        "p83s-E4-0",
+        "p83s-E4-1",
+        "p83s-E3-0",
+        "p83s-E3-1",
+        "p83s-G-0",
+        "p83s-G-1",
+        "p83-E4-0",
+        "p83-E4-1",
+        "p83-E4-2",
+        "p83-E4-3",
+        "p83-E3-0",
+        "p83-E3-1",
+        "p83-E3-2",
+        "p83-E3-3",
+        "p83-E3-4",
+        "p83-E3-5",
+        "p83-G-0",
+        "p83-G-1",
+        "p83-S-0",
+        "p83-S-1",
+        "K53-a0",
+        "K53-a1",
+        "K79-a0",
+        "K79-a1",
+        "K83-a0",
+        "K83-a1",
+        "B53-a0",
+        "B53-a1",
+        "B79-a0",
+        "B79-a1",
+        "B83-a0",
+        "B83-a1",
+        "S83-a0",
+        "S83-a1"
+      ]
+    },
+    "curveVector": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "add"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/pointResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/pointsInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "double"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/pointResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/pointInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "neg"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/pointResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/pointInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "mul"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/pointResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/scalarInput"
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "curve_id": {
+          "$ref": "#/$defs/curveId"
+        },
+        "domain": {
+          "const": "curve"
+        },
+        "expected": {
+          "$ref": "#/$defs/expected"
+        },
+        "id": {
+          "pattern": "^(?:field|curve|encoding|membership|map):[A-Za-z0-9][A-Za-z0-9_-]*:[0-9]{4,}$",
+          "type": "string"
+        },
+        "inputs": {},
+        "operation": {
+          "enum": [
+            "add",
+            "double",
+            "neg",
+            "mul"
+          ]
+        },
+        "purpose": {
+          "enum": [
+            "known_answer",
+            "input_rejection",
+            "subgroup_conformance",
+            "map_conformance",
+            "explicit_map_known_answer"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "domain",
+        "operation",
+        "purpose",
+        "inputs",
+        "expected",
+        "curve_id"
+      ],
+      "type": "object"
+    },
+    "decodeInput": {
+      "additionalProperties": false,
+      "properties": {
+        "octets": {
+          "$ref": "#/$defs/octets"
+        }
+      },
+      "required": [
+        "octets"
+      ],
+      "type": "object"
+    },
+    "element": {
+      "$comment": "Field-specific byte width and range require semantic verification.",
+      "pattern": "^0x(?:[0-9a-f]{2})+$",
+      "type": "string"
+    },
+    "elementResult": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/expected_element"
+        },
+        {
+          "$ref": "#/$defs/expected_error"
+        }
+      ]
+    },
+    "encodeInput": {
+      "additionalProperties": false,
+      "properties": {
+        "P": {
+          "$ref": "#/$defs/point"
+        },
+        "format": {
+          "enum": [
+            "compressed",
+            "uncompressed"
+          ]
+        }
+      },
+      "required": [
+        "P",
+        "format"
+      ],
+      "type": "object"
+    },
+    "encodingVector": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "encode"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/octetsResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/encodeInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "decode"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/pointResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/decodeInput"
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "curve_id": {
+          "$ref": "#/$defs/curveId"
+        },
+        "domain": {
+          "const": "encoding"
+        },
+        "expected": {
+          "$ref": "#/$defs/expected"
+        },
+        "id": {
+          "pattern": "^(?:field|curve|encoding|membership|map):[A-Za-z0-9][A-Za-z0-9_-]*:[0-9]{4,}$",
+          "type": "string"
+        },
+        "inputs": {},
+        "operation": {
+          "enum": [
+            "encode",
+            "decode"
+          ]
+        },
+        "purpose": {
+          "enum": [
+            "known_answer",
+            "input_rejection",
+            "subgroup_conformance",
+            "map_conformance",
+            "explicit_map_known_answer"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "domain",
+        "operation",
+        "purpose",
+        "inputs",
+        "expected",
+        "curve_id"
+      ],
+      "type": "object"
+    },
+    "expected": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/expected_point"
+        },
+        {
+          "$ref": "#/$defs/expected_element"
+        },
+        {
+          "$ref": "#/$defs/expected_integer"
+        },
+        {
+          "$ref": "#/$defs/expected_boolean"
+        },
+        {
+          "$ref": "#/$defs/expected_octets"
+        },
+        {
+          "$ref": "#/$defs/expected_error"
+        }
+      ]
+    },
+    "expected_boolean": {
+      "additionalProperties": false,
+      "properties": {
+        "boolean": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "boolean"
+      ],
+      "type": "object"
+    },
+    "expected_element": {
+      "additionalProperties": false,
+      "properties": {
+        "element": {
+          "$ref": "#/$defs/element"
+        }
+      },
+      "required": [
+        "element"
+      ],
+      "type": "object"
+    },
+    "expected_error": {
+      "additionalProperties": false,
+      "properties": {
+        "error": {
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "error"
+      ],
+      "type": "object"
+    },
+    "expected_integer": {
+      "additionalProperties": false,
+      "properties": {
+        "integer": {
+          "$ref": "#/$defs/integer"
+        }
+      },
+      "required": [
+        "integer"
+      ],
+      "type": "object"
+    },
+    "expected_octets": {
+      "additionalProperties": false,
+      "properties": {
+        "octets": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/octets"
+            },
+            {
+              "minLength": 2
+            }
+          ]
+        }
+      },
+      "required": [
+        "octets"
+      ],
+      "type": "object"
+    },
+    "expected_point": {
+      "additionalProperties": false,
+      "properties": {
+        "point": {
+          "$ref": "#/$defs/point"
+        }
+      },
+      "required": [
+        "point"
+      ],
+      "type": "object"
+    },
+    "factor": {
+      "additionalProperties": false,
+      "properties": {
+        "exponent": {
+          "maximum": 4096,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "prime": {
+          "$ref": "#/$defs/positive"
+        }
+      },
+      "required": [
+        "prime",
+        "exponent"
+      ],
+      "type": "object"
+    },
+    "factorization": {
+      "items": {
+        "$ref": "#/$defs/factor"
+      },
+      "minItems": 0,
+      "type": "array"
+    },
+    "field": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "cardinality": {
+              "$ref": "#/$defs/positive"
+            },
+            "characteristic": {
+              "$ref": "#/$defs/positive"
+            },
+            "coordinate_bytes": {
+              "maximum": 512,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "degree": {
+              "const": 1
+            },
+            "element_bits": {
+              "maximum": 4096,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "id": {
+              "$ref": "#/$defs/fieldId"
+            },
+            "kind": {
+              "const": "prime"
+            },
+            "proof": {
+              "additionalProperties": false,
+              "properties": {
+                "certificate_n": {
+                  "$ref": "#/$defs/positive"
+                },
+                "method": {
+                  "enum": [
+                    "lucas_primality"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "certificate_n",
+                "method"
+              ],
+              "type": "object"
+            },
+            "representation": {
+              "additionalProperties": false,
+              "properties": {
+                "basis": {
+                  "enum": [
+                    "prime_residue"
+                  ],
+                  "type": "string"
+                },
+                "form": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "modulus": {
+                  "$ref": "#/$defs/mask"
+                },
+                "modulus_integer": {
+                  "$ref": "#/$defs/positive"
+                },
+                "multiplicative_primitive_root": {
+                  "$ref": "#/$defs/positive"
+                }
+              },
+              "required": [
+                "basis",
+                "form",
+                "modulus",
+                "modulus_integer",
+                "multiplicative_primitive_root"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "cardinality",
+            "characteristic",
+            "coordinate_bytes",
+            "degree",
+            "element_bits",
+            "id",
+            "kind",
+            "proof",
+            "representation"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "cardinality": {
+              "$ref": "#/$defs/positive"
+            },
+            "characteristic": {
+              "const": "2"
+            },
+            "coordinate_bytes": {
+              "maximum": 512,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "degree": {
+              "maximum": 4096,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "element_bits": {
+              "maximum": 4096,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "id": {
+              "$ref": "#/$defs/fieldId"
+            },
+            "kind": {
+              "const": "binary"
+            },
+            "proof": {
+              "additionalProperties": false,
+              "properties": {
+                "certificate_n": {
+                  "type": "null"
+                },
+                "method": {
+                  "enum": [
+                    "rabin_irreducibility"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "certificate_n",
+                "method"
+              ],
+              "type": "object"
+            },
+            "representation": {
+              "additionalProperties": false,
+              "properties": {
+                "basis": {
+                  "enum": [
+                    "polynomial"
+                  ],
+                  "type": "string"
+                },
+                "basis_generator": {
+                  "$ref": "#/$defs/element"
+                },
+                "modulus": {
+                  "$ref": "#/$defs/mask"
+                },
+                "modulus_integer": {
+                  "$ref": "#/$defs/positive"
+                },
+                "polynomial_exponents": {
+                  "items": {
+                    "maximum": 10000000,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "minItems": 0,
+                  "type": "array",
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "basis",
+                "basis_generator",
+                "modulus",
+                "modulus_integer",
+                "polynomial_exponents"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "cardinality",
+            "characteristic",
+            "coordinate_bytes",
+            "degree",
+            "element_bits",
+            "id",
+            "kind",
+            "proof",
+            "representation"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "fieldId": {
+      "enum": [
+        "p61",
+        "p64",
+        "p83s",
+        "p83",
+        "b53",
+        "b79",
+        "b83"
+      ]
+    },
+    "fieldVector": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "add"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/binaryElementInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "sub"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/binaryElementInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "mul"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/binaryElementInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "div"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/binaryElementInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "square"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/unaryElementInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "inverse"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/unaryElementInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "sqrt"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/unaryElementInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "pow"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/powerInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "frobenius"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/powerInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "trace"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/integerResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/unaryElementInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "halftrace"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/unaryElementInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "reduce"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/elementResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/integerInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "canonical"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/booleanResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/integerInput"
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "domain": {
+          "const": "field"
+        },
+        "expected": {
+          "$ref": "#/$defs/expected"
+        },
+        "field_id": {
+          "$ref": "#/$defs/fieldId"
+        },
+        "id": {
+          "pattern": "^(?:field|curve|encoding|membership|map):[A-Za-z0-9][A-Za-z0-9_-]*:[0-9]{4,}$",
+          "type": "string"
+        },
+        "inputs": {},
+        "operation": {
+          "enum": [
+            "add",
+            "sub",
+            "mul",
+            "div",
+            "square",
+            "inverse",
+            "sqrt",
+            "pow",
+            "frobenius",
+            "trace",
+            "halftrace",
+            "reduce",
+            "canonical"
+          ]
+        },
+        "purpose": {
+          "enum": [
+            "known_answer",
+            "input_rejection",
+            "subgroup_conformance",
+            "map_conformance",
+            "explicit_map_known_answer"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "domain",
+        "operation",
+        "purpose",
+        "inputs",
+        "expected",
+        "field_id"
+      ],
+      "type": "object"
+    },
+    "finitePoint": {
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "$ref": "#/$defs/element"
+        },
+        "y": {
+          "$ref": "#/$defs/element"
+        }
+      },
+      "required": [
+        "x",
+        "y"
+      ],
+      "type": "object"
+    },
+    "hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "integer": {
+      "pattern": "^(?:0|-?[1-9][0-9]*)$",
+      "type": "string"
+    },
+    "integerInput": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "$ref": "#/$defs/integer"
+        }
+      },
+      "required": [
+        "value"
+      ],
+      "type": "object"
+    },
+    "integerResult": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/expected_integer"
+        },
+        {
+          "$ref": "#/$defs/expected_error"
+        }
+      ]
+    },
+    "manifest": {
+      "additionalProperties": false,
+      "properties": {
+        "counts": {
+          "additionalProperties": false,
+          "properties": {
+            "curves": {
+              "maximum": 10000000,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "fields": {
+              "maximum": 10000000,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "named_points": {
+              "maximum": 10000000,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "primality_certificates": {
+              "maximum": 10000000,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "represented_isogeny_classes": {
+              "maximum": 10000000,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "vectors": {
+              "maximum": 10000000,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "vectors_by_domain": {
+              "additionalProperties": false,
+              "properties": {
+                "curve": {
+                  "maximum": 10000000,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "encoding": {
+                  "maximum": 10000000,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "field": {
+                  "maximum": 10000000,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "map": {
+                  "maximum": 10000000,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "membership": {
+                  "maximum": 10000000,
+                  "minimum": 0,
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "curve",
+                "encoding",
+                "field",
+                "map",
+                "membership"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "curves",
+            "fields",
+            "named_points",
+            "primality_certificates",
+            "represented_isogeny_classes",
+            "vectors",
+            "vectors_by_domain"
+          ],
+          "type": "object"
+        },
+        "created_date": {
+          "format": "date",
+          "type": "string"
+        },
+        "dataset_id": {
+          "const": "ecbench-golden-smallfields-v1"
+        },
+        "field_element_encoding": {
+          "const": "0x + fixed-width lowercase big-endian hex"
+        },
+        "files": {
+          "additionalProperties": false,
+          "properties": {
+            "certificates.json": {
+              "$ref": "#/$defs/hash"
+            },
+            "curves.json": {
+              "$ref": "#/$defs/hash"
+            },
+            "fields.json": {
+              "$ref": "#/$defs/hash"
+            },
+            "relations.json": {
+              "$ref": "#/$defs/hash"
+            },
+            "vectors.json": {
+              "$ref": "#/$defs/hash"
+            }
+          },
+          "required": [
+            "certificates.json",
+            "curves.json",
+            "fields.json",
+            "relations.json",
+            "vectors.json"
+          ],
+          "type": "object"
+        },
+        "integer_encoding": {
+          "const": "canonical decimal strings"
+        },
+        "point_at_infinity": {
+          "type": "null"
+        },
+        "proof_boundaries": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "record_hashes": {
+          "additionalProperties": false,
+          "properties": {
+            "B53-a0": {
+              "$ref": "#/$defs/hash"
+            },
+            "B53-a1": {
+              "$ref": "#/$defs/hash"
+            },
+            "B79-a0": {
+              "$ref": "#/$defs/hash"
+            },
+            "B79-a1": {
+              "$ref": "#/$defs/hash"
+            },
+            "B83-a0": {
+              "$ref": "#/$defs/hash"
+            },
+            "B83-a1": {
+              "$ref": "#/$defs/hash"
+            },
+            "K53-a0": {
+              "$ref": "#/$defs/hash"
+            },
+            "K53-a1": {
+              "$ref": "#/$defs/hash"
+            },
+            "K79-a0": {
+              "$ref": "#/$defs/hash"
+            },
+            "K79-a1": {
+              "$ref": "#/$defs/hash"
+            },
+            "K83-a0": {
+              "$ref": "#/$defs/hash"
+            },
+            "K83-a1": {
+              "$ref": "#/$defs/hash"
+            },
+            "S83-a0": {
+              "$ref": "#/$defs/hash"
+            },
+            "S83-a1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p61-E3-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p61-E3-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p61-E3-2": {
+              "$ref": "#/$defs/hash"
+            },
+            "p61-E3-3": {
+              "$ref": "#/$defs/hash"
+            },
+            "p61-E3-4": {
+              "$ref": "#/$defs/hash"
+            },
+            "p61-E3-5": {
+              "$ref": "#/$defs/hash"
+            },
+            "p61-E4-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p61-E4-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p61-G-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p61-G-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-E3-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-E3-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-E3-2": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-E3-3": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-E3-4": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-E3-5": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-E4-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-E4-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-E4-2": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-E4-3": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-G-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p64-G-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-E3-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-E3-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-E3-2": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-E3-3": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-E3-4": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-E3-5": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-E4-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-E4-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-E4-2": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-E4-3": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-G-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-G-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-S-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83-S-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83s-E3-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83s-E3-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83s-E4-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83s-E4-1": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83s-G-0": {
+              "$ref": "#/$defs/hash"
+            },
+            "p83s-G-1": {
+              "$ref": "#/$defs/hash"
+            }
+          },
+          "required": [
+            "p61-E4-0",
+            "p61-E4-1",
+            "p61-E3-0",
+            "p61-E3-1",
+            "p61-E3-2",
+            "p61-E3-3",
+            "p61-E3-4",
+            "p61-E3-5",
+            "p61-G-0",
+            "p61-G-1",
+            "p64-E4-0",
+            "p64-E4-1",
+            "p64-E4-2",
+            "p64-E4-3",
+            "p64-E3-0",
+            "p64-E3-1",
+            "p64-E3-2",
+            "p64-E3-3",
+            "p64-E3-4",
+            "p64-E3-5",
+            "p64-G-0",
+            "p64-G-1",
+            "p83s-E4-0",
+            "p83s-E4-1",
+            "p83s-E3-0",
+            "p83s-E3-1",
+            "p83s-G-0",
+            "p83s-G-1",
+            "p83-E4-0",
+            "p83-E4-1",
+            "p83-E4-2",
+            "p83-E4-3",
+            "p83-E3-0",
+            "p83-E3-1",
+            "p83-E3-2",
+            "p83-E3-3",
+            "p83-E3-4",
+            "p83-E3-5",
+            "p83-G-0",
+            "p83-G-1",
+            "p83-S-0",
+            "p83-S-1",
+            "K53-a0",
+            "K53-a1",
+            "K79-a0",
+            "K79-a1",
+            "K83-a0",
+            "K83-a1",
+            "B53-a0",
+            "B53-a1",
+            "B79-a0",
+            "B79-a1",
+            "B83-a0",
+            "B83-a1",
+            "S83-a0",
+            "S83-a1"
+          ],
+          "type": "object"
+        },
+        "release_version": {
+          "const": "1.0.0"
+        },
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "sec1_octet_encoding": {
+          "const": "lowercase hex without 0x; compressed/uncompressed/infinity only"
+        }
+      },
+      "required": [
+        "counts",
+        "created_date",
+        "dataset_id",
+        "field_element_encoding",
+        "files",
+        "integer_encoding",
+        "point_at_infinity",
+        "proof_boundaries",
+        "record_hashes",
+        "release_version",
+        "schema_version",
+        "scope",
+        "sec1_octet_encoding"
+      ],
+      "type": "object"
+    },
+    "mapInput": {
+      "additionalProperties": false,
+      "properties": {
+        "P": {
+          "$ref": "#/$defs/point"
+        },
+        "parameter": {
+          "$ref": "#/$defs/element"
+        },
+        "target_coefficients": {
+          "$ref": "#/$defs/coefficients"
+        }
+      },
+      "required": [
+        "P",
+        "target_coefficients"
+      ],
+      "type": "object"
+    },
+    "mapVector": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "degree2_isogeny"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/pointResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/mapInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "gaussian_automorphism"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/pointResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/mapInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "eisenstein_automorphism"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/pointResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/mapInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "relative_frobenius"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/pointResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/mapInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "gaussian_automorphism"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "inputs": {
+                "required": [
+                  "parameter"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "eisenstein_automorphism"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "inputs": {
+                "required": [
+                  "parameter"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "curve_id": {
+          "$ref": "#/$defs/curveId"
+        },
+        "domain": {
+          "const": "map"
+        },
+        "expected": {
+          "$ref": "#/$defs/expected"
+        },
+        "id": {
+          "pattern": "^(?:field|curve|encoding|membership|map):[A-Za-z0-9][A-Za-z0-9_-]*:[0-9]{4,}$",
+          "type": "string"
+        },
+        "inputs": {},
+        "operation": {
+          "enum": [
+            "degree2_isogeny",
+            "gaussian_automorphism",
+            "eisenstein_automorphism",
+            "relative_frobenius"
+          ]
+        },
+        "purpose": {
+          "enum": [
+            "known_answer",
+            "input_rejection",
+            "subgroup_conformance",
+            "map_conformance",
+            "explicit_map_known_answer"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "domain",
+        "operation",
+        "purpose",
+        "inputs",
+        "expected",
+        "curve_id"
+      ],
+      "type": "object"
+    },
+    "mask": {
+      "pattern": "^0x[1-9a-f][0-9a-f]*$",
+      "type": "string"
+    },
+    "membershipInput": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "P": {
+              "$ref": "#/$defs/point"
+            }
+          },
+          "required": [
+            "P"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "raw_point": {
+              "$ref": "#/$defs/rawPoint"
+            }
+          },
+          "required": [
+            "raw_point"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "membershipVector": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "validate_point"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/booleanResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/membershipInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "is_r_torsion"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/booleanResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/membershipInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "subgroup_contains"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/booleanResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/membershipInput"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "public_key_valid"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected": {
+                "$ref": "#/$defs/booleanResult"
+              },
+              "inputs": {
+                "$ref": "#/$defs/membershipInput"
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "curve_id": {
+          "$ref": "#/$defs/curveId"
+        },
+        "domain": {
+          "const": "membership"
+        },
+        "expected": {
+          "$ref": "#/$defs/expected"
+        },
+        "id": {
+          "pattern": "^(?:field|curve|encoding|membership|map):[A-Za-z0-9][A-Za-z0-9_-]*:[0-9]{4,}$",
+          "type": "string"
+        },
+        "inputs": {},
+        "operation": {
+          "enum": [
+            "validate_point",
+            "is_r_torsion",
+            "subgroup_contains",
+            "public_key_valid"
+          ]
+        },
+        "purpose": {
+          "enum": [
+            "known_answer",
+            "input_rejection",
+            "subgroup_conformance",
+            "map_conformance",
+            "explicit_map_known_answer"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "domain",
+        "operation",
+        "purpose",
+        "inputs",
+        "expected",
+        "curve_id"
+      ],
+      "type": "object"
+    },
+    "namedPoint": {
+      "additionalProperties": false,
+      "properties": {
+        "order": {
+          "$ref": "#/$defs/positive"
+        },
+        "order_factorization": {
+          "$ref": "#/$defs/factorization"
+        },
+        "point": {
+          "$ref": "#/$defs/point"
+        }
+      },
+      "required": [
+        "point",
+        "order",
+        "order_factorization"
+      ],
+      "type": "object"
+    },
+    "negative": {
+      "pattern": "^-[1-9][0-9]*$",
+      "type": "string"
+    },
+    "octets": {
+      "$comment": "Empty octets are permitted for negative decode vectors.",
+      "pattern": "^(?:[0-9a-f]{2})*$",
+      "type": "string"
+    },
+    "octetsResult": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/expected_octets"
+        },
+        {
+          "$ref": "#/$defs/expected_error"
+        }
+      ]
+    },
+    "point": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/finitePoint"
+        }
+      ]
+    },
+    "pointInput": {
+      "additionalProperties": false,
+      "properties": {
+        "P": {
+          "$ref": "#/$defs/point"
+        }
+      },
+      "required": [
+        "P"
+      ],
+      "type": "object"
+    },
+    "pointResult": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/expected_point"
+        },
+        {
+          "$ref": "#/$defs/expected_error"
+        }
+      ]
+    },
+    "pointsInput": {
+      "additionalProperties": false,
+      "properties": {
+        "P": {
+          "$ref": "#/$defs/point"
+        },
+        "Q": {
+          "$ref": "#/$defs/point"
+        }
+      },
+      "required": [
+        "P",
+        "Q"
+      ],
+      "type": "object"
+    },
+    "positive": {
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "powerInput": {
+      "additionalProperties": false,
+      "properties": {
+        "a": {
+          "$ref": "#/$defs/element"
+        },
+        "exponent": {
+          "$ref": "#/$defs/integer"
+        }
+      },
+      "required": [
+        "a",
+        "exponent"
+      ],
+      "type": "object"
+    },
+    "rawFinitePoint": {
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "$ref": "#/$defs/integer"
+        },
+        "y": {
+          "$ref": "#/$defs/integer"
+        }
+      },
+      "required": [
+        "x",
+        "y"
+      ],
+      "type": "object"
+    },
+    "rawPoint": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/rawFinitePoint"
+        }
+      ]
+    },
+    "relations": {
+      "additionalProperties": false,
+      "properties": {
+        "geometric_classes_over_base_field": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "curve_ids": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "field_id": {
+                "$ref": "#/$defs/fieldId"
+              },
+              "j": {
+                "$ref": "#/$defs/element"
+              }
+            },
+            "required": [
+              "curve_ids",
+              "field_id",
+              "j"
+            ],
+            "type": "object"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "isogeny_classes": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "curve_ids": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "evidence": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "explicit_maps_computed": {
+                "const": false
+              },
+              "field_id": {
+                "$ref": "#/$defs/fieldId"
+              },
+              "trace": {
+                "$ref": "#/$defs/integer"
+              }
+            },
+            "required": [
+              "curve_ids",
+              "evidence",
+              "explicit_maps_computed",
+              "field_id",
+              "trace"
+            ],
+            "type": "object"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ordinary_endomorphism_order_classes": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "conductor": {
+                "$ref": "#/$defs/positive"
+              },
+              "curve_ids": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "field_discriminant": {
+                "$ref": "#/$defs/negative"
+              },
+              "relation": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "conductor",
+              "curve_ids",
+              "field_discriminant",
+              "relation"
+            ],
+            "type": "object"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "reference_maps": {
+          "items": {
+            "oneOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "characteristic_condition": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "exceptional_points_map_to": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "kernel": {
+                    "items": {
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  },
+                  "map": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "X": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "Y": {
+                        "minLength": 1,
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "X",
+                      "Y"
+                    ],
+                    "type": "object"
+                  },
+                  "source_equation": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "target_equation": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "target_is_auxiliary_model": {
+                    "const": true
+                  },
+                  "type": {
+                    "enum": [
+                      "separable_degree_two_isogeny"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "characteristic_condition",
+                  "exceptional_points_map_to",
+                  "kernel",
+                  "map",
+                  "source_equation",
+                  "target_equation",
+                  "target_is_auxiliary_model",
+                  "type"
+                ],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "characteristic_condition": {
+                    "$ref": "#/$defs/integer"
+                  },
+                  "degree": {
+                    "$ref": "#/$defs/integer"
+                  },
+                  "map": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "X": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "Y": {
+                        "minLength": 1,
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "X",
+                      "Y"
+                    ],
+                    "type": "object"
+                  },
+                  "source_equation": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "target_equation": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "target_is_auxiliary_model": {
+                    "const": true
+                  },
+                  "type": {
+                    "enum": [
+                      "relative_frobenius_isogeny"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "characteristic_condition",
+                  "degree",
+                  "map",
+                  "source_equation",
+                  "target_equation",
+                  "target_is_auxiliary_model",
+                  "type"
+                ],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "characteristic_condition": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "map": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "X": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "Y": {
+                        "minLength": 1,
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "X",
+                      "Y"
+                    ],
+                    "type": "object"
+                  },
+                  "source_equation": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "target_is_auxiliary_model": {
+                    "const": false
+                  },
+                  "type": {
+                    "enum": [
+                      "gaussian_automorphism"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "characteristic_condition",
+                  "map",
+                  "source_equation",
+                  "target_is_auxiliary_model",
+                  "type"
+                ],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "characteristic_condition": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "map": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "X": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "Y": {
+                        "minLength": 1,
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "X",
+                      "Y"
+                    ],
+                    "type": "object"
+                  },
+                  "source_equation": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "target_is_auxiliary_model": {
+                    "const": false
+                  },
+                  "type": {
+                    "enum": [
+                      "eisenstein_automorphism"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "characteristic_condition",
+                  "map",
+                  "source_equation",
+                  "target_is_auxiliary_model",
+                  "type"
+                ],
+                "type": "object"
+              }
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "twist_pairs": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "curve_ids": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "evidence": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "field_id": {
+                "$ref": "#/$defs/fieldId"
+              },
+              "may_be_self_isomorphic": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "curve_ids",
+              "evidence",
+              "field_id",
+              "may_be_self_isomorphic"
+            ],
+            "type": "object"
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "required": [
+        "geometric_classes_over_base_field",
+        "isogeny_classes",
+        "ordinary_endomorphism_order_classes",
+        "reference_maps",
+        "twist_pairs"
+      ],
+      "type": "object"
+    },
+    "scalarInput": {
+      "additionalProperties": false,
+      "properties": {
+        "P": {
+          "$ref": "#/$defs/point"
+        },
+        "scalar": {
+          "$ref": "#/$defs/integer"
+        }
+      },
+      "required": [
+        "P",
+        "scalar"
+      ],
+      "type": "object"
+    },
+    "unaryElementInput": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "a": {
+              "$ref": "#/$defs/element"
+            }
+          },
+          "required": [
+            "a"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "raw_a": {
+              "$ref": "#/$defs/integer"
+            }
+          },
+          "required": [
+            "raw_a"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "unsigned": {
+      "pattern": "^(?:0|[1-9][0-9]*)$",
+      "type": "string"
+    },
+    "vector": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/fieldVector"
+        },
+        {
+          "$ref": "#/$defs/curveVector"
+        },
+        {
+          "$ref": "#/$defs/encodingVector"
+        },
+        {
+          "$ref": "#/$defs/membershipVector"
+        },
+        {
+          "$ref": "#/$defs/mapVector"
+        }
+      ]
+    }
+  },
+  "$id": "urn:ecbench:golden:dataset:1.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Strict structural schema. Fixed widths, field ranges, references, counts, hashes, proofs, and arithmetic require the semantic verifier.",
+  "properties": {
+    "certificates": {
+      "items": {
+        "$ref": "#/$defs/certificate"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "curves": {
+      "items": {
+        "$ref": "#/$defs/curve"
+      },
+      "maxItems": 56,
+      "minItems": 56,
+      "type": "array"
+    },
+    "fields": {
+      "items": {
+        "$ref": "#/$defs/field"
+      },
+      "maxItems": 7,
+      "minItems": 7,
+      "type": "array"
+    },
+    "manifest": {
+      "$ref": "#/$defs/manifest"
+    },
+    "relations": {
+      "$ref": "#/$defs/relations"
+    },
+    "vectors": {
+      "items": {
+        "$ref": "#/$defs/vector"
+      },
+      "minItems": 1,
+      "type": "array"
+    }
+  },
+  "required": [
+    "manifest",
+    "fields",
+    "curves",
+    "vectors",
+    "relations",
+    "certificates"
+  ],
+  "title": "ECBench golden small-field dataset 1.0.0",
+  "type": "object"
+}

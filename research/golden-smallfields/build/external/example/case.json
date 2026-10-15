@@ -1,0 +1,1482 @@
+{
+  "arity": 2,
+  "coefficient_modulus": "2",
+  "coordinate_groups": [
+    {
+      "basis": [
+        "0x0000000000000000000001",
+        "0x0000000000000000000002"
+      ],
+      "encoding": "binary_linear",
+      "name": "x1",
+      "variables": [
+        "x1_0",
+        "x1_1"
+      ]
+    },
+    {
+      "basis": [
+        "0x0000000000000000000001",
+        "0x0000000000000000000002"
+      ],
+      "encoding": "binary_linear",
+      "name": "x2",
+      "variables": [
+        "x2_0",
+        "x2_1"
+      ]
+    }
+  ],
+  "curve": {
+    "coefficients": {
+      "a1": "0x0000000000000000000001",
+      "a2": "0x0000000000000000000000",
+      "a3": "0x0000000000000000000000",
+      "a4": "0x0000000000000000000000",
+      "a6": "0x0000000000000000000001"
+    },
+    "family": "K",
+    "field_id": "b83",
+    "id": "K83-a0",
+    "invariants": {
+      "delta": "0x0000000000000000000001",
+      "endomorphism": {
+        "base_field": {
+          "class_number": "1",
+          "class_number_status": "known_exact",
+          "field_discriminant": "-7",
+          "field_discriminant_factorization": [
+            {
+              "exponent": 1,
+              "prime": "7"
+            }
+          ],
+          "maximal": true,
+          "order_conductor": "1",
+          "order_discriminant": "-7",
+          "type": "imaginary_quadratic_order"
+        },
+        "frobenius_order": {
+          "class_number": "347504444820",
+          "conductor": "347450761417",
+          "discriminant": "-845054221264771390935223"
+        },
+        "geometric": {
+          "class_number": "1",
+          "class_number_status": "known_exact",
+          "field_discriminant": "-7",
+          "field_discriminant_factorization": [
+            {
+              "exponent": 1,
+              "prime": "7"
+            }
+          ],
+          "maximal": true,
+          "order_conductor": "1",
+          "order_discriminant": "-7",
+          "type": "imaginary_quadratic_order"
+        },
+        "proof_method": "Degree-two Koblitz Frobenius has fundamental -7 discriminant."
+      },
+      "frobenius_discriminant": "-845054221264771390935223",
+      "frobenius_polynomial": [
+        "1",
+        "6151469093347",
+        "9671406556917033397649408"
+      ],
+      "group_cyclic": true,
+      "group_exponent": "9671406556923184866742756",
+      "group_invariant_factors": [
+        "1",
+        "9671406556923184866742756"
+      ],
+      "j": "0x0000000000000000000001",
+      "order": "9671406556923184866742756",
+      "order_factorization": [
+        {
+          "exponent": 2,
+          "prime": "2"
+        },
+        {
+          "exponent": 1,
+          "prime": "2417851639230796216685689"
+        }
+      ],
+      "ordinary": true,
+      "subgroup_embedding_degrees": [
+        {
+          "degree": null,
+          "prime": "2",
+          "status": "characteristic_factor"
+        },
+        {
+          "degree": "14565371320667447088468",
+          "minimality_prime_divisors": [
+            "2",
+            "3",
+            "11",
+            "109",
+            "1012327725929069161"
+          ],
+          "prime": "2417851639230796216685689",
+          "status": "exact_multiplicative_order"
+        }
+      ],
+      "trace": "-6151469093347"
+    },
+    "model": "ordinary_binary",
+    "named_points": {
+      "G": {
+        "order": "2417851639230796216685689",
+        "order_factorization": [
+          {
+            "exponent": 1,
+            "prime": "2417851639230796216685689"
+          }
+        ],
+        "point": {
+          "x": "0x066cecececececececec95",
+          "y": "0x0029b8ed654eea6e1ee415"
+        }
+      },
+      "O": {
+        "order": "1",
+        "order_factorization": [],
+        "point": null
+      },
+      "P": {
+        "order": "2417851639230796216685689",
+        "order_factorization": [
+          {
+            "exponent": 1,
+            "prime": "2417851639230796216685689"
+          }
+        ],
+        "point": {
+          "x": "0x0000000000000000000002",
+          "y": "0x01849f751f2b04fb3595ad"
+        }
+      },
+      "Q": {
+        "order": "2417851639230796216685689",
+        "order_factorization": [
+          {
+            "exponent": 1,
+            "prime": "2417851639230796216685689"
+          }
+        ],
+        "point": {
+          "x": "0x0000000000000000000004",
+          "y": "0x03093eea3e5609f66b2b53"
+        }
+      },
+      "R": {
+        "order": "9671406556923184866742756",
+        "order_factorization": [
+          {
+            "exponent": 2,
+            "prime": "2"
+          },
+          {
+            "exponent": 1,
+            "prime": "2417851639230796216685689"
+          }
+        ],
+        "point": {
+          "x": "0x0000000000000000000007",
+          "y": "0x0798b34c6304f67c587db3"
+        }
+      },
+      "T": {
+        "order": "2",
+        "order_factorization": [
+          {
+            "exponent": 1,
+            "prime": "2"
+          }
+        ],
+        "point": {
+          "x": "0x0000000000000000000000",
+          "y": "0x0000000000000000000001"
+        }
+      }
+    },
+    "provenance": {
+      "computation_engine": "PARI/GP 2.17.2",
+      "legacy_source_file": "binary_data.json",
+      "scope": "experimental_small_field_benchmark",
+      "source_label": "K83-a0"
+    },
+    "subgroup": {
+      "cofactor": "4",
+      "cofactor_coprime_to_r": true,
+      "embedding_degree": "14565371320667447088468",
+      "generator": {
+        "x": "0x066cecececececececec95",
+        "y": "0x0029b8ed654eea6e1ee415"
+      },
+      "generator_selection": {
+        "generator": [
+          "7767941001719881971592341",
+          "197028332872746424787989"
+        ],
+        "generator_rule": "ascending canonical x integers; min y; first nonzero [d2/r]P of order r",
+        "order": "2417851639230796216685689",
+        "projection_scalar": "4",
+        "scan_final_x": "2",
+        "scan_points_examined": "3",
+        "source_point": [
+          "2",
+          "1835219667172669271676333"
+        ]
+      },
+      "membership_rule": "on_curve_and_r_annihilation",
+      "order": "2417851639230796216685689",
+      "projection_formula": "group_exponent / r",
+      "projection_scalar": "4",
+      "r_torsion_rank": 1,
+      "source_point": {
+        "x": "0x0000000000000000000002",
+        "y": "0x01849f751f2b04fb3595ad"
+      },
+      "unique_order_r_subgroup": true
+    },
+    "twist": {
+      "kind": "quadratic",
+      "parameter": "0x0000000000000000000001",
+      "partner_id": "K83-a1",
+      "partner_relation": "literal_standard_quadratic_twist"
+    }
+  },
+  "curve_id": "K83-a0",
+  "domains": {
+    "x1_0": [
+      "0",
+      "1"
+    ],
+    "x1_1": [
+      "0",
+      "1"
+    ],
+    "x2_0": [
+      "0",
+      "1"
+    ],
+    "x2_1": [
+      "0",
+      "1"
+    ]
+  },
+  "expected": {
+    "algebraic_assignment_count": 1,
+    "algebraic_assignments": [
+      [
+        "0",
+        "1",
+        "0",
+        "1"
+      ]
+    ],
+    "ordered_count": 1,
+    "ordered_point_decompositions": [
+      {
+        "P": {
+          "x": "0x0000000000000000000002",
+          "y": "0x01849f751f2b04fb3595ad"
+        },
+        "Q": {
+          "x": "0x0000000000000000000002",
+          "y": "0x01849f751f2b04fb3595ad"
+        }
+      }
+    ],
+    "ordered_x_count": 1,
+    "swap_orbit_count": 1,
+    "swap_orbit_x_count": 1
+  },
+  "factor_base": {
+    "basis_elements": [
+      "0x0000000000000000000001",
+      "0x0000000000000000000002"
+    ],
+    "basis_kind": "low_monomials",
+    "counters": {
+      "accepted_points": 2,
+      "accepted_x": 1,
+      "candidate_x": 4,
+      "x_with_non_r_points": 2,
+      "x_without_curve_points": 1
+    },
+    "dimension": 2,
+    "membership_policy": "on curve and in the selected rank-one rational prime-order subgroup; both signs allowed",
+    "points_by_x": {
+      "0x0000000000000000000002": [
+        {
+          "x": "0x0000000000000000000002",
+          "y": "0x01849f751f2b04fb3595ad"
+        },
+        {
+          "x": "0x0000000000000000000002",
+          "y": "0x01849f751f2b04fb3595af"
+        }
+      ]
+    },
+    "sampling_note": "Fixed low polynomial basis; no selected-subgroup point existence assumed",
+    "span_x_values": [
+      "0x0000000000000000000000",
+      "0x0000000000000000000001",
+      "0x0000000000000000000002",
+      "0x0000000000000000000003"
+    ],
+    "x_encoding_masks": {
+      "0x0000000000000000000002": "2"
+    },
+    "x_values": [
+      "0x0000000000000000000002"
+    ]
+  },
+  "field": {
+    "cardinality": "9671406556917033397649408",
+    "characteristic": "2",
+    "coordinate_bytes": 11,
+    "degree": 83,
+    "element_bits": 83,
+    "id": "b83",
+    "kind": "binary",
+    "proof": {
+      "certificate_n": null,
+      "method": "rabin_irreducibility"
+    },
+    "representation": {
+      "basis": "polynomial",
+      "basis_generator": "0x0000000000000000000002",
+      "modulus": "0x800000000000000000095",
+      "modulus_integer": "9671406556917033397649557",
+      "polynomial_exponents": [
+        83,
+        7,
+        4,
+        2,
+        0
+      ]
+    }
+  },
+  "generation": {
+    "boolean_reduced_f3_max_degree": 2,
+    "claims": "Small two-point fixture only; no higher-arity relation or cryptographic hardness estimate",
+    "diagnostic_empty_factor_base": false,
+    "f3_formula": "(x1*x2 + x1*z + x2*z)^2 + x1*x2*z + b",
+    "membership_filter_note": "Additional Boolean truth-table equations restrict x to actual selected-subgroup points; their degree is not the degree of Semaev f3",
+    "method": "Independent binary polynomial arithmetic and affine ECC; exact finite factor-base enumeration",
+    "original_f3_total_degree": 4,
+    "polynomial_degrees_by_role": {
+      "boolean_field_equation": 2,
+      "factor_base_membership": 2,
+      "semaev_f3_coordinate": 2
+    },
+    "seed": "ecbench-indexcalculus-v1",
+    "truth_method": "Exhaustive selected factor-base x-pair f3 evaluation, independently matched to signed point-pair sums"
+  },
+  "id": "K83-a0-f3-low_monomials-d2-planted",
+  "model_variant": "strict_selected_subgroup_factor_base",
+  "polynomials": [
+    {
+      "coordinate": 0,
+      "id": "f3_coordinate_0",
+      "role": "semaev_f3_coordinate",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "coordinate": 1,
+      "id": "f3_coordinate_1",
+      "role": "semaev_f3_coordinate",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "coordinate": 2,
+      "id": "f3_coordinate_2",
+      "role": "semaev_f3_coordinate",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "coordinate": 3,
+      "id": "f3_coordinate_3",
+      "role": "semaev_f3_coordinate",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "total_degree": 1
+    },
+    {
+      "coordinate": 4,
+      "id": "f3_coordinate_4",
+      "role": "semaev_f3_coordinate",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "total_degree": 1
+    },
+    {
+      "coordinate": 5,
+      "id": "f3_coordinate_5",
+      "role": "semaev_f3_coordinate",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "coordinate": 6,
+      "id": "f3_coordinate_6",
+      "role": "semaev_f3_coordinate",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "coordinate": 7,
+      "id": "f3_coordinate_7",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 8,
+      "id": "f3_coordinate_8",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 9,
+      "id": "f3_coordinate_9",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 10,
+      "id": "f3_coordinate_10",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 11,
+      "id": "f3_coordinate_11",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 12,
+      "id": "f3_coordinate_12",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 13,
+      "id": "f3_coordinate_13",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 14,
+      "id": "f3_coordinate_14",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 15,
+      "id": "f3_coordinate_15",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 16,
+      "id": "f3_coordinate_16",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 17,
+      "id": "f3_coordinate_17",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 18,
+      "id": "f3_coordinate_18",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 19,
+      "id": "f3_coordinate_19",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 20,
+      "id": "f3_coordinate_20",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 21,
+      "id": "f3_coordinate_21",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 22,
+      "id": "f3_coordinate_22",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 23,
+      "id": "f3_coordinate_23",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 24,
+      "id": "f3_coordinate_24",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 25,
+      "id": "f3_coordinate_25",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 26,
+      "id": "f3_coordinate_26",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 27,
+      "id": "f3_coordinate_27",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 28,
+      "id": "f3_coordinate_28",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 29,
+      "id": "f3_coordinate_29",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 30,
+      "id": "f3_coordinate_30",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 31,
+      "id": "f3_coordinate_31",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 32,
+      "id": "f3_coordinate_32",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 33,
+      "id": "f3_coordinate_33",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 34,
+      "id": "f3_coordinate_34",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 35,
+      "id": "f3_coordinate_35",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 36,
+      "id": "f3_coordinate_36",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 37,
+      "id": "f3_coordinate_37",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 38,
+      "id": "f3_coordinate_38",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 39,
+      "id": "f3_coordinate_39",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 40,
+      "id": "f3_coordinate_40",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 41,
+      "id": "f3_coordinate_41",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 42,
+      "id": "f3_coordinate_42",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 43,
+      "id": "f3_coordinate_43",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 44,
+      "id": "f3_coordinate_44",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 45,
+      "id": "f3_coordinate_45",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 46,
+      "id": "f3_coordinate_46",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 47,
+      "id": "f3_coordinate_47",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 48,
+      "id": "f3_coordinate_48",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 49,
+      "id": "f3_coordinate_49",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 50,
+      "id": "f3_coordinate_50",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 51,
+      "id": "f3_coordinate_51",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 52,
+      "id": "f3_coordinate_52",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 53,
+      "id": "f3_coordinate_53",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 54,
+      "id": "f3_coordinate_54",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 55,
+      "id": "f3_coordinate_55",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 56,
+      "id": "f3_coordinate_56",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 57,
+      "id": "f3_coordinate_57",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 58,
+      "id": "f3_coordinate_58",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 59,
+      "id": "f3_coordinate_59",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 60,
+      "id": "f3_coordinate_60",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 61,
+      "id": "f3_coordinate_61",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 62,
+      "id": "f3_coordinate_62",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 63,
+      "id": "f3_coordinate_63",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 64,
+      "id": "f3_coordinate_64",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 65,
+      "id": "f3_coordinate_65",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 66,
+      "id": "f3_coordinate_66",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 67,
+      "id": "f3_coordinate_67",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 68,
+      "id": "f3_coordinate_68",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 69,
+      "id": "f3_coordinate_69",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 70,
+      "id": "f3_coordinate_70",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 71,
+      "id": "f3_coordinate_71",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 72,
+      "id": "f3_coordinate_72",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 73,
+      "id": "f3_coordinate_73",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 74,
+      "id": "f3_coordinate_74",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 75,
+      "id": "f3_coordinate_75",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 76,
+      "id": "f3_coordinate_76",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 77,
+      "id": "f3_coordinate_77",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 78,
+      "id": "f3_coordinate_78",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 79,
+      "id": "f3_coordinate_79",
+      "role": "semaev_f3_coordinate",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "total_degree": 1
+    },
+    {
+      "coordinate": 80,
+      "id": "f3_coordinate_80",
+      "role": "semaev_f3_coordinate",
+      "terms": [],
+      "total_degree": 0
+    },
+    {
+      "coordinate": 81,
+      "id": "f3_coordinate_81",
+      "role": "semaev_f3_coordinate",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "coordinate": 82,
+      "id": "f3_coordinate_82",
+      "role": "semaev_f3_coordinate",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "id": "boolean_x1_0",
+      "role": "boolean_field_equation",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "id": "boolean_x1_1",
+      "role": "boolean_field_equation",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "id": "boolean_x2_0",
+      "role": "boolean_field_equation",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "id": "boolean_x2_1",
+      "role": "boolean_field_equation",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "id": "membership_x1",
+      "role": "factor_base_membership",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            1,
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "total_degree": 2
+    },
+    {
+      "id": "membership_x2",
+      "role": "factor_base_membership",
+      "terms": [
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "exponents": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "total_degree": 2
+    }
+  ],
+  "summation_polynomial_arity": 3,
+  "target": {
+    "kind": "planted",
+    "planted_decomposition": {
+      "P": {
+        "x": "0x0000000000000000000002",
+        "y": "0x01849f751f2b04fb3595ad"
+      },
+      "Q": {
+        "x": "0x0000000000000000000002",
+        "y": "0x01849f751f2b04fb3595ad"
+      }
+    },
+    "point": {
+      "x": "0x0200000000000000000021",
+      "y": "0x0439ad049db369690d999a"
+    },
+    "sampling_method": "Sum of two explicitly retained factor-base points",
+    "scalar": null,
+    "source": "planted"
+  },
+  "variable_order": [
+    "x1_0",
+    "x1_1",
+    "x2_0",
+    "x2_1"
+  ],
+  "variables": [
+    "x1_0",
+    "x1_1",
+    "x2_0",
+    "x2_1"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "case_count": 1,
+  "cases": [
+    {
+      "base_prime_bits": 41,
+      "case_id": "j0-glv-gls4-p41",
+      "decomposition_vectors": 16,
+      "endomorphism_proof_boundary": "special ordinary j=0 model and explicit cubic automorphism; no general endomorphism-ring algorithm",
+      "endomorphism_vectors": 24,
+      "field_bits": 82,
+      "field_vectors": 12,
+      "guaranteed_glv2_component_bits": 40,
+      "guaranteed_glv4_component_bits": 20,
+      "named_point_orders": 8,
+      "point_count_proof": {
+        "base_points_used": 2,
+        "incorrect_traces_eliminated": 5,
+        "method": "j0 CM trace theorem and exact scalar-multiplication elimination"
+      },
+      "point_group_proof": "twist point count, certified factorization, and full rational two-torsion",
+      "primality_certificates": 28,
+      "source_pari_checks": 51,
+      "source_pari_recomputed": false,
+      "status": "pass",
+      "subgroup_bits": 80
+    }
+  ],
+  "elapsed_ms": 99.060074,
+  "primary_dataset_modified": false,
+  "status": "pass"
+}

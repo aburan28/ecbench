@@ -1,0 +1,141 @@
+{
+  "elapsed_seconds": 15.677008823000506,
+  "pari_metadata_note": "Byte equality of GLV4 source-proof version metadata requires the same PARI version as the release.",
+  "payloads": [
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/algebra_cases.json",
+      "sha256": "b8206a05d9c7064c8e657f8e90ea4732fbbcdc98c075d7e2de0fe7ccbd5fc557"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/algebra_cases.schema.json",
+      "sha256": "8830de5d91e59db907096d3751c2a9a4a3a0b8af51756fd65fef888e7139be22"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/algebra_coverage_cases.json",
+      "sha256": "6cb52713bd0d025460f2652ef07154c14166b1ed09777fdf8cac55e9c7591e62"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/algebra_results.schema.json",
+      "sha256": "b41bdff80ea6d2731269cd2d983f34ce64d5c4e51b37434d83d8eed2bb856380"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/certificates.json",
+      "sha256": "8deeaee364df8bb560aa341d97675f37bdc003abd83c84499f8445241a348df3"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/curves.json",
+      "sha256": "a5e81537a17541a4b5972e501936eda9bc10c95901d192e9ffb0895139d8c6cf"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/dataset.schema.json",
+      "sha256": "143f17febb6c4b45635928f29fd96fc1129fceefbb6afc4065a3ea79b6f6cae3"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/endomorphism_cases.json",
+      "sha256": "03527f8b9b272cb21b4d23ef1705754d542c6f74d4daee1bd23d77a4a77f766c"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/fields.json",
+      "sha256": "ef2a4a5b23f63c182738a4aaafb58302bb00345b0b703c0857e41c76e0a5fd3d"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/glv4.json",
+      "sha256": "5a12275a4320bc4685750b1b163e40c89bf234547fd42e1beb608513a18af9ac"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/manifest.json",
+      "sha256": "2fdd3772e98c7748ea0c272e6ac671cd368713aed954d440677255b6ae4123e1"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/relations.json",
+      "sha256": "5a5dce098630c107cf83c6208072d7f9ffffd4f8db07330229f4e4e70404eb27"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/research_manifest.json",
+      "sha256": "122227264d88625dbc18bce7768a679db86b2d62a007cb3b24604a70e37f22ba"
+    },
+    {
+      "byte_identical": true,
+      "path": "ecbench/data/vectors.json",
+      "sha256": "c0e29e263e411b2bda0a2b3ac9262f803170b744fb364326c7d276ac102cea40"
+    },
+    {
+      "byte_identical": true,
+      "path": "golden_ecbench.json",
+      "sha256": "6b331e6dc7358841dbd74de1ece449519c03cdfb4951e34aee8b562db660a8e8"
+    },
+    {
+      "byte_identical": true,
+      "path": "golden_ecbench.jsonl",
+      "sha256": "2c25efcdbd2de406767248377a70780118ff03bbdaaf01badaec5caa951dc1fa"
+    }
+  ],
+  "python": "3.12.14",
+  "scope": "Isolated full payload regeneration from bundled source evidence; no original build intermediates copied",
+  "stages": [
+    {
+      "elapsed_seconds": 2.554600288000074,
+      "status": "pass",
+      "tool": "prime_vectors.py"
+    },
+    {
+      "elapsed_seconds": 4.240268021998418,
+      "status": "pass",
+      "tool": "binary_vectors.py"
+    },
+    {
+      "elapsed_seconds": 0.04400426000029256,
+      "status": "pass",
+      "tool": "prime_maps.py"
+    },
+    {
+      "elapsed_seconds": 0.05074701000012283,
+      "status": "pass",
+      "tool": "binary_maps.py"
+    },
+    {
+      "elapsed_seconds": 0.5010579930003587,
+      "status": "pass",
+      "tool": "build_dataset.py"
+    },
+    {
+      "elapsed_seconds": 5.06528786600029,
+      "status": "pass",
+      "tool": "build_algebra_cases.py"
+    },
+    {
+      "elapsed_seconds": 0.5502629570000863,
+      "status": "pass",
+      "tool": "build_algebra_coverage_cases.py"
+    },
+    {
+      "elapsed_seconds": 2.1340015709993168,
+      "status": "pass",
+      "tool": "build_endomorphism_cases.py"
+    },
+    {
+      "elapsed_seconds": 0.3736463660006848,
+      "status": "pass",
+      "tool": "glv4_cases.py"
+    },
+    {
+      "elapsed_seconds": 0.11508179399970686,
+      "status": "pass",
+      "tool": "build_research_manifest.py"
+    }
+  ],
+  "status": "pass"
+}

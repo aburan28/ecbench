@@ -1,0 +1,476 @@
+{
+  "auxiliary_quotient_equation": "Y^2=X^3+4*X",
+  "boundary": "Constructive degree-two path between existing representatives; equal point counts do not imply isomorphic rational point groups; this does not compute a general isogeny volcano",
+  "degree": 2,
+  "dual_formula": "Undo (u^2,u^3) scaling, then ((X+4/X)/4,Y*(1-4/X^2)/8); infinity and (0,0) -> infinity",
+  "environment": {
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "field_prime": "2305843009213693951",
+  "forward_formula": "(u^2*(x-1/x), u^3*y*(1+1/x^2)); infinity and (0,0) -> infinity",
+  "homomorphism_pair_checks": 340,
+  "primary_dataset_modified": false,
+  "representative_scale_u": "416766181166040365",
+  "schema": "ecbench-represented-dual-isogeny-v1",
+  "source_curve_id": "p61-E4-0",
+  "source_equation": "y^2=x^3-x",
+  "source_group": [
+    "2",
+    "1152921504606846976"
+  ],
+  "source_order": "2305843009213693952",
+  "status": "pass",
+  "symbolic_curve_equations_verified": true,
+  "symbolic_dual_compositions_verified": true,
+  "target_curve_id": "p61-E4-1",
+  "target_equation": "y^2=x^3-37*x",
+  "target_group": [
+    "1",
+    "2305843009213693952"
+  ],
+  "target_order": "2305843009213693952",
+  "timestamp_utc": "2026-10-15T06:23:12.351183+00:00",
+  "vectors": [
+    {
+      "direction": "forward",
+      "dual_composition": null,
+      "expected_double": null,
+      "image": null,
+      "point": null
+    },
+    {
+      "direction": "forward",
+      "dual_composition": null,
+      "expected_double": null,
+      "image": null,
+      "point": {
+        "x": "0x0000000000000000",
+        "y": "0x0000000000000000"
+      }
+    },
+    {
+      "direction": "forward",
+      "dual_composition": null,
+      "expected_double": null,
+      "image": {
+        "x": "0x0000000000000000",
+        "y": "0x0000000000000000"
+      },
+      "point": {
+        "x": "0x0000000000000001",
+        "y": "0x0000000000000000"
+      }
+    },
+    {
+      "direction": "forward",
+      "dual_composition": {
+        "x": "0x13d8fd8fd8fd8fda",
+        "y": "0x069f966a780ca22e"
+      },
+      "expected_double": {
+        "x": "0x13d8fd8fd8fd8fda",
+        "y": "0x069f966a780ca22e"
+      },
+      "image": {
+        "x": "0x0bc152e421b7a269",
+        "y": "0x022f3b84de454bff"
+      },
+      "point": {
+        "x": "0x0000000000000006",
+        "y": "0x08682bf537ed6def"
+      }
+    },
+    {
+      "direction": "forward",
+      "dual_composition": {
+        "x": "0x13d8fd8fd8fd8fda",
+        "y": "0x1960699587f35dd1"
+      },
+      "expected_double": {
+        "x": "0x13d8fd8fd8fd8fda",
+        "y": "0x1960699587f35dd1"
+      },
+      "image": {
+        "x": "0x0bc152e421b7a269",
+        "y": "0x1dd0c47b21bab400"
+      },
+      "point": {
+        "x": "0x0000000000000006",
+        "y": "0x1797d40ac8129210"
+      }
+    },
+    {
+      "direction": "forward",
+      "dual_composition": {
+        "x": "0x0a6020b3fda26693",
+        "y": "0x1e2920388d886e07"
+      },
+      "expected_double": {
+        "x": "0x0a6020b3fda26693",
+        "y": "0x1e2920388d886e07"
+      },
+      "image": {
+        "x": "0x0f03f31157d0427a",
+        "y": "0x05f8ce21c68e84e3"
+      },
+      "point": {
+        "x": "0x0221a80d6a6629ff",
+        "y": "0x1a273947d234359f"
+      }
+    },
+    {
+      "direction": "forward",
+      "dual_composition": {
+        "x": "0x057f5908501b8509",
+        "y": "0x108aabce9f71af40"
+      },
+      "expected_double": {
+        "x": "0x057f5908501b8509",
+        "y": "0x108aabce9f71af40"
+      },
+      "image": {
+        "x": "0x188c45c22793b973",
+        "y": "0x1529a13c99961cdb"
+      },
+      "point": {
+        "x": "0x0a0dc2601c0c644e",
+        "y": "0x0deef31e5e2f6ca5"
+      }
+    },
+    {
+      "direction": "forward",
+      "dual_composition": {
+        "x": "0x13d8fd8fd8fd8fda",
+        "y": "0x069f966a780ca22e"
+      },
+      "expected_double": {
+        "x": "0x13d8fd8fd8fd8fda",
+        "y": "0x069f966a780ca22e"
+      },
+      "image": {
+        "x": "0x10745927fb9ab4d7",
+        "y": "0x0fe9baba4167a87d"
+      },
+      "point": {
+        "x": "0x1333333333333334",
+        "y": "0x0c20a052c85367d8"
+      }
+    },
+    {
+      "direction": "forward",
+      "dual_composition": {
+        "x": "0x1e10b48dc9a9517b",
+        "y": "0x0c49be41d0a25364"
+      },
+      "expected_double": {
+        "x": "0x1e10b48dc9a9517b",
+        "y": "0x0c49be41d0a25364"
+      },
+      "image": {
+        "x": "0x13658aaf31694973",
+        "y": "0x104c54d49cb07d6c"
+      },
+      "point": {
+        "x": "0x13d8fd8fd8fd8fda",
+        "y": "0x069f966a780ca22e"
+      }
+    },
+    {
+      "direction": "forward",
+      "dual_composition": {
+        "x": "0x1e10b48dc9a9517b",
+        "y": "0x13b641be2f5dac9b"
+      },
+      "expected_double": {
+        "x": "0x1e10b48dc9a9517b",
+        "y": "0x13b641be2f5dac9b"
+      },
+      "image": {
+        "x": "0x13658aaf31694973",
+        "y": "0x0fb3ab2b634f8293"
+      },
+      "point": {
+        "x": "0x13d8fd8fd8fd8fda",
+        "y": "0x1960699587f35dd1"
+      }
+    },
+    {
+      "direction": "forward",
+      "dual_composition": {
+        "x": "0x07650801ee51006c",
+        "y": "0x130958641a88823f"
+      },
+      "expected_double": {
+        "x": "0x07650801ee51006c",
+        "y": "0x130958641a88823f"
+      },
+      "image": {
+        "x": "0x16558d0fce0b417a",
+        "y": "0x1fffad205172b947"
+      },
+      "point": {
+        "x": "0x1a8ad7c4d3a6a42f",
+        "y": "0x12d998b67948343b"
+      }
+    },
+    {
+      "direction": "forward",
+      "dual_composition": null,
+      "expected_double": null,
+      "image": {
+        "x": "0x0000000000000000",
+        "y": "0x0000000000000000"
+      },
+      "point": {
+        "x": "0x1ffffffffffffffe",
+        "y": "0x0000000000000000"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": null,
+      "expected_double": null,
+      "image": null,
+      "point": null
+    },
+    {
+      "direction": "dual",
+      "dual_composition": null,
+      "expected_double": null,
+      "image": null,
+      "point": {
+        "x": "0x0000000000000000",
+        "y": "0x0000000000000000"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x1088888888888878",
+        "y": "0x0315ddf8db2f1f43"
+      },
+      "expected_double": {
+        "x": "0x1088888888888878",
+        "y": "0x0315ddf8db2f1f43"
+      },
+      "image": {
+        "x": "0x0d3b7037ac8ea267",
+        "y": "0x1d57143bff09ff95"
+      },
+      "point": {
+        "x": "0x0000000000000005",
+        "y": "0x070b1aea5eac2d85"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x0955555555555477",
+        "y": "0x084189188d8eeee0"
+      },
+      "expected_double": {
+        "x": "0x0955555555555477",
+        "y": "0x084189188d8eeee0"
+      },
+      "image": {
+        "x": "0x1b2420ae886d75f1",
+        "y": "0x1202ba9182fe9acc"
+      },
+      "point": {
+        "x": "0x0000000000000006",
+        "y": "0x0d954adc395c62b4"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x0955555555555477",
+        "y": "0x17be76e77271111f"
+      },
+      "expected_double": {
+        "x": "0x0955555555555477",
+        "y": "0x17be76e77271111f"
+      },
+      "image": {
+        "x": "0x1b2420ae886d75f1",
+        "y": "0x0dfd456e7d016533"
+      },
+      "point": {
+        "x": "0x0000000000000006",
+        "y": "0x126ab523c6a39d4b"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x0c00ae0679f97dd1",
+        "y": "0x1e570eedcb3b9580"
+      },
+      "expected_double": {
+        "x": "0x0c00ae0679f97dd1",
+        "y": "0x1e570eedcb3b9580"
+      },
+      "image": {
+        "x": "0x1898a7d9c3b8e730",
+        "y": "0x02d479f66144091e"
+      },
+      "point": {
+        "x": "0x053070bf73591309",
+        "y": "0x1d2ecef282797c3e"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x0955555555555477",
+        "y": "0x17be76e77271111f"
+      },
+      "expected_double": {
+        "x": "0x0955555555555477",
+        "y": "0x17be76e77271111f"
+      },
+      "image": {
+        "x": "0x1b2420ae886d75f1",
+        "y": "0x0dfd456e7d016533"
+      },
+      "point": {
+        "x": "0x055555555555554f",
+        "y": "0x0aedabf2fdef4538"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x08068a33234ce87c",
+        "y": "0x052d9e2f6bddcb9a"
+      },
+      "expected_double": {
+        "x": "0x08068a33234ce87c",
+        "y": "0x052d9e2f6bddcb9a"
+      },
+      "image": {
+        "x": "0x0fec8c02ca84b16a",
+        "y": "0x1f46524f03975d24"
+      },
+      "point": {
+        "x": "0x058565349963afdd",
+        "y": "0x0b722d795e6c94ca"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x078790f9cfc557ad",
+        "y": "0x04a107ffe248354d"
+      },
+      "expected_double": {
+        "x": "0x078790f9cfc557ad",
+        "y": "0x04a107ffe248354d"
+      },
+      "image": {
+        "x": "0x15f452df703d83d1",
+        "y": "0x076f9f5cba584c2c"
+      },
+      "point": {
+        "x": "0x0955555555555477",
+        "y": "0x084189188d8eeee0"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x078790f9cfc557ad",
+        "y": "0x1b5ef8001db7cab2"
+      },
+      "expected_double": {
+        "x": "0x078790f9cfc557ad",
+        "y": "0x1b5ef8001db7cab2"
+      },
+      "image": {
+        "x": "0x15f452df703d83d1",
+        "y": "0x189060a345a7b3d3"
+      },
+      "point": {
+        "x": "0x0955555555555477",
+        "y": "0x17be76e77271111f"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x1088888888888878",
+        "y": "0x0315ddf8db2f1f43"
+      },
+      "expected_double": {
+        "x": "0x1088888888888878",
+        "y": "0x0315ddf8db2f1f43"
+      },
+      "image": {
+        "x": "0x0d3b7037ac8ea267",
+        "y": "0x1d57143bff09ff95"
+      },
+      "point": {
+        "x": "0x0cccccccccccccc5",
+        "y": "0x1ee779c1446f7691"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x0000000000000000",
+        "y": "0x0000000000000000"
+      },
+      "expected_double": {
+        "x": "0x0000000000000000",
+        "y": "0x0000000000000000"
+      },
+      "image": {
+        "x": "0x0000000000000001",
+        "y": "0x0000000000000000"
+      },
+      "point": {
+        "x": "0x12a8aeb49dd88f74",
+        "y": "0x140c6a834fc20603"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x105babfd497659c4",
+        "y": "0x1b981d92996b05b4"
+      },
+      "expected_double": {
+        "x": "0x105babfd497659c4",
+        "y": "0x1b981d92996b05b4"
+      },
+      "image": {
+        "x": "0x07497946a4eb172e",
+        "y": "0x159df2755ac95a4a"
+      },
+      "point": {
+        "x": "0x1a1e1f13b78258a3",
+        "y": "0x1aae14cc2100fded"
+      }
+    },
+    {
+      "direction": "dual",
+      "dual_composition": {
+        "x": "0x06a867cd3353230d",
+        "y": "0x07fab11a709c9911"
+      },
+      "expected_double": {
+        "x": "0x06a867cd3353230d",
+        "y": "0x07fab11a709c9911"
+      },
+      "image": {
+        "x": "0x1f167eea279f19f8",
+        "y": "0x067e17a74d274ad0"
+      },
+      "point": {
+        "x": "0x1c2c74039a911c4a",
+        "y": "0x1487ebfce3e4fa10"
+      }
+    }
+  ]
+}

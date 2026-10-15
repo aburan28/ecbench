@@ -1,0 +1,291 @@
+{
+  "dataset_id": "ecbench-golden-smallfields-v1",
+  "environment": {
+    "machine": "x86_64",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "processor": "",
+    "python": "3.12.14",
+    "python_implementation": "CPython"
+  },
+  "implementation": "ecbench variable-time Python reference",
+  "implementation_version": "1.0.0",
+  "manifest_sha256": "f6c5a094c160e6a0b6277c2e9655d93a7e04ae87b3bcee0e3c69f3dd1e687351",
+  "preflight": {
+    "class_numbers": "known small endomorphism-order class numbers checked; remaining evidence retained as source metadata",
+    "curves": 56,
+    "dataset_id": "ecbench-golden-smallfields-v1",
+    "elapsed_seconds": 2.9367,
+    "endomorphism_orders": "source-proven metadata; discriminant consistency checked, model-specific ring proofs not recomputed",
+    "fields": 7,
+    "named_points": 741,
+    "point_counts": "stored_verified_values; not independently recomputed in core mode",
+    "primality_certificates": 418,
+    "status": "pass",
+    "vectors": 6931
+  },
+  "release_version": "1.0.0",
+  "results": [
+    {
+      "curve_id": "p83-S-0",
+      "field_id": "p83",
+      "inputs": {
+        "a": "0x0000000000000000000001",
+        "b": "0x034bfc044fcd6d3a2ebabc"
+      },
+      "iterations_per_sample": 2,
+      "mean": 1135.0,
+      "median": 876.5,
+      "min": 621.0,
+      "operation": "field_mul",
+      "p95": 1907.5,
+      "sample_values": [
+        1907.5,
+        876.5,
+        621.0
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "curve_id": "p83-S-0",
+      "field_id": "p83",
+      "inputs": {
+        "a": "0x0000000000000000000001"
+      },
+      "iterations_per_sample": 2,
+      "mean": 721.1666666666666,
+      "median": 616.0,
+      "min": 586.0,
+      "operation": "field_inverse",
+      "p95": 961.5,
+      "sample_values": [
+        961.5,
+        616.0,
+        586.0
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "curve_id": "p83-S-0",
+      "field_id": "p83",
+      "inputs": {
+        "P": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "Q": {
+          "x": "0x0777b03531dec0d4c77ad0",
+          "y": "0x008cb6ea7cee1ba8f04690"
+        }
+      },
+      "iterations_per_sample": 2,
+      "mean": 7716.333333333333,
+      "median": 7426.0,
+      "min": 7320.5,
+      "operation": "point_add_distinct",
+      "p95": 8402.5,
+      "sample_values": [
+        8402.5,
+        7426.0,
+        7320.5
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "curve_id": "p83-S-0",
+      "field_id": "p83",
+      "inputs": {
+        "P": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        }
+      },
+      "iterations_per_sample": 2,
+      "mean": 10060.0,
+      "median": 9940.0,
+      "min": 9759.5,
+      "operation": "point_double",
+      "p95": 10480.5,
+      "sample_values": [
+        10480.5,
+        9940.0,
+        9759.5
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "curve_id": "p83-S-0",
+      "field_id": "p83",
+      "inputs": {
+        "P": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "scalar": "4835703278458516698899269"
+      },
+      "iterations_per_sample": 2,
+      "mean": 380960.5,
+      "median": 380369.5,
+      "min": 373429.5,
+      "operation": "point_mul",
+      "p95": 389082.5,
+      "sample_values": [
+        389082.5,
+        373429.5,
+        380369.5
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "curve_id": "S83-a1",
+      "field_id": "b83",
+      "inputs": {
+        "a": "0x0000000000000000000002",
+        "b": "0x01ab3094b05745da73ad54"
+      },
+      "iterations_per_sample": 2,
+      "mean": 9622.5,
+      "median": 9434.0,
+      "min": 9344.0,
+      "operation": "field_mul",
+      "p95": 10089.5,
+      "sample_values": [
+        10089.5,
+        9434.0,
+        9344.0
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "curve_id": "S83-a1",
+      "field_id": "b83",
+      "inputs": {
+        "a": "0x0000000000000000000002"
+      },
+      "iterations_per_sample": 2,
+      "mean": 1100.0,
+      "median": 1101.5,
+      "min": 1036.5,
+      "operation": "field_inverse",
+      "p95": 1162.0,
+      "sample_values": [
+        1162.0,
+        1101.5,
+        1036.5
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "curve_id": "S83-a1",
+      "field_id": "b83",
+      "inputs": {
+        "P": {
+          "x": "0x0000000000000000000002",
+          "y": "0x01ab3094b05745da73ad54"
+        },
+        "Q": {
+          "x": "0x000000000000000025dcc1",
+          "y": "0x0647f63d4393574d5abe09"
+        }
+      },
+      "iterations_per_sample": 2,
+      "mean": 94096.5,
+      "median": 94360.0,
+      "min": 91506.0,
+      "operation": "point_add_distinct",
+      "p95": 96423.5,
+      "sample_values": [
+        94360.0,
+        91506.0,
+        96423.5
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "curve_id": "S83-a1",
+      "field_id": "b83",
+      "inputs": {
+        "P": {
+          "x": "0x0000000000000000000002",
+          "y": "0x01ab3094b05745da73ad54"
+        }
+      },
+      "iterations_per_sample": 2,
+      "mean": 64382.333333333336,
+      "median": 64371.0,
+      "min": 63759.5,
+      "operation": "point_double",
+      "p95": 65016.5,
+      "sample_values": [
+        64371.0,
+        63759.5,
+        65016.5
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "curve_id": "S83-a1",
+      "field_id": "b83",
+      "inputs": {
+        "P": {
+          "x": "0x0000000000000000000002",
+          "y": "0x01ab3094b05745da73ad54"
+        },
+        "scalar": "4835703278458516698899269"
+      },
+      "iterations_per_sample": 2,
+      "mean": 4902845.833333333,
+      "median": 4901996.0,
+      "min": 4884320.0,
+      "operation": "point_mul",
+      "p95": 4922221.5,
+      "sample_values": [
+        4922221.5,
+        4901996.0,
+        4884320.0
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    },
+    {
+      "curve_id": "S83-a1",
+      "field_id": "b83",
+      "inputs": {
+        "P": {
+          "x": "0x0000000000000000000002",
+          "y": "0x01ab3094b05745da73ad54"
+        },
+        "target_coefficients": {
+          "a1": "0x0000000000000000000001",
+          "a2": "0x0000000000000000000001",
+          "a3": "0x0000000000000000000000",
+          "a4": "0x0000000000000000000000",
+          "a6": "0x0000000000411515050110"
+        }
+      },
+      "iterations_per_sample": 2,
+      "mean": 33556.5,
+      "median": 35788.0,
+      "min": 28517.5,
+      "operation": "map_relative_frobenius",
+      "p95": 36364.0,
+      "sample_values": [
+        35788.0,
+        36364.0,
+        28517.5
+      ],
+      "samples": 3,
+      "unit": "nanoseconds_per_operation"
+    }
+  ],
+  "timestamp_utc": "2026-10-12T03:55:53.307559+00:00",
+  "timing_scope": "arithmetic call only; dataset load and preflight excluded"
+}

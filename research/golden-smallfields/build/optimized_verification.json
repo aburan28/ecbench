@@ -1,0 +1,13 @@
+{
+  "class_numbers": "known small endomorphism-order class numbers checked; remaining evidence retained as source metadata",
+  "curves": 56,
+  "dataset_id": "ecbench-golden-smallfields-v1",
+  "elapsed_seconds": 2.8807,
+  "endomorphism_orders": "source-proven metadata; discriminant consistency checked, model-specific ring proofs not recomputed",
+  "fields": 7,
+  "named_points": 741,
+  "point_counts": "stored_verified_values; not independently recomputed in core mode",
+  "primality_certificates": 418,
+  "status": "pass",
+  "vectors": 6931
+}

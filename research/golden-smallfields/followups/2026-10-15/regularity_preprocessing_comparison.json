@@ -1,0 +1,209 @@
+{
+  "environment": {
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "method": "buchberger",
+  "order": "grevlex",
+  "primary_dataset_modified": false,
+  "rows": [
+    {
+      "case_sha256": "f670fa6ed6aee6fec1508ab58c07f26a5ec0cf25bcffa55b0d828a9a24c9f19f",
+      "observed_process_wall_seconds": 0.8000718930006769,
+      "result": {
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            11,
+            45,
+            84,
+            70,
+            19,
+            0
+          ],
+          "homogeneous_basis_size": 61,
+          "quotient_dimension": 230,
+          "value": 6
+        },
+        "diagnostic_seconds": 0.5522455549998995,
+        "status": "ok"
+      },
+      "source_case_id": "K83-a0-f3-low_monomials-d6-planted",
+      "variant": "original"
+    },
+    {
+      "case_sha256": "8428c03426b35a648accbb405ea0e508893105f21fbababa6400a1b8e651472d",
+      "observed_process_wall_seconds": 0.3451488149994475,
+      "result": {
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            8,
+            20,
+            20,
+            15,
+            5,
+            0
+          ],
+          "homogeneous_basis_size": 27,
+          "quotient_dimension": 69,
+          "value": 6
+        },
+        "diagnostic_seconds": 0.10473491799984913,
+        "status": "ok"
+      },
+      "source_case_id": "K83-a0-f3-low_monomials-d6-planted",
+      "variant": "row_reduced"
+    },
+    {
+      "case_sha256": "95ac1259441f53f1f8cf1f3c824d65ce8cfbf9999050e24d20ef6e745520420c",
+      "observed_process_wall_seconds": 1.7505653890002577,
+      "result": {
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            12,
+            55,
+            120,
+            126,
+            56,
+            5,
+            0
+          ],
+          "homogeneous_basis_size": 77,
+          "quotient_dimension": 375,
+          "value": 7
+        },
+        "diagnostic_seconds": 1.490091712999856,
+        "status": "ok"
+      },
+      "source_case_id": "S83-a1-f3-low_monomials-d6-planted",
+      "variant": "original"
+    },
+    {
+      "case_sha256": "0df19f8d40ad8b0e5e245b87c3cd2ca015d1904670907aa4a09b452d77db5991",
+      "observed_process_wall_seconds": 0.29080392100058816,
+      "result": {
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            6,
+            15,
+            20,
+            15,
+            6,
+            0
+          ],
+          "homogeneous_basis_size": 13,
+          "quotient_dimension": 63,
+          "value": 6
+        },
+        "diagnostic_seconds": 0.040832427000168536,
+        "status": "ok"
+      },
+      "source_case_id": "S83-a1-f3-low_monomials-d6-planted",
+      "variant": "row_reduced"
+    },
+    {
+      "case_sha256": "590765bef9824302e54cb535c465b05470626ec4e506665b9fb382fde5382d15",
+      "observed_process_wall_seconds": 2.085285104999457,
+      "result": {
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            12,
+            55,
+            120,
+            126,
+            56,
+            5,
+            0
+          ],
+          "homogeneous_basis_size": 77,
+          "quotient_dimension": 375,
+          "value": 7
+        },
+        "diagnostic_seconds": 1.8278403260001141,
+        "status": "ok"
+      },
+      "source_case_id": "S83-a1-f3-low_monomials-d6-seeded_subgroup",
+      "variant": "original"
+    },
+    {
+      "case_sha256": "8151a16470fd3fbbda419d37b8df3ca51b2a744e14c908246762697beaea453a",
+      "observed_process_wall_seconds": 0.30696720100058883,
+      "result": {
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            0
+          ],
+          "homogeneous_basis_size": 1,
+          "value": 0
+        },
+        "diagnostic_seconds": 0.023779244999786897,
+        "status": "ok"
+      },
+      "source_case_id": "S83-a1-f3-low_monomials-d6-seeded_subgroup",
+      "variant": "row_reduced"
+    },
+    {
+      "case_sha256": "476c16a7fd6a6abef1fe6ece02e07c34d34d6e4e44704c2ab81f82629535d976",
+      "observed_process_wall_seconds": 0.7346048919998793,
+      "result": {
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            10,
+            31,
+            40,
+            23,
+            2,
+            0
+          ],
+          "homogeneous_basis_size": 32,
+          "quotient_dimension": 107,
+          "value": 6
+        },
+        "diagnostic_seconds": 0.48000222600057896,
+        "status": "ok"
+      },
+      "source_case_id": "B83-a0-f3-subgroup_seeded_basis-d5-planted",
+      "variant": "original"
+    },
+    {
+      "case_sha256": "cf71004af5bb3b3cdb589d9e3bac53353ccec9614c5727cf96257614f9e9417f",
+      "observed_process_wall_seconds": 0.2710254690000511,
+      "result": {
+        "degree_of_regularity": {
+          "definition": "first zero graded component of quotient by homogeneous highest-degree input parts",
+          "hilbert_function": [
+            1,
+            5,
+            10,
+            10,
+            4,
+            0
+          ],
+          "homogeneous_basis_size": 11,
+          "quotient_dimension": 30,
+          "value": 5
+        },
+        "diagnostic_seconds": 0.03428894799981208,
+        "status": "ok"
+      },
+      "source_case_id": "B83-a0-f3-subgroup_seeded_basis-d5-planted",
+      "variant": "row_reduced"
+    }
+  ],
+  "schema": "ecbench-regularity-generator-dependence-v1",
+  "scope": "Separate homogeneous-top-part diagnostics. Original and row-reduced affine ideals are exactly equal, but their highest-part generator ideals need not be.",
+  "timeout_seconds": 20.0,
+  "timestamp_utc": "2026-10-15T06:22:59.118961+00:00"
+}

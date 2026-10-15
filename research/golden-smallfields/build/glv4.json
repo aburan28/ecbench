@@ -1,0 +1,1456 @@
+{
+  "schema": "ecbench-glv-gls-supplement-v1",
+  "supplement_id": "j0-glv-gls4-p41",
+  "experimental": true,
+  "primary_dataset_modified": false,
+  "field": {
+    "kind": "quadratic_prime_extension",
+    "base_prime": "2199023254699",
+    "cardinality": "4835703274706983025580601",
+    "element_bits": "82",
+    "nonresidue_d": "2",
+    "polynomial": "u^2-2",
+    "packing": "c0 + p*c1, 0 <= c0,c1 < p; packed coordinates are decimal strings; this is not SEC1",
+    "eta": "2199023254700",
+    "eta_coefficients": [
+      "1",
+      "1"
+    ],
+    "eta_norm": "2199023254698"
+  },
+  "base_curve": {
+    "equation": "y^2=x^3+1 over Fp",
+    "b": "1",
+    "trace": "-1456168",
+    "order": "2199024710868",
+    "Frobenius_discriminant": "-6675667774572",
+    "CM_discriminant": "-3"
+  },
+  "curve": {
+    "equation": "y^2=x^3+(7+5u) over Fp2",
+    "a4": "0",
+    "a6": "10995116273502",
+    "a6_coefficients": [
+      "7",
+      "5"
+    ],
+    "trace": "2277621265174",
+    "order": "4835703274704705404315428",
+    "order_factorization": [
+      {
+        "prime": "2",
+        "exponent": "2"
+      },
+      {
+        "prime": "1208925818676176351078857",
+        "exponent": "1"
+      }
+    ],
+    "group_invariant_factors": [
+      "2",
+      "2417851637352352702157714"
+    ],
+    "Frobenius_discriminant": "-14155254471255119677072128",
+    "Frobenius_order_conductor": "2172192016624",
+    "endomorphism_discriminant": "-3",
+    "endomorphism_ring": "Z[zeta3], maximal; j=0 and ordinary",
+    "subgroup_order": "1208925818676176351078857",
+    "subgroup_bits": "80",
+    "cofactor": "4",
+    "generator": {
+      "x": "3315910816941742729833437",
+      "y": "4200918394580022925570504"
+    },
+    "generator_projector": "2",
+    "generator_source": {
+      "x": "2",
+      "y": "442443558064140804175945"
+    },
+    "generator_rule": "ascending packed x from zero; minimum packed square root; first nonzero [d2/r]P",
+    "embedding_degree": "302231454669044087769714"
+  },
+  "endomorphisms": {
+    "phi": {
+      "formula": "(zeta3*x,y)",
+      "zeta3": "195716162444",
+      "base_primitive_root": "2",
+      "degree": "1",
+      "subgroup_eigenvalue": "174560118547837207691337"
+    },
+    "psi": {
+      "formula": "(eta^(1-p)*x^p, eta^(3*(1-p)/2)*y^p)",
+      "x_multiplier": "4835703274704784002325899",
+      "y_multiplier": "4596562690847998106180011",
+      "degree": "2199023254699",
+      "subgroup_eigenvalue": "896867993705181372003749",
+      "global_relation": "psi^2=-pi_q; psi^2-t0*psi+[p]=0",
+      "actual_CM_linear_relation": {
+        "formula": "psi=[a]+[c]*phi",
+        "a": "-1473943",
+        "c": "-1491718"
+      },
+      "rational_point_relation": "psi^2=[-1] on E(Fp2)",
+      "eigenvalue_derivation": "lambda_psi=(p-1)/t0 mod r"
+    },
+    "commute": true,
+    "four_term_maps": [
+      "1",
+      "phi",
+      "psi",
+      "phi*psi"
+    ],
+    "four_term_eigenvalues": [
+      "1",
+      "174560118547837207691337",
+      "896867993705181372003749",
+      "702456464737849846659831"
+    ],
+    "proof_boundary": "The geometric endomorphism algebra remains quadratic. Four-dimensional refers to a rank-four congruence lattice for distinct efficient GLV and GLS maps on a finite subgroup."
+  },
+  "lattices": {
+    "definition": "rows b satisfy sum b_i*lambda_i = 0 mod r; determinant magnitude r",
+    "LLL_delta": "3/4",
+    "glv4": {
+      "balanced_seed": [
+        [
+          "-736972",
+          "-745859",
+          "736971",
+          "745859"
+        ],
+        [
+          "736971",
+          "745859",
+          "736972",
+          "745859"
+        ],
+        [
+          "745859",
+          "8888",
+          "745859",
+          "8887"
+        ],
+        [
+          "745859",
+          "8887",
+          "-745859",
+          "-8888"
+        ]
+      ],
+      "basis": [
+        [
+          "8888",
+          "-736971",
+          "8887",
+          "-736972"
+        ],
+        [
+          "745859",
+          "8888",
+          "745859",
+          "8887"
+        ],
+        [
+          "8887",
+          "-736972",
+          "-8888",
+          "736971"
+        ],
+        [
+          "-745859",
+          "-8887",
+          "745859",
+          "8888"
+        ]
+      ],
+      "determinant": "-1208925818676176351078857",
+      "cm_a": "17775",
+      "cm_c": "1491718"
+    },
+    "glv2": {
+      "basis": [
+        [
+          "-1112453320449",
+          "-26357312137"
+        ],
+        [
+          "26357312137",
+          "-1086096008312"
+        ]
+      ],
+      "determinant": "1208925818676176351078857"
+    },
+    "Babai_universal_bounds": {
+      "glv4": {
+        "coordinate_absolute_bound_rationals": [
+          {
+            "numerator": "1982553128013921196716814141044977484031007",
+            "denominator": "2626782933762255287763721089837630756"
+          },
+          {
+            "numerator": "1959492499666373974932920900333854418180173",
+            "denominator": "2626782933762255287763721089837630756"
+          },
+          {
+            "numerator": "1982550533663413179666448935296882851610501",
+            "denominator": "2626782933762255287763721089837630756"
+          },
+          {
+            "numerator": "1959489873265455963557232842226216694703735",
+            "denominator": "2626782933762255287763721089837630756"
+          }
+        ],
+        "coordinate_absolute_bound_ceilings": [
+          "754746",
+          "745967",
+          "754745",
+          "745966"
+        ],
+        "guaranteed_component_bits": "20"
+      },
+      "glv2": {
+        "coordinate_absolute_bound_rationals": [
+          {
+            "numerator": "1409356130949976426929422479490285539",
+            "denominator": "2476494196162185458136740"
+          },
+          {
+            "numerator": "1377510406429695894046859434393453483",
+            "denominator": "2476494196162185458136740"
+          }
+        ],
+        "coordinate_absolute_bound_ceilings": [
+          "569093250101",
+          "556234053997"
+        ],
+        "guaranteed_component_bits": "40"
+      }
+    },
+    "decomposition": "exact rational Gram-Schmidt and Babai nearest plane; ties to +infinity; input normalized mod r"
+  },
+  "named_points": {
+    "O": {
+      "point": null,
+      "order": "1"
+    },
+    "P": {
+      "point": {
+        "x": "2",
+        "y": "442443558064140804175945"
+      },
+      "order": "2417851637352352702157714"
+    },
+    "R": {
+      "point": {
+        "x": "2",
+        "y": "442443558064140804175945"
+      },
+      "order": "2417851637352352702157714"
+    },
+    "G": {
+      "point": {
+        "x": "3315910816941742729833437",
+        "y": "4200918394580022925570504"
+      },
+      "order": "1208925818676176351078857"
+    },
+    "T2": {
+      "point": {
+        "x": "4835703274706983025580600",
+        "y": "0"
+      },
+      "order": "2"
+    },
+    "phi_G": {
+      "point": {
+        "x": "4531185135950359549033628",
+        "y": "4200918394580022925570504"
+      },
+      "order": "1208925818676176351078857"
+    },
+    "psi_G": {
+      "point": {
+        "x": "828977704234728853555062",
+        "y": "4650423301113611989244940"
+      },
+      "order": "1208925818676176351078857"
+    },
+    "phi_psi_G": {
+      "point": {
+        "x": "702411891452877287499072",
+        "y": "4650423301113611989244940"
+      },
+      "order": "1208925818676176351078857"
+    }
+  },
+  "field_vectors": [
+    {
+      "operation": "square",
+      "name": "eta",
+      "input": "2199023254700",
+      "expected": "4398046509401"
+    },
+    {
+      "operation": "inverse",
+      "name": "eta",
+      "input": "2199023254700",
+      "expected": "4398046509397"
+    },
+    {
+      "operation": "frobenius",
+      "name": "eta",
+      "input": "2199023254700",
+      "expected": "4835703274704784002325903"
+    },
+    {
+      "operation": "square",
+      "name": "twist_coefficient",
+      "input": "10995116273502",
+      "expected": "153931627829029"
+    },
+    {
+      "operation": "inverse",
+      "name": "twist_coefficient",
+      "input": "10995116273502",
+      "expected": "13194139528187"
+    },
+    {
+      "operation": "frobenius",
+      "name": "twist_coefficient",
+      "input": "10995116273502",
+      "expected": "4835703274695987909307113"
+    },
+    {
+      "operation": "square",
+      "name": "psi_x_multiplier",
+      "input": "4835703274704784002325899",
+      "expected": "26388279056405"
+    },
+    {
+      "operation": "inverse",
+      "name": "psi_x_multiplier",
+      "input": "4835703274704784002325899",
+      "expected": "6597069764094"
+    },
+    {
+      "operation": "frobenius",
+      "name": "psi_x_multiplier",
+      "input": "4835703274704784002325899",
+      "expected": "6597069764094"
+    },
+    {
+      "operation": "square",
+      "name": "psi_y_multiplier",
+      "input": "4596562690847998106180011",
+      "expected": "4835703274555250421006271"
+    },
+    {
+      "operation": "inverse",
+      "name": "psi_y_multiplier",
+      "input": "4596562690847998106180011",
+      "expected": "4596562690847994670135174"
+    },
+    {
+      "operation": "frobenius",
+      "name": "psi_y_multiplier",
+      "input": "4596562690847998106180011",
+      "expected": "239140583861187378700126"
+    }
+  ],
+  "endomorphism_vectors": [
+    {
+      "operation": "phi",
+      "point_name": "O",
+      "point": null,
+      "expected_point": null
+    },
+    {
+      "operation": "psi",
+      "point_name": "O",
+      "point": null,
+      "expected_point": null
+    },
+    {
+      "operation": "phi_psi",
+      "point_name": "O",
+      "point": null,
+      "expected_point": null
+    },
+    {
+      "operation": "psi_phi",
+      "point_name": "O",
+      "point": null,
+      "expected_point": null
+    },
+    {
+      "operation": "phi_cubed",
+      "point_name": "O",
+      "point": null,
+      "expected_point": null
+    },
+    {
+      "operation": "psi_squared",
+      "point_name": "O",
+      "point": null,
+      "expected_point": null
+    },
+    {
+      "operation": "phi",
+      "point_name": "G",
+      "point": {
+        "x": "3315910816941742729833437",
+        "y": "4200918394580022925570504"
+      },
+      "expected_point": {
+        "x": "4531185135950359549033628",
+        "y": "4200918394580022925570504"
+      }
+    },
+    {
+      "operation": "psi",
+      "point_name": "G",
+      "point": {
+        "x": "3315910816941742729833437",
+        "y": "4200918394580022925570504"
+      },
+      "expected_point": {
+        "x": "828977704234728853555062",
+        "y": "4650423301113611989244940"
+      }
+    },
+    {
+      "operation": "phi_psi",
+      "point_name": "G",
+      "point": {
+        "x": "3315910816941742729833437",
+        "y": "4200918394580022925570504"
+      },
+      "expected_point": {
+        "x": "702411891452877287499072",
+        "y": "4650423301113611989244940"
+      }
+    },
+    {
+      "operation": "psi_phi",
+      "point_name": "G",
+      "point": {
+        "x": "3315910816941742729833437",
+        "y": "4200918394580022925570504"
+      },
+      "expected_point": {
+        "x": "702411891452877287499072",
+        "y": "4650423301113611989244940"
+      }
+    },
+    {
+      "operation": "phi_cubed",
+      "point_name": "G",
+      "point": {
+        "x": "3315910816941742729833437",
+        "y": "4200918394580022925570504"
+      },
+      "expected_point": {
+        "x": "3315910816941742729833437",
+        "y": "4200918394580022925570504"
+      }
+    },
+    {
+      "operation": "psi_squared",
+      "point_name": "G",
+      "point": {
+        "x": "3315910816941742729833437",
+        "y": "4200918394580022925570504"
+      },
+      "expected_point": {
+        "x": "3315910816941742729833437",
+        "y": "634784880129159123264796"
+      }
+    },
+    {
+      "operation": "phi",
+      "point_name": "R",
+      "point": {
+        "x": "2",
+        "y": "442443558064140804175945"
+      },
+      "expected_point": {
+        "x": "391432324888",
+        "y": "442443558064140804175945"
+      }
+    },
+    {
+      "operation": "psi",
+      "point_name": "R",
+      "point": {
+        "x": "2",
+        "y": "442443558064140804175945"
+      },
+      "expected_point": {
+        "x": "4835703274700385955816498",
+        "y": "3858585980433835777125154"
+      }
+    },
+    {
+      "operation": "phi_psi",
+      "point_name": "R",
+      "point": {
+        "x": "2",
+        "y": "442443558064140804175945"
+      },
+      "expected_point": {
+        "x": "3114165704568795470563212",
+        "y": "3858585980433835777125154"
+      }
+    },
+    {
+      "operation": "psi_phi",
+      "point_name": "R",
+      "point": {
+        "x": "2",
+        "y": "442443558064140804175945"
+      },
+      "expected_point": {
+        "x": "3114165704568795470563212",
+        "y": "3858585980433835777125154"
+      }
+    },
+    {
+      "operation": "phi_cubed",
+      "point_name": "R",
+      "point": {
+        "x": "2",
+        "y": "442443558064140804175945"
+      },
+      "expected_point": {
+        "x": "2",
+        "y": "442443558064140804175945"
+      }
+    },
+    {
+      "operation": "psi_squared",
+      "point_name": "R",
+      "point": {
+        "x": "2",
+        "y": "442443558064140804175945"
+      },
+      "expected_point": {
+        "x": "2",
+        "y": "4393259716645041244659355"
+      }
+    },
+    {
+      "operation": "phi",
+      "point_name": "T2",
+      "point": {
+        "x": "4835703274706983025580600",
+        "y": "0"
+      },
+      "expected_point": {
+        "x": "4405318882174183262348500",
+        "y": "0"
+      }
+    },
+    {
+      "operation": "psi",
+      "point_name": "T2",
+      "point": {
+        "x": "4835703274706983025580600",
+        "y": "0"
+      },
+      "expected_point": {
+        "x": "4835703274706983025580600",
+        "y": "0"
+      }
+    },
+    {
+      "operation": "phi_psi",
+      "point_name": "T2",
+      "point": {
+        "x": "4835703274706983025580600",
+        "y": "0"
+      },
+      "expected_point": {
+        "x": "4405318882174183262348500",
+        "y": "0"
+      }
+    },
+    {
+      "operation": "psi_phi",
+      "point_name": "T2",
+      "point": {
+        "x": "4835703274706983025580600",
+        "y": "0"
+      },
+      "expected_point": {
+        "x": "4405318882174183262348500",
+        "y": "0"
+      }
+    },
+    {
+      "operation": "phi_cubed",
+      "point_name": "T2",
+      "point": {
+        "x": "4835703274706983025580600",
+        "y": "0"
+      },
+      "expected_point": {
+        "x": "4835703274706983025580600",
+        "y": "0"
+      }
+    },
+    {
+      "operation": "psi_squared",
+      "point_name": "T2",
+      "point": {
+        "x": "4835703274706983025580600",
+        "y": "0"
+      },
+      "expected_point": {
+        "x": "4835703274706983025580600",
+        "y": "0"
+      }
+    }
+  ],
+  "decomposition_vectors": [
+    {
+      "scalar": "0",
+      "glv4_components": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "glv2_components": [
+        "0",
+        "0"
+      ],
+      "glv4_max_component_bits": "0",
+      "glv2_max_component_bits": "0",
+      "expected_point": null
+    },
+    {
+      "scalar": "1",
+      "glv4_components": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "glv2_components": [
+        "1",
+        "0"
+      ],
+      "glv4_max_component_bits": "1",
+      "glv2_max_component_bits": "1",
+      "expected_point": {
+        "x": "3315910816941742729833437",
+        "y": "4200918394580022925570504"
+      }
+    },
+    {
+      "scalar": "-1",
+      "glv4_components": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "glv2_components": [
+        "-1",
+        "0"
+      ],
+      "glv4_max_component_bits": "1",
+      "glv2_max_component_bits": "1",
+      "expected_point": {
+        "x": "3315910816941742729833437",
+        "y": "634784880129159123264796"
+      }
+    },
+    {
+      "scalar": "1208925818676176351078856",
+      "glv4_components": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "glv2_components": [
+        "-1",
+        "0"
+      ],
+      "glv4_max_component_bits": "1",
+      "glv2_max_component_bits": "1",
+      "expected_point": {
+        "x": "3315910816941742729833437",
+        "y": "634784880129159123264796"
+      }
+    },
+    {
+      "scalar": "1208925818676176351078857",
+      "glv4_components": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "glv2_components": [
+        "0",
+        "0"
+      ],
+      "glv4_max_component_bits": "0",
+      "glv2_max_component_bits": "0",
+      "expected_point": null
+    },
+    {
+      "scalar": "1208925818676176351078858",
+      "glv4_components": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "glv2_components": [
+        "1",
+        "0"
+      ],
+      "glv4_max_component_bits": "1",
+      "glv2_max_component_bits": "1",
+      "expected_point": {
+        "x": "3315910816941742729833437",
+        "y": "4200918394580022925570504"
+      }
+    },
+    {
+      "scalar": "604462909807314587427653",
+      "glv4_components": [
+        "352212",
+        "312325",
+        "-203743",
+        "205472"
+      ],
+      "glv2_components": [
+        "-505641118692",
+        "281222365462"
+      ],
+      "glv4_max_component_bits": "19",
+      "glv2_max_component_bits": "39",
+      "expected_point": {
+        "x": "1959650594618589374468255",
+        "y": "1355079443275711954894083"
+      }
+    },
+    {
+      "scalar": "340282366920938463463374607431768211457",
+      "glv4_components": [
+        "-596852",
+        "-158524",
+        "70062",
+        "42960"
+      ],
+      "glv2_components": [
+        "-39183786038",
+        "-103749291040"
+      ],
+      "glv4_max_component_bits": "20",
+      "glv2_max_component_bits": "37",
+      "expected_point": {
+        "x": "1723918982775332547472783",
+        "y": "1798987401816938059000429"
+      }
+    },
+    {
+      "scalar": "308771837413284186234539",
+      "glv4_components": [
+        "-372013",
+        "-469536",
+        "-187229",
+        "-252099"
+      ],
+      "glv2_components": [
+        "-100096114148",
+        "274811340161"
+      ],
+      "glv4_max_component_bits": "19",
+      "glv2_max_component_bits": "38",
+      "expected_point": {
+        "x": "3178567571291605140125787",
+        "y": "1442229510779792265201066"
+      }
+    },
+    {
+      "scalar": "349476784751440350121638",
+      "glv4_components": [
+        "144010",
+        "-320684",
+        "-113093",
+        "-317071"
+      ],
+      "glv2_components": [
+        "-306287738269",
+        "163066606065"
+      ],
+      "glv4_max_component_bits": "19",
+      "glv2_max_component_bits": "39",
+      "expected_point": {
+        "x": "3297269671006263537399033",
+        "y": "2466379162101371563812566"
+      }
+    },
+    {
+      "scalar": "825163648705303351385878",
+      "glv4_components": [
+        "-344166",
+        "415820",
+        "111347",
+        "78753"
+      ],
+      "glv2_components": [
+        "-46642207733",
+        "-164698073751"
+      ],
+      "glv4_max_component_bits": "19",
+      "glv2_max_component_bits": "38",
+      "expected_point": {
+        "x": "2924242305503048194775958",
+        "y": "3839561623890878482044142"
+      }
+    },
+    {
+      "scalar": "1038008042055339340240517",
+      "glv4_components": [
+        "-344440",
+        "208354",
+        "14914",
+        "-198989"
+      ],
+      "glv2_components": [
+        "-318818203444",
+        "-25784303373"
+      ],
+      "glv4_max_component_bits": "19",
+      "glv2_max_component_bits": "39",
+      "expected_point": {
+        "x": "2816040545679294237975591",
+        "y": "2282300341651378241416178"
+      }
+    },
+    {
+      "scalar": "179312833615579596707442",
+      "glv4_components": [
+        "-185268",
+        "-382430",
+        "212000",
+        "-213384"
+      ],
+      "glv2_components": [
+        "481668465469",
+        "-293680186893"
+      ],
+      "glv4_max_component_bits": "19",
+      "glv2_max_component_bits": "39",
+      "expected_point": {
+        "x": "531852233152286586968566",
+        "y": "4804345226817150379195454"
+      }
+    },
+    {
+      "scalar": "243251809063068228821480",
+      "glv4_components": [
+        "119325",
+        "555243",
+        "497297",
+        "97103"
+      ],
+      "glv2_components": [
+        "497958988520",
+        "372352995271"
+      ],
+      "glv4_max_component_bits": "20",
+      "glv2_max_component_bits": "39",
+      "expected_point": {
+        "x": "1609819224845868906197465",
+        "y": "288364673865604699899982"
+      }
+    },
+    {
+      "scalar": "425106105055641907508039",
+      "glv4_components": [
+        "118340",
+        "-210437",
+        "307212",
+        "53406"
+      ],
+      "glv2_components": [
+        "-373146167068",
+        "-457324589003"
+      ],
+      "glv4_max_component_bits": "19",
+      "glv2_max_component_bits": "39",
+      "expected_point": {
+        "x": "1090210113878452102638154",
+        "y": "2576360788769611603950900"
+      }
+    },
+    {
+      "scalar": "983219702293932518525023",
+      "glv4_components": [
+        "492864",
+        "295857",
+        "149408",
+        "248594"
+      ],
+      "glv2_components": [
+        "150613761612",
+        "-218455548737"
+      ],
+      "glv4_max_component_bits": "19",
+      "glv2_max_component_bits": "38",
+      "expected_point": {
+        "x": "3363914213671691235508500",
+        "y": "690999689979260237505240"
+      }
+    }
+  ],
+  "certificates": {
+    "2": {
+      "method": "base",
+      "n": "2"
+    },
+    "3": {
+      "method": "Lucas",
+      "n": "3",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        }
+      ]
+    },
+    "5": {
+      "method": "Lucas",
+      "n": "5",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "2"
+        }
+      ]
+    },
+    "11": {
+      "method": "Lucas",
+      "n": "11",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "5",
+          "exponent": "1"
+        }
+      ]
+    },
+    "23": {
+      "method": "Lucas",
+      "n": "23",
+      "witness": "5",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "11",
+          "exponent": "1"
+        }
+      ]
+    },
+    "17": {
+      "method": "Lucas",
+      "n": "17",
+      "witness": "3",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "4"
+        }
+      ]
+    },
+    "1123": {
+      "method": "Lucas",
+      "n": "1123",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "3",
+          "exponent": "1"
+        },
+        {
+          "prime": "11",
+          "exponent": "1"
+        },
+        {
+          "prime": "17",
+          "exponent": "1"
+        }
+      ]
+    },
+    "103": {
+      "method": "Lucas",
+      "n": "103",
+      "witness": "5",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "3",
+          "exponent": "1"
+        },
+        {
+          "prime": "17",
+          "exponent": "1"
+        }
+      ]
+    },
+    "1237": {
+      "method": "Lucas",
+      "n": "1237",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "2"
+        },
+        {
+          "prime": "3",
+          "exponent": "1"
+        },
+        {
+          "prime": "103",
+          "exponent": "1"
+        }
+      ]
+    },
+    "31": {
+      "method": "Lucas",
+      "n": "31",
+      "witness": "3",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "3",
+          "exponent": "1"
+        },
+        {
+          "prime": "5",
+          "exponent": "1"
+        }
+      ]
+    },
+    "37": {
+      "method": "Lucas",
+      "n": "37",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "2"
+        },
+        {
+          "prime": "3",
+          "exponent": "2"
+        }
+      ]
+    },
+    "11471": {
+      "method": "Lucas",
+      "n": "11471",
+      "witness": "11",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "5",
+          "exponent": "1"
+        },
+        {
+          "prime": "31",
+          "exponent": "1"
+        },
+        {
+          "prime": "37",
+          "exponent": "1"
+        }
+      ]
+    },
+    "2199023254699": {
+      "method": "Lucas",
+      "n": "2199023254699",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "3",
+          "exponent": "1"
+        },
+        {
+          "prime": "23",
+          "exponent": "1"
+        },
+        {
+          "prime": "1123",
+          "exponent": "1"
+        },
+        {
+          "prime": "1237",
+          "exponent": "1"
+        },
+        {
+          "prime": "11471",
+          "exponent": "1"
+        }
+      ]
+    },
+    "311": {
+      "method": "Lucas",
+      "n": "311",
+      "witness": "17",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "5",
+          "exponent": "1"
+        },
+        {
+          "prime": "31",
+          "exponent": "1"
+        }
+      ]
+    },
+    "7": {
+      "method": "Lucas",
+      "n": "7",
+      "witness": "3",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "3",
+          "exponent": "1"
+        }
+      ]
+    },
+    "29": {
+      "method": "Lucas",
+      "n": "29",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "2"
+        },
+        {
+          "prime": "7",
+          "exponent": "1"
+        }
+      ]
+    },
+    "89": {
+      "method": "Lucas",
+      "n": "89",
+      "witness": "3",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "3"
+        },
+        {
+          "prime": "11",
+          "exponent": "1"
+        }
+      ]
+    },
+    "19": {
+      "method": "Lucas",
+      "n": "19",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "3",
+          "exponent": "2"
+        }
+      ]
+    },
+    "191": {
+      "method": "Lucas",
+      "n": "191",
+      "witness": "19",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "5",
+          "exponent": "1"
+        },
+        {
+          "prime": "19",
+          "exponent": "1"
+        }
+      ]
+    },
+    "383": {
+      "method": "Lucas",
+      "n": "383",
+      "witness": "5",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "191",
+          "exponent": "1"
+        }
+      ]
+    },
+    "13": {
+      "method": "Lucas",
+      "n": "13",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "2"
+        },
+        {
+          "prime": "3",
+          "exponent": "1"
+        }
+      ]
+    },
+    "1481": {
+      "method": "Lucas",
+      "n": "1481",
+      "witness": "3",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "3"
+        },
+        {
+          "prime": "5",
+          "exponent": "1"
+        },
+        {
+          "prime": "37",
+          "exponent": "1"
+        }
+      ]
+    },
+    "16264343": {
+      "method": "Lucas",
+      "n": "16264343",
+      "witness": "7",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "17",
+          "exponent": "2"
+        },
+        {
+          "prime": "19",
+          "exponent": "1"
+        },
+        {
+          "prime": "1481",
+          "exponent": "1"
+        }
+      ]
+    },
+    "32528687": {
+      "method": "Lucas",
+      "n": "32528687",
+      "witness": "5",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "16264343",
+          "exponent": "1"
+        }
+      ]
+    },
+    "219048178259": {
+      "method": "Lucas",
+      "n": "219048178259",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "7",
+          "exponent": "1"
+        },
+        {
+          "prime": "13",
+          "exponent": "1"
+        },
+        {
+          "prime": "37",
+          "exponent": "1"
+        },
+        {
+          "prime": "32528687",
+          "exponent": "1"
+        }
+      ]
+    },
+    "2852445377288699": {
+      "method": "Lucas",
+      "n": "2852445377288699",
+      "witness": "2",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "17",
+          "exponent": "1"
+        },
+        {
+          "prime": "383",
+          "exponent": "1"
+        },
+        {
+          "prime": "219048178259",
+          "exponent": "1"
+        }
+      ]
+    },
+    "14724323037564264239": {
+      "method": "Lucas",
+      "n": "14724323037564264239",
+      "witness": "11",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "1"
+        },
+        {
+          "prime": "29",
+          "exponent": "1"
+        },
+        {
+          "prime": "89",
+          "exponent": "1"
+        },
+        {
+          "prime": "2852445377288699",
+          "exponent": "1"
+        }
+      ]
+    },
+    "1208925818676176351078857": {
+      "method": "Lucas",
+      "n": "1208925818676176351078857",
+      "witness": "10",
+      "n_minus_one_factorization": [
+        {
+          "prime": "2",
+          "exponent": "3"
+        },
+        {
+          "prime": "3",
+          "exponent": "1"
+        },
+        {
+          "prime": "11",
+          "exponent": "1"
+        },
+        {
+          "prime": "311",
+          "exponent": "1"
+        },
+        {
+          "prime": "14724323037564264239",
+          "exponent": "1"
+        }
+      ]
+    }
+  },
+  "search": {
+    "rule": "descending primes below 2^41 with p=1 mod3; six j0 twist representatives b=g^j; accept first N=(p-1)^2+t0^2 with h<=12 and prime r>=2^74",
+    "fields_examined": "13",
+    "examined_base_primes": [
+      "2199023255521",
+      "2199023255497",
+      "2199023255479",
+      "2199023255461",
+      "2199023255419",
+      "2199023255413",
+      "2199023255203",
+      "2199023255137",
+      "2199023255101",
+      "2199023254933",
+      "2199023254903",
+      "2199023254843",
+      "2199023254699"
+    ],
+    "selected_b_index": "0"
+  },
+  "verification": {
+    "independent_Fp2_and_affine_ECC": true,
+    "generator_exact_order": true,
+    "eigenvalue_point_checks": true,
+    "phi_psi_commute": true,
+    "unit_order_restriction_checks": true,
+    "kernel_lattice_determinants": true,
+    "Babai_reconstruction_vectors": "16",
+    "max_glv4_component_bits": "20",
+    "max_glv2_component_bits": "39",
+    "PARI_independent_checks": "51",
+    "PARI_version": "2.17.2"
+  },
+  "limitations": [
+    "About 40 bits of generic subgroup security; experimental, not a production parameter set.",
+    "No SEC1 convention is asserted for the packed Fp2 representation.",
+    "The small CM discriminant -3 is intentional; this case compares scalar decompositions, not generic-curve arithmetic.",
+    "For j=1728, a GLS order-four restriction collapses with the Gaussian unit, and the analogous order factors into roughly p-sized pieces."
+  ]
+}

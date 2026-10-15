@@ -1,0 +1,865 @@
+{
+  "schema": "ecbench-algebra-generation-benchmark-v1",
+  "created_at": "2026-10-12T04:29:42.675068+00:00",
+  "status": "passed",
+  "seed": "ecbench-indexcalculus-v1",
+  "counts": {
+    "cases": 55,
+    "binary_cases": 49,
+    "prime_cases": 6,
+    "planted_cases": 25,
+    "seeded_target_cases": 30,
+    "empty_factor_base_diagnostics": 5
+  },
+  "measurement": {
+    "elapsed_seconds": 5.040638978000061,
+    "scope": "Actual full deterministic golden-fixture build, including golden truth",
+    "includes": [
+      "factor-base generation and selected-subgroup membership checks",
+      "polynomial-system construction",
+      "golden finite-domain and signed-point truth enumeration",
+      "canonical source hashing and case JSON serialization"
+    ],
+    "excludes": [
+      "Python interpreter startup and module imports",
+      "post-build hash comparison and timing-result assembly",
+      "Groebner solving, solver-root enumeration, and relation verification on solver output"
+    ],
+    "golden_truth_enumeration": "included in whole elapsed time; separately measured for prime cases; combined with construction for binary cases",
+    "stage_timing_overhead": "included; lightweight in-process perf_counter wrappers",
+    "stage_records_nonoverlapping": true,
+    "instrumented_stage_total_seconds": 4.556962466991536,
+    "unattributed_pipeline_seconds": 0.48367651100852527,
+    "interpretation": "Fixture preparation cost, not solve-pipeline or index-calculus attack time"
+  },
+  "integrity": {
+    "canonical_artifact": "build/algebra_cases.json",
+    "canonical_sha256": "b8206a05d9c7064c8e657f8e90ea4732fbbcdc98c075d7e2de0fe7ccbd5fc557",
+    "regenerated_sha256": "b8206a05d9c7064c8e657f8e90ea4732fbbcdc98c075d7e2de0fe7ccbd5fc557",
+    "byte_identical": true,
+    "canonical_artifact_modified": false
+  },
+  "environment": {
+    "python_version": "3.12.14",
+    "python_implementation": "CPython",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "processor": "",
+    "clock": "time.perf_counter"
+  },
+  "source_hashes": {
+    "ecbench/polynomials.py": "f5ff862c69da4ffe32766b901f4c1df36da5477033ad16c76548b8ed11627cb2",
+    "tools/build_algebra_cases.py": "498e8fb23350b3b59444d434d4a81d846125f2c987d964be081456fd195660fa",
+    "tools/prime_algebra_cases.py": "e10f8900fc018af987b12d4d4b71f83831428bdd738b620b53ddcc717d3dc5cc",
+    "tools/prime_vectors.py": "d73c6d1e2e11a7371c74100a5104d4b581420fbc669bee8cce825b1a73fb220f"
+  },
+  "stage_totals": {
+    "binary_factor_base": {
+      "calls": 27,
+      "elapsed_seconds": 3.6068491320002067
+    },
+    "binary_case_construction_and_truth": {
+      "calls": 49,
+      "elapsed_seconds": 0.8984901899893885
+    },
+    "prime_factor_base": {
+      "calls": 3,
+      "elapsed_seconds": 0.01942186800079071
+    },
+    "prime_semaev_polynomial_construction": {
+      "calls": 6,
+      "elapsed_seconds": 3.562099846021738e-05
+    },
+    "prime_membership_polynomial_construction": {
+      "calls": 12,
+      "elapsed_seconds": 0.0002128060023096623
+    },
+    "prime_golden_truth_enumeration": {
+      "calls": 6,
+      "elapsed_seconds": 0.03195285000037984
+    }
+  },
+  "stage_records": [
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.016902597999433056,
+      "curve_id": "K83-a0",
+      "dimension": 2,
+      "basis_kind": "low_monomials",
+      "accepted_x": 1,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0005024960009905044,
+      "case_id": "K83-a0-f3-low_monomials-d2-planted",
+      "target_kind": "planted",
+      "ordered_relations": 1,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0007115570006135385,
+      "case_id": "K83-a0-f3-low_monomials-d2-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.05982548799875076,
+      "curve_id": "K83-a0",
+      "dimension": 3,
+      "basis_kind": "low_monomials",
+      "accepted_x": 3,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.002935599999545957,
+      "case_id": "K83-a0-f3-low_monomials-d3-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0034328999990975717,
+      "case_id": "K83-a0-f3-low_monomials-d3-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.1163930580005399,
+      "curve_id": "K83-a0",
+      "dimension": 4,
+      "basis_kind": "low_monomials",
+      "accepted_x": 5,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.008022888001505635,
+      "case_id": "K83-a0-f3-low_monomials-d4-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.009075801999642863,
+      "case_id": "K83-a0-f3-low_monomials-d4-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.19231978399875516,
+      "curve_id": "K83-a0",
+      "dimension": 5,
+      "basis_kind": "low_monomials",
+      "accepted_x": 8,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.020594141000401578,
+      "case_id": "K83-a0-f3-low_monomials-d5-planted",
+      "target_kind": "planted",
+      "ordered_relations": 4,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.024336790998859215,
+      "case_id": "K83-a0-f3-low_monomials-d5-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.4122364329996344,
+      "curve_id": "K83-a0",
+      "dimension": 6,
+      "basis_kind": "low_monomials",
+      "accepted_x": 14,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.06573972899968794,
+      "case_id": "K83-a0-f3-low_monomials-d6-planted",
+      "target_kind": "planted",
+      "ordered_relations": 4,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.06987155699971481,
+      "case_id": "K83-a0-f3-low_monomials-d6-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.03639353799917444,
+      "curve_id": "K83-a0",
+      "dimension": 2,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 2,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0022934459993848577,
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d2-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0023027709994494217,
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.047943004001353984,
+      "curve_id": "K83-a0",
+      "dimension": 3,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 2,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.003423775999181089,
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d3-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.002650336999067804,
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.0833585000000312,
+      "curve_id": "K83-a0",
+      "dimension": 4,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 3,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.005008629999792902,
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d4-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0050880479993793415,
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d4-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.1900279050005338,
+      "curve_id": "K83-a0",
+      "dimension": 5,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 7,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.023837748000005377,
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d5-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.023393789000692777,
+      "case_id": "K83-a0-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.06693290100156446,
+      "curve_id": "S83-a1",
+      "dimension": 2,
+      "basis_kind": "low_monomials",
+      "accepted_x": 2,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0035291820004204055,
+      "case_id": "S83-a1-f3-low_monomials-d2-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.001394941999024013,
+      "case_id": "S83-a1-f3-low_monomials-d2-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.09827041000062309,
+      "curve_id": "S83-a1",
+      "dimension": 3,
+      "basis_kind": "low_monomials",
+      "accepted_x": 3,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0033043790008377982,
+      "case_id": "S83-a1-f3-low_monomials-d3-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.004130074999920907,
+      "case_id": "S83-a1-f3-low_monomials-d3-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.1827601240001968,
+      "curve_id": "S83-a1",
+      "dimension": 4,
+      "basis_kind": "low_monomials",
+      "accepted_x": 6,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.012303835999773582,
+      "case_id": "S83-a1-f3-low_monomials-d4-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.012255273999471683,
+      "case_id": "S83-a1-f3-low_monomials-d4-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.32189772200035804,
+      "curve_id": "S83-a1",
+      "dimension": 5,
+      "basis_kind": "low_monomials",
+      "accepted_x": 10,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.03495520199976454,
+      "case_id": "S83-a1-f3-low_monomials-d5-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.034346978000030504,
+      "case_id": "S83-a1-f3-low_monomials-d5-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.6441146779998235,
+      "curve_id": "S83-a1",
+      "dimension": 6,
+      "basis_kind": "low_monomials",
+      "accepted_x": 21,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.14906161399994744,
+      "case_id": "S83-a1-f3-low_monomials-d6-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.1504932909992931,
+      "case_id": "S83-a1-f3-low_monomials-d6-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.05087653099872114,
+      "curve_id": "S83-a1",
+      "dimension": 2,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 2,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.002032809999946039,
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d2-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0019471119994705077,
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.08106273900011729,
+      "curve_id": "S83-a1",
+      "dimension": 3,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 3,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.004218605999994907,
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d3-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.004816224000023794,
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.17093718800060742,
+      "curve_id": "S83-a1",
+      "dimension": 4,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 6,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.01570373599861341,
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d4-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.014717751999342,
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d4-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.32656819700059714,
+      "curve_id": "S83-a1",
+      "dimension": 5,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 11,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.05053998100083845,
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d5-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.04996339399986027,
+      "case_id": "S83-a1-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.005683432000296307,
+      "curve_id": "B83-a0",
+      "dimension": 2,
+      "basis_kind": "low_monomials",
+      "accepted_x": 0,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0006290940000326373,
+      "case_id": "B83-a0-f3-low_monomials-d2-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.015901859998848522,
+      "curve_id": "B83-a0",
+      "dimension": 3,
+      "basis_kind": "low_monomials",
+      "accepted_x": 0,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0009207469993270934,
+      "case_id": "B83-a0-f3-low_monomials-d3-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.043285084999297396,
+      "curve_id": "B83-a0",
+      "dimension": 4,
+      "basis_kind": "low_monomials",
+      "accepted_x": 0,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0013563649990828708,
+      "case_id": "B83-a0-f3-low_monomials-d4-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.08173024999996414,
+      "curve_id": "B83-a0",
+      "dimension": 5,
+      "basis_kind": "low_monomials",
+      "accepted_x": 0,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0423028549994342,
+      "case_id": "B83-a0-f3-low_monomials-d5-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.17102832199998375,
+      "curve_id": "B83-a0",
+      "dimension": 6,
+      "basis_kind": "low_monomials",
+      "accepted_x": 0,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.002905576999182813,
+      "case_id": "B83-a0-f3-low_monomials-d6-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.02285040199967625,
+      "curve_id": "B83-a0",
+      "dimension": 2,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 2,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0022906220001459587,
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d2-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.002284533000420197,
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d2-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.03049193200058653,
+      "curve_id": "B83-a0",
+      "dimension": 3,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 2,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.003553657999873394,
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d3-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.002705798999159015,
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d3-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.052136983000309556,
+      "curve_id": "B83-a0",
+      "dimension": 4,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 2,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.003286220999143552,
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d4-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0032171189996006433,
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d4-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_factor_base",
+      "elapsed_seconds": 0.08492006800042873,
+      "curve_id": "B83-a0",
+      "dimension": 5,
+      "basis_kind": "subgroup_seeded_basis",
+      "accepted_x": 2,
+      "scope": "Factor-base span enumeration, field point finding, selected-subgroup membership, sign completion, and metadata"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0056074700005410705,
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d5-planted",
+      "target_kind": "planted",
+      "ordered_relations": 2,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "binary_case_construction_and_truth",
+      "elapsed_seconds": 0.0044937359998584725,
+      "case_id": "B83-a0-f3-subgroup_seeded_basis-d5-seeded_subgroup",
+      "target_kind": "seeded_subgroup",
+      "ordered_relations": 0,
+      "scope": "Polynomial construction, Boolean/membership equations, exact x and signed-point golden-truth enumeration, and case assembly"
+    },
+    {
+      "stage": "prime_factor_base",
+      "elapsed_seconds": 0.0027913859994441736,
+      "curve_id": "p83-S-0",
+      "factor_base_size": 4,
+      "scope": "Small subgroup multiples, exact membership/order checks, sign completion, and metadata"
+    },
+    {
+      "stage": "prime_semaev_polynomial_construction",
+      "elapsed_seconds": 8.39200038171839e-06
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 9.314000635640696e-06
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 4.876999810221605e-06
+    },
+    {
+      "stage": "prime_golden_truth_enumeration",
+      "elapsed_seconds": 0.0007302039994101506,
+      "curve_id": "p83-S-0",
+      "factor_base_size": 4,
+      "ordered_relations": 4,
+      "scope": "Exhaustive polynomial-domain checks and independent signed-point relation enumeration",
+      "case_id": "p83-S-0-f3-fb4-planted"
+    },
+    {
+      "stage": "prime_semaev_polynomial_construction",
+      "elapsed_seconds": 5.578000127570704e-06
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 6.629999916185625e-06
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 3.5450011637294665e-06
+    },
+    {
+      "stage": "prime_golden_truth_enumeration",
+      "elapsed_seconds": 0.0006615620004595257,
+      "curve_id": "p83-S-0",
+      "factor_base_size": 4,
+      "ordered_relations": 0,
+      "scope": "Exhaustive polynomial-domain checks and independent signed-point relation enumeration",
+      "case_id": "p83-S-0-f3-fb4-seeded_subgroup"
+    },
+    {
+      "stage": "prime_factor_base",
+      "elapsed_seconds": 0.005326902000888367,
+      "curve_id": "p83-S-0",
+      "factor_base_size": 8,
+      "scope": "Small subgroup multiples, exact membership/order checks, sign completion, and metadata"
+    },
+    {
+      "stage": "prime_semaev_polynomial_construction",
+      "elapsed_seconds": 5.397998393164016e-06
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 1.3439999747788534e-05
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 9.964998753275722e-06
+    },
+    {
+      "stage": "prime_golden_truth_enumeration",
+      "elapsed_seconds": 0.0029730559999734396,
+      "curve_id": "p83-S-0",
+      "factor_base_size": 8,
+      "ordered_relations": 12,
+      "scope": "Exhaustive polynomial-domain checks and independent signed-point relation enumeration",
+      "case_id": "p83-S-0-f3-fb8-planted"
+    },
+    {
+      "stage": "prime_semaev_polynomial_construction",
+      "elapsed_seconds": 5.617999704554677e-06
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 1.4031000318937004e-05
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 1.0055000529973768e-05
+    },
+    {
+      "stage": "prime_golden_truth_enumeration",
+      "elapsed_seconds": 0.0028673190008703386,
+      "curve_id": "p83-S-0",
+      "factor_base_size": 8,
+      "ordered_relations": 0,
+      "scope": "Exhaustive polynomial-domain checks and independent signed-point relation enumeration",
+      "case_id": "p83-S-0-f3-fb8-seeded_subgroup"
+    },
+    {
+      "stage": "prime_factor_base",
+      "elapsed_seconds": 0.011303580000458169,
+      "curve_id": "p83-S-0",
+      "factor_base_size": 16,
+      "scope": "Small subgroup multiples, exact membership/order checks, sign completion, and metadata"
+    },
+    {
+      "stage": "prime_semaev_polynomial_construction",
+      "elapsed_seconds": 5.677999070030637e-06
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 3.710500095621683e-05
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 3.4221000532852486e-05
+    },
+    {
+      "stage": "prime_golden_truth_enumeration",
+      "elapsed_seconds": 0.012922885000079987,
+      "curve_id": "p83-S-0",
+      "factor_base_size": 16,
+      "ordered_relations": 28,
+      "scope": "Exhaustive polynomial-domain checks and independent signed-point relation enumeration",
+      "case_id": "p83-S-0-f3-fb16-planted"
+    },
+    {
+      "stage": "prime_semaev_polynomial_construction",
+      "elapsed_seconds": 4.957000783178955e-06
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 3.630399987741839e-05
+    },
+    {
+      "stage": "prime_membership_polynomial_construction",
+      "elapsed_seconds": 3.3319000067422166e-05
+    },
+    {
+      "stage": "prime_golden_truth_enumeration",
+      "elapsed_seconds": 0.011797823999586399,
+      "curve_id": "p83-S-0",
+      "factor_base_size": 16,
+      "ordered_relations": 0,
+      "scope": "Exhaustive polynomial-domain checks and independent signed-point relation enumeration",
+      "case_id": "p83-S-0-f3-fb16-seeded_subgroup"
+    }
+  ]
+}

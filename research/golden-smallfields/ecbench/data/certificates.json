@@ -1,0 +1,10584 @@
+[
+  {
+    "method": "base",
+    "n": "2",
+    "n_minus_1_factorization": [],
+    "witnesses": {}
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      }
+    ],
+    "witnesses": {
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      }
+    ],
+    "witnesses": {
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "7",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "11",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "13",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "17",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      }
+    ],
+    "witnesses": {
+      "2": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "19",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "23",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "5",
+      "2": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "29",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "31",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "5": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "37",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "41",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "6",
+      "5": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "43",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "47",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "23": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "53",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "59",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "29": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "61",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "67",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "71",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "5": "7",
+      "7": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "73",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "79",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      }
+    ],
+    "witnesses": {
+      "13": "3",
+      "2": "3",
+      "3": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "83",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "41"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "41": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "89",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "97",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "101",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "103",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      }
+    ],
+    "witnesses": {
+      "17": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "107",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "53": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "109",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      }
+    ],
+    "witnesses": {
+      "2": "6",
+      "3": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "113",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "127",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "131",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "137",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      }
+    ],
+    "witnesses": {
+      "17": "3",
+      "2": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "139",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "23": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "149",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "37"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "37": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "151",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "6",
+      "3": "6",
+      "5": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "157",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      }
+    ],
+    "witnesses": {
+      "13": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "163",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 4,
+        "prime": "3"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "173",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "43"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "43": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "179",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "89"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "89": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "181",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "191",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      }
+    ],
+    "witnesses": {
+      "19": "19",
+      "2": "19",
+      "5": "19"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "193",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 6,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "197",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "199",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3",
+      "3": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "211",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "5": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "223",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "37"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "37": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "227",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "113"
+      }
+    ],
+    "witnesses": {
+      "113": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "229",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      }
+    ],
+    "witnesses": {
+      "19": "6",
+      "2": "6",
+      "3": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "233",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "29": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "239",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      }
+    ],
+    "witnesses": {
+      "17": "7",
+      "2": "7",
+      "7": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "241",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "3": "7",
+      "5": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "251",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "6",
+      "5": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "257",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 8,
+        "prime": "2"
+      }
+    ],
+    "witnesses": {
+      "2": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "271",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "6",
+      "3": "6",
+      "5": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "277",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "23": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "281",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "5": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "283",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "47"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "47": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "293",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "73"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "73": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "307",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      }
+    ],
+    "witnesses": {
+      "17": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "311",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      }
+    ],
+    "witnesses": {
+      "2": "17",
+      "31": "17",
+      "5": "17"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "313",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      }
+    ],
+    "witnesses": {
+      "13": "10",
+      "2": "10",
+      "3": "10"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "317",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "79"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "79": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "331",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3",
+      "3": "3",
+      "5": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "337",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "10",
+      "3": "10",
+      "7": "10"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "347",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "173"
+      }
+    ],
+    "witnesses": {
+      "173": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "359",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "179"
+      }
+    ],
+    "witnesses": {
+      "179": "7",
+      "2": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "383",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "191"
+      }
+    ],
+    "witnesses": {
+      "191": "5",
+      "2": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "389",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "97"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "97": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "397",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "409",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      }
+    ],
+    "witnesses": {
+      "17": "2",
+      "2": "7",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "419",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "19": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "421",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "5": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "431",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "43"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "43": "7",
+      "5": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "439",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "73"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "5",
+      "73": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "443",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "17": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "449",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 6,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "461",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "23": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "463",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3",
+      "3": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "467",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "233"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "233": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "479",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "239"
+      }
+    ],
+    "witnesses": {
+      "2": "13",
+      "239": "13"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "557",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "139"
+      }
+    ],
+    "witnesses": {
+      "139": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "577",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 6,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "593",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "37"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "37": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "601",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "3": "7",
+      "5": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "617",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "631",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "5": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "641",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 7,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "5": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "643",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "107"
+      }
+    ],
+    "witnesses": {
+      "107": "11",
+      "2": "11",
+      "3": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "647",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      }
+    ],
+    "witnesses": {
+      "17": "5",
+      "19": "5",
+      "2": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "653",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "163"
+      }
+    ],
+    "witnesses": {
+      "163": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "673",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "3": "5",
+      "7": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "677",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "13"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "683",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      }
+    ],
+    "witnesses": {
+      "11": "5",
+      "2": "5",
+      "31": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "719",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "359"
+      }
+    ],
+    "witnesses": {
+      "2": "11",
+      "359": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "727",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "739",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "41"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "41": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "743",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "53": "5",
+      "7": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "797",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "199"
+      }
+    ],
+    "witnesses": {
+      "199": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "809",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "101"
+      }
+    ],
+    "witnesses": {
+      "101": "3",
+      "2": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "811",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 4,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "3",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "821",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "41"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "41": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "829",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "23": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "839",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "419"
+      }
+    ],
+    "witnesses": {
+      "2": "11",
+      "419": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "857",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "107"
+      }
+    ],
+    "witnesses": {
+      "107": "3",
+      "2": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "863",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "431"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "431": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "877",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "73"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "73": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "907",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "151"
+      }
+    ],
+    "witnesses": {
+      "151": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "929",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "29": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "947",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "43"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "2": "2",
+      "43": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "967",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "23": "5",
+      "3": "5",
+      "7": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "991",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "2": "3",
+      "3": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1013",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3",
+      "23": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1051",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "3",
+      "5": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1091",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "109"
+      }
+    ],
+    "witnesses": {
+      "109": "2",
+      "2": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1109",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "277"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "277": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1171",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "2",
+      "3": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1181",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "59"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "5": "7",
+      "59": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1187",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "593"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "593": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1213",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "101"
+      }
+    ],
+    "witnesses": {
+      "101": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1229",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "307"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "307": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1283",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "641"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "641": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1321",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "13",
+      "2": "13",
+      "3": "13",
+      "5": "13"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1373",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1409",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 7,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1447",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "241"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "241": "3",
+      "3": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1453",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1489",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      }
+    ],
+    "witnesses": {
+      "2": "14",
+      "3": "14",
+      "31": "14"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1567",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "29": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1637",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "409"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "409": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1697",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "53": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1723",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "41"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "41": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1753",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "73"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "3": "7",
+      "73": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1801",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "11",
+      "3": "3",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1867",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "311"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "311": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1873",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      }
+    ],
+    "witnesses": {
+      "13": "10",
+      "2": "10",
+      "3": "10"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1979",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "43"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "23": "2",
+      "43": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1993",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "83"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "3": "5",
+      "83": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2081",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "3",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2087",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "149"
+      }
+    ],
+    "witnesses": {
+      "149": "5",
+      "2": "5",
+      "7": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2113",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 6,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2539",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "47"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "47": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2663",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "5",
+      "2": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2797",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "233"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "233": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2927",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      }
+    ],
+    "witnesses": {
+      "11": "5",
+      "19": "5",
+      "2": "5",
+      "7": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2953",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "41"
+      }
+    ],
+    "witnesses": {
+      "2": "13",
+      "3": "13",
+      "41": "13"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3331",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "37"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "37": "3",
+      "5": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3637",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "101"
+      }
+    ],
+    "witnesses": {
+      "101": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3769",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "157"
+      }
+    ],
+    "witnesses": {
+      "157": "7",
+      "2": "7",
+      "3": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3911",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      }
+    ],
+    "witnesses": {
+      "17": "13",
+      "2": "13",
+      "23": "13",
+      "5": "13"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4021",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "67"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "5": "2",
+      "67": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4099",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "683"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "683": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4177",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "29": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4519",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "251"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "251": "3",
+      "3": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4637",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "61"
+      }
+    ],
+    "witnesses": {
+      "19": "2",
+      "2": "2",
+      "61": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4951",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      }
+    ],
+    "witnesses": {
+      "11": "6",
+      "2": "6",
+      "3": "6",
+      "5": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5023",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 4,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "31": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5051",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "101"
+      }
+    ],
+    "witnesses": {
+      "101": "2",
+      "2": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5153",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "23": "3",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5279",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      }
+    ],
+    "witnesses": {
+      "13": "7",
+      "2": "7",
+      "29": "7",
+      "7": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5531",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "79"
+      }
+    ],
+    "witnesses": {
+      "2": "10",
+      "5": "10",
+      "7": "10",
+      "79": "10"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5581",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      }
+    ],
+    "witnesses": {
+      "2": "6",
+      "3": "6",
+      "31": "6",
+      "5": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5813",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "1453"
+      }
+    ],
+    "witnesses": {
+      "1453": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "6011",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "601"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "5": "2",
+      "601": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "6247",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "347"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "3": "5",
+      "347": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "6301",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "10",
+      "3": "10",
+      "5": "10",
+      "7": "10"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "6571",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "73"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "5": "3",
+      "73": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "6857",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "857"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "857": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "6917",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "19": "2",
+      "2": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "6949",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "193"
+      }
+    ],
+    "witnesses": {
+      "193": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "7057",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "7"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "3": "3",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "7417",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "103"
+      }
+    ],
+    "witnesses": {
+      "103": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "7589",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "271"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "271": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "7673",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "137"
+      }
+    ],
+    "witnesses": {
+      "137": "3",
+      "2": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "7681",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 9,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      }
+    ],
+    "witnesses": {
+      "2": "17",
+      "3": "17",
+      "5": "17"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "8009",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "13": "3",
+      "2": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "8681",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      }
+    ],
+    "witnesses": {
+      "2": "15",
+      "31": "15",
+      "5": "15",
+      "7": "15"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "8849",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "79"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "7": "3",
+      "79": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "9293",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "101"
+      }
+    ],
+    "witnesses": {
+      "101": "2",
+      "2": "2",
+      "23": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "9497",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "1187"
+      }
+    ],
+    "witnesses": {
+      "1187": "2",
+      "2": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "10067",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "719"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "7": "2",
+      "719": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "10099",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "17": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "10459",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "83"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "7": "2",
+      "83": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "10559",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5279"
+      }
+    ],
+    "witnesses": {
+      "2": "23",
+      "5279": "23"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "10639",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "197"
+      }
+    ],
+    "witnesses": {
+      "197": "6",
+      "2": "6",
+      "3": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "10789",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "29": "2",
+      "3": "2",
+      "31": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "11119",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "109"
+      }
+    ],
+    "witnesses": {
+      "109": "3",
+      "17": "2",
+      "2": "3",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "11657",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "47"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "31": "3",
+      "47": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "11813",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "2953"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "2953": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "11959",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "1993"
+      }
+    ],
+    "witnesses": {
+      "1993": "3",
+      "2": "3",
+      "3": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "12343",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      }
+    ],
+    "witnesses": {
+      "11": "7",
+      "17": "7",
+      "2": "7",
+      "3": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "12697",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "23"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "23": "7",
+      "3": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "13009",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "271"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "271": "2",
+      "3": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "13291",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "443"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "443": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "14411",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "131"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "131": "2",
+      "2": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "14549",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3637"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3637": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "15329",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "479"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "479": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "16421",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "821"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "5": "2",
+      "821": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "16871",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "241"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "241": "2",
+      "5": "3",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "17231",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "1723"
+      }
+    ],
+    "witnesses": {
+      "1723": "13",
+      "2": "13",
+      "5": "13"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "17449",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "727"
+      }
+    ],
+    "witnesses": {
+      "2": "14",
+      "3": "14",
+      "727": "14"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "17669",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "631"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "631": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "18587",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "9293"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "9293": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "19273",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "73"
+      }
+    ],
+    "witnesses": {
+      "11": "5",
+      "2": "5",
+      "3": "5",
+      "73": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "22543",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 2,
+        "prime": "17"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "17": "2",
+      "2": "3",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "22937",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "47"
+      },
+      {
+        "exponent": 1,
+        "prime": "61"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "47": "3",
+      "61": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "23557",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "151"
+      }
+    ],
+    "witnesses": {
+      "13": "5",
+      "151": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "25997",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "67"
+      },
+      {
+        "exponent": 1,
+        "prime": "97"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "67": "2",
+      "97": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "26921",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "673"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "5": "5",
+      "673": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "27529",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "37"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "3": "7",
+      "31": "7",
+      "37": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "27851",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "557"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "5": "2",
+      "557": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "29063",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "1321"
+      }
+    ],
+    "witnesses": {
+      "11": "10",
+      "1321": "10",
+      "2": "10"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "30223",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "73"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "23": "3",
+      "3": "3",
+      "73": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "30839",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "907"
+      }
+    ],
+    "witnesses": {
+      "17": "7",
+      "2": "7",
+      "907": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "30851",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "617"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "5": "2",
+      "617": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "32059",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "137"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "137": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "35339",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "17669"
+      }
+    ],
+    "witnesses": {
+      "17669": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "35401",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "59"
+      }
+    ],
+    "witnesses": {
+      "2": "13",
+      "3": "13",
+      "5": "13",
+      "59": "13"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "37313",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 6,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3",
+      "53": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "40849",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "37"
+      }
+    ],
+    "witnesses": {
+      "2": "11",
+      "23": "11",
+      "3": "11",
+      "37": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "46549",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "431"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "431": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "47059",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "2": "2",
+      "23": "2",
+      "3": "2",
+      "31": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "49477",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      }
+    ],
+    "witnesses": {
+      "19": "11",
+      "2": "11",
+      "3": "11",
+      "31": "11",
+      "7": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "53951",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "83"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "7",
+      "5": "2",
+      "83": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "61703",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "30851"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "30851": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "64919",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "4637"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "4637": "7",
+      "7": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "65183",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "109"
+      }
+    ],
+    "witnesses": {
+      "109": "5",
+      "13": "5",
+      "2": "5",
+      "23": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "65537",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 16,
+        "prime": "2"
+      }
+    ],
+    "witnesses": {
+      "2": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "71473",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "1489"
+      }
+    ],
+    "witnesses": {
+      "1489": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "77093",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "19273"
+      }
+    ],
+    "witnesses": {
+      "19273": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "83777",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 6,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "17": "3",
+      "2": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "93257",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11657"
+      }
+    ],
+    "witnesses": {
+      "11657": "3",
+      "2": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "98299",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "43"
+      },
+      {
+        "exponent": 1,
+        "prime": "127"
+      }
+    ],
+    "witnesses": {
+      "127": "2",
+      "2": "2",
+      "3": "2",
+      "43": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "100693",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "2797"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "2797": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "106189",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "8849"
+      }
+    ],
+    "witnesses": {
+      "2": "6",
+      "3": "6",
+      "8849": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "115903",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "47"
+      },
+      {
+        "exponent": 1,
+        "prime": "137"
+      }
+    ],
+    "witnesses": {
+      "137": "3",
+      "2": "3",
+      "3": "3",
+      "47": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "119773",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "1109"
+      }
+    ],
+    "witnesses": {
+      "1109": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "123407",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "61703"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "61703": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "128237",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "32059"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "32059": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "129401",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "647"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "5": "3",
+      "647": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "129749",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "163"
+      },
+      {
+        "exponent": 1,
+        "prime": "199"
+      }
+    ],
+    "witnesses": {
+      "163": "2",
+      "199": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "133241",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "3331"
+      }
+    ],
+    "witnesses": {
+      "2": "6",
+      "3331": "6",
+      "5": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "137623",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "22937"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "22937": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "149627",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "79"
+      },
+      {
+        "exponent": 1,
+        "prime": "947"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "79": "2",
+      "947": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "168631",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "73"
+      }
+    ],
+    "witnesses": {
+      "11": "7",
+      "2": "7",
+      "3": "7",
+      "5": "7",
+      "7": "7",
+      "73": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "176797",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "1637"
+      }
+    ],
+    "witnesses": {
+      "1637": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "190271",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      },
+      {
+        "exponent": 1,
+        "prime": "359"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "359": "2",
+      "5": "2",
+      "53": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "190529",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 6,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "229"
+      }
+    ],
+    "witnesses": {
+      "13": "3",
+      "2": "3",
+      "229": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "232303",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "5531"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "5531": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "236699",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "2": "2",
+      "29": "2",
+      "53": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "258803",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "129401"
+      }
+    ],
+    "witnesses": {
+      "129401": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "259499",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "129749"
+      }
+    ],
+    "witnesses": {
+      "129749": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "275923",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "15329"
+      }
+    ],
+    "witnesses": {
+      "15329": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "282713",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "35339"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "35339": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "290441",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      },
+      {
+        "exponent": 1,
+        "prime": "137"
+      }
+    ],
+    "witnesses": {
+      "137": "11",
+      "2": "11",
+      "5": "11",
+      "53": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "308303",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "139"
+      },
+      {
+        "exponent": 1,
+        "prime": "1109"
+      }
+    ],
+    "witnesses": {
+      "1109": "2",
+      "139": "2",
+      "2": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "313561",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "67"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "7",
+      "3": "3",
+      "5": "5",
+      "67": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "326497",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "179"
+      }
+    ],
+    "witnesses": {
+      "179": "5",
+      "19": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "334157",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "139"
+      },
+      {
+        "exponent": 1,
+        "prime": "601"
+      }
+    ],
+    "witnesses": {
+      "139": "2",
+      "2": "2",
+      "601": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "355517",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "12697"
+      }
+    ],
+    "witnesses": {
+      "12697": "2",
+      "2": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "361727",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "10639"
+      }
+    ],
+    "witnesses": {
+      "10639": "5",
+      "17": "5",
+      "2": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "384773",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "107"
+      }
+    ],
+    "witnesses": {
+      "107": "3",
+      "2": "3",
+      "29": "3",
+      "31": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "412273",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "409"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "3": "2",
+      "409": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "445499",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      },
+      {
+        "exponent": 1,
+        "prime": "7681"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "29": "2",
+      "7681": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "479879",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "151"
+      },
+      {
+        "exponent": 1,
+        "prime": "227"
+      }
+    ],
+    "witnesses": {
+      "151": "7",
+      "2": "7",
+      "227": "7",
+      "7": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "516931",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "17231"
+      }
+    ],
+    "witnesses": {
+      "17231": "2",
+      "2": "2",
+      "3": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "522167",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "131"
+      },
+      {
+        "exponent": 1,
+        "prime": "1993"
+      }
+    ],
+    "witnesses": {
+      "131": "5",
+      "1993": "5",
+      "2": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "540877",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "47"
+      },
+      {
+        "exponent": 1,
+        "prime": "137"
+      }
+    ],
+    "witnesses": {
+      "137": "26",
+      "2": "26",
+      "3": "26",
+      "47": "26",
+      "7": "26"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "565427",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "282713"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "282713": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "602431",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "43"
+      },
+      {
+        "exponent": 1,
+        "prime": "467"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "2",
+      "43": "2",
+      "467": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "647771",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "211"
+      },
+      {
+        "exponent": 1,
+        "prime": "307"
+      }
+    ],
+    "witnesses": {
+      "2": "6",
+      "211": "6",
+      "307": "6",
+      "5": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "657049",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "3911"
+      }
+    ],
+    "witnesses": {
+      "2": "11",
+      "3": "11",
+      "3911": "11",
+      "7": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "659597",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "23557"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "23557": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "708583",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "16871"
+      }
+    ],
+    "witnesses": {
+      "16871": "2",
+      "2": "3",
+      "3": "7",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "890999",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "445499"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "445499": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1105613",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "71"
+      },
+      {
+        "exponent": 1,
+        "prime": "229"
+      }
+    ],
+    "witnesses": {
+      "17": "2",
+      "2": "2",
+      "229": "2",
+      "71": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1117177",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "46549"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "3": "7",
+      "46549": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1181039",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "43"
+      },
+      {
+        "exponent": 1,
+        "prime": "443"
+      }
+    ],
+    "witnesses": {
+      "2": "13",
+      "31": "2",
+      "43": "2",
+      "443": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1280291",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "103"
+      },
+      {
+        "exponent": 1,
+        "prime": "113"
+      }
+    ],
+    "witnesses": {
+      "103": "2",
+      "11": "2",
+      "113": "2",
+      "2": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1304411",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "7673"
+      }
+    ],
+    "witnesses": {
+      "17": "6",
+      "2": "6",
+      "5": "6",
+      "7673": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1663919",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "59"
+      },
+      {
+        "exponent": 1,
+        "prime": "239"
+      }
+    ],
+    "witnesses": {
+      "2": "11",
+      "239": "2",
+      "59": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1688669",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "67"
+      },
+      {
+        "exponent": 1,
+        "prime": "6301"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "6301": "2",
+      "67": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1742647",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "290441"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "290441": "3",
+      "3": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1865141",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "93257"
+      }
+    ],
+    "witnesses": {
+      "2": "10",
+      "5": "10",
+      "93257": "10"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1881277",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "211"
+      },
+      {
+        "exponent": 1,
+        "prime": "743"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "211": "5",
+      "3": "5",
+      "743": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1937333",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "41"
+      },
+      {
+        "exponent": 1,
+        "prime": "11813"
+      }
+    ],
+    "witnesses": {
+      "11813": "2",
+      "2": "2",
+      "41": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2220409",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "30839"
+      }
+    ],
+    "witnesses": {
+      "2": "17",
+      "3": "17",
+      "30839": "17"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2415719",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "101"
+      },
+      {
+        "exponent": 1,
+        "prime": "11959"
+      }
+    ],
+    "witnesses": {
+      "101": "11",
+      "11959": "11",
+      "2": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2466977",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "77093"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "77093": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2623157",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "157"
+      },
+      {
+        "exponent": 1,
+        "prime": "4177"
+      }
+    ],
+    "witnesses": {
+      "157": "2",
+      "2": "2",
+      "4177": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2866189",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "967"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "19": "2",
+      "2": "2",
+      "3": "2",
+      "967": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3113177",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "2081"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "17": "2",
+      "2": "3",
+      "2081": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3265831",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "131"
+      },
+      {
+        "exponent": 1,
+        "prime": "277"
+      }
+    ],
+    "witnesses": {
+      "131": "2",
+      "2": "3",
+      "277": "2",
+      "3": "11",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3488143",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      },
+      {
+        "exponent": 1,
+        "prime": "1567"
+      }
+    ],
+    "witnesses": {
+      "1567": "2",
+      "2": "3",
+      "3": "7",
+      "53": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3624949",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "100693"
+      }
+    ],
+    "witnesses": {
+      "100693": "6",
+      "2": "6",
+      "3": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3738853",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "2663"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "2",
+      "2663": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4590643",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      },
+      {
+        "exponent": 1,
+        "prime": "3769"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "29": "3",
+      "3": "3",
+      "3769": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4901021",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 2,
+        "prime": "37"
+      },
+      {
+        "exponent": 1,
+        "prime": "179"
+      }
+    ],
+    "witnesses": {
+      "179": "2",
+      "2": "2",
+      "37": "3",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5156159",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      },
+      {
+        "exponent": 1,
+        "prime": "6949"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "53": "2",
+      "6949": "2",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5741713",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13291"
+      }
+    ],
+    "witnesses": {
+      "13291": "2",
+      "2": "5",
+      "3": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "6700417",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 7,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "17449"
+      }
+    ],
+    "witnesses": {
+      "17449": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "7368281",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "8009"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "23": "3",
+      "5": "3",
+      "8009": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "9070007",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "412273"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "2": "5",
+      "412273": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "9549499",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "271"
+      },
+      {
+        "exponent": 1,
+        "prime": "839"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "271": "7",
+      "3": "7",
+      "7": "7",
+      "839": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "12066511",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      },
+      {
+        "exponent": 1,
+        "prime": "7589"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "2",
+      "5": "2",
+      "53": "2",
+      "7589": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "13650313",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "67"
+      },
+      {
+        "exponent": 1,
+        "prime": "653"
+      }
+    ],
+    "witnesses": {
+      "13": "5",
+      "2": "5",
+      "3": "5",
+      "653": "5",
+      "67": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "17264969",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "308303"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "308303": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "19395841",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 8,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "5051"
+      }
+    ],
+    "witnesses": {
+      "2": "7",
+      "3": "2",
+      "5": "2",
+      "5051": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "21482959",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "26921"
+      }
+    ],
+    "witnesses": {
+      "19": "2",
+      "2": "3",
+      "26921": "2",
+      "3": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "22253377",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 6,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "115903"
+      }
+    ],
+    "witnesses": {
+      "115903": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "22443599",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "283"
+      },
+      {
+        "exponent": 1,
+        "prime": "2087"
+      }
+    ],
+    "witnesses": {
+      "19": "17",
+      "2": "17",
+      "2087": "17",
+      "283": "17"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "23692489",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "719"
+      },
+      {
+        "exponent": 1,
+        "prime": "1373"
+      }
+    ],
+    "witnesses": {
+      "1373": "11",
+      "2": "11",
+      "3": "11",
+      "719": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "26416823",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "103"
+      },
+      {
+        "exponent": 1,
+        "prime": "128237"
+      }
+    ],
+    "witnesses": {
+      "103": "2",
+      "128237": "2",
+      "2": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "27992747",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "83"
+      },
+      {
+        "exponent": 1,
+        "prime": "168631"
+      }
+    ],
+    "witnesses": {
+      "168631": "2",
+      "2": "2",
+      "83": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "33820067",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "2415719"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "2415719": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "52833647",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "26416823"
+      }
+    ],
+    "witnesses": {
+      "2": "5",
+      "26416823": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "70245379",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "79"
+      },
+      {
+        "exponent": 1,
+        "prime": "7057"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "7": "2",
+      "7057": "2",
+      "79": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "77907281",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "223"
+      },
+      {
+        "exponent": 1,
+        "prime": "397"
+      }
+    ],
+    "witnesses": {
+      "11": "6",
+      "2": "6",
+      "223": "6",
+      "397": "6",
+      "5": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "89526769",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "1865141"
+      }
+    ],
+    "witnesses": {
+      "1865141": "7",
+      "2": "7",
+      "3": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "105040933",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "829"
+      },
+      {
+        "exponent": 1,
+        "prime": "10559"
+      }
+    ],
+    "witnesses": {
+      "10559": "5",
+      "2": "5",
+      "3": "5",
+      "829": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "106083413",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "79"
+      },
+      {
+        "exponent": 1,
+        "prime": "389"
+      },
+      {
+        "exponent": 1,
+        "prime": "863"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "389": "2",
+      "79": "2",
+      "863": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "112052167",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "602431"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "2",
+      "31": "2",
+      "602431": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "125182019",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "383"
+      },
+      {
+        "exponent": 1,
+        "prime": "967"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "2",
+      "383": "2",
+      "967": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "179548793",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "22443599"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "22443599": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "315671737",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "157"
+      },
+      {
+        "exponent": 1,
+        "prime": "83777"
+      }
+    ],
+    "witnesses": {
+      "157": "5",
+      "2": "5",
+      "3": "5",
+      "83777": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "318032437",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      },
+      {
+        "exponent": 1,
+        "prime": "101"
+      },
+      {
+        "exponent": 1,
+        "prime": "4951"
+      }
+    ],
+    "witnesses": {
+      "101": "2",
+      "2": "2",
+      "3": "2",
+      "4951": "2",
+      "53": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "367038541",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 4,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "43"
+      },
+      {
+        "exponent": 1,
+        "prime": "479"
+      }
+    ],
+    "witnesses": {
+      "11": "10",
+      "2": "10",
+      "3": "10",
+      "43": "10",
+      "479": "10",
+      "5": "10"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "371710501",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 3,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "35401"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "35401": "2",
+      "5": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "467443687",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "77907281"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "3": "3",
+      "77907281": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "529510939",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "258803"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3",
+      "258803": "3",
+      "3": "3",
+      "31": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "664153249",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "677"
+      },
+      {
+        "exponent": 1,
+        "prime": "929"
+      }
+    ],
+    "witnesses": {
+      "11": "17",
+      "2": "17",
+      "3": "17",
+      "677": "17",
+      "929": "17"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "669785971",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "97"
+      },
+      {
+        "exponent": 1,
+        "prime": "131"
+      },
+      {
+        "exponent": 1,
+        "prime": "251"
+      }
+    ],
+    "witnesses": {
+      "131": "2",
+      "2": "2",
+      "251": "2",
+      "3": "2",
+      "5": "2",
+      "7": "2",
+      "97": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "710774671",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "23692489"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "23692489": "3",
+      "3": "3",
+      "5": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "756896957",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "4021"
+      },
+      {
+        "exponent": 1,
+        "prime": "47059"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "4021": "2",
+      "47059": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "886627067",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "2623157"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "2",
+      "2623157": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "892814581",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "708583"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "5": "2",
+      "7": "3",
+      "708583": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1122887041",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 7,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "79"
+      },
+      {
+        "exponent": 1,
+        "prime": "673"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "2": "7",
+      "3": "2",
+      "5": "2",
+      "673": "2",
+      "79": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1310558959",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "223"
+      },
+      {
+        "exponent": 1,
+        "prime": "326497"
+      }
+    ],
+    "witnesses": {
+      "2": "6",
+      "223": "6",
+      "3": "6",
+      "326497": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1593556879",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "103"
+      },
+      {
+        "exponent": 1,
+        "prime": "239"
+      },
+      {
+        "exponent": 1,
+        "prime": "10789"
+      }
+    ],
+    "witnesses": {
+      "103": "6",
+      "10789": "6",
+      "2": "6",
+      "239": "6",
+      "3": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1626028039",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "173"
+      },
+      {
+        "exponent": 1,
+        "prime": "522167"
+      }
+    ],
+    "witnesses": {
+      "173": "3",
+      "2": "3",
+      "3": "3",
+      "522167": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1778565461",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "311"
+      },
+      {
+        "exponent": 1,
+        "prime": "40849"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "311": "2",
+      "40849": "2",
+      "5": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1788581261",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "173"
+      },
+      {
+        "exponent": 1,
+        "prime": "516931"
+      }
+    ],
+    "witnesses": {
+      "173": "2",
+      "2": "2",
+      "5": "2",
+      "516931": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2242930237",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "127"
+      },
+      {
+        "exponent": 1,
+        "prime": "293"
+      },
+      {
+        "exponent": 1,
+        "prime": "5023"
+      }
+    ],
+    "witnesses": {
+      "127": "2",
+      "2": "2",
+      "293": "2",
+      "3": "2",
+      "5023": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2342634641",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "113"
+      },
+      {
+        "exponent": 1,
+        "prime": "593"
+      }
+    ],
+    "witnesses": {
+      "113": "6",
+      "19": "6",
+      "2": "6",
+      "23": "6",
+      "5": "6",
+      "593": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2903110321",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "1867"
+      }
+    ],
+    "witnesses": {
+      "11": "7",
+      "1867": "7",
+      "19": "7",
+      "2": "7",
+      "3": "7",
+      "31": "7",
+      "5": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3328756601",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "1280291"
+      }
+    ],
+    "witnesses": {
+      "1280291": "2",
+      "13": "2",
+      "2": "3",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3417821983",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "421"
+      },
+      {
+        "exponent": 1,
+        "prime": "14549"
+      }
+    ],
+    "witnesses": {
+      "14549": "5",
+      "2": "5",
+      "3": "5",
+      "31": "5",
+      "421": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4225082959",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 4,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "2113"
+      },
+      {
+        "exponent": 1,
+        "prime": "12343"
+      }
+    ],
+    "witnesses": {
+      "12343": "6",
+      "2": "6",
+      "2113": "6",
+      "3": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "5957986933",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "2539"
+      },
+      {
+        "exponent": 1,
+        "prime": "65183"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "2539": "2",
+      "3": "2",
+      "65183": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "6799494049",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "29"
+      },
+      {
+        "exponent": 1,
+        "prime": "106189"
+      }
+    ],
+    "witnesses": {
+      "106189": "11",
+      "2": "11",
+      "23": "11",
+      "29": "11",
+      "3": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "11408200753",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "811"
+      },
+      {
+        "exponent": 1,
+        "prime": "22543"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "5",
+      "22543": "2",
+      "3": "3",
+      "811": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "14377452373",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 4,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "79"
+      },
+      {
+        "exponent": 1,
+        "prime": "331"
+      },
+      {
+        "exponent": 1,
+        "prime": "1697"
+      }
+    ],
+    "witnesses": {
+      "1697": "2",
+      "2": "2",
+      "3": "2",
+      "331": "2",
+      "79": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "16900331837",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "4225082959"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "4225082959": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "19679320883",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "756896957"
+      }
+    ],
+    "witnesses": {
+      "13": "3",
+      "2": "2",
+      "756896957": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "20036658097",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "283"
+      },
+      {
+        "exponent": 1,
+        "prime": "1801"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "1801": "2",
+      "2": "5",
+      "283": "2",
+      "3": "2",
+      "7": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "22581210467",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "664153249"
+      }
+    ],
+    "witnesses": {
+      "17": "6",
+      "2": "6",
+      "664153249": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "25330874449",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "739"
+      },
+      {
+        "exponent": 1,
+        "prime": "64919"
+      }
+    ],
+    "witnesses": {
+      "11": "14",
+      "2": "14",
+      "3": "14",
+      "64919": "14",
+      "739": "14"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "28130075161",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 2,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "1937333"
+      }
+    ],
+    "witnesses": {
+      "11": "17",
+      "1937333": "17",
+      "2": "17",
+      "3": "17",
+      "5": "17"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "34495408063",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "37"
+      },
+      {
+        "exponent": 1,
+        "prime": "17264969"
+      }
+    ],
+    "witnesses": {
+      "17264969": "2",
+      "2": "3",
+      "3": "2",
+      "37": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "34617830743",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "61"
+      },
+      {
+        "exponent": 1,
+        "prime": "2866189"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3",
+      "2866189": "3",
+      "3": "3",
+      "61": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "39463029637",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "106083413"
+      }
+    ],
+    "witnesses": {
+      "106083413": "5",
+      "2": "5",
+      "3": "5",
+      "31": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "39502961441",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "9497"
+      },
+      {
+        "exponent": 1,
+        "prime": "25997"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "25997": "2",
+      "5": "2",
+      "9497": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "51131959441",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "659597"
+      }
+    ],
+    "witnesses": {
+      "17": "11",
+      "19": "11",
+      "2": "11",
+      "3": "11",
+      "5": "11",
+      "659597": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "64388925397",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "1788581261"
+      }
+    ],
+    "witnesses": {
+      "1788581261": "5",
+      "2": "5",
+      "3": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "157632877033",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "3769"
+      },
+      {
+        "exponent": 1,
+        "prime": "1742647"
+      }
+    ],
+    "witnesses": {
+      "1742647": "5",
+      "2": "5",
+      "3": "5",
+      "3769": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "293214465737",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "1593556879"
+      }
+    ],
+    "witnesses": {
+      "1593556879": "3",
+      "2": "3",
+      "23": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "311886008947",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "233"
+      },
+      {
+        "exponent": 1,
+        "prime": "1993"
+      },
+      {
+        "exponent": 1,
+        "prime": "37313"
+      }
+    ],
+    "witnesses": {
+      "1993": "7",
+      "2": "7",
+      "233": "7",
+      "3": "7",
+      "37313": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "360190405961",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "199"
+      },
+      {
+        "exponent": 1,
+        "prime": "593"
+      },
+      {
+        "exponent": 1,
+        "prime": "991"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "199": "2",
+      "2": "3",
+      "5": "2",
+      "593": "2",
+      "7": "3",
+      "991": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "574649818121",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "109"
+      },
+      {
+        "exponent": 1,
+        "prime": "1013"
+      },
+      {
+        "exponent": 1,
+        "prime": "18587"
+      }
+    ],
+    "witnesses": {
+      "1013": "3",
+      "109": "3",
+      "18587": "3",
+      "2": "3",
+      "5": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "702790392301",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "2342634641"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "2342634641": "2",
+      "3": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1185768500201",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "107"
+      },
+      {
+        "exponent": 1,
+        "prime": "449"
+      },
+      {
+        "exponent": 1,
+        "prime": "123407"
+      }
+    ],
+    "witnesses": {
+      "107": "3",
+      "123407": "3",
+      "2": "3",
+      "449": "3",
+      "5": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2212174811531",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "6917"
+      },
+      {
+        "exponent": 1,
+        "prime": "1881277"
+      }
+    ],
+    "witnesses": {
+      "17": "2",
+      "1881277": "2",
+      "2": "2",
+      "5": "2",
+      "6917": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2371537000403",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "1185768500201"
+      }
+    ],
+    "witnesses": {
+      "1185768500201": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2393421905249",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "6799494049"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "2": "3",
+      "6799494049": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2523639968257",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 9,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "59"
+      },
+      {
+        "exponent": 1,
+        "prime": "133241"
+      }
+    ],
+    "witnesses": {
+      "11": "5",
+      "133241": "5",
+      "19": "5",
+      "2": "5",
+      "3": "5",
+      "59": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2645902442041",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "9070007"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "13": "2",
+      "17": "2",
+      "2": "7",
+      "3": "3",
+      "5": "2",
+      "9070007": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3298407032069",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "193"
+      },
+      {
+        "exponent": 1,
+        "prime": "313"
+      },
+      {
+        "exponent": 1,
+        "prime": "13650313"
+      }
+    ],
+    "witnesses": {
+      "13650313": "2",
+      "193": "2",
+      "2": "2",
+      "313": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "21044858204113",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      },
+      {
+        "exponent": 1,
+        "prime": "149"
+      },
+      {
+        "exponent": 1,
+        "prime": "3265831"
+      }
+    ],
+    "witnesses": {
+      "149": "2",
+      "17": "2",
+      "2": "5",
+      "3": "3",
+      "3265831": "2",
+      "53": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "26143644793627",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "71"
+      },
+      {
+        "exponent": 1,
+        "prime": "6571"
+      },
+      {
+        "exponent": 1,
+        "prime": "3113177"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "3113177": "2",
+      "6571": "2",
+      "71": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "42111239174233",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "1979"
+      },
+      {
+        "exponent": 1,
+        "prime": "886627067"
+      }
+    ],
+    "witnesses": {
+      "1979": "10",
+      "2": "10",
+      "3": "10",
+      "886627067": "10"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "48878803567519",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "1105613"
+      },
+      {
+        "exponent": 1,
+        "prime": "7368281"
+      }
+    ],
+    "witnesses": {
+      "1105613": "6",
+      "2": "6",
+      "3": "6",
+      "7368281": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "101573694481003",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "47"
+      },
+      {
+        "exponent": 1,
+        "prime": "360190405961"
+      }
+    ],
+    "witnesses": {
+      "2": "2",
+      "3": "2",
+      "360190405961": "2",
+      "47": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "160425961923151",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 4,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "1447"
+      },
+      {
+        "exponent": 1,
+        "prime": "355517"
+      }
+    ],
+    "witnesses": {
+      "11": "3",
+      "1447": "3",
+      "2": "3",
+      "3": "3",
+      "355517": "3",
+      "5": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "214844272272601",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "101"
+      },
+      {
+        "exponent": 1,
+        "prime": "173"
+      },
+      {
+        "exponent": 1,
+        "prime": "890999"
+      }
+    ],
+    "witnesses": {
+      "101": "7",
+      "173": "7",
+      "2": "7",
+      "23": "7",
+      "3": "7",
+      "5": "7",
+      "890999": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "271647827404363",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "83"
+      },
+      {
+        "exponent": 1,
+        "prime": "577"
+      },
+      {
+        "exponent": 1,
+        "prime": "105040933"
+      }
+    ],
+    "witnesses": {
+      "105040933": "3",
+      "2": "3",
+      "3": "3",
+      "577": "3",
+      "83": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "644580428217641",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "47"
+      },
+      {
+        "exponent": 1,
+        "prime": "103"
+      },
+      {
+        "exponent": 1,
+        "prime": "3328756601"
+      }
+    ],
+    "witnesses": {
+      "103": "2",
+      "2": "3",
+      "3328756601": "2",
+      "47": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "648204994840489",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "47"
+      },
+      {
+        "exponent": 1,
+        "prime": "574649818121"
+      }
+    ],
+    "witnesses": {
+      "2": "23",
+      "3": "23",
+      "47": "23",
+      "574649818121": "23"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "710496901889323",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "176797"
+      },
+      {
+        "exponent": 1,
+        "prime": "669785971"
+      }
+    ],
+    "witnesses": {
+      "176797": "2",
+      "2": "2",
+      "3": "2",
+      "669785971": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1218884333772037",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "101573694481003"
+      }
+    ],
+    "witnesses": {
+      "101573694481003": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4330426562735879",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "83"
+      },
+      {
+        "exponent": 1,
+        "prime": "2371537000403"
+      }
+    ],
+    "witnesses": {
+      "11": "7",
+      "2": "7",
+      "2371537000403": "7",
+      "83": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "7159613457677453",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "4901021"
+      },
+      {
+        "exponent": 1,
+        "prime": "21482959"
+      }
+    ],
+    "witnesses": {
+      "17": "2",
+      "2": "2",
+      "21482959": "2",
+      "4901021": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "8569786107849059",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "53"
+      },
+      {
+        "exponent": 1,
+        "prime": "83"
+      },
+      {
+        "exponent": 1,
+        "prime": "1091"
+      },
+      {
+        "exponent": 1,
+        "prime": "892814581"
+      }
+    ],
+    "witnesses": {
+      "1091": "2",
+      "2": "2",
+      "53": "2",
+      "83": "2",
+      "892814581": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "10609823198306767",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "337"
+      },
+      {
+        "exponent": 1,
+        "prime": "461"
+      },
+      {
+        "exponent": 1,
+        "prime": "1626028039"
+      }
+    ],
+    "witnesses": {
+      "1626028039": "3",
+      "2": "3",
+      "3": "3",
+      "337": "3",
+      "461": "3",
+      "7": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "24063894288472651",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "160425961923151"
+      }
+    ],
+    "witnesses": {
+      "160425961923151": "10",
+      "2": "10",
+      "3": "10",
+      "5": "10"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "24290441341356013",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "119773"
+      },
+      {
+        "exponent": 1,
+        "prime": "16900331837"
+      }
+    ],
+    "witnesses": {
+      "119773": "2",
+      "16900331837": "2",
+      "2": "2",
+      "3": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "37837407930907477",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "61"
+      },
+      {
+        "exponent": 1,
+        "prime": "29063"
+      },
+      {
+        "exponent": 1,
+        "prime": "1778565461"
+      }
+    ],
+    "witnesses": {
+      "1778565461": "2",
+      "2": "2",
+      "29063": "2",
+      "3": "2",
+      "61": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "44827375601877571",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "67"
+      },
+      {
+        "exponent": 1,
+        "prime": "109"
+      },
+      {
+        "exponent": 1,
+        "prime": "1051"
+      },
+      {
+        "exponent": 1,
+        "prime": "1663919"
+      }
+    ],
+    "witnesses": {
+      "1051": "2",
+      "109": "2",
+      "13": "2",
+      "1663919": "2",
+      "2": "2",
+      "3": "2",
+      "5": "2",
+      "67": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "47752325209834001",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 4,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "1229"
+      },
+      {
+        "exponent": 1,
+        "prime": "89526769"
+      }
+    ],
+    "witnesses": {
+      "1229": "6",
+      "2": "6",
+      "31": "6",
+      "5": "6",
+      "7": "6",
+      "89526769": "6"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "53624256071278747",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "79"
+      },
+      {
+        "exponent": 1,
+        "prime": "251"
+      },
+      {
+        "exponent": 1,
+        "prime": "64388925397"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "251": "3",
+      "3": "3",
+      "64388925397": "3",
+      "7": "3",
+      "79": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "906443053374450313",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 3,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "271"
+      },
+      {
+        "exponent": 1,
+        "prime": "2212174811531"
+      }
+    ],
+    "witnesses": {
+      "2": "11",
+      "2212174811531": "11",
+      "271": "11",
+      "3": "11",
+      "7": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1012327725929069161",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "59"
+      },
+      {
+        "exponent": 1,
+        "prime": "11119"
+      },
+      {
+        "exponent": 1,
+        "prime": "19395841"
+      }
+    ],
+    "witnesses": {
+      "11119": "2",
+      "13": "2",
+      "17": "2",
+      "19395841": "2",
+      "2": "7",
+      "3": "2",
+      "5": "2",
+      "59": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2305843009213693951",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "31"
+      },
+      {
+        "exponent": 1,
+        "prime": "41"
+      },
+      {
+        "exponent": 1,
+        "prime": "61"
+      },
+      {
+        "exponent": 1,
+        "prime": "151"
+      },
+      {
+        "exponent": 1,
+        "prime": "331"
+      },
+      {
+        "exponent": 1,
+        "prime": "1321"
+      }
+    ],
+    "witnesses": {
+      "11": "37",
+      "13": "37",
+      "1321": "37",
+      "151": "37",
+      "2": "37",
+      "3": "37",
+      "31": "37",
+      "331": "37",
+      "41": "37",
+      "5": "37",
+      "61": "37",
+      "7": "37"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2346335338123377427",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "7"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "47"
+      },
+      {
+        "exponent": 1,
+        "prime": "71"
+      },
+      {
+        "exponent": 1,
+        "prime": "877"
+      },
+      {
+        "exponent": 1,
+        "prime": "1122887041"
+      }
+    ],
+    "witnesses": {
+      "1122887041": "2",
+      "17": "2",
+      "2": "2",
+      "3": "3",
+      "47": "2",
+      "7": "2",
+      "71": "2",
+      "877": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "18446744069414584321",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 32,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "257"
+      },
+      {
+        "exponent": 1,
+        "prime": "65537"
+      }
+    ],
+    "witnesses": {
+      "17": "7",
+      "2": "7",
+      "257": "7",
+      "3": "7",
+      "5": "7",
+      "65537": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "19870575601809083969",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 6,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "479879"
+      },
+      {
+        "exponent": 1,
+        "prime": "28130075161"
+      }
+    ],
+    "witnesses": {
+      "2": "3",
+      "23": "3",
+      "28130075161": "3",
+      "479879": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "39741151203618167939",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "19870575601809083969"
+      }
+    ],
+    "witnesses": {
+      "19870575601809083969": "2",
+      "2": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "148553185010387189833",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "59"
+      },
+      {
+        "exponent": 1,
+        "prime": "2927"
+      },
+      {
+        "exponent": 1,
+        "prime": "702790392301"
+      }
+    ],
+    "witnesses": {
+      "17": "5",
+      "2": "5",
+      "2927": "5",
+      "3": "5",
+      "59": "5",
+      "702790392301": "5"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "238906342495956479129",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "17"
+      },
+      {
+        "exponent": 1,
+        "prime": "73"
+      },
+      {
+        "exponent": 1,
+        "prime": "24063894288472651"
+      }
+    ],
+    "witnesses": {
+      "17": "3",
+      "2": "3",
+      "24063894288472651": "3",
+      "73": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "953411529663871197763",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "79"
+      },
+      {
+        "exponent": 1,
+        "prime": "149"
+      },
+      {
+        "exponent": 1,
+        "prime": "710496901889323"
+      }
+    ],
+    "witnesses": {
+      "149": "2",
+      "19": "2",
+      "2": "2",
+      "3": "2",
+      "710496901889323": "2",
+      "79": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "483570327845625867481753",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "3"
+      },
+      {
+        "exponent": 2,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "39741151203618167939"
+      }
+    ],
+    "witnesses": {
+      "13": "7",
+      "2": "7",
+      "3": "7",
+      "39741151203618167939": "7"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1282950524250615706505801",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 2,
+        "prime": "5"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "13009"
+      },
+      {
+        "exponent": 1,
+        "prime": "44827375601877571"
+      }
+    ],
+    "witnesses": {
+      "11": "2",
+      "13009": "2",
+      "2": "3",
+      "44827375601877571": "2",
+      "5": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "1381629508131045149484617",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "190529"
+      },
+      {
+        "exponent": 1,
+        "prime": "906443053374450313"
+      }
+    ],
+    "witnesses": {
+      "190529": "3",
+      "2": "3",
+      "906443053374450313": "3"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "2417851639230796216685689",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "83"
+      },
+      {
+        "exponent": 1,
+        "prime": "109"
+      },
+      {
+        "exponent": 1,
+        "prime": "1012327725929069161"
+      }
+    ],
+    "witnesses": {
+      "1012327725929069161": "2",
+      "109": "2",
+      "11": "2",
+      "2": "17",
+      "3": "2",
+      "83": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "3223802185638578062701389",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "1409"
+      },
+      {
+        "exponent": 1,
+        "prime": "22581210467"
+      },
+      {
+        "exponent": 1,
+        "prime": "25330874449"
+      }
+    ],
+    "witnesses": {
+      "1409": "2",
+      "2": "2",
+      "22581210467": "2",
+      "25330874449": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "4835703278458277455699489",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 5,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "5813"
+      },
+      {
+        "exponent": 1,
+        "prime": "14411"
+      },
+      {
+        "exponent": 1,
+        "prime": "26143644793627"
+      }
+    ],
+    "witnesses": {
+      "14411": "2",
+      "2": "7",
+      "23": "2",
+      "26143644793627": "2",
+      "3": "3",
+      "5813": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "9671405980456281094225919",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 1,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "11"
+      },
+      {
+        "exponent": 1,
+        "prime": "19"
+      },
+      {
+        "exponent": 1,
+        "prime": "23"
+      },
+      {
+        "exponent": 1,
+        "prime": "232303"
+      },
+      {
+        "exponent": 1,
+        "prime": "4330426562735879"
+      }
+    ],
+    "witnesses": {
+      "11": "11",
+      "19": "11",
+      "2": "11",
+      "23": "11",
+      "232303": "11",
+      "4330426562735879": "11"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "9671406556916750748906389",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 2,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "13"
+      },
+      {
+        "exponent": 1,
+        "prime": "4099"
+      },
+      {
+        "exponent": 1,
+        "prime": "657049"
+      },
+      {
+        "exponent": 1,
+        "prime": "2466977"
+      },
+      {
+        "exponent": 1,
+        "prime": "27992747"
+      }
+    ],
+    "witnesses": {
+      "13": "2",
+      "2": "2",
+      "2466977": "2",
+      "27992747": "2",
+      "4099": "2",
+      "657049": "2"
+    }
+  },
+  {
+    "method": "lucas_complete_n_minus_1",
+    "n": "9671406556917033397649353",
+    "n_minus_1_factorization": [
+      {
+        "exponent": 3,
+        "prime": "2"
+      },
+      {
+        "exponent": 1,
+        "prime": "3"
+      },
+      {
+        "exponent": 1,
+        "prime": "1873"
+      },
+      {
+        "exponent": 1,
+        "prime": "6247"
+      },
+      {
+        "exponent": 1,
+        "prime": "98299"
+      },
+      {
+        "exponent": 1,
+        "prime": "540877"
+      },
+      {
+        "exponent": 1,
+        "prime": "647771"
+      }
+    ],
+    "witnesses": {
+      "1873": "7",
+      "2": "7",
+      "3": "7",
+      "540877": "7",
+      "6247": "7",
+      "647771": "7",
+      "98299": "7"
+    }
+  }
+]

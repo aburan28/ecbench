@@ -1,0 +1,20 @@
+{
+  "binary_frobenius_cases": 6,
+  "checks": [
+    "canonical map units",
+    "characteristic roots",
+    "selected cyclic subgroup stability",
+    "endomorphism polynomial identities",
+    "binary tau^m",
+    "kernel lattice determinant",
+    "Gauss-reduced basis",
+    "exact nearest-plane bounds",
+    "signed scalar congruence and point reconstruction"
+  ],
+  "curves_classified": 56,
+  "scalar_vectors_checked": 480,
+  "schema": "ecbench-endomorphism-glv2-cases-v1",
+  "status": "pass",
+  "supported_cases": 30,
+  "unsupported_cases": 26
+}

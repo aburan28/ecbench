@@ -1,0 +1,1255 @@
+{
+  "$defs": {
+    "aggregate": {
+      "additionalProperties": false,
+      "properties": {
+        "all_attempt_success_fraction": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "all_attempt_success_fraction_upper_bound": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "cases": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "completed": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "completion_fraction": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "diagnostic_timeouts": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "errors": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "lower_bound_yield_definition": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "lower_bound_yield_per_attempted_target": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "median_solve_seconds_completed": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "observed_subprocess_wall_seconds_all": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "ordered_relations_completed": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "ordered_relations_per_attempt": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "primary_metrics_definition": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "relations_per_attempt": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "successful_targets_completed": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "target_success_fraction_completed": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "timeouts_censored": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "total_solve_seconds_completed": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "unordered_relations_completed": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "unordered_relations_per_solve_second_completed": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "yield_denominator": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "all_attempt_success_fraction",
+        "all_attempt_success_fraction_upper_bound",
+        "cases",
+        "completed",
+        "completion_fraction",
+        "diagnostic_timeouts",
+        "errors",
+        "lower_bound_yield_definition",
+        "lower_bound_yield_per_attempted_target",
+        "median_solve_seconds_completed",
+        "observed_subprocess_wall_seconds_all",
+        "ordered_relations_completed",
+        "ordered_relations_per_attempt",
+        "primary_metrics_definition",
+        "relations_per_attempt",
+        "successful_targets_completed",
+        "target_success_fraction_completed",
+        "timeouts_censored",
+        "total_solve_seconds_completed",
+        "unordered_relations_completed",
+        "unordered_relations_per_solve_second_completed",
+        "yield_denominator"
+      ],
+      "type": "object"
+    },
+    "caseResult": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "ok"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "groebner_basis": {
+                "type": "object"
+              },
+              "input": {
+                "type": "object"
+              },
+              "relations": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "input",
+              "relations",
+              "groebner_basis"
+            ]
+          }
+        }
+      ],
+      "properties": {
+        "backend": {
+          "additionalProperties": false,
+          "properties": {
+            "characteristic": {
+              "$ref": "#/$defs/positive"
+            },
+            "method": {
+              "enum": [
+                "buchberger",
+                "f5b"
+              ]
+            },
+            "monomial_order": {
+              "enum": [
+                "lex",
+                "grlex",
+                "grevlex"
+              ]
+            },
+            "name": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "solving_degree": {
+              "type": "null"
+            },
+            "solving_degree_reason": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "version": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "method",
+            "monomial_order",
+            "name",
+            "solving_degree",
+            "solving_degree_reason",
+            "version"
+          ],
+          "type": "object"
+        },
+        "case_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "case_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "censored": {
+          "type": "boolean"
+        },
+        "cohort": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "cohort_dimensions": {
+          "additionalProperties": false,
+          "properties": {
+            "basis_kind": {
+              "enum": [
+                "low_monomials",
+                "small_generator_multiples",
+                "subgroup_seeded_basis"
+              ],
+              "type": "string"
+            },
+            "model_variant": {
+              "enum": [
+                "strict_selected_subgroup_factor_base"
+              ],
+              "type": "string"
+            },
+            "target_sampling": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "basis_kind",
+            "model_variant",
+            "target_sampling"
+          ],
+          "type": "object"
+        },
+        "curve_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/curveId"
+            }
+          ]
+        },
+        "degree_of_regularity": {
+          "additionalProperties": false,
+          "properties": {
+            "definition": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "hilbert_function": {
+              "items": {
+                "maximum": 9007199254740991,
+                "minimum": 0,
+                "type": "integer"
+              },
+              "minItems": 0,
+              "type": "array"
+            },
+            "homogeneous_basis_size": {
+              "maximum": 9007199254740991,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "quotient_dimension": {
+              "maximum": 9007199254740991,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "reason": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "value": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "maximum": 4096,
+                  "minimum": 0,
+                  "type": "integer"
+                }
+              ]
+            }
+          },
+          "required": [
+            "value"
+          ],
+          "type": "object"
+        },
+        "diagnostic_status": {
+          "enum": [
+            "timeout",
+            "error"
+          ]
+        },
+        "error": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "factor_base_counts": {
+          "additionalProperties": false,
+          "properties": {
+            "points": {
+              "maximum": 9007199254740991,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "x_coordinates": {
+              "maximum": 9007199254740991,
+              "minimum": 0,
+              "type": "integer"
+            }
+          },
+          "required": [
+            "points",
+            "x_coordinates"
+          ],
+          "type": "object"
+        },
+        "field_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/fieldId"
+            }
+          ]
+        },
+        "groebner_basis": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "max_total_degree": {
+                      "maximum": 4096,
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "size": {
+                      "maximum": 9007199254740991,
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "terms": {
+                      "maximum": 9007199254740991,
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "unit_ideal": {
+                      "type": "boolean"
+                    },
+                    "zero_dimensional": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "max_total_degree",
+                    "size",
+                    "terms",
+                    "unit_ideal",
+                    "zero_dimensional"
+                  ],
+                  "type": "object"
+                }
+              ]
+            }
+          ]
+        },
+        "input": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "additionalProperties": false,
+              "properties": {
+                "domain_grid_size": {
+                  "maximum": 9007199254740991,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "max_total_degree": {
+                  "maximum": 4096,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "polynomial_roles": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "boolean_field_equation": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "max_total_degree": {
+                          "maximum": 4096,
+                          "minimum": 0,
+                          "type": "integer"
+                        },
+                        "polynomials": {
+                          "maximum": 9007199254740991,
+                          "minimum": 0,
+                          "type": "integer"
+                        },
+                        "terms": {
+                          "maximum": 9007199254740991,
+                          "minimum": 0,
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "max_total_degree",
+                        "polynomials",
+                        "terms"
+                      ],
+                      "type": "object"
+                    },
+                    "factor_base_membership": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "max_total_degree": {
+                          "maximum": 4096,
+                          "minimum": 0,
+                          "type": "integer"
+                        },
+                        "polynomials": {
+                          "maximum": 9007199254740991,
+                          "minimum": 0,
+                          "type": "integer"
+                        },
+                        "terms": {
+                          "maximum": 9007199254740991,
+                          "minimum": 0,
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "max_total_degree",
+                        "polynomials",
+                        "terms"
+                      ],
+                      "type": "object"
+                    },
+                    "semaev_f3": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "max_total_degree": {
+                          "maximum": 4096,
+                          "minimum": 0,
+                          "type": "integer"
+                        },
+                        "polynomials": {
+                          "maximum": 9007199254740991,
+                          "minimum": 0,
+                          "type": "integer"
+                        },
+                        "terms": {
+                          "maximum": 9007199254740991,
+                          "minimum": 0,
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "max_total_degree",
+                        "polynomials",
+                        "terms"
+                      ],
+                      "type": "object"
+                    },
+                    "semaev_f3_coordinate": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "max_total_degree": {
+                          "maximum": 4096,
+                          "minimum": 0,
+                          "type": "integer"
+                        },
+                        "polynomials": {
+                          "maximum": 9007199254740991,
+                          "minimum": 0,
+                          "type": "integer"
+                        },
+                        "terms": {
+                          "maximum": 9007199254740991,
+                          "minimum": 0,
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "max_total_degree",
+                        "polynomials",
+                        "terms"
+                      ],
+                      "type": "object"
+                    }
+                  },
+                  "required": [
+                    "factor_base_membership"
+                  ],
+                  "type": "object"
+                },
+                "polynomials": {
+                  "maximum": 9007199254740991,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "terms": {
+                  "maximum": 9007199254740991,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "variables": {
+                  "maximum": 9007199254740991,
+                  "minimum": 0,
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "domain_grid_size",
+                "max_total_degree",
+                "polynomial_roles",
+                "polynomials",
+                "terms",
+                "variables"
+              ],
+              "type": "object"
+            }
+          ]
+        },
+        "input_serialization_seconds": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "model_variant": {
+          "enum": [
+            "strict_selected_subgroup_factor_base"
+          ],
+          "type": "string"
+        },
+        "observed_subprocess_wall_seconds": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "relation_policy": {
+          "additionalProperties": false,
+          "properties": {
+            "decomposition_arity": {
+              "maximum": 9007199254740991,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "factor_base_identity": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "relation_counting": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "repeated_factors": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "signed_sum": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "target_identity": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "decomposition_arity",
+            "factor_base_identity",
+            "relation_counting",
+            "repeated_factors",
+            "signed_sum",
+            "target_identity"
+          ],
+          "type": "object"
+        },
+        "relations": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "ordered_relation_points": {
+                      "items": {
+                        "items": {
+                          "$ref": "#/$defs/finitePoint"
+                        },
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "type": "array"
+                      },
+                      "minItems": 0,
+                      "type": "array"
+                    },
+                    "ordered_relations": {
+                      "maximum": 9007199254740991,
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "polynomial_roots": {
+                      "maximum": 9007199254740991,
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "relation_root_assignments": {
+                      "maximum": 9007199254740991,
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "root_assignments": {
+                      "items": {
+                        "items": {
+                          "$ref": "#/$defs/unsigned"
+                        },
+                        "minItems": 1,
+                        "type": "array"
+                      },
+                      "minItems": 0,
+                      "type": "array"
+                    },
+                    "selected_subgroup_membership_verified": {
+                      "type": "boolean"
+                    },
+                    "subgroup_membership_cache_entries": {
+                      "maximum": 9007199254740991,
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    "successful_root_assignments": {
+                      "items": {
+                        "items": {
+                          "$ref": "#/$defs/unsigned"
+                        },
+                        "minItems": 1,
+                        "type": "array"
+                      },
+                      "minItems": 0,
+                      "type": "array"
+                    },
+                    "target_success": {
+                      "type": "boolean"
+                    },
+                    "truth_checks": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "ordered_point_decompositions": {
+                          "type": "boolean"
+                        },
+                        "ordered_relations": {
+                          "type": "boolean"
+                        },
+                        "polynomial_roots": {
+                          "type": "boolean"
+                        },
+                        "root_assignments": {
+                          "type": "boolean"
+                        },
+                        "unordered_relations": {
+                          "type": "boolean"
+                        }
+                      },
+                      "required": [
+                        "ordered_point_decompositions",
+                        "ordered_relations",
+                        "polynomial_roots",
+                        "root_assignments",
+                        "unordered_relations"
+                      ],
+                      "type": "object"
+                    },
+                    "truth_matches": {
+                      "type": "boolean"
+                    },
+                    "unordered_relations": {
+                      "maximum": 9007199254740991,
+                      "minimum": 0,
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "ordered_relation_points",
+                    "ordered_relations",
+                    "polynomial_roots",
+                    "relation_root_assignments",
+                    "root_assignments",
+                    "selected_subgroup_membership_verified",
+                    "subgroup_membership_cache_entries",
+                    "successful_root_assignments",
+                    "target_success",
+                    "truth_checks",
+                    "truth_matches",
+                    "unordered_relations"
+                  ],
+                  "type": "object"
+                }
+              ]
+            }
+          ]
+        },
+        "stage_times": {
+          "additionalProperties": false,
+          "patternProperties": {
+            "^[a-z][a-z0-9_]*_seconds$": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "minimum": 0,
+                  "type": "number"
+                }
+              ]
+            }
+          },
+          "type": "object"
+        },
+        "status": {
+          "enum": [
+            "ok",
+            "timeout",
+            "error"
+          ]
+        },
+        "timeout_seconds": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "worker_exit_code": {
+          "maximum": 4096,
+          "minimum": -4096,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "backend",
+        "case_id",
+        "case_sha256",
+        "censored",
+        "cohort",
+        "cohort_dimensions",
+        "curve_id",
+        "degree_of_regularity",
+        "factor_base_counts",
+        "field_id",
+        "input_serialization_seconds",
+        "model_variant",
+        "observed_subprocess_wall_seconds",
+        "relation_policy",
+        "stage_times",
+        "status",
+        "timeout_seconds",
+        "worker_exit_code"
+      ],
+      "type": "object"
+    },
+    "curveId": {
+      "enum": [
+        "p61-E4-0",
+        "p61-E4-1",
+        "p61-E3-0",
+        "p61-E3-1",
+        "p61-E3-2",
+        "p61-E3-3",
+        "p61-E3-4",
+        "p61-E3-5",
+        "p61-G-0",
+        "p61-G-1",
+        "p64-E4-0",
+        "p64-E4-1",
+        "p64-E4-2",
+        "p64-E4-3",
+        "p64-E3-0",
+        "p64-E3-1",
+        "p64-E3-2",
+        "p64-E3-3",
+        "p64-E3-4",
+        "p64-E3-5",
+        "p64-G-0",
+        "p64-G-1",
+        "p83s-E4-0",
+        "p83s-E4-1",
+        "p83s-E3-0",
+        "p83s-E3-1",
+        "p83s-G-0",
+        "p83s-G-1",
+        "p83-E4-0",
+        "p83-E4-1",
+        "p83-E4-2",
+        "p83-E4-3",
+        "p83-E3-0",
+        "p83-E3-1",
+        "p83-E3-2",
+        "p83-E3-3",
+        "p83-E3-4",
+        "p83-E3-5",
+        "p83-G-0",
+        "p83-G-1",
+        "p83-S-0",
+        "p83-S-1",
+        "K53-a0",
+        "K53-a1",
+        "K79-a0",
+        "K79-a1",
+        "K83-a0",
+        "K83-a1",
+        "B53-a0",
+        "B53-a1",
+        "B79-a0",
+        "B79-a1",
+        "B83-a0",
+        "B83-a1",
+        "S83-a0",
+        "S83-a1"
+      ]
+    },
+    "element": {
+      "$comment": "Field-specific byte width and range require semantic verification.",
+      "pattern": "^0x(?:[0-9a-f]{2})+$",
+      "type": "string"
+    },
+    "fieldId": {
+      "enum": [
+        "p61",
+        "p64",
+        "p83s",
+        "p83",
+        "b53",
+        "b79",
+        "b83"
+      ]
+    },
+    "finitePoint": {
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "$ref": "#/$defs/element"
+        },
+        "y": {
+          "$ref": "#/$defs/element"
+        }
+      },
+      "required": [
+        "x",
+        "y"
+      ],
+      "type": "object"
+    },
+    "hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "positive": {
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "resultCollection": {
+      "additionalProperties": false,
+      "properties": {
+        "cohorts": {
+          "additionalProperties": false,
+          "patternProperties": {
+            "^[A-Za-z][A-Za-z0-9_-]*$": {
+              "$ref": "#/$defs/aggregate"
+            }
+          },
+          "type": "object"
+        },
+        "configuration": {
+          "additionalProperties": false,
+          "properties": {
+            "backend": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "degree_regularity_diagnostics": {
+              "type": "boolean"
+            },
+            "method": {
+              "enum": [
+                "buchberger",
+                "f5b"
+              ]
+            },
+            "order": {
+              "enum": [
+                "lex",
+                "grlex",
+                "grevlex"
+              ]
+            },
+            "per_case_wall_timeout_seconds": {
+              "minimum": 0,
+              "type": "number"
+            }
+          },
+          "required": [
+            "backend",
+            "degree_regularity_diagnostics",
+            "method",
+            "order",
+            "per_case_wall_timeout_seconds"
+          ],
+          "type": "object"
+        },
+        "environment": {
+          "additionalProperties": false,
+          "properties": {
+            "machine": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "platform": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "python": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "machine",
+            "platform",
+            "python"
+          ],
+          "type": "object"
+        },
+        "primary_metrics": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "results": {
+          "items": {
+            "$ref": "#/$defs/caseResult"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "schema_version": {
+          "const": "ecbench-algebra-results-v1"
+        },
+        "stratified_cohorts": {
+          "items": {
+            "$ref": "#/$defs/stratifiedAggregate"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "suite_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "suite_seed": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "suite_wall_seconds": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "summary": {
+          "$ref": "#/$defs/aggregate"
+        },
+        "timestamp_utc": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "timing_scope": {
+          "additionalProperties": false,
+          "properties": {
+            "degree_of_regularity": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "fixture_generation_seconds": {
+              "type": "null"
+            },
+            "fixture_generation_status": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "generation_inclusive_total_pipeline_seconds": {
+              "type": "null"
+            },
+            "measurement_mode": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "observed_subprocess_wall_seconds": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "root_extraction": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "suite_wall_seconds": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "total_solve_seconds": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "degree_of_regularity",
+            "fixture_generation_seconds",
+            "fixture_generation_status",
+            "generation_inclusive_total_pipeline_seconds",
+            "measurement_mode",
+            "observed_subprocess_wall_seconds",
+            "root_extraction",
+            "suite_wall_seconds",
+            "total_solve_seconds"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "cohorts",
+        "configuration",
+        "environment",
+        "primary_metrics",
+        "results",
+        "schema_version",
+        "stratified_cohorts",
+        "suite_id",
+        "suite_seed",
+        "suite_wall_seconds",
+        "summary",
+        "timestamp_utc",
+        "timing_scope"
+      ],
+      "type": "object"
+    },
+    "stratifiedAggregate": {
+      "additionalProperties": false,
+      "properties": {
+        "all_attempt_success_fraction": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "all_attempt_success_fraction_upper_bound": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "cases": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "cohort": {
+          "additionalProperties": false,
+          "properties": {
+            "basis_kind": {
+              "enum": [
+                "low_monomials",
+                "small_generator_multiples",
+                "subgroup_seeded_basis"
+              ],
+              "type": "string"
+            },
+            "model_variant": {
+              "enum": [
+                "strict_selected_subgroup_factor_base"
+              ],
+              "type": "string"
+            },
+            "target_sampling": {
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "basis_kind",
+            "model_variant",
+            "target_sampling"
+          ],
+          "type": "object"
+        },
+        "completed": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "completion_fraction": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "diagnostic_timeouts": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "errors": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "lower_bound_yield_definition": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "lower_bound_yield_per_attempted_target": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "median_solve_seconds_completed": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "observed_subprocess_wall_seconds_all": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "ordered_relations_completed": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "ordered_relations_per_attempt": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "primary_metrics_definition": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "relations_per_attempt": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "successful_targets_completed": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "target_success_fraction_completed": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "timeouts_censored": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "total_solve_seconds_completed": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "unordered_relations_completed": {
+          "maximum": 9007199254740991,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "unordered_relations_per_solve_second_completed": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "yield_denominator": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "all_attempt_success_fraction",
+        "all_attempt_success_fraction_upper_bound",
+        "cases",
+        "completed",
+        "completion_fraction",
+        "diagnostic_timeouts",
+        "errors",
+        "lower_bound_yield_definition",
+        "lower_bound_yield_per_attempted_target",
+        "median_solve_seconds_completed",
+        "observed_subprocess_wall_seconds_all",
+        "ordered_relations_completed",
+        "ordered_relations_per_attempt",
+        "primary_metrics_definition",
+        "relations_per_attempt",
+        "successful_targets_completed",
+        "target_success_fraction_completed",
+        "timeouts_censored",
+        "total_solve_seconds_completed",
+        "unordered_relations_completed",
+        "unordered_relations_per_solve_second_completed",
+        "yield_denominator",
+        "cohort"
+      ],
+      "type": "object"
+    },
+    "unsigned": {
+      "pattern": "^(?:0|[1-9][0-9]*)$",
+      "type": "string"
+    }
+  },
+  "$id": "urn:ecbench:algebra_results.schema.json:v1",
+  "$ref": "#/$defs/resultCollection",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Strict structural contract; mathematical equivalence, variable lengths, finite-field ranges, counts, root completeness, and timing claims require semantic verification.",
+  "title": "ECBench measured algebraic relation-search results"
+}

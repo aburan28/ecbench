@@ -1,0 +1,5600 @@
+[
+  {
+    "id": "p83-S-0-f3-fb4-planted",
+    "curve_id": "p83-S-0",
+    "curve": {
+      "coefficients": {
+        "a1": "0x0000000000000000000000",
+        "a2": "0x0000000000000000000000",
+        "a3": "0x0000000000000000000000",
+        "a4": "0x07ffffffffffffffffffc6",
+        "a6": "0x000000000000000000009a"
+      },
+      "family": "S",
+      "field_id": "p83",
+      "id": "p83-S-0",
+      "invariants": {
+        "delta": "0x07ffffffffffffff63b1c9",
+        "endomorphism": {
+          "base_field": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "frobenius_order": {
+            "class_number": null,
+            "conductor": "1",
+            "discriminant": "-38605735915768438953606187"
+          },
+          "geometric": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "proof_method": "Frobenius discriminant is fundamental (f_pi=1)."
+        },
+        "frobenius_discriminant": "-38605735915768438953606187",
+        "frobenius_polynomial": [
+          "1",
+          "-282648742965",
+          "9671406556917033397649353"
+        ],
+        "group_cyclic": true,
+        "group_exponent": "9671406556916750748906389",
+        "group_invariant_factors": [
+          "1",
+          "9671406556916750748906389"
+        ],
+        "j": "0x045f5a2b87c5f5a2b87c41",
+        "order": "9671406556916750748906389",
+        "order_factorization": [
+          {
+            "exponent": 1,
+            "prime": "9671406556916750748906389"
+          }
+        ],
+        "ordinary": true,
+        "subgroup_embedding_degrees": [
+          {
+            "degree": "4835703278458375374453194",
+            "minimality_prime_divisors": [
+              "2",
+              "13",
+              "4099",
+              "657049",
+              "2466977",
+              "27992747"
+            ],
+            "prime": "9671406556916750748906389",
+            "status": "exact_multiplicative_order"
+          }
+        ],
+        "trace": "282648742965"
+      },
+      "model": "short_weierstrass",
+      "named_points": {
+        "G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "O": {
+          "order": "1",
+          "order_factorization": [],
+          "point": null
+        },
+        "P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "P_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000001",
+            "y": "0x00dc15e20ea82b0faf9a5f"
+          }
+        },
+        "R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "R_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "double_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "mul_17_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x04c9ea2b0455a124f3defa",
+            "y": "0x072a071d95acaa40f86bc4"
+          }
+        },
+        "mul_7_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        },
+        "neg_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        }
+      },
+      "provenance": {
+        "computation_engine": "PARI/GP 2.17.2",
+        "legacy_source_file": "prime_data.json",
+        "scope": "experimental_small_field_benchmark",
+        "source_label": "p83-S-0"
+      },
+      "subgroup": {
+        "cofactor": "1",
+        "cofactor_coprime_to_r": true,
+        "embedding_degree": "4835703278458375374453194",
+        "generator": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "generator_selection": {
+          "G_scan_x": "0",
+          "G_source": [
+            "0",
+            "3985603835258454045276860"
+          ],
+          "H_derivation": null,
+          "H_scan_x": null,
+          "H_source": null,
+          "P_scan_x": "0",
+          "Q_scan_x": "1",
+          "R_rule": "first scanned point of exact order d2",
+          "R_scan_x": "0",
+          "projector": "1",
+          "projector_formula": "d2/r",
+          "rule": "x ascending from zero; minimum integer square root"
+        },
+        "membership_rule": "on_curve_and_r_annihilation",
+        "order": "9671406556916750748906389",
+        "projection_formula": "group_exponent / r",
+        "projection_scalar": "1",
+        "r_torsion_rank": 1,
+        "source_point": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "unique_order_r_subgroup": true
+      },
+      "twist": {
+        "kind": "quadratic",
+        "parameter": "0x0000000000000000000007",
+        "partner_id": "p83-S-1",
+        "partner_relation": "base_field_isomorphic_representative_of_standard_twist",
+        "representative_isomorphism_scale": "0x0000000000000000000001",
+        "representative_point_map": "direct twist (x,y) -> partner (x/scale^2,y/scale^3); infinity maps to infinity"
+      }
+    },
+    "field": {
+      "cardinality": "9671406556917033397649353",
+      "characteristic": "9671406556917033397649353",
+      "coordinate_bytes": 11,
+      "degree": 1,
+      "element_bits": 83,
+      "id": "p83",
+      "kind": "prime",
+      "proof": {
+        "certificate_n": "9671406556917033397649353",
+        "method": "lucas_primality"
+      },
+      "representation": {
+        "basis": "prime_residue",
+        "form": "2^83 - 55",
+        "modulus": "0x7ffffffffffffffffffc9",
+        "modulus_integer": "9671406556917033397649353",
+        "multiplicative_primitive_root": "7"
+      }
+    },
+    "coefficient_modulus": "9671406556917033397649353",
+    "variables": [
+      "x1",
+      "x2"
+    ],
+    "polynomials": [
+      {
+        "id": "f3",
+        "role": "semaev_f3",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              2,
+              2
+            ]
+          },
+          {
+            "coefficient": "5970004047479650239691906",
+            "exponents": [
+              2,
+              1
+            ]
+          },
+          {
+            "coefficient": "5970004047479650239691906",
+            "exponents": [
+              1,
+              2
+            ]
+          },
+          {
+            "coefficient": "4686084658511487623542051",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "299237239894058150565257",
+            "exponents": [
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "4686084658511487623542051",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "1432800971395116076222372",
+            "exponents": [
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "1432800971395116076222372",
+            "exponents": [
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "1194000809495928271729987",
+            "exponents": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x1",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              4,
+              0
+            ]
+          },
+          {
+            "coefficient": "80468522736968780023570",
+            "exponents": [
+              3,
+              0
+            ]
+          },
+          {
+            "coefficient": "8798712016929349824505856",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "8522681770806003006563315",
+            "exponents": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x2",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              0,
+              4
+            ]
+          },
+          {
+            "coefficient": "80468522736968780023570",
+            "exponents": [
+              0,
+              3
+            ]
+          },
+          {
+            "coefficient": "8798712016929349824505856",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "8522681770806003006563315",
+            "exponents": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinate_groups": [
+      {
+        "name": "x1",
+        "variables": [
+          "x1"
+        ]
+      },
+      {
+        "name": "x2",
+        "variables": [
+          "x2"
+        ]
+      }
+    ],
+    "domains": {
+      "x1": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512"
+      ],
+      "x2": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512"
+      ]
+    },
+    "factor_base": {
+      "size_requested": 4,
+      "x_values": [
+        "0x0000000000000000000000",
+        "0x0777b03531dec0d4c77ad0",
+        "0x0587e6b74f0329164ba188",
+        "0x02ef5ede69ad519903dc28"
+      ],
+      "points_by_x": {
+        "0x0000000000000000000000": [
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          },
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        ],
+        "0x0777b03531dec0d4c77ad0": [
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          },
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x077349158311e4570fb939"
+          }
+        ],
+        "0x0587e6b74f0329164ba188": [
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x01ecc671e12d695822df9f"
+          },
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x0613398e1ed296a7dd202a"
+          }
+        ],
+        "0x02ef5ede69ad519903dc28": [
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x025d1fb500716ec18257a6"
+          },
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          }
+        ]
+      },
+      "positive_scalar_by_x": {
+        "0x0000000000000000000000": "1",
+        "0x0777b03531dec0d4c77ad0": "2",
+        "0x0587e6b74f0329164ba188": "3",
+        "0x02ef5ede69ad519903dc28": "4"
+      },
+      "generator": {
+        "x": "0x0000000000000000000000",
+        "y": "0x034bfc044fcd6d3a2ebabc"
+      },
+      "subgroup_order": "9671406556916750748906389",
+      "counters": {
+        "scalar_candidates_considered": 4,
+        "accepted_distinct_x_values": 4,
+        "signed_points": 8,
+        "infinity_rejections": 0,
+        "duplicate_x_rejections": 0,
+        "subgroup_annihilation_checks": 4
+      },
+      "membership_policy": "selected cyclic subgroup",
+      "basis_kind": "small_generator_multiples"
+    },
+    "target": {
+      "point": {
+        "x": "0x0587e6b74f0329164ba188",
+        "y": "0x0613398e1ed296a7dd202a"
+      },
+      "kind": "planted",
+      "source": "planted",
+      "scalar": "3"
+    },
+    "model_variant": "strict_selected_subgroup_factor_base",
+    "expected": {
+      "algebraic_assignments": [
+        [
+          "0",
+          "3548247249109347199081512"
+        ],
+        [
+          "0",
+          "9027692808810542538390224"
+        ],
+        [
+          "3548247249109347199081512",
+          "0"
+        ],
+        [
+          "9027692808810542538390224",
+          "0"
+        ]
+      ],
+      "ordered_point_decompositions": [
+        {
+          "P": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          },
+          "Q": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          },
+          "Q": {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          },
+          "Q": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          },
+          "Q": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        }
+      ],
+      "ordered_count": 4,
+      "swap_orbit_count": 2,
+      "ordered_x_count": 4,
+      "swap_orbit_x_count": 2
+    },
+    "arity": 2,
+    "summation_polynomial_arity": 3,
+    "generation": {
+      "method": "deterministic kG factor base and finite exhaustive verification",
+      "seed": "ecbench-indexcalculus-v1",
+      "factor_base_rule": "x(kG) for k=1..size; both point signs permitted",
+      "factor_base_scalar_start": "1",
+      "factor_base_scalar_stop": "4",
+      "formula": "(x1-x2)^2*z^2 - 2*((x1+x2)*(x1*x2+A)+2*B)*z + (x1*x2-A)^2 - 4*B*(x1+x2)",
+      "checks": {
+        "x_assignments_enumerated": 16,
+        "ordered_signed_point_pairs_enumerated": 64,
+        "finite_point_sums_identity_checked": 56,
+        "infinity_point_sums": 8,
+        "expanded_formula_matches_direct_formula": true,
+        "polynomial_zeros_match_point_x_relations": true
+      },
+      "target_method": "sum of first two positive kG points",
+      "planted_scalars": [
+        "1",
+        "2"
+      ]
+    }
+  },
+  {
+    "id": "p83-S-0-f3-fb4-seeded_subgroup",
+    "curve_id": "p83-S-0",
+    "curve": {
+      "coefficients": {
+        "a1": "0x0000000000000000000000",
+        "a2": "0x0000000000000000000000",
+        "a3": "0x0000000000000000000000",
+        "a4": "0x07ffffffffffffffffffc6",
+        "a6": "0x000000000000000000009a"
+      },
+      "family": "S",
+      "field_id": "p83",
+      "id": "p83-S-0",
+      "invariants": {
+        "delta": "0x07ffffffffffffff63b1c9",
+        "endomorphism": {
+          "base_field": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "frobenius_order": {
+            "class_number": null,
+            "conductor": "1",
+            "discriminant": "-38605735915768438953606187"
+          },
+          "geometric": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "proof_method": "Frobenius discriminant is fundamental (f_pi=1)."
+        },
+        "frobenius_discriminant": "-38605735915768438953606187",
+        "frobenius_polynomial": [
+          "1",
+          "-282648742965",
+          "9671406556917033397649353"
+        ],
+        "group_cyclic": true,
+        "group_exponent": "9671406556916750748906389",
+        "group_invariant_factors": [
+          "1",
+          "9671406556916750748906389"
+        ],
+        "j": "0x045f5a2b87c5f5a2b87c41",
+        "order": "9671406556916750748906389",
+        "order_factorization": [
+          {
+            "exponent": 1,
+            "prime": "9671406556916750748906389"
+          }
+        ],
+        "ordinary": true,
+        "subgroup_embedding_degrees": [
+          {
+            "degree": "4835703278458375374453194",
+            "minimality_prime_divisors": [
+              "2",
+              "13",
+              "4099",
+              "657049",
+              "2466977",
+              "27992747"
+            ],
+            "prime": "9671406556916750748906389",
+            "status": "exact_multiplicative_order"
+          }
+        ],
+        "trace": "282648742965"
+      },
+      "model": "short_weierstrass",
+      "named_points": {
+        "G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "O": {
+          "order": "1",
+          "order_factorization": [],
+          "point": null
+        },
+        "P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "P_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000001",
+            "y": "0x00dc15e20ea82b0faf9a5f"
+          }
+        },
+        "R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "R_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "double_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "mul_17_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x04c9ea2b0455a124f3defa",
+            "y": "0x072a071d95acaa40f86bc4"
+          }
+        },
+        "mul_7_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        },
+        "neg_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        }
+      },
+      "provenance": {
+        "computation_engine": "PARI/GP 2.17.2",
+        "legacy_source_file": "prime_data.json",
+        "scope": "experimental_small_field_benchmark",
+        "source_label": "p83-S-0"
+      },
+      "subgroup": {
+        "cofactor": "1",
+        "cofactor_coprime_to_r": true,
+        "embedding_degree": "4835703278458375374453194",
+        "generator": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "generator_selection": {
+          "G_scan_x": "0",
+          "G_source": [
+            "0",
+            "3985603835258454045276860"
+          ],
+          "H_derivation": null,
+          "H_scan_x": null,
+          "H_source": null,
+          "P_scan_x": "0",
+          "Q_scan_x": "1",
+          "R_rule": "first scanned point of exact order d2",
+          "R_scan_x": "0",
+          "projector": "1",
+          "projector_formula": "d2/r",
+          "rule": "x ascending from zero; minimum integer square root"
+        },
+        "membership_rule": "on_curve_and_r_annihilation",
+        "order": "9671406556916750748906389",
+        "projection_formula": "group_exponent / r",
+        "projection_scalar": "1",
+        "r_torsion_rank": 1,
+        "source_point": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "unique_order_r_subgroup": true
+      },
+      "twist": {
+        "kind": "quadratic",
+        "parameter": "0x0000000000000000000007",
+        "partner_id": "p83-S-1",
+        "partner_relation": "base_field_isomorphic_representative_of_standard_twist",
+        "representative_isomorphism_scale": "0x0000000000000000000001",
+        "representative_point_map": "direct twist (x,y) -> partner (x/scale^2,y/scale^3); infinity maps to infinity"
+      }
+    },
+    "field": {
+      "cardinality": "9671406556917033397649353",
+      "characteristic": "9671406556917033397649353",
+      "coordinate_bytes": 11,
+      "degree": 1,
+      "element_bits": 83,
+      "id": "p83",
+      "kind": "prime",
+      "proof": {
+        "certificate_n": "9671406556917033397649353",
+        "method": "lucas_primality"
+      },
+      "representation": {
+        "basis": "prime_residue",
+        "form": "2^83 - 55",
+        "modulus": "0x7ffffffffffffffffffc9",
+        "modulus_integer": "9671406556917033397649353",
+        "multiplicative_primitive_root": "7"
+      }
+    },
+    "coefficient_modulus": "9671406556917033397649353",
+    "variables": [
+      "x1",
+      "x2"
+    ],
+    "polynomials": [
+      {
+        "id": "f3",
+        "role": "semaev_f3",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              2,
+              2
+            ]
+          },
+          {
+            "coefficient": "1271901662386950601722086",
+            "exponents": [
+              2,
+              1
+            ]
+          },
+          {
+            "coefficient": "1271901662386950601722086",
+            "exponents": [
+              1,
+              2
+            ]
+          },
+          {
+            "coefficient": "3579795111407272380789095",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "2511816334102488636071169",
+            "exponents": [
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "3579795111407272380789095",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "5855701569756181592482479",
+            "exponents": [
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "5855701569756181592482479",
+            "exponents": [
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "4889449738499449424428377",
+            "exponents": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x1",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              4,
+              0
+            ]
+          },
+          {
+            "coefficient": "80468522736968780023570",
+            "exponents": [
+              3,
+              0
+            ]
+          },
+          {
+            "coefficient": "8798712016929349824505856",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "8522681770806003006563315",
+            "exponents": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x2",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              0,
+              4
+            ]
+          },
+          {
+            "coefficient": "80468522736968780023570",
+            "exponents": [
+              0,
+              3
+            ]
+          },
+          {
+            "coefficient": "8798712016929349824505856",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "8522681770806003006563315",
+            "exponents": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinate_groups": [
+      {
+        "name": "x1",
+        "variables": [
+          "x1"
+        ]
+      },
+      {
+        "name": "x2",
+        "variables": [
+          "x2"
+        ]
+      }
+    ],
+    "domains": {
+      "x1": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512"
+      ],
+      "x2": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512"
+      ]
+    },
+    "factor_base": {
+      "size_requested": 4,
+      "x_values": [
+        "0x0000000000000000000000",
+        "0x0777b03531dec0d4c77ad0",
+        "0x0587e6b74f0329164ba188",
+        "0x02ef5ede69ad519903dc28"
+      ],
+      "points_by_x": {
+        "0x0000000000000000000000": [
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          },
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        ],
+        "0x0777b03531dec0d4c77ad0": [
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          },
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x077349158311e4570fb939"
+          }
+        ],
+        "0x0587e6b74f0329164ba188": [
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x01ecc671e12d695822df9f"
+          },
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x0613398e1ed296a7dd202a"
+          }
+        ],
+        "0x02ef5ede69ad519903dc28": [
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x025d1fb500716ec18257a6"
+          },
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          }
+        ]
+      },
+      "positive_scalar_by_x": {
+        "0x0000000000000000000000": "1",
+        "0x0777b03531dec0d4c77ad0": "2",
+        "0x0587e6b74f0329164ba188": "3",
+        "0x02ef5ede69ad519903dc28": "4"
+      },
+      "generator": {
+        "x": "0x0000000000000000000000",
+        "y": "0x034bfc044fcd6d3a2ebabc"
+      },
+      "subgroup_order": "9671406556916750748906389",
+      "counters": {
+        "scalar_candidates_considered": 4,
+        "accepted_distinct_x_values": 4,
+        "signed_points": 8,
+        "infinity_rejections": 0,
+        "duplicate_x_rejections": 0,
+        "subgroup_annihilation_checks": 4
+      },
+      "membership_policy": "selected cyclic subgroup",
+      "basis_kind": "small_generator_multiples"
+    },
+    "target": {
+      "point": {
+        "x": "0x077955094ef971c119db56",
+        "y": "0x0656e42f10125bd549e2a8"
+      },
+      "kind": "seeded_subgroup",
+      "source": "seeded_subgroup",
+      "scalar": "6513746699165061650863341"
+    },
+    "model_variant": "strict_selected_subgroup_factor_base",
+    "expected": {
+      "algebraic_assignments": [],
+      "ordered_point_decompositions": [],
+      "ordered_count": 0,
+      "swap_orbit_count": 0,
+      "ordered_x_count": 0,
+      "swap_orbit_x_count": 0
+    },
+    "arity": 2,
+    "summation_polynomial_arity": 3,
+    "generation": {
+      "method": "deterministic kG factor base and finite exhaustive verification",
+      "seed": "ecbench-indexcalculus-v1",
+      "factor_base_rule": "x(kG) for k=1..size; both point signs permitted",
+      "factor_base_scalar_start": "1",
+      "factor_base_scalar_stop": "4",
+      "formula": "(x1-x2)^2*z^2 - 2*((x1+x2)*(x1*x2+A)+2*B)*z + (x1*x2-A)^2 - 4*B*(x1+x2)",
+      "checks": {
+        "x_assignments_enumerated": 16,
+        "ordered_signed_point_pairs_enumerated": 64,
+        "finite_point_sums_identity_checked": 56,
+        "infinity_point_sums": 8,
+        "expanded_formula_matches_direct_formula": true,
+        "polynomial_zeros_match_point_x_relations": true
+      },
+      "target_method": "deterministic SHA-256 nonzero subgroup scalar",
+      "hash": "SHA-256",
+      "hash_input_encoding": "UTF-8",
+      "hash_input": "ecbench-prime-f3-v1\u0000ecbench-indexcalculus-v1\u0000p83-S-0\u00004\u0000seeded_subgroup",
+      "hash_digest_hex": "6785a5f92cd28d1d96caf61825a11d764865121d769238ecbaf03285a3a97a0c",
+      "scalar_formula": "1 + OS2IP(SHA-256(hash_input)) mod (r - 1)",
+      "randomness_claim": "none; deterministic seeded test target"
+    }
+  },
+  {
+    "id": "p83-S-0-f3-fb8-planted",
+    "curve_id": "p83-S-0",
+    "curve": {
+      "coefficients": {
+        "a1": "0x0000000000000000000000",
+        "a2": "0x0000000000000000000000",
+        "a3": "0x0000000000000000000000",
+        "a4": "0x07ffffffffffffffffffc6",
+        "a6": "0x000000000000000000009a"
+      },
+      "family": "S",
+      "field_id": "p83",
+      "id": "p83-S-0",
+      "invariants": {
+        "delta": "0x07ffffffffffffff63b1c9",
+        "endomorphism": {
+          "base_field": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "frobenius_order": {
+            "class_number": null,
+            "conductor": "1",
+            "discriminant": "-38605735915768438953606187"
+          },
+          "geometric": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "proof_method": "Frobenius discriminant is fundamental (f_pi=1)."
+        },
+        "frobenius_discriminant": "-38605735915768438953606187",
+        "frobenius_polynomial": [
+          "1",
+          "-282648742965",
+          "9671406556917033397649353"
+        ],
+        "group_cyclic": true,
+        "group_exponent": "9671406556916750748906389",
+        "group_invariant_factors": [
+          "1",
+          "9671406556916750748906389"
+        ],
+        "j": "0x045f5a2b87c5f5a2b87c41",
+        "order": "9671406556916750748906389",
+        "order_factorization": [
+          {
+            "exponent": 1,
+            "prime": "9671406556916750748906389"
+          }
+        ],
+        "ordinary": true,
+        "subgroup_embedding_degrees": [
+          {
+            "degree": "4835703278458375374453194",
+            "minimality_prime_divisors": [
+              "2",
+              "13",
+              "4099",
+              "657049",
+              "2466977",
+              "27992747"
+            ],
+            "prime": "9671406556916750748906389",
+            "status": "exact_multiplicative_order"
+          }
+        ],
+        "trace": "282648742965"
+      },
+      "model": "short_weierstrass",
+      "named_points": {
+        "G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "O": {
+          "order": "1",
+          "order_factorization": [],
+          "point": null
+        },
+        "P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "P_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000001",
+            "y": "0x00dc15e20ea82b0faf9a5f"
+          }
+        },
+        "R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "R_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "double_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "mul_17_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x04c9ea2b0455a124f3defa",
+            "y": "0x072a071d95acaa40f86bc4"
+          }
+        },
+        "mul_7_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        },
+        "neg_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        }
+      },
+      "provenance": {
+        "computation_engine": "PARI/GP 2.17.2",
+        "legacy_source_file": "prime_data.json",
+        "scope": "experimental_small_field_benchmark",
+        "source_label": "p83-S-0"
+      },
+      "subgroup": {
+        "cofactor": "1",
+        "cofactor_coprime_to_r": true,
+        "embedding_degree": "4835703278458375374453194",
+        "generator": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "generator_selection": {
+          "G_scan_x": "0",
+          "G_source": [
+            "0",
+            "3985603835258454045276860"
+          ],
+          "H_derivation": null,
+          "H_scan_x": null,
+          "H_source": null,
+          "P_scan_x": "0",
+          "Q_scan_x": "1",
+          "R_rule": "first scanned point of exact order d2",
+          "R_scan_x": "0",
+          "projector": "1",
+          "projector_formula": "d2/r",
+          "rule": "x ascending from zero; minimum integer square root"
+        },
+        "membership_rule": "on_curve_and_r_annihilation",
+        "order": "9671406556916750748906389",
+        "projection_formula": "group_exponent / r",
+        "projection_scalar": "1",
+        "r_torsion_rank": 1,
+        "source_point": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "unique_order_r_subgroup": true
+      },
+      "twist": {
+        "kind": "quadratic",
+        "parameter": "0x0000000000000000000007",
+        "partner_id": "p83-S-1",
+        "partner_relation": "base_field_isomorphic_representative_of_standard_twist",
+        "representative_isomorphism_scale": "0x0000000000000000000001",
+        "representative_point_map": "direct twist (x,y) -> partner (x/scale^2,y/scale^3); infinity maps to infinity"
+      }
+    },
+    "field": {
+      "cardinality": "9671406556917033397649353",
+      "characteristic": "9671406556917033397649353",
+      "coordinate_bytes": 11,
+      "degree": 1,
+      "element_bits": 83,
+      "id": "p83",
+      "kind": "prime",
+      "proof": {
+        "certificate_n": "9671406556917033397649353",
+        "method": "lucas_primality"
+      },
+      "representation": {
+        "basis": "prime_residue",
+        "form": "2^83 - 55",
+        "modulus": "0x7ffffffffffffffffffc9",
+        "modulus_integer": "9671406556917033397649353",
+        "multiplicative_primitive_root": "7"
+      }
+    },
+    "coefficient_modulus": "9671406556917033397649353",
+    "variables": [
+      "x1",
+      "x2"
+    ],
+    "polynomials": [
+      {
+        "id": "f3",
+        "role": "semaev_f3",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              2,
+              2
+            ]
+          },
+          {
+            "coefficient": "5970004047479650239691906",
+            "exponents": [
+              2,
+              1
+            ]
+          },
+          {
+            "coefficient": "5970004047479650239691906",
+            "exponents": [
+              1,
+              2
+            ]
+          },
+          {
+            "coefficient": "4686084658511487623542051",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "299237239894058150565257",
+            "exponents": [
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "4686084658511487623542051",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "1432800971395116076222372",
+            "exponents": [
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "1432800971395116076222372",
+            "exponents": [
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "1194000809495928271729987",
+            "exponents": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x1",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              8,
+              0
+            ]
+          },
+          {
+            "coefficient": "4123863939563690126599532",
+            "exponents": [
+              7,
+              0
+            ]
+          },
+          {
+            "coefficient": "2753144451937884733000096",
+            "exponents": [
+              6,
+              0
+            ]
+          },
+          {
+            "coefficient": "6299870652591704777871211",
+            "exponents": [
+              5,
+              0
+            ]
+          },
+          {
+            "coefficient": "3680099453988110732989685",
+            "exponents": [
+              4,
+              0
+            ]
+          },
+          {
+            "coefficient": "4852952983139720158220889",
+            "exponents": [
+              3,
+              0
+            ]
+          },
+          {
+            "coefficient": "4688198612900993685505829",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "8080101534285600930410136",
+            "exponents": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x2",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              0,
+              8
+            ]
+          },
+          {
+            "coefficient": "4123863939563690126599532",
+            "exponents": [
+              0,
+              7
+            ]
+          },
+          {
+            "coefficient": "2753144451937884733000096",
+            "exponents": [
+              0,
+              6
+            ]
+          },
+          {
+            "coefficient": "6299870652591704777871211",
+            "exponents": [
+              0,
+              5
+            ]
+          },
+          {
+            "coefficient": "3680099453988110732989685",
+            "exponents": [
+              0,
+              4
+            ]
+          },
+          {
+            "coefficient": "4852952983139720158220889",
+            "exponents": [
+              0,
+              3
+            ]
+          },
+          {
+            "coefficient": "4688198612900993685505829",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "8080101534285600930410136",
+            "exponents": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinate_groups": [
+      {
+        "name": "x1",
+        "variables": [
+          "x1"
+        ]
+      },
+      {
+        "name": "x2",
+        "variables": [
+          "x2"
+        ]
+      }
+    ],
+    "domains": {
+      "x1": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512",
+        "3355773655781529587100771",
+        "1635697488568508790252910",
+        "6143733597370499621861197",
+        "4164212955286807449507866"
+      ],
+      "x2": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512",
+        "3355773655781529587100771",
+        "1635697488568508790252910",
+        "6143733597370499621861197",
+        "4164212955286807449507866"
+      ]
+    },
+    "factor_base": {
+      "size_requested": 8,
+      "x_values": [
+        "0x0000000000000000000000",
+        "0x0777b03531dec0d4c77ad0",
+        "0x0587e6b74f0329164ba188",
+        "0x02ef5ede69ad519903dc28",
+        "0x02c69cdab9da78ad212c63",
+        "0x015a5f56aa0457f606a56e",
+        "0x0514fc773648cd57f6374d",
+        "0x0371ce6fc7af8a01f5181a"
+      ],
+      "points_by_x": {
+        "0x0000000000000000000000": [
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          },
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        ],
+        "0x0777b03531dec0d4c77ad0": [
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          },
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x077349158311e4570fb939"
+          }
+        ],
+        "0x0587e6b74f0329164ba188": [
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x01ecc671e12d695822df9f"
+          },
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x0613398e1ed296a7dd202a"
+          }
+        ],
+        "0x02ef5ede69ad519903dc28": [
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x025d1fb500716ec18257a6"
+          },
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          }
+        ],
+        "0x02c69cdab9da78ad212c63": [
+          {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x009f8492c4f0070fad28e1"
+          },
+          {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x07607b6d3b0ff8f052d6e8"
+          }
+        ],
+        "0x015a5f56aa0457f606a56e": [
+          {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x0162f98f302e50d379b276"
+          },
+          {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x069d0670cfd1af2c864d53"
+          }
+        ],
+        "0x0514fc773648cd57f6374d": [
+          {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x01f9ebf64437d3c50a3a21"
+          },
+          {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        ],
+        "0x0371ce6fc7af8a01f5181a": [
+          {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x039163ef342d543766dfed"
+          },
+          {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x046e9c10cbd2abc8991fdc"
+          }
+        ]
+      },
+      "positive_scalar_by_x": {
+        "0x0000000000000000000000": "1",
+        "0x0777b03531dec0d4c77ad0": "2",
+        "0x0587e6b74f0329164ba188": "3",
+        "0x02ef5ede69ad519903dc28": "4",
+        "0x02c69cdab9da78ad212c63": "5",
+        "0x015a5f56aa0457f606a56e": "6",
+        "0x0514fc773648cd57f6374d": "7",
+        "0x0371ce6fc7af8a01f5181a": "8"
+      },
+      "generator": {
+        "x": "0x0000000000000000000000",
+        "y": "0x034bfc044fcd6d3a2ebabc"
+      },
+      "subgroup_order": "9671406556916750748906389",
+      "counters": {
+        "scalar_candidates_considered": 8,
+        "accepted_distinct_x_values": 8,
+        "signed_points": 16,
+        "infinity_rejections": 0,
+        "duplicate_x_rejections": 0,
+        "subgroup_annihilation_checks": 8
+      },
+      "membership_policy": "selected cyclic subgroup",
+      "basis_kind": "small_generator_multiples"
+    },
+    "target": {
+      "point": {
+        "x": "0x0587e6b74f0329164ba188",
+        "y": "0x0613398e1ed296a7dd202a"
+      },
+      "kind": "planted",
+      "source": "planted",
+      "scalar": "3"
+    },
+    "model_variant": "strict_selected_subgroup_factor_base",
+    "expected": {
+      "algebraic_assignments": [
+        [
+          "0",
+          "3548247249109347199081512"
+        ],
+        [
+          "0",
+          "9027692808810542538390224"
+        ],
+        [
+          "1635697488568508790252910",
+          "6686404533177208277803400"
+        ],
+        [
+          "3355773655781529587100771",
+          "4164212955286807449507866"
+        ],
+        [
+          "3355773655781529587100771",
+          "9027692808810542538390224"
+        ],
+        [
+          "3548247249109347199081512",
+          "0"
+        ],
+        [
+          "3548247249109347199081512",
+          "6143733597370499621861197"
+        ],
+        [
+          "4164212955286807449507866",
+          "3355773655781529587100771"
+        ],
+        [
+          "6143733597370499621861197",
+          "3548247249109347199081512"
+        ],
+        [
+          "6686404533177208277803400",
+          "1635697488568508790252910"
+        ],
+        [
+          "9027692808810542538390224",
+          "0"
+        ],
+        [
+          "9027692808810542538390224",
+          "3355773655781529587100771"
+        ]
+      ],
+      "ordered_point_decompositions": [
+        {
+          "P": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          },
+          "Q": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          },
+          "Q": {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          }
+        },
+        {
+          "P": {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x069d0670cfd1af2c864d53"
+          },
+          "Q": {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x01ecc671e12d695822df9f"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x009f8492c4f0070fad28e1"
+          },
+          "Q": {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x039163ef342d543766dfed"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x07607b6d3b0ff8f052d6e8"
+          },
+          "Q": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x077349158311e4570fb939"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x025d1fb500716ec18257a6"
+          },
+          "Q": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          },
+          "Q": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x039163ef342d543766dfed"
+          },
+          "Q": {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x009f8492c4f0070fad28e1"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          },
+          "Q": {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x025d1fb500716ec18257a6"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x01ecc671e12d695822df9f"
+          },
+          "Q": {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x069d0670cfd1af2c864d53"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          },
+          "Q": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x077349158311e4570fb939"
+          },
+          "Q": {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x07607b6d3b0ff8f052d6e8"
+          }
+        }
+      ],
+      "ordered_count": 12,
+      "swap_orbit_count": 6,
+      "ordered_x_count": 12,
+      "swap_orbit_x_count": 6
+    },
+    "arity": 2,
+    "summation_polynomial_arity": 3,
+    "generation": {
+      "method": "deterministic kG factor base and finite exhaustive verification",
+      "seed": "ecbench-indexcalculus-v1",
+      "factor_base_rule": "x(kG) for k=1..size; both point signs permitted",
+      "factor_base_scalar_start": "1",
+      "factor_base_scalar_stop": "8",
+      "formula": "(x1-x2)^2*z^2 - 2*((x1+x2)*(x1*x2+A)+2*B)*z + (x1*x2-A)^2 - 4*B*(x1+x2)",
+      "checks": {
+        "x_assignments_enumerated": 64,
+        "ordered_signed_point_pairs_enumerated": 256,
+        "finite_point_sums_identity_checked": 240,
+        "infinity_point_sums": 16,
+        "expanded_formula_matches_direct_formula": true,
+        "polynomial_zeros_match_point_x_relations": true
+      },
+      "target_method": "sum of first two positive kG points",
+      "planted_scalars": [
+        "1",
+        "2"
+      ]
+    }
+  },
+  {
+    "id": "p83-S-0-f3-fb8-seeded_subgroup",
+    "curve_id": "p83-S-0",
+    "curve": {
+      "coefficients": {
+        "a1": "0x0000000000000000000000",
+        "a2": "0x0000000000000000000000",
+        "a3": "0x0000000000000000000000",
+        "a4": "0x07ffffffffffffffffffc6",
+        "a6": "0x000000000000000000009a"
+      },
+      "family": "S",
+      "field_id": "p83",
+      "id": "p83-S-0",
+      "invariants": {
+        "delta": "0x07ffffffffffffff63b1c9",
+        "endomorphism": {
+          "base_field": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "frobenius_order": {
+            "class_number": null,
+            "conductor": "1",
+            "discriminant": "-38605735915768438953606187"
+          },
+          "geometric": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "proof_method": "Frobenius discriminant is fundamental (f_pi=1)."
+        },
+        "frobenius_discriminant": "-38605735915768438953606187",
+        "frobenius_polynomial": [
+          "1",
+          "-282648742965",
+          "9671406556917033397649353"
+        ],
+        "group_cyclic": true,
+        "group_exponent": "9671406556916750748906389",
+        "group_invariant_factors": [
+          "1",
+          "9671406556916750748906389"
+        ],
+        "j": "0x045f5a2b87c5f5a2b87c41",
+        "order": "9671406556916750748906389",
+        "order_factorization": [
+          {
+            "exponent": 1,
+            "prime": "9671406556916750748906389"
+          }
+        ],
+        "ordinary": true,
+        "subgroup_embedding_degrees": [
+          {
+            "degree": "4835703278458375374453194",
+            "minimality_prime_divisors": [
+              "2",
+              "13",
+              "4099",
+              "657049",
+              "2466977",
+              "27992747"
+            ],
+            "prime": "9671406556916750748906389",
+            "status": "exact_multiplicative_order"
+          }
+        ],
+        "trace": "282648742965"
+      },
+      "model": "short_weierstrass",
+      "named_points": {
+        "G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "O": {
+          "order": "1",
+          "order_factorization": [],
+          "point": null
+        },
+        "P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "P_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000001",
+            "y": "0x00dc15e20ea82b0faf9a5f"
+          }
+        },
+        "R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "R_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "double_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "mul_17_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x04c9ea2b0455a124f3defa",
+            "y": "0x072a071d95acaa40f86bc4"
+          }
+        },
+        "mul_7_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        },
+        "neg_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        }
+      },
+      "provenance": {
+        "computation_engine": "PARI/GP 2.17.2",
+        "legacy_source_file": "prime_data.json",
+        "scope": "experimental_small_field_benchmark",
+        "source_label": "p83-S-0"
+      },
+      "subgroup": {
+        "cofactor": "1",
+        "cofactor_coprime_to_r": true,
+        "embedding_degree": "4835703278458375374453194",
+        "generator": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "generator_selection": {
+          "G_scan_x": "0",
+          "G_source": [
+            "0",
+            "3985603835258454045276860"
+          ],
+          "H_derivation": null,
+          "H_scan_x": null,
+          "H_source": null,
+          "P_scan_x": "0",
+          "Q_scan_x": "1",
+          "R_rule": "first scanned point of exact order d2",
+          "R_scan_x": "0",
+          "projector": "1",
+          "projector_formula": "d2/r",
+          "rule": "x ascending from zero; minimum integer square root"
+        },
+        "membership_rule": "on_curve_and_r_annihilation",
+        "order": "9671406556916750748906389",
+        "projection_formula": "group_exponent / r",
+        "projection_scalar": "1",
+        "r_torsion_rank": 1,
+        "source_point": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "unique_order_r_subgroup": true
+      },
+      "twist": {
+        "kind": "quadratic",
+        "parameter": "0x0000000000000000000007",
+        "partner_id": "p83-S-1",
+        "partner_relation": "base_field_isomorphic_representative_of_standard_twist",
+        "representative_isomorphism_scale": "0x0000000000000000000001",
+        "representative_point_map": "direct twist (x,y) -> partner (x/scale^2,y/scale^3); infinity maps to infinity"
+      }
+    },
+    "field": {
+      "cardinality": "9671406556917033397649353",
+      "characteristic": "9671406556917033397649353",
+      "coordinate_bytes": 11,
+      "degree": 1,
+      "element_bits": 83,
+      "id": "p83",
+      "kind": "prime",
+      "proof": {
+        "certificate_n": "9671406556917033397649353",
+        "method": "lucas_primality"
+      },
+      "representation": {
+        "basis": "prime_residue",
+        "form": "2^83 - 55",
+        "modulus": "0x7ffffffffffffffffffc9",
+        "modulus_integer": "9671406556917033397649353",
+        "multiplicative_primitive_root": "7"
+      }
+    },
+    "coefficient_modulus": "9671406556917033397649353",
+    "variables": [
+      "x1",
+      "x2"
+    ],
+    "polynomials": [
+      {
+        "id": "f3",
+        "role": "semaev_f3",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              2,
+              2
+            ]
+          },
+          {
+            "coefficient": "6670372886090293620051682",
+            "exponents": [
+              2,
+              1
+            ]
+          },
+          {
+            "coefficient": "6670372886090293620051682",
+            "exponents": [
+              1,
+              2
+            ]
+          },
+          {
+            "coefficient": "5373753010854413400004546",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "8595307092125239995289620",
+            "exponents": [
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "5373753010854413400004546",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "9003101012480219332792397",
+            "exponents": [
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "9003101012480219332792397",
+            "exponents": [
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "4136658849399354674255229",
+            "exponents": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x1",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              8,
+              0
+            ]
+          },
+          {
+            "coefficient": "4123863939563690126599532",
+            "exponents": [
+              7,
+              0
+            ]
+          },
+          {
+            "coefficient": "2753144451937884733000096",
+            "exponents": [
+              6,
+              0
+            ]
+          },
+          {
+            "coefficient": "6299870652591704777871211",
+            "exponents": [
+              5,
+              0
+            ]
+          },
+          {
+            "coefficient": "3680099453988110732989685",
+            "exponents": [
+              4,
+              0
+            ]
+          },
+          {
+            "coefficient": "4852952983139720158220889",
+            "exponents": [
+              3,
+              0
+            ]
+          },
+          {
+            "coefficient": "4688198612900993685505829",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "8080101534285600930410136",
+            "exponents": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x2",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              0,
+              8
+            ]
+          },
+          {
+            "coefficient": "4123863939563690126599532",
+            "exponents": [
+              0,
+              7
+            ]
+          },
+          {
+            "coefficient": "2753144451937884733000096",
+            "exponents": [
+              0,
+              6
+            ]
+          },
+          {
+            "coefficient": "6299870652591704777871211",
+            "exponents": [
+              0,
+              5
+            ]
+          },
+          {
+            "coefficient": "3680099453988110732989685",
+            "exponents": [
+              0,
+              4
+            ]
+          },
+          {
+            "coefficient": "4852952983139720158220889",
+            "exponents": [
+              0,
+              3
+            ]
+          },
+          {
+            "coefficient": "4688198612900993685505829",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "8080101534285600930410136",
+            "exponents": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinate_groups": [
+      {
+        "name": "x1",
+        "variables": [
+          "x1"
+        ]
+      },
+      {
+        "name": "x2",
+        "variables": [
+          "x2"
+        ]
+      }
+    ],
+    "domains": {
+      "x1": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512",
+        "3355773655781529587100771",
+        "1635697488568508790252910",
+        "6143733597370499621861197",
+        "4164212955286807449507866"
+      ],
+      "x2": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512",
+        "3355773655781529587100771",
+        "1635697488568508790252910",
+        "6143733597370499621861197",
+        "4164212955286807449507866"
+      ]
+    },
+    "factor_base": {
+      "size_requested": 8,
+      "x_values": [
+        "0x0000000000000000000000",
+        "0x0777b03531dec0d4c77ad0",
+        "0x0587e6b74f0329164ba188",
+        "0x02ef5ede69ad519903dc28",
+        "0x02c69cdab9da78ad212c63",
+        "0x015a5f56aa0457f606a56e",
+        "0x0514fc773648cd57f6374d",
+        "0x0371ce6fc7af8a01f5181a"
+      ],
+      "points_by_x": {
+        "0x0000000000000000000000": [
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          },
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        ],
+        "0x0777b03531dec0d4c77ad0": [
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          },
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x077349158311e4570fb939"
+          }
+        ],
+        "0x0587e6b74f0329164ba188": [
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x01ecc671e12d695822df9f"
+          },
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x0613398e1ed296a7dd202a"
+          }
+        ],
+        "0x02ef5ede69ad519903dc28": [
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x025d1fb500716ec18257a6"
+          },
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          }
+        ],
+        "0x02c69cdab9da78ad212c63": [
+          {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x009f8492c4f0070fad28e1"
+          },
+          {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x07607b6d3b0ff8f052d6e8"
+          }
+        ],
+        "0x015a5f56aa0457f606a56e": [
+          {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x0162f98f302e50d379b276"
+          },
+          {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x069d0670cfd1af2c864d53"
+          }
+        ],
+        "0x0514fc773648cd57f6374d": [
+          {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x01f9ebf64437d3c50a3a21"
+          },
+          {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        ],
+        "0x0371ce6fc7af8a01f5181a": [
+          {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x039163ef342d543766dfed"
+          },
+          {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x046e9c10cbd2abc8991fdc"
+          }
+        ]
+      },
+      "positive_scalar_by_x": {
+        "0x0000000000000000000000": "1",
+        "0x0777b03531dec0d4c77ad0": "2",
+        "0x0587e6b74f0329164ba188": "3",
+        "0x02ef5ede69ad519903dc28": "4",
+        "0x02c69cdab9da78ad212c63": "5",
+        "0x015a5f56aa0457f606a56e": "6",
+        "0x0514fc773648cd57f6374d": "7",
+        "0x0371ce6fc7af8a01f5181a": "8"
+      },
+      "generator": {
+        "x": "0x0000000000000000000000",
+        "y": "0x034bfc044fcd6d3a2ebabc"
+      },
+      "subgroup_order": "9671406556916750748906389",
+      "counters": {
+        "scalar_candidates_considered": 8,
+        "accepted_distinct_x_values": 8,
+        "signed_points": 16,
+        "infinity_rejections": 0,
+        "duplicate_x_rejections": 0,
+        "subgroup_annihilation_checks": 8
+      },
+      "membership_policy": "selected cyclic subgroup",
+      "basis_kind": "small_generator_multiples"
+    },
+    "target": {
+      "point": {
+        "x": "0x053dbf2e3e718a77e57858",
+        "y": "0x01a970e81285061d796d8a"
+      },
+      "kind": "seeded_subgroup",
+      "source": "seeded_subgroup",
+      "scalar": "8341252014314205940026728"
+    },
+    "model_variant": "strict_selected_subgroup_factor_base",
+    "expected": {
+      "algebraic_assignments": [],
+      "ordered_point_decompositions": [],
+      "ordered_count": 0,
+      "swap_orbit_count": 0,
+      "ordered_x_count": 0,
+      "swap_orbit_x_count": 0
+    },
+    "arity": 2,
+    "summation_polynomial_arity": 3,
+    "generation": {
+      "method": "deterministic kG factor base and finite exhaustive verification",
+      "seed": "ecbench-indexcalculus-v1",
+      "factor_base_rule": "x(kG) for k=1..size; both point signs permitted",
+      "factor_base_scalar_start": "1",
+      "factor_base_scalar_stop": "8",
+      "formula": "(x1-x2)^2*z^2 - 2*((x1+x2)*(x1*x2+A)+2*B)*z + (x1*x2-A)^2 - 4*B*(x1+x2)",
+      "checks": {
+        "x_assignments_enumerated": 64,
+        "ordered_signed_point_pairs_enumerated": 256,
+        "finite_point_sums_identity_checked": 240,
+        "infinity_point_sums": 16,
+        "expanded_formula_matches_direct_formula": true,
+        "polynomial_zeros_match_point_x_relations": true
+      },
+      "target_method": "deterministic SHA-256 nonzero subgroup scalar",
+      "hash": "SHA-256",
+      "hash_input_encoding": "UTF-8",
+      "hash_input": "ecbench-prime-f3-v1\u0000ecbench-indexcalculus-v1\u0000p83-S-0\u00008\u0000seeded_subgroup",
+      "hash_digest_hex": "baef825da346e970b4dc82a2bc946d24b28d791c7b681aafa1e7e2a3113d800f",
+      "scalar_formula": "1 + OS2IP(SHA-256(hash_input)) mod (r - 1)",
+      "randomness_claim": "none; deterministic seeded test target"
+    }
+  },
+  {
+    "id": "p83-S-0-f3-fb16-planted",
+    "curve_id": "p83-S-0",
+    "curve": {
+      "coefficients": {
+        "a1": "0x0000000000000000000000",
+        "a2": "0x0000000000000000000000",
+        "a3": "0x0000000000000000000000",
+        "a4": "0x07ffffffffffffffffffc6",
+        "a6": "0x000000000000000000009a"
+      },
+      "family": "S",
+      "field_id": "p83",
+      "id": "p83-S-0",
+      "invariants": {
+        "delta": "0x07ffffffffffffff63b1c9",
+        "endomorphism": {
+          "base_field": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "frobenius_order": {
+            "class_number": null,
+            "conductor": "1",
+            "discriminant": "-38605735915768438953606187"
+          },
+          "geometric": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "proof_method": "Frobenius discriminant is fundamental (f_pi=1)."
+        },
+        "frobenius_discriminant": "-38605735915768438953606187",
+        "frobenius_polynomial": [
+          "1",
+          "-282648742965",
+          "9671406556917033397649353"
+        ],
+        "group_cyclic": true,
+        "group_exponent": "9671406556916750748906389",
+        "group_invariant_factors": [
+          "1",
+          "9671406556916750748906389"
+        ],
+        "j": "0x045f5a2b87c5f5a2b87c41",
+        "order": "9671406556916750748906389",
+        "order_factorization": [
+          {
+            "exponent": 1,
+            "prime": "9671406556916750748906389"
+          }
+        ],
+        "ordinary": true,
+        "subgroup_embedding_degrees": [
+          {
+            "degree": "4835703278458375374453194",
+            "minimality_prime_divisors": [
+              "2",
+              "13",
+              "4099",
+              "657049",
+              "2466977",
+              "27992747"
+            ],
+            "prime": "9671406556916750748906389",
+            "status": "exact_multiplicative_order"
+          }
+        ],
+        "trace": "282648742965"
+      },
+      "model": "short_weierstrass",
+      "named_points": {
+        "G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "O": {
+          "order": "1",
+          "order_factorization": [],
+          "point": null
+        },
+        "P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "P_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000001",
+            "y": "0x00dc15e20ea82b0faf9a5f"
+          }
+        },
+        "R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "R_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "double_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "mul_17_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x04c9ea2b0455a124f3defa",
+            "y": "0x072a071d95acaa40f86bc4"
+          }
+        },
+        "mul_7_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        },
+        "neg_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        }
+      },
+      "provenance": {
+        "computation_engine": "PARI/GP 2.17.2",
+        "legacy_source_file": "prime_data.json",
+        "scope": "experimental_small_field_benchmark",
+        "source_label": "p83-S-0"
+      },
+      "subgroup": {
+        "cofactor": "1",
+        "cofactor_coprime_to_r": true,
+        "embedding_degree": "4835703278458375374453194",
+        "generator": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "generator_selection": {
+          "G_scan_x": "0",
+          "G_source": [
+            "0",
+            "3985603835258454045276860"
+          ],
+          "H_derivation": null,
+          "H_scan_x": null,
+          "H_source": null,
+          "P_scan_x": "0",
+          "Q_scan_x": "1",
+          "R_rule": "first scanned point of exact order d2",
+          "R_scan_x": "0",
+          "projector": "1",
+          "projector_formula": "d2/r",
+          "rule": "x ascending from zero; minimum integer square root"
+        },
+        "membership_rule": "on_curve_and_r_annihilation",
+        "order": "9671406556916750748906389",
+        "projection_formula": "group_exponent / r",
+        "projection_scalar": "1",
+        "r_torsion_rank": 1,
+        "source_point": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "unique_order_r_subgroup": true
+      },
+      "twist": {
+        "kind": "quadratic",
+        "parameter": "0x0000000000000000000007",
+        "partner_id": "p83-S-1",
+        "partner_relation": "base_field_isomorphic_representative_of_standard_twist",
+        "representative_isomorphism_scale": "0x0000000000000000000001",
+        "representative_point_map": "direct twist (x,y) -> partner (x/scale^2,y/scale^3); infinity maps to infinity"
+      }
+    },
+    "field": {
+      "cardinality": "9671406556917033397649353",
+      "characteristic": "9671406556917033397649353",
+      "coordinate_bytes": 11,
+      "degree": 1,
+      "element_bits": 83,
+      "id": "p83",
+      "kind": "prime",
+      "proof": {
+        "certificate_n": "9671406556917033397649353",
+        "method": "lucas_primality"
+      },
+      "representation": {
+        "basis": "prime_residue",
+        "form": "2^83 - 55",
+        "modulus": "0x7ffffffffffffffffffc9",
+        "modulus_integer": "9671406556917033397649353",
+        "multiplicative_primitive_root": "7"
+      }
+    },
+    "coefficient_modulus": "9671406556917033397649353",
+    "variables": [
+      "x1",
+      "x2"
+    ],
+    "polynomials": [
+      {
+        "id": "f3",
+        "role": "semaev_f3",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              2,
+              2
+            ]
+          },
+          {
+            "coefficient": "5970004047479650239691906",
+            "exponents": [
+              2,
+              1
+            ]
+          },
+          {
+            "coefficient": "5970004047479650239691906",
+            "exponents": [
+              1,
+              2
+            ]
+          },
+          {
+            "coefficient": "4686084658511487623542051",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "299237239894058150565257",
+            "exponents": [
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "4686084658511487623542051",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "1432800971395116076222372",
+            "exponents": [
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "1432800971395116076222372",
+            "exponents": [
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "1194000809495928271729987",
+            "exponents": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x1",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              16,
+              0
+            ]
+          },
+          {
+            "coefficient": "4565460104736615178224971",
+            "exponents": [
+              15,
+              0
+            ]
+          },
+          {
+            "coefficient": "2642611430282178562828494",
+            "exponents": [
+              14,
+              0
+            ]
+          },
+          {
+            "coefficient": "577992457431384744158141",
+            "exponents": [
+              13,
+              0
+            ]
+          },
+          {
+            "coefficient": "875304005673397568784272",
+            "exponents": [
+              12,
+              0
+            ]
+          },
+          {
+            "coefficient": "2544774269853028782146687",
+            "exponents": [
+              11,
+              0
+            ]
+          },
+          {
+            "coefficient": "6755723778952749903618803",
+            "exponents": [
+              10,
+              0
+            ]
+          },
+          {
+            "coefficient": "1490087147716870107000670",
+            "exponents": [
+              9,
+              0
+            ]
+          },
+          {
+            "coefficient": "1154966443602924186047255",
+            "exponents": [
+              8,
+              0
+            ]
+          },
+          {
+            "coefficient": "4765477438453462322289067",
+            "exponents": [
+              7,
+              0
+            ]
+          },
+          {
+            "coefficient": "299180368932116155626326",
+            "exponents": [
+              6,
+              0
+            ]
+          },
+          {
+            "coefficient": "2571958942173658119119361",
+            "exponents": [
+              5,
+              0
+            ]
+          },
+          {
+            "coefficient": "9057661284562169179321575",
+            "exponents": [
+              4,
+              0
+            ]
+          },
+          {
+            "coefficient": "4323322263840903409745481",
+            "exponents": [
+              3,
+              0
+            ]
+          },
+          {
+            "coefficient": "547497108390281966784677",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "5138850230051787954344715",
+            "exponents": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x2",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              0,
+              16
+            ]
+          },
+          {
+            "coefficient": "4565460104736615178224971",
+            "exponents": [
+              0,
+              15
+            ]
+          },
+          {
+            "coefficient": "2642611430282178562828494",
+            "exponents": [
+              0,
+              14
+            ]
+          },
+          {
+            "coefficient": "577992457431384744158141",
+            "exponents": [
+              0,
+              13
+            ]
+          },
+          {
+            "coefficient": "875304005673397568784272",
+            "exponents": [
+              0,
+              12
+            ]
+          },
+          {
+            "coefficient": "2544774269853028782146687",
+            "exponents": [
+              0,
+              11
+            ]
+          },
+          {
+            "coefficient": "6755723778952749903618803",
+            "exponents": [
+              0,
+              10
+            ]
+          },
+          {
+            "coefficient": "1490087147716870107000670",
+            "exponents": [
+              0,
+              9
+            ]
+          },
+          {
+            "coefficient": "1154966443602924186047255",
+            "exponents": [
+              0,
+              8
+            ]
+          },
+          {
+            "coefficient": "4765477438453462322289067",
+            "exponents": [
+              0,
+              7
+            ]
+          },
+          {
+            "coefficient": "299180368932116155626326",
+            "exponents": [
+              0,
+              6
+            ]
+          },
+          {
+            "coefficient": "2571958942173658119119361",
+            "exponents": [
+              0,
+              5
+            ]
+          },
+          {
+            "coefficient": "9057661284562169179321575",
+            "exponents": [
+              0,
+              4
+            ]
+          },
+          {
+            "coefficient": "4323322263840903409745481",
+            "exponents": [
+              0,
+              3
+            ]
+          },
+          {
+            "coefficient": "547497108390281966784677",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "5138850230051787954344715",
+            "exponents": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinate_groups": [
+      {
+        "name": "x1",
+        "variables": [
+          "x1"
+        ]
+      },
+      {
+        "name": "x2",
+        "variables": [
+          "x2"
+        ]
+      }
+    ],
+    "domains": {
+      "x1": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512",
+        "3355773655781529587100771",
+        "1635697488568508790252910",
+        "6143733597370499621861197",
+        "4164212955286807449507866",
+        "843520721342806516967478",
+        "3438112763523275698355376",
+        "1032369752546693435205610",
+        "3343741071682670038539102",
+        "8933750627688233301867629",
+        "3191828399427281289708109",
+        "6676223197488063079459292",
+        "1113076971879151781220024"
+      ],
+      "x2": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512",
+        "3355773655781529587100771",
+        "1635697488568508790252910",
+        "6143733597370499621861197",
+        "4164212955286807449507866",
+        "843520721342806516967478",
+        "3438112763523275698355376",
+        "1032369752546693435205610",
+        "3343741071682670038539102",
+        "8933750627688233301867629",
+        "3191828399427281289708109",
+        "6676223197488063079459292",
+        "1113076971879151781220024"
+      ]
+    },
+    "factor_base": {
+      "size_requested": 16,
+      "x_values": [
+        "0x0000000000000000000000",
+        "0x0777b03531dec0d4c77ad0",
+        "0x0587e6b74f0329164ba188",
+        "0x02ef5ede69ad519903dc28",
+        "0x02c69cdab9da78ad212c63",
+        "0x015a5f56aa0457f606a56e",
+        "0x0514fc773648cd57f6374d",
+        "0x0371ce6fc7af8a01f5181a",
+        "0x00b29f599510f60bba2836",
+        "0x02d80c77643a4cbe3e3cb0",
+        "0x00da9ce05d73d8bf3da7ea",
+        "0x02c4109113bbebe406db5e",
+        "0x0763cb9789fb052bbe7c6d",
+        "0x02a3e55d3f077a62af824d",
+        "0x0585bec8e470e94bd729dc",
+        "0x00ebb406078d8b0dd70eb8"
+      ],
+      "points_by_x": {
+        "0x0000000000000000000000": [
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          },
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        ],
+        "0x0777b03531dec0d4c77ad0": [
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          },
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x077349158311e4570fb939"
+          }
+        ],
+        "0x0587e6b74f0329164ba188": [
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x01ecc671e12d695822df9f"
+          },
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x0613398e1ed296a7dd202a"
+          }
+        ],
+        "0x02ef5ede69ad519903dc28": [
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x025d1fb500716ec18257a6"
+          },
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          }
+        ],
+        "0x02c69cdab9da78ad212c63": [
+          {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x009f8492c4f0070fad28e1"
+          },
+          {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x07607b6d3b0ff8f052d6e8"
+          }
+        ],
+        "0x015a5f56aa0457f606a56e": [
+          {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x0162f98f302e50d379b276"
+          },
+          {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x069d0670cfd1af2c864d53"
+          }
+        ],
+        "0x0514fc773648cd57f6374d": [
+          {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x01f9ebf64437d3c50a3a21"
+          },
+          {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        ],
+        "0x0371ce6fc7af8a01f5181a": [
+          {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x039163ef342d543766dfed"
+          },
+          {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x046e9c10cbd2abc8991fdc"
+          }
+        ],
+        "0x00b29f599510f60bba2836": [
+          {
+            "x": "0x00b29f599510f60bba2836",
+            "y": "0x02c280333463e5f8101caa"
+          },
+          {
+            "x": "0x00b29f599510f60bba2836",
+            "y": "0x053d7fcccb9c1a07efe31f"
+          }
+        ],
+        "0x02d80c77643a4cbe3e3cb0": [
+          {
+            "x": "0x02d80c77643a4cbe3e3cb0",
+            "y": "0x01c4c8bd72e9449feeba8a"
+          },
+          {
+            "x": "0x02d80c77643a4cbe3e3cb0",
+            "y": "0x063b37428d16bb6011453f"
+          }
+        ],
+        "0x00da9ce05d73d8bf3da7ea": [
+          {
+            "x": "0x00da9ce05d73d8bf3da7ea",
+            "y": "0x0136404bee8a1990b848b5"
+          },
+          {
+            "x": "0x00da9ce05d73d8bf3da7ea",
+            "y": "0x06c9bfb41175e66f47b714"
+          }
+        ],
+        "0x02c4109113bbebe406db5e": [
+          {
+            "x": "0x02c4109113bbebe406db5e",
+            "y": "0x0315ab2eaf563006e73425"
+          },
+          {
+            "x": "0x02c4109113bbebe406db5e",
+            "y": "0x04ea54d150a9cff918cba4"
+          }
+        ],
+        "0x0763cb9789fb052bbe7c6d": [
+          {
+            "x": "0x0763cb9789fb052bbe7c6d",
+            "y": "0x00e38390f928a1c1f56963"
+          },
+          {
+            "x": "0x0763cb9789fb052bbe7c6d",
+            "y": "0x071c7c6f06d75e3e0a9666"
+          }
+        ],
+        "0x02a3e55d3f077a62af824d": [
+          {
+            "x": "0x02a3e55d3f077a62af824d",
+            "y": "0x020bf9890bcc488bdf91bd"
+          },
+          {
+            "x": "0x02a3e55d3f077a62af824d",
+            "y": "0x05f40676f433b774206e0c"
+          }
+        ],
+        "0x0585bec8e470e94bd729dc": [
+          {
+            "x": "0x0585bec8e470e94bd729dc",
+            "y": "0x035190cb3bd56a3f42d754"
+          },
+          {
+            "x": "0x0585bec8e470e94bd729dc",
+            "y": "0x04ae6f34c42a95c0bd2875"
+          }
+        ],
+        "0x00ebb406078d8b0dd70eb8": [
+          {
+            "x": "0x00ebb406078d8b0dd70eb8",
+            "y": "0x01b5bad2fdd12cd74416e7"
+          },
+          {
+            "x": "0x00ebb406078d8b0dd70eb8",
+            "y": "0x064a452d022ed328bbe8e2"
+          }
+        ]
+      },
+      "positive_scalar_by_x": {
+        "0x0000000000000000000000": "1",
+        "0x0777b03531dec0d4c77ad0": "2",
+        "0x0587e6b74f0329164ba188": "3",
+        "0x02ef5ede69ad519903dc28": "4",
+        "0x02c69cdab9da78ad212c63": "5",
+        "0x015a5f56aa0457f606a56e": "6",
+        "0x0514fc773648cd57f6374d": "7",
+        "0x0371ce6fc7af8a01f5181a": "8",
+        "0x00b29f599510f60bba2836": "9",
+        "0x02d80c77643a4cbe3e3cb0": "10",
+        "0x00da9ce05d73d8bf3da7ea": "11",
+        "0x02c4109113bbebe406db5e": "12",
+        "0x0763cb9789fb052bbe7c6d": "13",
+        "0x02a3e55d3f077a62af824d": "14",
+        "0x0585bec8e470e94bd729dc": "15",
+        "0x00ebb406078d8b0dd70eb8": "16"
+      },
+      "generator": {
+        "x": "0x0000000000000000000000",
+        "y": "0x034bfc044fcd6d3a2ebabc"
+      },
+      "subgroup_order": "9671406556916750748906389",
+      "counters": {
+        "scalar_candidates_considered": 16,
+        "accepted_distinct_x_values": 16,
+        "signed_points": 32,
+        "infinity_rejections": 0,
+        "duplicate_x_rejections": 0,
+        "subgroup_annihilation_checks": 16
+      },
+      "membership_policy": "selected cyclic subgroup",
+      "basis_kind": "small_generator_multiples"
+    },
+    "target": {
+      "point": {
+        "x": "0x0587e6b74f0329164ba188",
+        "y": "0x0613398e1ed296a7dd202a"
+      },
+      "kind": "planted",
+      "source": "planted",
+      "scalar": "3"
+    },
+    "model_variant": "strict_selected_subgroup_factor_base",
+    "expected": {
+      "algebraic_assignments": [
+        [
+          "0",
+          "3548247249109347199081512"
+        ],
+        [
+          "0",
+          "9027692808810542538390224"
+        ],
+        [
+          "843520721342806516967478",
+          "1635697488568508790252910"
+        ],
+        [
+          "843520721342806516967478",
+          "3343741071682670038539102"
+        ],
+        [
+          "1032369752546693435205610",
+          "3191828399427281289708109"
+        ],
+        [
+          "1032369752546693435205610",
+          "4164212955286807449507866"
+        ],
+        [
+          "1113076971879151781220024",
+          "8933750627688233301867629"
+        ],
+        [
+          "1635697488568508790252910",
+          "843520721342806516967478"
+        ],
+        [
+          "1635697488568508790252910",
+          "6686404533177208277803400"
+        ],
+        [
+          "3191828399427281289708109",
+          "1032369752546693435205610"
+        ],
+        [
+          "3343741071682670038539102",
+          "843520721342806516967478"
+        ],
+        [
+          "3343741071682670038539102",
+          "6676223197488063079459292"
+        ],
+        [
+          "3355773655781529587100771",
+          "4164212955286807449507866"
+        ],
+        [
+          "3355773655781529587100771",
+          "9027692808810542538390224"
+        ],
+        [
+          "3438112763523275698355376",
+          "6143733597370499621861197"
+        ],
+        [
+          "3438112763523275698355376",
+          "8933750627688233301867629"
+        ],
+        [
+          "3548247249109347199081512",
+          "0"
+        ],
+        [
+          "3548247249109347199081512",
+          "6143733597370499621861197"
+        ],
+        [
+          "4164212955286807449507866",
+          "1032369752546693435205610"
+        ],
+        [
+          "4164212955286807449507866",
+          "3355773655781529587100771"
+        ],
+        [
+          "6143733597370499621861197",
+          "3438112763523275698355376"
+        ],
+        [
+          "6143733597370499621861197",
+          "3548247249109347199081512"
+        ],
+        [
+          "6676223197488063079459292",
+          "3343741071682670038539102"
+        ],
+        [
+          "6686404533177208277803400",
+          "1635697488568508790252910"
+        ],
+        [
+          "8933750627688233301867629",
+          "1113076971879151781220024"
+        ],
+        [
+          "8933750627688233301867629",
+          "3438112763523275698355376"
+        ],
+        [
+          "9027692808810542538390224",
+          "0"
+        ],
+        [
+          "9027692808810542538390224",
+          "3355773655781529587100771"
+        ]
+      ],
+      "ordered_point_decompositions": [
+        {
+          "P": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          },
+          "Q": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          },
+          "Q": {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          }
+        },
+        {
+          "P": {
+            "x": "0x00b29f599510f60bba2836",
+            "y": "0x02c280333463e5f8101caa"
+          },
+          "Q": {
+            "x": "0x02c4109113bbebe406db5e",
+            "y": "0x0315ab2eaf563006e73425"
+          }
+        },
+        {
+          "P": {
+            "x": "0x00b29f599510f60bba2836",
+            "y": "0x053d7fcccb9c1a07efe31f"
+          },
+          "Q": {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x0162f98f302e50d379b276"
+          }
+        },
+        {
+          "P": {
+            "x": "0x00da9ce05d73d8bf3da7ea",
+            "y": "0x0136404bee8a1990b848b5"
+          },
+          "Q": {
+            "x": "0x02a3e55d3f077a62af824d",
+            "y": "0x020bf9890bcc488bdf91bd"
+          }
+        },
+        {
+          "P": {
+            "x": "0x00da9ce05d73d8bf3da7ea",
+            "y": "0x06c9bfb41175e66f47b714"
+          },
+          "Q": {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x046e9c10cbd2abc8991fdc"
+          }
+        },
+        {
+          "P": {
+            "x": "0x00ebb406078d8b0dd70eb8",
+            "y": "0x064a452d022ed328bbe8e2"
+          },
+          "Q": {
+            "x": "0x0763cb9789fb052bbe7c6d",
+            "y": "0x071c7c6f06d75e3e0a9666"
+          }
+        },
+        {
+          "P": {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x0162f98f302e50d379b276"
+          },
+          "Q": {
+            "x": "0x00b29f599510f60bba2836",
+            "y": "0x053d7fcccb9c1a07efe31f"
+          }
+        },
+        {
+          "P": {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x069d0670cfd1af2c864d53"
+          },
+          "Q": {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x01ecc671e12d695822df9f"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02a3e55d3f077a62af824d",
+            "y": "0x020bf9890bcc488bdf91bd"
+          },
+          "Q": {
+            "x": "0x00da9ce05d73d8bf3da7ea",
+            "y": "0x0136404bee8a1990b848b5"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02c4109113bbebe406db5e",
+            "y": "0x0315ab2eaf563006e73425"
+          },
+          "Q": {
+            "x": "0x00b29f599510f60bba2836",
+            "y": "0x02c280333463e5f8101caa"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02c4109113bbebe406db5e",
+            "y": "0x04ea54d150a9cff918cba4"
+          },
+          "Q": {
+            "x": "0x0585bec8e470e94bd729dc",
+            "y": "0x04ae6f34c42a95c0bd2875"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x009f8492c4f0070fad28e1"
+          },
+          "Q": {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x039163ef342d543766dfed"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x07607b6d3b0ff8f052d6e8"
+          },
+          "Q": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x077349158311e4570fb939"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02d80c77643a4cbe3e3cb0",
+            "y": "0x01c4c8bd72e9449feeba8a"
+          },
+          "Q": {
+            "x": "0x0763cb9789fb052bbe7c6d",
+            "y": "0x00e38390f928a1c1f56963"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02d80c77643a4cbe3e3cb0",
+            "y": "0x063b37428d16bb6011453f"
+          },
+          "Q": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x01f9ebf64437d3c50a3a21"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x025d1fb500716ec18257a6"
+          },
+          "Q": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        },
+        {
+          "P": {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          },
+          "Q": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x039163ef342d543766dfed"
+          },
+          "Q": {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x009f8492c4f0070fad28e1"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x046e9c10cbd2abc8991fdc"
+          },
+          "Q": {
+            "x": "0x00da9ce05d73d8bf3da7ea",
+            "y": "0x06c9bfb41175e66f47b714"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x01f9ebf64437d3c50a3a21"
+          },
+          "Q": {
+            "x": "0x02d80c77643a4cbe3e3cb0",
+            "y": "0x063b37428d16bb6011453f"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          },
+          "Q": {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x025d1fb500716ec18257a6"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0585bec8e470e94bd729dc",
+            "y": "0x04ae6f34c42a95c0bd2875"
+          },
+          "Q": {
+            "x": "0x02c4109113bbebe406db5e",
+            "y": "0x04ea54d150a9cff918cba4"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x01ecc671e12d695822df9f"
+          },
+          "Q": {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x069d0670cfd1af2c864d53"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0763cb9789fb052bbe7c6d",
+            "y": "0x00e38390f928a1c1f56963"
+          },
+          "Q": {
+            "x": "0x02d80c77643a4cbe3e3cb0",
+            "y": "0x01c4c8bd72e9449feeba8a"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0763cb9789fb052bbe7c6d",
+            "y": "0x071c7c6f06d75e3e0a9666"
+          },
+          "Q": {
+            "x": "0x00ebb406078d8b0dd70eb8",
+            "y": "0x064a452d022ed328bbe8e2"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          },
+          "Q": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        {
+          "P": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x077349158311e4570fb939"
+          },
+          "Q": {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x07607b6d3b0ff8f052d6e8"
+          }
+        }
+      ],
+      "ordered_count": 28,
+      "swap_orbit_count": 14,
+      "ordered_x_count": 28,
+      "swap_orbit_x_count": 14
+    },
+    "arity": 2,
+    "summation_polynomial_arity": 3,
+    "generation": {
+      "method": "deterministic kG factor base and finite exhaustive verification",
+      "seed": "ecbench-indexcalculus-v1",
+      "factor_base_rule": "x(kG) for k=1..size; both point signs permitted",
+      "factor_base_scalar_start": "1",
+      "factor_base_scalar_stop": "16",
+      "formula": "(x1-x2)^2*z^2 - 2*((x1+x2)*(x1*x2+A)+2*B)*z + (x1*x2-A)^2 - 4*B*(x1+x2)",
+      "checks": {
+        "x_assignments_enumerated": 256,
+        "ordered_signed_point_pairs_enumerated": 1024,
+        "finite_point_sums_identity_checked": 992,
+        "infinity_point_sums": 32,
+        "expanded_formula_matches_direct_formula": true,
+        "polynomial_zeros_match_point_x_relations": true
+      },
+      "target_method": "sum of first two positive kG points",
+      "planted_scalars": [
+        "1",
+        "2"
+      ]
+    }
+  },
+  {
+    "id": "p83-S-0-f3-fb16-seeded_subgroup",
+    "curve_id": "p83-S-0",
+    "curve": {
+      "coefficients": {
+        "a1": "0x0000000000000000000000",
+        "a2": "0x0000000000000000000000",
+        "a3": "0x0000000000000000000000",
+        "a4": "0x07ffffffffffffffffffc6",
+        "a6": "0x000000000000000000009a"
+      },
+      "family": "S",
+      "field_id": "p83",
+      "id": "p83-S-0",
+      "invariants": {
+        "delta": "0x07ffffffffffffff63b1c9",
+        "endomorphism": {
+          "base_field": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "frobenius_order": {
+            "class_number": null,
+            "conductor": "1",
+            "discriminant": "-38605735915768438953606187"
+          },
+          "geometric": {
+            "class_number": null,
+            "class_number_status": "not_computed",
+            "field_discriminant": "-38605735915768438953606187",
+            "field_discriminant_factorization": [
+              {
+                "exponent": 1,
+                "prime": "13"
+              },
+              {
+                "exponent": 1,
+                "prime": "359"
+              },
+              {
+                "exponent": 1,
+                "prime": "1283"
+              },
+              {
+                "exponent": 1,
+                "prime": "27529"
+              },
+              {
+                "exponent": 1,
+                "prime": "1304411"
+              },
+              {
+                "exponent": 1,
+                "prime": "179548793"
+              }
+            ],
+            "maximal": true,
+            "order_conductor": "1",
+            "order_discriminant": "-38605735915768438953606187",
+            "type": "imaginary_quadratic_order"
+          },
+          "proof_method": "Frobenius discriminant is fundamental (f_pi=1)."
+        },
+        "frobenius_discriminant": "-38605735915768438953606187",
+        "frobenius_polynomial": [
+          "1",
+          "-282648742965",
+          "9671406556917033397649353"
+        ],
+        "group_cyclic": true,
+        "group_exponent": "9671406556916750748906389",
+        "group_invariant_factors": [
+          "1",
+          "9671406556916750748906389"
+        ],
+        "j": "0x045f5a2b87c5f5a2b87c41",
+        "order": "9671406556916750748906389",
+        "order_factorization": [
+          {
+            "exponent": 1,
+            "prime": "9671406556916750748906389"
+          }
+        ],
+        "ordinary": true,
+        "subgroup_embedding_degrees": [
+          {
+            "degree": "4835703278458375374453194",
+            "minimality_prime_divisors": [
+              "2",
+              "13",
+              "4099",
+              "657049",
+              "2466977",
+              "27992747"
+            ],
+            "prime": "9671406556916750748906389",
+            "status": "exact_multiplicative_order"
+          }
+        ],
+        "trace": "282648742965"
+      },
+      "model": "short_weierstrass",
+      "named_points": {
+        "G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "O": {
+          "order": "1",
+          "order_factorization": [],
+          "point": null
+        },
+        "P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "P_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000001",
+            "y": "0x00dc15e20ea82b0faf9a5f"
+          }
+        },
+        "R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          }
+        },
+        "R_plus_Q": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x032d22f936b5fa9e473093",
+            "y": "0x057623f06f344d9f7f008d"
+          }
+        },
+        "double_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "double_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          }
+        },
+        "mul_17_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x04c9ea2b0455a124f3defa",
+            "y": "0x072a071d95acaa40f86bc4"
+          }
+        },
+        "mul_7_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        },
+        "neg_G": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_P": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        },
+        "neg_R": {
+          "order": "9671406556916750748906389",
+          "order_factorization": [
+            {
+              "exponent": 1,
+              "prime": "9671406556916750748906389"
+            }
+          ],
+          "point": {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        }
+      },
+      "provenance": {
+        "computation_engine": "PARI/GP 2.17.2",
+        "legacy_source_file": "prime_data.json",
+        "scope": "experimental_small_field_benchmark",
+        "source_label": "p83-S-0"
+      },
+      "subgroup": {
+        "cofactor": "1",
+        "cofactor_coprime_to_r": true,
+        "embedding_degree": "4835703278458375374453194",
+        "generator": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "generator_selection": {
+          "G_scan_x": "0",
+          "G_source": [
+            "0",
+            "3985603835258454045276860"
+          ],
+          "H_derivation": null,
+          "H_scan_x": null,
+          "H_source": null,
+          "P_scan_x": "0",
+          "Q_scan_x": "1",
+          "R_rule": "first scanned point of exact order d2",
+          "R_scan_x": "0",
+          "projector": "1",
+          "projector_formula": "d2/r",
+          "rule": "x ascending from zero; minimum integer square root"
+        },
+        "membership_rule": "on_curve_and_r_annihilation",
+        "order": "9671406556916750748906389",
+        "projection_formula": "group_exponent / r",
+        "projection_scalar": "1",
+        "r_torsion_rank": 1,
+        "source_point": {
+          "x": "0x0000000000000000000000",
+          "y": "0x034bfc044fcd6d3a2ebabc"
+        },
+        "unique_order_r_subgroup": true
+      },
+      "twist": {
+        "kind": "quadratic",
+        "parameter": "0x0000000000000000000007",
+        "partner_id": "p83-S-1",
+        "partner_relation": "base_field_isomorphic_representative_of_standard_twist",
+        "representative_isomorphism_scale": "0x0000000000000000000001",
+        "representative_point_map": "direct twist (x,y) -> partner (x/scale^2,y/scale^3); infinity maps to infinity"
+      }
+    },
+    "field": {
+      "cardinality": "9671406556917033397649353",
+      "characteristic": "9671406556917033397649353",
+      "coordinate_bytes": 11,
+      "degree": 1,
+      "element_bits": 83,
+      "id": "p83",
+      "kind": "prime",
+      "proof": {
+        "certificate_n": "9671406556917033397649353",
+        "method": "lucas_primality"
+      },
+      "representation": {
+        "basis": "prime_residue",
+        "form": "2^83 - 55",
+        "modulus": "0x7ffffffffffffffffffc9",
+        "modulus_integer": "9671406556917033397649353",
+        "multiplicative_primitive_root": "7"
+      }
+    },
+    "coefficient_modulus": "9671406556917033397649353",
+    "variables": [
+      "x1",
+      "x2"
+    ],
+    "polynomials": [
+      {
+        "id": "f3",
+        "role": "semaev_f3",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              2,
+              2
+            ]
+          },
+          {
+            "coefficient": "1898120630018858122552520",
+            "exponents": [
+              2,
+              1
+            ]
+          },
+          {
+            "coefficient": "1898120630018858122552520",
+            "exponents": [
+              1,
+              2
+            ]
+          },
+          {
+            "coefficient": "9155643653808633285883850",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "1031525806216800223531012",
+            "exponents": [
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "9155643653808633285883850",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "3977044666860459029991177",
+            "exponents": [
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "3977044666860459029991177",
+            "exponents": [
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "4336760630786297887214989",
+            "exponents": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x1",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              16,
+              0
+            ]
+          },
+          {
+            "coefficient": "4565460104736615178224971",
+            "exponents": [
+              15,
+              0
+            ]
+          },
+          {
+            "coefficient": "2642611430282178562828494",
+            "exponents": [
+              14,
+              0
+            ]
+          },
+          {
+            "coefficient": "577992457431384744158141",
+            "exponents": [
+              13,
+              0
+            ]
+          },
+          {
+            "coefficient": "875304005673397568784272",
+            "exponents": [
+              12,
+              0
+            ]
+          },
+          {
+            "coefficient": "2544774269853028782146687",
+            "exponents": [
+              11,
+              0
+            ]
+          },
+          {
+            "coefficient": "6755723778952749903618803",
+            "exponents": [
+              10,
+              0
+            ]
+          },
+          {
+            "coefficient": "1490087147716870107000670",
+            "exponents": [
+              9,
+              0
+            ]
+          },
+          {
+            "coefficient": "1154966443602924186047255",
+            "exponents": [
+              8,
+              0
+            ]
+          },
+          {
+            "coefficient": "4765477438453462322289067",
+            "exponents": [
+              7,
+              0
+            ]
+          },
+          {
+            "coefficient": "299180368932116155626326",
+            "exponents": [
+              6,
+              0
+            ]
+          },
+          {
+            "coefficient": "2571958942173658119119361",
+            "exponents": [
+              5,
+              0
+            ]
+          },
+          {
+            "coefficient": "9057661284562169179321575",
+            "exponents": [
+              4,
+              0
+            ]
+          },
+          {
+            "coefficient": "4323322263840903409745481",
+            "exponents": [
+              3,
+              0
+            ]
+          },
+          {
+            "coefficient": "547497108390281966784677",
+            "exponents": [
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "5138850230051787954344715",
+            "exponents": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "membership_x2",
+        "role": "factor_base_membership",
+        "terms": [
+          {
+            "coefficient": "1",
+            "exponents": [
+              0,
+              16
+            ]
+          },
+          {
+            "coefficient": "4565460104736615178224971",
+            "exponents": [
+              0,
+              15
+            ]
+          },
+          {
+            "coefficient": "2642611430282178562828494",
+            "exponents": [
+              0,
+              14
+            ]
+          },
+          {
+            "coefficient": "577992457431384744158141",
+            "exponents": [
+              0,
+              13
+            ]
+          },
+          {
+            "coefficient": "875304005673397568784272",
+            "exponents": [
+              0,
+              12
+            ]
+          },
+          {
+            "coefficient": "2544774269853028782146687",
+            "exponents": [
+              0,
+              11
+            ]
+          },
+          {
+            "coefficient": "6755723778952749903618803",
+            "exponents": [
+              0,
+              10
+            ]
+          },
+          {
+            "coefficient": "1490087147716870107000670",
+            "exponents": [
+              0,
+              9
+            ]
+          },
+          {
+            "coefficient": "1154966443602924186047255",
+            "exponents": [
+              0,
+              8
+            ]
+          },
+          {
+            "coefficient": "4765477438453462322289067",
+            "exponents": [
+              0,
+              7
+            ]
+          },
+          {
+            "coefficient": "299180368932116155626326",
+            "exponents": [
+              0,
+              6
+            ]
+          },
+          {
+            "coefficient": "2571958942173658119119361",
+            "exponents": [
+              0,
+              5
+            ]
+          },
+          {
+            "coefficient": "9057661284562169179321575",
+            "exponents": [
+              0,
+              4
+            ]
+          },
+          {
+            "coefficient": "4323322263840903409745481",
+            "exponents": [
+              0,
+              3
+            ]
+          },
+          {
+            "coefficient": "547497108390281966784677",
+            "exponents": [
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "5138850230051787954344715",
+            "exponents": [
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "coordinate_groups": [
+      {
+        "name": "x1",
+        "variables": [
+          "x1"
+        ]
+      },
+      {
+        "name": "x2",
+        "variables": [
+          "x2"
+        ]
+      }
+    ],
+    "domains": {
+      "x1": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512",
+        "3355773655781529587100771",
+        "1635697488568508790252910",
+        "6143733597370499621861197",
+        "4164212955286807449507866",
+        "843520721342806516967478",
+        "3438112763523275698355376",
+        "1032369752546693435205610",
+        "3343741071682670038539102",
+        "8933750627688233301867629",
+        "3191828399427281289708109",
+        "6676223197488063079459292",
+        "1113076971879151781220024"
+      ],
+      "x2": [
+        "0",
+        "9027692808810542538390224",
+        "6686404533177208277803400",
+        "3548247249109347199081512",
+        "3355773655781529587100771",
+        "1635697488568508790252910",
+        "6143733597370499621861197",
+        "4164212955286807449507866",
+        "843520721342806516967478",
+        "3438112763523275698355376",
+        "1032369752546693435205610",
+        "3343741071682670038539102",
+        "8933750627688233301867629",
+        "3191828399427281289708109",
+        "6676223197488063079459292",
+        "1113076971879151781220024"
+      ]
+    },
+    "factor_base": {
+      "size_requested": 16,
+      "x_values": [
+        "0x0000000000000000000000",
+        "0x0777b03531dec0d4c77ad0",
+        "0x0587e6b74f0329164ba188",
+        "0x02ef5ede69ad519903dc28",
+        "0x02c69cdab9da78ad212c63",
+        "0x015a5f56aa0457f606a56e",
+        "0x0514fc773648cd57f6374d",
+        "0x0371ce6fc7af8a01f5181a",
+        "0x00b29f599510f60bba2836",
+        "0x02d80c77643a4cbe3e3cb0",
+        "0x00da9ce05d73d8bf3da7ea",
+        "0x02c4109113bbebe406db5e",
+        "0x0763cb9789fb052bbe7c6d",
+        "0x02a3e55d3f077a62af824d",
+        "0x0585bec8e470e94bd729dc",
+        "0x00ebb406078d8b0dd70eb8"
+      ],
+      "points_by_x": {
+        "0x0000000000000000000000": [
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x034bfc044fcd6d3a2ebabc"
+          },
+          {
+            "x": "0x0000000000000000000000",
+            "y": "0x04b403fbb03292c5d1450d"
+          }
+        ],
+        "0x0777b03531dec0d4c77ad0": [
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x008cb6ea7cee1ba8f04690"
+          },
+          {
+            "x": "0x0777b03531dec0d4c77ad0",
+            "y": "0x077349158311e4570fb939"
+          }
+        ],
+        "0x0587e6b74f0329164ba188": [
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x01ecc671e12d695822df9f"
+          },
+          {
+            "x": "0x0587e6b74f0329164ba188",
+            "y": "0x0613398e1ed296a7dd202a"
+          }
+        ],
+        "0x02ef5ede69ad519903dc28": [
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x025d1fb500716ec18257a6"
+          },
+          {
+            "x": "0x02ef5ede69ad519903dc28",
+            "y": "0x05a2e04aff8e913e7da823"
+          }
+        ],
+        "0x02c69cdab9da78ad212c63": [
+          {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x009f8492c4f0070fad28e1"
+          },
+          {
+            "x": "0x02c69cdab9da78ad212c63",
+            "y": "0x07607b6d3b0ff8f052d6e8"
+          }
+        ],
+        "0x015a5f56aa0457f606a56e": [
+          {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x0162f98f302e50d379b276"
+          },
+          {
+            "x": "0x015a5f56aa0457f606a56e",
+            "y": "0x069d0670cfd1af2c864d53"
+          }
+        ],
+        "0x0514fc773648cd57f6374d": [
+          {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x01f9ebf64437d3c50a3a21"
+          },
+          {
+            "x": "0x0514fc773648cd57f6374d",
+            "y": "0x06061409bbc82c3af5c5a8"
+          }
+        ],
+        "0x0371ce6fc7af8a01f5181a": [
+          {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x039163ef342d543766dfed"
+          },
+          {
+            "x": "0x0371ce6fc7af8a01f5181a",
+            "y": "0x046e9c10cbd2abc8991fdc"
+          }
+        ],
+        "0x00b29f599510f60bba2836": [
+          {
+            "x": "0x00b29f599510f60bba2836",
+            "y": "0x02c280333463e5f8101caa"
+          },
+          {
+            "x": "0x00b29f599510f60bba2836",
+            "y": "0x053d7fcccb9c1a07efe31f"
+          }
+        ],
+        "0x02d80c77643a4cbe3e3cb0": [
+          {
+            "x": "0x02d80c77643a4cbe3e3cb0",
+            "y": "0x01c4c8bd72e9449feeba8a"
+          },
+          {
+            "x": "0x02d80c77643a4cbe3e3cb0",
+            "y": "0x063b37428d16bb6011453f"
+          }
+        ],
+        "0x00da9ce05d73d8bf3da7ea": [
+          {
+            "x": "0x00da9ce05d73d8bf3da7ea",
+            "y": "0x0136404bee8a1990b848b5"
+          },
+          {
+            "x": "0x00da9ce05d73d8bf3da7ea",
+            "y": "0x06c9bfb41175e66f47b714"
+          }
+        ],
+        "0x02c4109113bbebe406db5e": [
+          {
+            "x": "0x02c4109113bbebe406db5e",
+            "y": "0x0315ab2eaf563006e73425"
+          },
+          {
+            "x": "0x02c4109113bbebe406db5e",
+            "y": "0x04ea54d150a9cff918cba4"
+          }
+        ],
+        "0x0763cb9789fb052bbe7c6d": [
+          {
+            "x": "0x0763cb9789fb052bbe7c6d",
+            "y": "0x00e38390f928a1c1f56963"
+          },
+          {
+            "x": "0x0763cb9789fb052bbe7c6d",
+            "y": "0x071c7c6f06d75e3e0a9666"
+          }
+        ],
+        "0x02a3e55d3f077a62af824d": [
+          {
+            "x": "0x02a3e55d3f077a62af824d",
+            "y": "0x020bf9890bcc488bdf91bd"
+          },
+          {
+            "x": "0x02a3e55d3f077a62af824d",
+            "y": "0x05f40676f433b774206e0c"
+          }
+        ],
+        "0x0585bec8e470e94bd729dc": [
+          {
+            "x": "0x0585bec8e470e94bd729dc",
+            "y": "0x035190cb3bd56a3f42d754"
+          },
+          {
+            "x": "0x0585bec8e470e94bd729dc",
+            "y": "0x04ae6f34c42a95c0bd2875"
+          }
+        ],
+        "0x00ebb406078d8b0dd70eb8": [
+          {
+            "x": "0x00ebb406078d8b0dd70eb8",
+            "y": "0x01b5bad2fdd12cd74416e7"
+          },
+          {
+            "x": "0x00ebb406078d8b0dd70eb8",
+            "y": "0x064a452d022ed328bbe8e2"
+          }
+        ]
+      },
+      "positive_scalar_by_x": {
+        "0x0000000000000000000000": "1",
+        "0x0777b03531dec0d4c77ad0": "2",
+        "0x0587e6b74f0329164ba188": "3",
+        "0x02ef5ede69ad519903dc28": "4",
+        "0x02c69cdab9da78ad212c63": "5",
+        "0x015a5f56aa0457f606a56e": "6",
+        "0x0514fc773648cd57f6374d": "7",
+        "0x0371ce6fc7af8a01f5181a": "8",
+        "0x00b29f599510f60bba2836": "9",
+        "0x02d80c77643a4cbe3e3cb0": "10",
+        "0x00da9ce05d73d8bf3da7ea": "11",
+        "0x02c4109113bbebe406db5e": "12",
+        "0x0763cb9789fb052bbe7c6d": "13",
+        "0x02a3e55d3f077a62af824d": "14",
+        "0x0585bec8e470e94bd729dc": "15",
+        "0x00ebb406078d8b0dd70eb8": "16"
+      },
+      "generator": {
+        "x": "0x0000000000000000000000",
+        "y": "0x034bfc044fcd6d3a2ebabc"
+      },
+      "subgroup_order": "9671406556916750748906389",
+      "counters": {
+        "scalar_candidates_considered": 16,
+        "accepted_distinct_x_values": 16,
+        "signed_points": 32,
+        "infinity_rejections": 0,
+        "duplicate_x_rejections": 0,
+        "subgroup_annihilation_checks": 16
+      },
+      "membership_policy": "selected cyclic subgroup",
+      "basis_kind": "small_generator_multiples"
+    },
+    "target": {
+      "point": {
+        "x": "0x0737075654dbfa5d576d65",
+        "y": "0x03c13f7c7101b87d3086c8"
+      },
+      "kind": "seeded_subgroup",
+      "source": "seeded_subgroup",
+      "scalar": "2878369405132136415701864"
+    },
+    "model_variant": "strict_selected_subgroup_factor_base",
+    "expected": {
+      "algebraic_assignments": [],
+      "ordered_point_decompositions": [],
+      "ordered_count": 0,
+      "swap_orbit_count": 0,
+      "ordered_x_count": 0,
+      "swap_orbit_x_count": 0
+    },
+    "arity": 2,
+    "summation_polynomial_arity": 3,
+    "generation": {
+      "method": "deterministic kG factor base and finite exhaustive verification",
+      "seed": "ecbench-indexcalculus-v1",
+      "factor_base_rule": "x(kG) for k=1..size; both point signs permitted",
+      "factor_base_scalar_start": "1",
+      "factor_base_scalar_stop": "16",
+      "formula": "(x1-x2)^2*z^2 - 2*((x1+x2)*(x1*x2+A)+2*B)*z + (x1*x2-A)^2 - 4*B*(x1+x2)",
+      "checks": {
+        "x_assignments_enumerated": 256,
+        "ordered_signed_point_pairs_enumerated": 1024,
+        "finite_point_sums_identity_checked": 992,
+        "infinity_point_sums": 32,
+        "expanded_formula_matches_direct_formula": true,
+        "polynomial_zeros_match_point_x_relations": true
+      },
+      "target_method": "deterministic SHA-256 nonzero subgroup scalar",
+      "hash": "SHA-256",
+      "hash_input_encoding": "UTF-8",
+      "hash_input": "ecbench-prime-f3-v1\u0000ecbench-indexcalculus-v1\u0000p83-S-0\u000016\u0000seeded_subgroup",
+      "hash_digest_hex": "cf3a980bfb78b8ae4e6a32461766c04c2db21c89479ff4fafb98adc081919da7",
+      "scalar_formula": "1 + OS2IP(SHA-256(hash_input)) mod (r - 1)",
+      "randomness_claim": "none; deterministic seeded test target"
+    }
+  }
+]

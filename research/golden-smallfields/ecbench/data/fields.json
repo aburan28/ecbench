@@ -1,0 +1,158 @@
+[
+  {
+    "cardinality": "2305843009213693951",
+    "characteristic": "2305843009213693951",
+    "coordinate_bytes": 8,
+    "degree": 1,
+    "element_bits": 61,
+    "id": "p61",
+    "kind": "prime",
+    "proof": {
+      "certificate_n": "2305843009213693951",
+      "method": "lucas_primality"
+    },
+    "representation": {
+      "basis": "prime_residue",
+      "form": "2^61 - 1",
+      "modulus": "0x1fffffffffffffff",
+      "modulus_integer": "2305843009213693951",
+      "multiplicative_primitive_root": "37"
+    }
+  },
+  {
+    "cardinality": "18446744069414584321",
+    "characteristic": "18446744069414584321",
+    "coordinate_bytes": 8,
+    "degree": 1,
+    "element_bits": 64,
+    "id": "p64",
+    "kind": "prime",
+    "proof": {
+      "certificate_n": "18446744069414584321",
+      "method": "lucas_primality"
+    },
+    "representation": {
+      "basis": "prime_residue",
+      "form": "2^64 - 2^32 + 1",
+      "modulus": "0xffffffff00000001",
+      "modulus_integer": "18446744069414584321",
+      "multiplicative_primitive_root": "7"
+    }
+  },
+  {
+    "cardinality": "9671405980456281094225919",
+    "characteristic": "9671405980456281094225919",
+    "coordinate_bytes": 11,
+    "degree": 1,
+    "element_bits": 83,
+    "id": "p83s",
+    "kind": "prime",
+    "proof": {
+      "certificate_n": "9671405980456281094225919",
+      "method": "lucas_primality"
+    },
+    "representation": {
+      "basis": "prime_residue",
+      "form": "2^83 - 2^59 - 1",
+      "modulus": "0x7fffff7ffffffffffffff",
+      "modulus_integer": "9671405980456281094225919",
+      "multiplicative_primitive_root": "11"
+    }
+  },
+  {
+    "cardinality": "9671406556917033397649353",
+    "characteristic": "9671406556917033397649353",
+    "coordinate_bytes": 11,
+    "degree": 1,
+    "element_bits": 83,
+    "id": "p83",
+    "kind": "prime",
+    "proof": {
+      "certificate_n": "9671406556917033397649353",
+      "method": "lucas_primality"
+    },
+    "representation": {
+      "basis": "prime_residue",
+      "form": "2^83 - 55",
+      "modulus": "0x7ffffffffffffffffffc9",
+      "modulus_integer": "9671406556917033397649353",
+      "multiplicative_primitive_root": "7"
+    }
+  },
+  {
+    "cardinality": "9007199254740992",
+    "characteristic": "2",
+    "coordinate_bytes": 7,
+    "degree": 53,
+    "element_bits": 53,
+    "id": "b53",
+    "kind": "binary",
+    "proof": {
+      "certificate_n": null,
+      "method": "rabin_irreducibility"
+    },
+    "representation": {
+      "basis": "polynomial",
+      "basis_generator": "0x00000000000002",
+      "modulus": "0x20000000000047",
+      "modulus_integer": "9007199254741063",
+      "polynomial_exponents": [
+        53,
+        6,
+        2,
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "cardinality": "604462909807314587353088",
+    "characteristic": "2",
+    "coordinate_bytes": 10,
+    "degree": 79,
+    "element_bits": 79,
+    "id": "b79",
+    "kind": "binary",
+    "proof": {
+      "certificate_n": null,
+      "method": "rabin_irreducibility"
+    },
+    "representation": {
+      "basis": "polynomial",
+      "basis_generator": "0x00000000000000000002",
+      "modulus": "0x80000000000000000201",
+      "modulus_integer": "604462909807314587353601",
+      "polynomial_exponents": [
+        79,
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "cardinality": "9671406556917033397649408",
+    "characteristic": "2",
+    "coordinate_bytes": 11,
+    "degree": 83,
+    "element_bits": 83,
+    "id": "b83",
+    "kind": "binary",
+    "proof": {
+      "certificate_n": null,
+      "method": "rabin_irreducibility"
+    },
+    "representation": {
+      "basis": "polynomial",
+      "basis_generator": "0x0000000000000000000002",
+      "modulus": "0x800000000000000000095",
+      "modulus_integer": "9671406556917033397649557",
+      "polynomial_exponents": [
+        83,
+        7,
+        4,
+        2,
+        0
+      ]
+    }
+  }
+]

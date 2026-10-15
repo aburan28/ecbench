@@ -1,0 +1,1318 @@
+[
+  {
+    "curve_id": "K53-a0",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": null
+  },
+  {
+    "curve_id": "K53-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      7020577481391154,
+      8290540290640139
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      5334053651690519,
+      1848736637743761
+    ]
+  },
+  {
+    "curve_id": "K53-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      7,
+      9007078862387561
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      21,
+      9006838077681403
+    ]
+  },
+  {
+    "curve_id": "K53-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      7,
+      9007078862387561
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      21,
+      9006838077681403
+    ]
+  },
+  {
+    "curve_id": "K53-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      1
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "curve_id": "K53-a1",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": null
+  },
+  {
+    "curve_id": "K53-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      5808174993907404,
+      8651124734195465
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      3965648251547286,
+      8340300856476277
+    ]
+  },
+  {
+    "curve_id": "K53-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      2,
+      304729948131045
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      4,
+      609459896262087
+    ]
+  },
+  {
+    "curve_id": "K53-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      2,
+      304729948131045
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      4,
+      609459896262087
+    ]
+  },
+  {
+    "curve_id": "K53-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      1
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "curve_id": "K79-a0",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": null
+  },
+  {
+    "curve_id": "K79-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      491216295592701615582472,
+      594194675473955399273744
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      196352076972247427176042,
+      503885738142501534644488
+    ]
+  },
+  {
+    "curve_id": "K79-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      9,
+      472049969444198213516405
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      65,
+      587250598918124568547731
+    ]
+  },
+  {
+    "curve_id": "K79-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      2,
+      553017527635606376909056
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      4,
+      501572145463898166464520
+    ]
+  },
+  {
+    "curve_id": "K79-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      1
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "curve_id": "K79-a1",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": null
+  },
+  {
+    "curve_id": "K79-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      377992139399773809696405,
+      526201073247280954785624
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      558444159884208976693043,
+      269072901895744513497952
+    ]
+  },
+  {
+    "curve_id": "K79-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      14,
+      340847619600799680100736
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      84,
+      536068843028852768887818
+    ]
+  },
+  {
+    "curve_id": "K79-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      3,
+      441212076663955629751904
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      5,
+      489694815101151492784298
+    ]
+  },
+  {
+    "curve_id": "K79-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      1
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "curve_id": "K83-a0",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": null
+  },
+  {
+    "curve_id": "K83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      7767941001719881971592341,
+      197028332872746424787989
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      2046400603285781399181391,
+      4960739982780807649005203
+    ]
+  },
+  {
+    "curve_id": "K83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      7,
+      9183587914136410576682419
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      21,
+      8212654548331415625888089
+    ]
+  },
+  {
+    "curve_id": "K83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      2,
+      1835219667172669271676333
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      4,
+      3670439334345338543352659
+    ]
+  },
+  {
+    "curve_id": "K83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      1
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "curve_id": "K83-a1",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": null
+  },
+  {
+    "curve_id": "K83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      8342699431223747237330307,
+      139203412108994213123119
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      1558185433058810624741723,
+      1540165037274982442581471
+    ]
+  },
+  {
+    "curve_id": "K83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      14,
+      1285775473391144243575110
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      84,
+      8328560483251312144768572
+    ]
+  },
+  {
+    "curve_id": "K83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      3,
+      3772728897624867071375973
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      5,
+      6210947043854269696036516
+    ]
+  },
+  {
+    "curve_id": "K83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      1
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 1
+    },
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "curve_id": "B53-a0",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": null
+  },
+  {
+    "curve_id": "B53-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      6830530821560829,
+      5295226902929499
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      5390865259984154,
+      1140703247519562
+    ]
+  },
+  {
+    "curve_id": "B53-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      7,
+      6121060505246104
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      21,
+      2319416749558888
+    ]
+  },
+  {
+    "curve_id": "B53-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      4,
+      1875621438692137
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      16,
+      7502485754768614
+    ]
+  },
+  {
+    "curve_id": "B53-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      4042601251941953
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      0,
+      2
+    ]
+  },
+  {
+    "curve_id": "B53-a1",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": null
+  },
+  {
+    "curve_id": "B53-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      2738728435691419,
+      3070545814376121
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      7314067503529273,
+      1695097269122099
+    ]
+  },
+  {
+    "curve_id": "B53-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      2,
+      304729948131044
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      4,
+      609459896262086
+    ]
+  },
+  {
+    "curve_id": "B53-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      1,
+      8888501668167762
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      1,
+      8888501668167760
+    ]
+  },
+  {
+    "curve_id": "B53-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      4042601251941953
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      0,
+      2
+    ]
+  },
+  {
+    "curve_id": "B79-a0",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": null
+  },
+  {
+    "curve_id": "B79-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      514212653372273543739714,
+      523473859256058126423285
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      215549938390263580749486,
+      575697794824571462967707
+    ]
+  },
+  {
+    "curve_id": "B79-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      5,
+      194710511239804589103025
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      17,
+      65344963717375717378851
+    ]
+  },
+  {
+    "curve_id": "B79-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      2,
+      553017527635606376909057
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      4,
+      501572145463898166464521
+    ]
+  },
+  {
+    "curve_id": "B79-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      1099511627808
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      0,
+      2
+    ]
+  },
+  {
+    "curve_id": "B79-a1",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": null
+  },
+  {
+    "curve_id": "B79-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      556038029333539377099055,
+      291747982383197146346707
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      521357944498958271613527,
+      429508547501808707892487
+    ]
+  },
+  {
+    "curve_id": "B79-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      10,
+      380138511500017879947168
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      68,
+      165365836794475661662378
+    ]
+  },
+  {
+    "curve_id": "B79-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      1,
+      1099512677376
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      1,
+      1099512677378
+    ]
+  },
+  {
+    "curve_id": "B79-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      1099511627808
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      0,
+      2
+    ]
+  },
+  {
+    "curve_id": "B83-a0",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": null
+  },
+  {
+    "curve_id": "B83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      1791175791427826086951840,
+      3751184063014716220385579
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      7964659599376273968618656,
+      5298932820961363873119344
+    ]
+  },
+  {
+    "curve_id": "B83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      11,
+      2652935297971165245697730
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      69,
+      9503604774047656036976281
+    ]
+  },
+  {
+    "curve_id": "B83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      2,
+      1835219667172669271676332
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      4,
+      3670439334345338543352658
+    ]
+  },
+  {
+    "curve_id": "B83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      6908147540654395563105081
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      0,
+      2
+    ]
+  },
+  {
+    "curve_id": "B83-a1",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": null
+  },
+  {
+    "curve_id": "B83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      5299345190765733171751027,
+      5329895712451695892656474
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      7785020190588804985121100,
+      2895640176690518716274735
+    ]
+  },
+  {
+    "curve_id": "B83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      16,
+      2938600915920852590335909
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      256,
+      8331988427065507854772486
+    ]
+  },
+  {
+    "curve_id": "B83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      1,
+      832119676417290632611712
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      1,
+      832119676417290632611714
+    ]
+  },
+  {
+    "curve_id": "B83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      6908147540654395563105081
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 4
+    },
+    "result": [
+      0,
+      2
+    ]
+  },
+  {
+    "curve_id": "S83-a0",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 71558802768144
+    },
+    "result": null
+  },
+  {
+    "curve_id": "S83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      7201539143344367360606605,
+      1038972825586875107279169
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 71558802768144
+    },
+    "result": [
+      1791520881988974265765778,
+      5465978968949553180085539
+    ]
+  },
+  {
+    "curve_id": "S83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      17,
+      2540252120908088452053258
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 71558802768144
+    },
+    "result": [
+      257,
+      4266033914239839608179195
+    ]
+  },
+  {
+    "curve_id": "S83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      5,
+      6211039276202468922100000
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 71558802768144
+    },
+    "result": [
+      17,
+      2039055366572537214099403
+    ]
+  },
+  {
+    "curve_id": "S83-a0",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      8289777047569654620052440
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0,
+      "a6": 71558802768144
+    },
+    "result": [
+      0,
+      9925396
+    ]
+  },
+  {
+    "curve_id": "S83-a1",
+    "operation": "relative_frobenius",
+    "point": null,
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 71558802768144
+    },
+    "result": null
+  },
+  {
+    "curve_id": "S83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      9925397,
+      8903789878407715411499899
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 71558802768144
+    },
+    "result": [
+      71558802768145,
+      7368672345653400273014577
+    ]
+  },
+  {
+    "curve_id": "S83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      2,
+      2017346646060347608509780
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 71558802768144
+    },
+    "result": [
+      4,
+      4034693292120695209208240
+    ]
+  },
+  {
+    "curve_id": "S83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      1,
+      8903516207271210042616256
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 71558802768144
+    },
+    "result": [
+      1,
+      8903516207271210033486548
+    ]
+  },
+  {
+    "curve_id": "S83-a1",
+    "operation": "relative_frobenius",
+    "point": [
+      0,
+      8289777047569654620052440
+    ],
+    "parameter": null,
+    "target_coefficients": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 0,
+      "a4": 0,
+      "a6": 71558802768144
+    },
+    "result": [
+      0,
+      9925396
+    ]
+  }
+]

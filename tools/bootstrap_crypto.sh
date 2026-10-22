@@ -32,6 +32,8 @@ cat > "$CRYPTO_DIR/.git/info/sparse-checkout" <<'PATTERNS'
 /docs/ic/calibration.json
 /docs/ic/boundary_targets.json
 /docs/ecbench/schema.sql
+/docs/ecbench/specs/
+/docs/bounds/
 PATTERNS
 
 git -C "$CRYPTO_DIR" fetch --no-tags --depth=1 --filter=blob:none origin "$CRYPTO_SHA"

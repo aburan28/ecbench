@@ -10,6 +10,8 @@ cargo build --locked --release
 cargo run --locked --release -- methods
 ```
 
+CI also builds the release CLI, checks that `src/bin/` matches the pinned `crypto` source, runs the smoke spec, and requires `ecbench verify --replay-all` to pass.
+
 The bootstrap fetches a shallow, sparse checkout at the SHA in the script into ignored `deps/crypto`. Review that SHA when updating the CLI, and update the copy and pin together. The source reference is [`crypto`'s ecbench documentation](https://github.com/aburan28/crypto/tree/main/docs/ecbench).
 
 The CLI accepts the same specs and session directories as the command in `crypto`. Generated sessions and comparison outputs are evidence; keep their input, receipt, and replay requirements from the source documentation.

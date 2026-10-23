@@ -1,0 +1,56 @@
+[
+ {
+  "n": 8,
+  "ell": 2,
+  "m": 3,
+  "model": "split",
+  "nvars": 14,
+  "singular_std": 5,
+  "msolve_f4": 4
+ },
+ {
+  "n": 10,
+  "ell": 2,
+  "m": 3,
+  "model": "split",
+  "nvars": 16,
+  "singular_std": 5,
+  "msolve_f4": 3
+ },
+ {
+  "n": 8,
+  "ell": 3,
+  "m": 3,
+  "model": "split",
+  "nvars": 17,
+  "singular_std": 6,
+  "msolve_f4": 4
+ },
+ {
+  "n": 8,
+  "ell": 2,
+  "m": 3,
+  "model": "unsplit",
+  "nvars": 6,
+  "singular_std": 3,
+  "msolve_f4": 6
+ },
+ {
+  "n": 10,
+  "ell": 2,
+  "m": 3,
+  "model": "unsplit",
+  "nvars": 6,
+  "singular_std": 3,
+  "msolve_f4": 6
+ },
+ {
+  "n": 9,
+  "ell": 3,
+  "m": 3,
+  "model": "unsplit",
+  "nvars": 9,
+  "singular_std": 4,
+  "msolve_f4": 7
+ }
+]

@@ -1,0 +1,8 @@
+pkm_kummer_p2013265921_m2_t6_x464833983 run1 maxdeg=5 rounds=14 rows=2803 cols=2064
+pkm_kummer_p2013265921_m2_t6_x464833983 run2 maxdeg=5 rounds=14 rows=2803 cols=2064
+pkm_kummer_p2013265921_m3_t3_x388393539 run1 maxdeg=6 rounds=17 rows=3827 cols=2997
+pkm_kummer_p2013265921_m3_t3_x388393539 run2 maxdeg=6 rounds=17 rows=3827 cols=2997
+pkm_kummer_p2013265921_m4_t2_x92234565 run1 maxdeg=6 rounds=22 rows=2009 cols=1906
+pkm_kummer_p2013265921_m4_t2_x92234565 run2 maxdeg=6 rounds=22 rows=2009 cols=1906
+pkm_kummer_p2013265921_m3_t4_x334226296 run1 maxdeg=6 rounds=19 rows=12900 cols=12287
+pkm_kummer_p2013265921_m3_t4_x334226296 run2 maxdeg=6 rounds=19 rows=12900 cols=12287

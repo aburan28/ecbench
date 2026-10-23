@@ -4,7 +4,7 @@
 Same curve/subspace/target/seed so the comparison is apples-to-apples.
 Deterministic outputs (sys_sha, first_fall, solving_degree, vdim) are the reproducible invariants."""
 import sys,random,json,hashlib,time
-H='/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness'
+import os; H=os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0,H)
 import boolean_weil as bw, pdp, exp_chain as EC
 from gf2 import bin_points, bin_add

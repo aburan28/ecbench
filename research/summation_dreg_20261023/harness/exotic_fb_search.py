@@ -5,7 +5,7 @@ Falsifier (survey): min_V d_solv == median_V d_solv at every (n,ell) => growth i
 intrinsic to the ideal class, no lever. Independent of the crypto repo.
 Primary signal: Singular solving degree (external tool). Deterministic per (V,target,seed)."""
 import sys,random,json,hashlib,statistics,itertools
-H='/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness'
+import os; H=os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0,H)
 import boolean_weil as bw, pdp, exp_chain as EC
 from gf2 import bin_points, bin_add, gsq

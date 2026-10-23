@@ -5,7 +5,7 @@ If UNSAT refutes at a lower/flatter degree than SAT solves, that corroborates
 survey_A: the 'degree' depends on the engine's job, and fall-reuse keeps
 refutation low."""
 import sys,random,json
-H='/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness'
+import os; H=os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0,H)
 import boolean_weil as bw, pdp, exp_chain as EC
 from gf2 import bin_points, bin_add

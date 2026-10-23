@@ -1,5 +1,5 @@
 import sys,random,itertools
-H='/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness'
+import os; H=os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0,H)
 import boolean_weil as bw
 from gf2 import bin_points, bin_add

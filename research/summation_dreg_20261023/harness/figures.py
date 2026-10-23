@@ -6,7 +6,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
-H = '/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness'
+H = os.path.dirname(os.path.abspath(__file__))
 OUT = H + '/out/fig'; os.makedirs(OUT, exist_ok=True)
 BLUE, ORANGE, AQUA, YELLOW, MAG, GREEN, VIOLET, RED = '#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#008300', '#6250d6', '#e34948'
 INK, INK2, SURF = '#0b0b0b', '#52514e', '#fcfcfb'

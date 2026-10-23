@@ -3,7 +3,7 @@ solving degree with (1) an independent multilinear Macaulay-rank sequence over F
 (2) Singular std protocol, (3) msolve for solution correctness.
 Independent of the crypto repo."""
 import sys, os, subprocess, random, itertools, json, re, hashlib
-H='/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness'
+import os; H=os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0,H)
 from gf2 import IRRED, gmul, gsq, bin_points, bin_add, S3_bin
 import boolean_weil as bw

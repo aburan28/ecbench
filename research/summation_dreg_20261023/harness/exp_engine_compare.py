@@ -2,7 +2,7 @@
 than Singular std on MY descended PDP systems? Tests survey_A's claim that the
 measured 'degree' is engine-dependent (fall reuse), independent of the repo."""
 import sys,random,json,subprocess,tempfile,re,os
-H='/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness'
+import os; H=os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0,H)
 import boolean_weil as bw, pdp, exp_chain as EC
 

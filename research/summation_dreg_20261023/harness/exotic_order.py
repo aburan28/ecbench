@@ -4,7 +4,7 @@ order-independent. We run grevlex/grlex/lex + random variable permutations on a
 fixed descended PDP system and check the max degree reached is invariant.
 Falsifier of 'ordering is a lever': all orders reach the SAME max degree."""
 import sys,random,json
-H='/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness'
+import os; H=os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0,H)
 import boolean_weil as bw, pdp, exp_chain as EC
 

@@ -1,5 +1,5 @@
 import sys, itertools, json
-sys.path.insert(0,'/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness')
+import os; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from semaev import ec_add, points
 
 def S3(x1,x2,x3,a,b,p):
@@ -33,4 +33,4 @@ for (a,b,p) in [(2,3,11),(1,6,13),(0,7,17),(3,5,19),(1,1,23),(2,1,29)]:
     res.append(cert(a,b,p))
 for r in res: print(r)
 print("ALL_OK", all(r['ok'] for r in res))
-json.dump(res,open('/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness/out/cert_prime.json','w'),indent=0)
+json.dump(res,open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'out','cert_prime.json'),'w'),indent=0)

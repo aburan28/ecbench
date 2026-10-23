@@ -4,7 +4,7 @@
 Measures: independent Macaulay first-fall + rank profile; Singular solving degree; msolve correctness.
 All deterministic outputs are hashed for reproducibility. Independent of crypto repo."""
 import sys, random, json, hashlib, time
-H='/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness'
+import os; H=os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0,H)
 import boolean_weil as bw, pdp
 from gf2 import bin_points, bin_add

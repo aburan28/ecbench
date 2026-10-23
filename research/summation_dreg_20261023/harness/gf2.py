@@ -81,4 +81,4 @@ if __name__=='__main__':
         res.append(cert(a2,a6,n))
     for r in res:print(r)
     print("ALL_OK",all(r['ok'] for r in res))
-    json.dump(res,open('/tmp/claude-0/-home-user-ecbench/237dd0ae-3c31-5963-b1b5-f5f7c04af389/scratchpad/harness/out/cert_binary.json','w'))
+    json.dump(res,open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'out','cert_binary.json'),'w'))

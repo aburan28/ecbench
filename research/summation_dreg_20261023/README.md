@@ -30,9 +30,17 @@ from-scratch harness and two external solvers the program did not author.
 - **The program's PKM-tower msolve degrees reproduced twice, exactly**
   (`evidence/pkm/pkm_twice.txt`): degree, F4 rounds, matrix dims all bit-identical to the
   program's recorded `results.csv`.
-- **A live reproducibility defect confirmed:** the `ecbench` `claim-n13` replay fails
-  (96 problems, all F4 arms) because of a BMI2 counter path (`inherited_f4.rs:942`);
-  `evidence/REPRODUCTION_LOG.md` has the twice-run evidence.
+- **A live reproducibility defect confirmed and re-diagnosed:** the `ecbench`
+  `claim-n13` replay fails (96 problems, all F4 arms; twice-run evidence in
+  `evidence/REPRODUCTION_LOG.md`). v1 repeated the program's "BMI2 host path" attribution;
+  v2 found the host paths already agree on `main` and traced the failure to a counted-work
+  definition (lazy → eager) that changed after the session was recorded — see REPORT §4.8
+  and aburan28/crypto#2459.
+- **v2: all eight exotic levers run** (`exotic/rank{2..7}_*/`, REPORT §6.1): four null, one
+  inconclusive, one structurally empty for prime `n`, two (both symmetry quotients) lower
+  the degree — and one of those costs more in linear algebra than it saves.
+- **v2: validation sweep wired into the gate** (aburan28/crypto#2451): 0 → 55 verdicts
+  consumed, no row promoted while it carries caveats.
 - **Bottom line:** no tried lever bends the degree-growth curve enough to threaten the
   target curves, and no end-to-end index-calculus result in the program carries a
   completed validation certificate (tier T1). This is a map, not a break.

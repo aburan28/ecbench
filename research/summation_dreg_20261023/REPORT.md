@@ -14,7 +14,9 @@ number **twice** and comparing. The independent harness reproduces the program's
 central phenomenon (first-fall degree stays flat while the solving degree grows),
 reproduces its strongest independently-replicable prime-field result (PKM-tower msolve
 degrees, bit-identical on re-run), independently confirms a live reproducibility
-**defect** on `main` (a BMI2 counter path that makes a recorded claim fail replay),
+**defect** (a recorded claim fails replay; v2 traced the cause to a counted-work
+definition that changed after the recording, correcting the program's own "BMI2 host
+path" attribution, which no longer holds on `main`),
 and tests all eight ranked "exotic" levers on toy instances (v2 ran the six that v1 left
 open): four are null, one inconclusive, one is structurally empty for prime `n`, and the
 two that lower the degree are both symmetry quotients — one of which (the order-6 `j=0`
@@ -263,18 +265,30 @@ max matrix dimensions match the recorded `results.csv` bit-for-bit, both runs:
 **The replay that FAILS — and why.** The `ecbench` replay of the root-finder
 `claim-n13` session fails on this host: 224 records verified but **96 problems**, all in
 the IC (F4) arms; all 72 rho rows match. Run twice, the failure is itself deterministic
-(identical 96 problems). The cause, isolated in the program's own sweep and confirmed
-here, is a counter bug: the BMI2 `pext`/`pdep` path in `inherited_f4.rs:942` charges
-different word-XOR counts than the portable path, so a claim recorded on Apple arm64
-does not replay on an x86 host. **This is a real, open reproducibility defect on `main`**
-— exactly the "run it twice, get different numbers" failure mode, caught and explained.
-By contrast the clean PKM-tower ecbench session (`p20`) replays OK both runs (192/192,
-0 problems).
+(identical 96 problems). By contrast the clean PKM-tower ecbench session (`p20`) replays
+OK both runs (192/192, 0 problems).
 
-> Reproducibility verdict: the summation-step *science* is reproducible (every degree
-> here is bit-identical on re-run), but the program's *cost accounting* has a live
-> host-dependent defect that invalidates at least one recorded claim's replay. Both
-> facts are now independently established.
+**Correction (v2) — the cause is accounting-version drift, not the host path.** v1 of
+this report repeated the program's sweep attribution: that the BMI2 `pext`/`pdep` path
+in `inherited_f4.rs` charges different word-XOR counts than the portable path. While
+trying to fix it, v2 found that **this host-path split no longer exists on `main`**:
+since #2043 (2026-10-17) every host runs the *eager* rewrite, and a new regression test
+(aburan28/crypto#2459) forces the BMI2 and portable paths on identical inputs and finds
+every counter and row identical; re-running the `claim-n13` spec on each forced path
+gives byte-identical records on all 224 rows. The replay fails because `claim-n13` was
+recorded at `2245b75`, *before* #2043, when a host without BMI2 charged specialisation
+*lazily* — and lazy and eager charge different word counts by construction. A temporary
+lazy build reproduces the recorded `ic-f4-m2` counts on all 32 rows; `ic-f4-m3` still
+differs, so further code drift is mixed in; and one row also changed pricing (`measured`
+19.0 ns/op recorded vs `pinned` on replay). The sweep's "BMI2-off fixes it" observation
+was a correlation: at `2245b75`, turning BMI2 off also switched eager to lazy.
+
+> Reproducibility verdict (corrected): the summation-step *science* is reproducible
+> (every degree here is bit-identical on re-run). The program's *cost accounting* is
+> host-independent on `main` but **not version-stable**: the counted-work definition
+> changed after sessions were recorded, and replays report count mismatches instead of
+> refusing cross-version replay by name. That needs an owner decision (lazy vs eager as
+> the method identity) and an accounting-version field — recorded as a problem in #2459.
 
 ### 4.9 Alternative solvers: root-finding and SAT do not change the verdict
 
@@ -315,7 +329,7 @@ Two families sidestep the Gröbner degree entirely, and neither crosses rho (sur
 - **Only three rows** genuinely exercise an algebraic summation-polynomial solve at T2:
   the n9 F6-IC control, the PKM-tower degrees (reproduced here), and the determinism
   finding itself. Every larger Boolean F4/F5/F6 arm is T3 because none replays on
-  current binaries (the BMI2 bug).
+  current binaries (counted-work definition changed after recording — §4.8 correction).
 - **This report's own additions** sit at the top of the tier scale for *what they
   certify*: the Semaev correctness certificates are machine-checkable (T1-grade for
   correctness), the determinism certificate is byte-identical twice (T1-grade for
@@ -334,13 +348,15 @@ Two families sidestep the Gröbner degree entirely, and neither crosses rho (sur
   every integer count is identical* — and it reverses a headline (at `n=13`, recorded
   root-finding `2.56×` F4 in the `S` unit becomes `≈0.10×` when repriced). Survey C also
   found one **unexplained** F4 XOR-count mismatch it could not localise (8,952,839 recorded
-  vs 9,603,153 replayed). So two distinct accounting defects exist, one understood (BMI2
-  path) and one not — a strong argument that no cost-unit claim should be trusted until
-  the pricing and counting are deterministic across hosts.
+  vs 9,603,153 replayed) — plausibly the same lazy→eager accounting change, not verified.
+  So two accounting effects exist: a pricing-table change and a counted-work definition
+  change (§4.8 correction) — a strong argument that no cost-unit claim should be trusted
+  until the accounting version is part of a method's identity.
 - **Determinism map** (what is safe to compare across runs): refutation/solving degree,
   Macaulay ranks, system hashes, `vdim`/`dim`, msolve round counts and matrix dims — all
-  bit-identical. Word-XOR counters are host-path-specific (the bug). Wall-clock, RSS,
-  CPU% are nondeterministic and never compared.
+  bit-identical. Word-XOR counters are identical across hosts on `main` but change across
+  code versions (lazy vs eager). Wall-clock, RSS, CPU% are nondeterministic and never
+  compared.
 
 ---
 
@@ -503,10 +519,12 @@ search. The automorphism remains best used as the existing `÷6` orbit fold.
   the `ℓ=7` degree-5 measurement (currently out of memory at 169–405 GB).
 - The **PKM / descent memory wall**: `m=3,N=21` needs a single ~192 GB process; **no
   problem record exists** for it (an AGENTS.md gap).
-- The **BMI2 replay regression** (`inherited_f4.rs:942`): no problem record exists;
-  tracked only in a sweep. Until fixed, recorded F4 word-cost claims do not replay
-  across ISAs. **A one-line BMI2-off reproduces the reference counts** (168/168), which
-  is the obvious interim fix.
+- The **inherited-F4 replay regression**: v1 called it a BMI2 host-path bug; v2 found the
+  host paths already agree on `main` (since #2043) and that the real cause is a
+  counted-work definition change (lazy → eager) after the sessions were recorded (§4.8).
+  Now recorded as `problems/ecbench-claim-n13-replay-accounting-version-drift.md`
+  (aburan28/crypto#2459). Unblock: an owner decision on which accounting is the method
+  identity, plus an accounting-version field so cross-version replays are refused by name.
 - **Magma never run** on the summation systems (T5): the "beat the fastest external
   tool" gate is formally unmet; an msolve-vs-Magma parity run on the PKM systems would
   close it.
@@ -523,9 +541,11 @@ break but the thing the program most needed: an **independent, twice-run, cross-
 measurement** confirming where the barrier is, why it is intrinsic (CM-regularity
 invariance), and which of the field's open claims actually reproduce.
 
-The single most valuable next action is not another lever but **wiring the validation
-sweep into the gate and fixing the BMI2 counter** — because an index calculus you cannot
-replay cannot be improved, and right now the program's own best results do not replay.
+The single most valuable next action is not another lever but **making replay
+trustworthy**: wiring the validation sweep into the gate (done in v2, #2451) and making
+the counted-work definition version-stable (diagnosed in v2, #2459; needs the owner's
+lazy-vs-eager decision) — because an index calculus you cannot replay cannot be
+improved.
 
 ### 8.1 v2: the two reproducibility fixes
 
@@ -540,8 +560,14 @@ replay cannot be improved, and right now the program's own best results do not r
   carries open caveats (e.g. `pricing_ok: false`). The gate was wired, not loosened.
   The single `contradicted` verdict is a diagnostic section, not a board row; nothing
   gates that section today, which is worth a follow-up.
-- **BMI2 counter drift** — see the BMI2 entry above; status at the time of writing is in
-  the PR description of aburan28/ecbench#3.
+- **Inherited-F4 counter drift** — aburan28/crypto#2459. The requested "BMI2 fix" turned
+  out to be unnecessary: on `main` the BMI2 and portable rewrite paths already charge
+  identical work (since #2043). The PR adds the regression test that proves it — both
+  paths forced on the same random specialisation chains, every `InheritCost` field and
+  row compared, failing if one charge is perturbed by 1 — and a problem record for the
+  actual cause (§4.8). The charge itself was deliberately not changed: restoring the old
+  lazy accounting would break every x86 session recorded since 2026-10-17 and still not
+  fix the `ic-f4-m3` arm.
 
 ---
 

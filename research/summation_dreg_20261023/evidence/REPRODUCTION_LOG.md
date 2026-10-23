@@ -41,6 +41,15 @@ D=7 at 594 s, not re-run twice for budget; single run matches dims 26025×21665.
   (`inherited_f4.rs:942`, bug open on main). So the recorded claim does not
   replay across code paths — a genuine, reproduced reproducibility defect.
 
+  **Correction (v2, 2026-10-23).** The measurement above stands (96 problems, twice);
+  the attribution does not. On crypto `main` (a53a7e2) the BMI2 and portable rewrite paths
+  charge identical work — #2043 (2026-10-17) made every host run the eager rewrite — as
+  shown by a forced-path regression test and by re-running the claim-n13 spec on each
+  path (224/224 records identical). The failure comes from a counted-work definition
+  change: the session was recorded at `2245b75`, when a non-BMI2 host charged specialisation
+  lazily; a temporary lazy build reproduces the recorded `ic-f4-m2` counts on 32/32 rows.
+  See aburan28/crypto#2459 and REPORT §4.8.
+
 ## D. Exotic levers — toy falsification, each config many subspaces
 
 - Rank-1 (factor-base subspace V): 295 subspaces across 5 configs (unsplit/split/

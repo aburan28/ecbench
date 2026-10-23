@@ -1,0 +1,1332 @@
+[
+ {
+  "summary": {
+   "a2": 1,
+   "a6": 1,
+   "n": 8,
+   "ell": 4,
+   "m": 2,
+   "model": "s3",
+   "K": 80,
+   "deg_min": 3,
+   "deg_med": 3.0,
+   "deg_max": 3,
+   "deg_hist": {
+    "3": 80
+   },
+   "n_frob": 1,
+   "frob_degs": [
+    3
+   ],
+   "intrinsic": true
+  },
+  "rows": [
+   {
+    "xR": 87,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 216,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 235,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 179,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 232,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 127,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 28,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 19,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 3,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 178,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 60,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 44,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 54,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 24,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 128,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 149,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 218,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 18,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 33,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 19,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 146,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 6,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 17,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 1,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 24,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 82,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 129,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 57,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 149,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 110,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 126,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 235,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 152,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 75,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 167,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 106,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 196,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 240,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 176,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 229,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 29,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 236,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 70,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 145,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 132,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 42,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 177,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 3,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 138,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 64,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 115,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 9,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 1,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 18,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 18,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 201,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 136,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 42,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 44,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 144,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 236,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 1,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 224,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 3,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 5,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 84,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 131,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 231,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 3,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 129,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 144,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 220,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 40,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 176,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 7,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 136,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 6,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 74,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 130,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 130,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 160,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 232,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 74,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 5,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 159,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 133,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 176,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 218,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 157,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 30,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 217,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   }
+  ],
+  "frob": [
+   {
+    "xR": 8,
+    "nvars": 8,
+    "neqs": 8,
+    "solving_degree": 3,
+    "vdim": 4,
+    "dim": 0,
+    "V": "frob"
+   }
+  ]
+ },
+ {
+  "summary": {
+   "a2": 1,
+   "a6": 1,
+   "n": 10,
+   "ell": 5,
+   "m": 2,
+   "model": "s3",
+   "K": 60,
+   "deg_min": 4,
+   "deg_med": 4.0,
+   "deg_max": 4,
+   "deg_hist": {
+    "4": 60
+   },
+   "n_frob": 1,
+   "frob_degs": [
+    4
+   ],
+   "intrinsic": true
+  },
+  "rows": [
+   {
+    "xR": 58,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 491,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 6,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 752,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 221,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 15,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 537,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 131,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 632,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 155,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 37,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 149,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 155,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 324,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 45,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 315,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 10,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 170,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 676,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 109,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 1,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 770,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 121,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 77,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 630,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 761,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 740,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 96,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 1011,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 22,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 915,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 8,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 571,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 651,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 6,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 138,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 110,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 840,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 775,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 447,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 1021,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 89,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 713,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 149,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 737,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 355,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 180,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 1009,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 724,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 790,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 837,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 943,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 15,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 1,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 277,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 5,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 452,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 233,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 521,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 739,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 721,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 85,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 582,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 310,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 1,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 258,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 503,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "rand"
+   },
+   {
+    "xR": 954,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 2,
+    "dim": 0,
+    "V": "rand"
+   }
+  ],
+  "frob": [
+   {
+    "xR": 629,
+    "nvars": 10,
+    "neqs": 10,
+    "solving_degree": 4,
+    "vdim": 4,
+    "dim": 0,
+    "V": "frob"
+   }
+  ]
+ }
+]

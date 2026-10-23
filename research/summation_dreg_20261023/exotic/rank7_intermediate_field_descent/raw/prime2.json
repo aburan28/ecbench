@@ -1,0 +1,80 @@
+{
+ "n11": {
+  "divisors": [
+   1,
+   11
+  ],
+  "fixed_pts_by_d": {
+   "1": 2,
+   "11": 2048
+  },
+  "prime_run": {
+   "n": 11,
+   "l": 3,
+   "m": 2,
+   "nvars": 6,
+   "planted_ok": true,
+   "msolve": {
+    "status": "ok",
+    "solving_degree": 3
+   },
+   "singular": {
+    "status": "ok",
+    "solving_degree": 3,
+    "max_label_degree": 5,
+    "vdim": 2
+   }
+  }
+ },
+ "n13": {
+  "divisors": [
+   1,
+   13
+  ],
+  "fixed_pts_by_d": {
+   "1": 2,
+   "13": 8192
+  },
+  "prime_run": {
+   "n": 13,
+   "l": 3,
+   "m": 2,
+   "nvars": 6,
+   "planted_ok": true,
+   "msolve": {
+    "status": "ok",
+    "solving_degree": 3
+   },
+   "singular": {
+    "status": "ok",
+    "solving_degree": 3,
+    "max_label_degree": 5,
+    "vdim": 2
+   }
+  }
+ },
+ "n17": {
+  "divisors": [
+   1,
+   17
+  ]
+ },
+ "n131": {
+  "divisors": [
+   1,
+   131
+  ]
+ },
+ "n233": {
+  "divisors": [
+   1,
+   233
+  ]
+ },
+ "n283": {
+  "divisors": [
+   1,
+   283
+  ]
+ }
+}

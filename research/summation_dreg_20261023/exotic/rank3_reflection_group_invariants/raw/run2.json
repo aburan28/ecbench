@@ -1,0 +1,3212 @@
+[
+ {
+  "meta": {
+   "p": 11,
+   "n": 2,
+   "m": 2,
+   "seed": 1,
+   "field_g": [
+    2,
+    9
+   ],
+   "a": [
+    1,
+    4
+   ],
+   "c": 2,
+   "planted_Y": [
+    3,
+    9
+   ],
+   "YR": [
+    6,
+    4
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     4
+    ],
+    "bezout": 8,
+    "hash": "9beb8c354c138fc8",
+    "sing": {
+     "status": "ok",
+     "dsolv": 5,
+     "vdim": 8,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "2284776c84f5c9a3",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "89ecbb0375a3b4ef",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": null,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     1,
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "88a43ea4b1db69f3",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 1,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "c2b69a2632f671b4",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 11,
+   "n": 2,
+   "m": 2,
+   "seed": 2,
+   "field_g": [
+    1,
+    5
+   ],
+   "a": [
+    2,
+    10
+   ],
+   "c": 5,
+   "planted_Y": [
+    3,
+    9
+   ],
+   "YR": [
+    5,
+    2
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     4,
+     4
+    ],
+    "bezout": 16,
+    "hash": "9c18d25f9043a793",
+    "sing": {
+     "status": "ok",
+     "dsolv": 6,
+     "vdim": 8,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "835f5f322db891bc",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "2dfda0205ba6b201",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     1,
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "57e58bc79590560e",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 1,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "f9444184446de469",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 13,
+   "n": 2,
+   "m": 2,
+   "seed": 1,
+   "field_g": [
+    2,
+    9
+   ],
+   "a": [
+    12,
+    12
+   ],
+   "c": 2,
+   "planted_Y": [
+    6,
+    11
+   ],
+   "YR": [
+    3,
+    8
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     4,
+     4
+    ],
+    "bezout": 16,
+    "hash": "6a50dbb5ea244acc",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 8,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "d079e56638ad3c01",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "ad5157cba9762bbe",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     1,
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "3ab7f042d28bc7d2",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 1,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "cb0e41bb2ffd97e8",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 13,
+   "n": 2,
+   "m": 2,
+   "seed": 2,
+   "field_g": [
+    1,
+    5
+   ],
+   "a": [
+    2,
+    11
+   ],
+   "c": 11,
+   "planted_Y": [
+    9,
+    4
+   ],
+   "YR": [
+    9,
+    3
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     4,
+     4
+    ],
+    "bezout": 16,
+    "hash": "edbadd65f0dd1ccf",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 8,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "cc8ef66af856894a",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "6e2b3abbf1faea05",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     1,
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "8652371bd985956d",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 1,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "7bc41ba0fe0ff7a0",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 17,
+   "n": 2,
+   "m": 2,
+   "seed": 1,
+   "field_g": [
+    4,
+    2
+   ],
+   "a": [
+    8,
+    3
+   ],
+   "c": 16,
+   "planted_Y": [
+    9,
+    13
+   ],
+   "YR": [
+    9,
+    7
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     4
+    ],
+    "bezout": 8,
+    "hash": "81536295fb3e0bdd",
+    "sing": {
+     "status": "ok",
+     "dsolv": 5,
+     "vdim": 8,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "9ae6f4d3596195d5",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "91e8005fd0984dda",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": null,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     1,
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "2b06a7cd91fbbc86",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 1,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "14f050a679206eee",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 17,
+   "n": 2,
+   "m": 2,
+   "seed": 2,
+   "field_g": [
+    2,
+    11
+   ],
+   "a": [
+    5,
+    9
+   ],
+   "c": 9,
+   "planted_Y": [
+    11,
+    8
+   ],
+   "YR": [
+    9,
+    4
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     4,
+     4
+    ],
+    "bezout": 16,
+    "hash": "5aed38d677e041f1",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 8,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "ad3b90c9a585777c",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "27badd1d72b1384c",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     1,
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "e4a594790eaf810e",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 1,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "c22b552c2783488a",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 31,
+   "n": 2,
+   "m": 2,
+   "seed": 1,
+   "field_g": [
+    4,
+    18
+   ],
+   "a": [
+    27,
+    25
+   ],
+   "c": 25,
+   "planted_Y": [
+    29,
+    27
+   ],
+   "YR": [
+    22,
+    23
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     4,
+     4
+    ],
+    "bezout": 16,
+    "hash": "934146615a4ca5ec",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 8,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "b3043f5a3199e189",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "ec8c3e68db96a9b0",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     1,
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "cfd0b9b9f30eed7d",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 1,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "66d7daf9df99645e",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 31,
+   "n": 2,
+   "m": 2,
+   "seed": 2,
+   "field_g": [
+    23,
+    25
+   ],
+   "a": [
+    21,
+    27
+   ],
+   "c": 10,
+   "planted_Y": [
+    16,
+    6
+   ],
+   "YR": [
+    18,
+    21
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     4,
+     4
+    ],
+    "bezout": 16,
+    "hash": "17d34bdf8a9c5a3b",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 8,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "e36498148493e8d1",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "5cb62def2a31a962",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     1,
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "3d992a1b309f11b9",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 1,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "1ec34e3a7abcd729",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 101,
+   "n": 2,
+   "m": 2,
+   "seed": 1,
+   "field_g": [
+    17,
+    72
+   ],
+   "a": [
+    97,
+    8
+   ],
+   "c": 33,
+   "planted_Y": [
+    75,
+    5
+   ],
+   "YR": [
+    43,
+    5
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     4,
+     4
+    ],
+    "bezout": 16,
+    "hash": "6bca82bbc103ba5c",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 8,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "b7d6f86f7d5d3693",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "98748e2defc5e9d8",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     1,
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "f83874fdcd3752b2",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 1,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "de05f8a96d4957ec",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 101,
+   "n": 2,
+   "m": 2,
+   "seed": 2,
+   "field_g": [
+    7,
+    11
+   ],
+   "a": [
+    10,
+    46
+   ],
+   "c": 22,
+   "planted_Y": [
+    29,
+    92
+   ],
+   "YR": [
+    79,
+    18
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     4,
+     4
+    ],
+    "bezout": 16,
+    "hash": "666b0761d84957e3",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 8,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "36803c1c912c9903",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "07805c4e3b8c5812",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 2,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     1,
+     1,
+     2
+    ],
+    "bezout": 2,
+    "hash": "a56a8d59c80af5fb",
+    "sing": {
+     "status": "ok",
+     "dsolv": 1,
+     "vdim": 2,
+     "planted": true
+    },
+    "msolve_dsolv": 1,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 2,
+    "neq": 2,
+    "eqdeg": [
+     2,
+     2
+    ],
+    "bezout": 4,
+    "hash": "826f97b8752eb508",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 4,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 11,
+   "n": 3,
+   "m": 3,
+   "seed": 1,
+   "field_g": [
+    7,
+    7,
+    10
+   ],
+   "a": [
+    6,
+    3,
+    1
+   ],
+   "c": 8,
+   "planted_Y": [
+    7,
+    5,
+    3
+   ],
+   "YR": [
+    8,
+    10,
+    10
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     10
+    ],
+    "bezout": 1440,
+    "hash": "481a74c9c65c358d",
+    "sing": {
+     "status": "ok",
+     "dsolv": 30,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "36f0a86634331f35",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     3
+    ],
+    "bezout": 48,
+    "hash": "cbb5dcbcd00daa8d",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "76ba7ddbd6637f08",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "24823968511ec51c",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 11,
+   "n": 3,
+   "m": 3,
+   "seed": 2,
+   "field_g": [
+    3,
+    9,
+    0
+   ],
+   "a": [
+    3,
+    3,
+    0
+   ],
+   "c": 3,
+   "planted_Y": [
+    7,
+    6,
+    4
+   ],
+   "YR": [
+    4,
+    0,
+    2
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "1fa2f6cdeae0035d",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "5728daddce8cbf4c",
+    "sing": {
+     "status": "ok",
+     "dsolv": 6,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 8,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "5694be3108b2e05a",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "795263191b0c0813",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "4227ff551e0f23b5",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 11,
+   "n": 3,
+   "m": 3,
+   "seed": 3,
+   "field_g": [
+    3,
+    3,
+    7
+   ],
+   "a": [
+    0,
+    4,
+    0
+   ],
+   "c": 5,
+   "planted_Y": [
+    5,
+    6,
+    8
+   ],
+   "YR": [
+    3,
+    6,
+    7
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "0081537683b5148b",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "07106a54693bcb81",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "9b69af315b639dbb",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "f8b116f0258737f2",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "aab5560a210bb889",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 13,
+   "n": 3,
+   "m": 3,
+   "seed": 1,
+   "field_g": [
+    2,
+    9,
+    12
+   ],
+   "a": [
+    12,
+    1,
+    4
+   ],
+   "c": 2,
+   "planted_Y": [
+    4,
+    9,
+    10
+   ],
+   "YR": [
+    3,
+    8,
+    12
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "34f86ead7c25c571",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "9fe384db2af41386",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "fe6c95018b123d18",
+    "sing": {
+     "status": "ok",
+     "dsolv": 6,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "54e07e9bacd5fce8",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "89e990775e2e29ce",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 13,
+   "n": 3,
+   "m": 3,
+   "seed": 2,
+   "field_g": [
+    8,
+    7,
+    8
+   ],
+   "a": [
+    5,
+    7,
+    5
+   ],
+   "c": 7,
+   "planted_Y": [
+    7,
+    6,
+    4
+   ],
+   "YR": [
+    3,
+    1,
+    4
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "64b33ae68962a807",
+    "sing": {
+     "status": "ok",
+     "dsolv": 28,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "2d9cf5a4c97e0c18",
+    "sing": {
+     "status": "ok",
+     "dsolv": 6,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 8,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "8cdf63c54c8a3de7",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "5ec317ceb23b4e03",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "7de0ae363a98a74a",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 13,
+   "n": 3,
+   "m": 3,
+   "seed": 3,
+   "field_g": [
+    3,
+    9,
+    8
+   ],
+   "a": [
+    2,
+    5,
+    9
+   ],
+   "c": 8,
+   "planted_Y": [
+    9,
+    6,
+    7
+   ],
+   "YR": [
+    9,
+    9,
+    11
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "0abae578040bc681",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "0e5736e7dda6fa2a",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "d92376ef6bdd7b3f",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "96c69d6358d62dc9",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "776fbd6709be119b",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 17,
+   "n": 3,
+   "m": 3,
+   "seed": 1,
+   "field_g": [
+    14,
+    8,
+    7
+   ],
+   "a": [
+    3,
+    10,
+    0
+   ],
+   "c": 1,
+   "planted_Y": [
+    9,
+    7,
+    8
+   ],
+   "YR": [
+    0,
+    11,
+    6
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "367d0a3e0c3670b2",
+    "sing": {
+     "status": "ok",
+     "dsolv": 28,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "1ff1c1a235b57b69",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "1edaeaab7d435225",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "e8f2dcee18df36f9",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "7c707c71bdf7e0c1",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 17,
+   "n": 3,
+   "m": 3,
+   "seed": 2,
+   "field_g": [
+    16,
+    8,
+    1
+   ],
+   "a": [
+    0,
+    11,
+    14
+   ],
+   "c": 11,
+   "planted_Y": [
+    2,
+    12,
+    5
+   ],
+   "YR": [
+    4,
+    1,
+    11
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "e862d0a293fc36b1",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "b463a83763718df3",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "caf3552bcfd162cd",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "1b1ae62de48c93db",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "2510473a5a4aea98",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 17,
+   "n": 3,
+   "m": 3,
+   "seed": 3,
+   "field_g": [
+    7,
+    4,
+    11
+   ],
+   "a": [
+    15,
+    2,
+    0
+   ],
+   "c": 16,
+   "planted_Y": [
+    12,
+    6,
+    3
+   ],
+   "YR": [
+    10,
+    0,
+    6
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     10,
+     10,
+     12
+    ],
+    "bezout": 1200,
+    "hash": "9ae2e4605bb49d8b",
+    "sing": {
+     "status": "ok",
+     "dsolv": 27,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "55ea057fb43327d1",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     3,
+     3,
+     4
+    ],
+    "bezout": 36,
+    "hash": "7188089310fb6af0",
+    "sing": {
+     "status": "ok",
+     "dsolv": 6,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "3146d60e1ad0c01c",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "945989d68c93ab6e",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 19,
+   "n": 3,
+   "m": 3,
+   "seed": 1,
+   "field_g": [
+    4,
+    18,
+    2
+   ],
+   "a": [
+    8,
+    3,
+    15
+   ],
+   "c": 15,
+   "planted_Y": [
+    11,
+    15,
+    9
+   ],
+   "YR": [
+    8,
+    2,
+    7
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "8ad074546ed90dfd",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "2dfeddbbaebcae28",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "b2f55e72b37101b0",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "f8e29fdac4d40138",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "40a307ae40498737",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 19,
+   "n": 3,
+   "m": 3,
+   "seed": 2,
+   "field_g": [
+    11,
+    5,
+    9
+   ],
+   "a": [
+    8,
+    6,
+    1
+   ],
+   "c": 6,
+   "planted_Y": [
+    11,
+    3,
+    9
+   ],
+   "YR": [
+    2,
+    10,
+    9
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "8bc61191d90f42c1",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "cddaa62a34e858b4",
+    "sing": {
+     "status": "ok",
+     "dsolv": 6,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 8,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "79d0bc1518ff108f",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "01d868ad424fe36d",
+    "sing": {
+     "status": "ok",
+     "dsolv": 3,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 4,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "bd5305804a4865ed",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 19,
+   "n": 3,
+   "m": 3,
+   "seed": 3,
+   "field_g": [
+    7,
+    18,
+    17
+   ],
+   "a": [
+    4,
+    11,
+    15
+   ],
+   "c": 3,
+   "planted_Y": [
+    7,
+    15,
+    12
+   ],
+   "YR": [
+    3,
+    17,
+    6
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "4f5d2a0f64363a10",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "5b0dfb921ee00e2a",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "3cfdf6d110d146ea",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "e19c52738824dd8c",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "9d3c741447321586",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 23,
+   "n": 3,
+   "m": 3,
+   "seed": 1,
+   "field_g": [
+    14,
+    15,
+    20
+   ],
+   "a": [
+    12,
+    6,
+    3
+   ],
+   "c": 16,
+   "planted_Y": [
+    2,
+    21,
+    15
+   ],
+   "YR": [
+    17,
+    1,
+    11
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     10,
+     12
+    ],
+    "bezout": 1440,
+    "hash": "bf6801aacd25b357",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "eef154251c41ab46",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     3,
+     4
+    ],
+    "bezout": 48,
+    "hash": "d87e3f4353fa6010",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "fd528a5624647c80",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "4d8ddba0d19e2a8c",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 23,
+   "n": 3,
+   "m": 3,
+   "seed": 2,
+   "field_g": [
+    11,
+    5,
+    21
+   ],
+   "a": [
+    9,
+    8,
+    19
+   ],
+   "c": 7,
+   "planted_Y": [
+    15,
+    16,
+    14
+   ],
+   "YR": [
+    10,
+    8,
+    14
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "42f64372282b64e0",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "82c3d69f2b74c326",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "5bae67fc8d34b3d8",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "6c284695507ab9f2",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "a1787e93911d0987",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ },
+ {
+  "meta": {
+   "p": 23,
+   "n": 3,
+   "m": 3,
+   "seed": 3,
+   "field_g": [
+    15,
+    12,
+    20
+   ],
+   "a": [
+    4,
+    7,
+    20
+   ],
+   "c": 5,
+   "planted_Y": [
+    20,
+    2,
+    3
+   ],
+   "YR": [
+    11,
+    22,
+    16
+   ]
+  },
+  "sys": {
+   "a": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     12,
+     12,
+     12
+    ],
+    "bezout": 1728,
+    "hash": "eb9456e3c128f616",
+    "sing": {
+     "status": "ok",
+     "dsolv": 29,
+     "vdim": 384,
+     "planted": true
+    },
+    "msolve_dsolv": 17,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "b": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "b186ce5de5edde7e",
+    "sing": {
+     "status": "ok",
+     "dsolv": 8,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 10,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "5f98c81f5bf0675f",
+    "sing": {
+     "status": "ok",
+     "dsolv": 7,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 6,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c1p": {
+    "vars": 4,
+    "neq": 4,
+    "eqdeg": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "bezout": 16,
+    "hash": "6c83e03440b656c6",
+    "sing": {
+     "status": "ok",
+     "dsolv": 4,
+     "vdim": 16,
+     "planted": true
+    },
+    "msolve_dsolv": 5,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   },
+   "c2": {
+    "vars": 3,
+    "neq": 3,
+    "eqdeg": [
+     4,
+     4,
+     4
+    ],
+    "bezout": 64,
+    "hash": "06b5e08de59c3828",
+    "sing": {
+     "status": "ok",
+     "dsolv": 10,
+     "vdim": 64,
+     "planted": true
+    },
+    "msolve_dsolv": 11,
+    "msolve_status": "ok",
+    "msolve_planted": true
+   }
+  }
+ }
+]

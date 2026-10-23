@@ -1,0 +1,128 @@
+[
+ {
+  "a2": 1,
+  "a6": 1,
+  "n": 6,
+  "l": 3,
+  "seed": 1,
+  "nvars": 6,
+  "neqs": 6,
+  "xR": 60,
+  "sys_sha": "c0c1d494b8746fdc",
+  "macaulay": [
+   {
+    "D": 1,
+    "rows": 0,
+    "cols": 7,
+    "rank": 0,
+    "solved": false
+   },
+   {
+    "D": 2,
+    "rows": 6,
+    "cols": 22,
+    "rank": 6,
+    "solved": false
+   },
+   {
+    "D": 3,
+    "rows": 42,
+    "cols": 42,
+    "rank": 35,
+    "solved": false
+   },
+   {
+    "D": 4,
+    "rows": 132,
+    "cols": 57,
+    "rank": 55,
+    "solved": false
+   },
+   {
+    "D": 5,
+    "rows": 248,
+    "cols": 63,
+    "rank": 61,
+    "solved": false
+   },
+   {
+    "D": 6,
+    "rows": 322,
+    "cols": 64,
+    "rank": 62,
+    "solved": false
+   }
+  ],
+  "macaulay_solved_D": null,
+  "singular": {
+   "solving_degree": 3,
+   "vdim": 2,
+   "dim": 0
+  },
+  "t_macaulay": 0.01,
+  "t_singular": 0.01
+ },
+ {
+  "a2": 1,
+  "a6": 1,
+  "n": 8,
+  "l": 4,
+  "seed": 1,
+  "nvars": 8,
+  "neqs": 8,
+  "xR": 53,
+  "sys_sha": "a1dcd28dd6e9757b",
+  "macaulay": [
+   {
+    "D": 1,
+    "rows": 0,
+    "cols": 9,
+    "rank": 0,
+    "solved": false
+   },
+   {
+    "D": 2,
+    "rows": 8,
+    "cols": 37,
+    "rank": 8,
+    "solved": false
+   },
+   {
+    "D": 3,
+    "rows": 72,
+    "cols": 93,
+    "rank": 69,
+    "solved": false
+   },
+   {
+    "D": 4,
+    "rows": 296,
+    "cols": 163,
+    "rank": 156,
+    "solved": false
+   },
+   {
+    "D": 5,
+    "rows": 744,
+    "cols": 219,
+    "rank": 217,
+    "solved": false
+   },
+   {
+    "D": 6,
+    "rows": 1304,
+    "cols": 247,
+    "rank": 245,
+    "solved": false
+   }
+  ],
+  "macaulay_solved_D": null,
+  "singular": {
+   "solving_degree": 3,
+   "vdim": 2,
+   "dim": 0
+  },
+  "t_macaulay": 0.04,
+  "t_singular": 0.01
+ }
+]

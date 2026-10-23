@@ -1,0 +1,125 @@
+2 11 1 a 2 [2, 4] sing 5  8 True ms 6 True
+2 11 1 b 2 [2, 2] sing 1  4 True ms 2 True
+2 11 1 c1 2 [1, 2] sing 1  2 True ms None True
+2 11 1 c1p 3 [1, 1, 2] sing 1  2 True ms 1 True
+2 11 1 c2 2 [2, 2] sing 3  4 True ms 4 True
+2 11 2 a 2 [4, 4] sing 6  8 True ms 4 True
+2 11 2 b 2 [2, 2] sing 1  4 True ms 2 True
+2 11 2 c1 2 [2, 2] sing 1  2 True ms 2 True
+2 11 2 c1p 3 [1, 1, 2] sing 1  2 True ms 1 True
+2 11 2 c2 2 [2, 2] sing 3  4 True ms 4 True
+2 13 1 a 2 [4, 4] sing 7  8 True ms 6 True
+2 13 1 b 2 [2, 2] sing 1  4 True ms 2 True
+2 13 1 c1 2 [2, 2] sing 1  2 True ms 2 True
+2 13 1 c1p 3 [1, 1, 2] sing 1  2 True ms 1 True
+2 13 1 c2 2 [2, 2] sing 3  4 True ms 4 True
+2 13 2 a 2 [4, 4] sing 7  8 True ms 6 True
+2 13 2 b 2 [2, 2] sing 1  4 True ms 2 True
+2 13 2 c1 2 [2, 2] sing 1  2 True ms 2 True
+2 13 2 c1p 3 [1, 1, 2] sing 1  2 True ms 1 True
+2 13 2 c2 2 [2, 2] sing 3  4 True ms 4 True
+2 17 1 a 2 [2, 4] sing 5  8 True ms 6 True
+2 17 1 b 2 [2, 2] sing 1  4 True ms 2 True
+2 17 1 c1 2 [1, 2] sing 1  2 True ms None True
+2 17 1 c1p 3 [1, 1, 2] sing 1  2 True ms 1 True
+2 17 1 c2 2 [2, 2] sing 3  4 True ms 4 True
+2 17 2 a 2 [4, 4] sing 7  8 True ms 6 True
+2 17 2 b 2 [2, 2] sing 1  4 True ms 2 True
+2 17 2 c1 2 [2, 2] sing 1  2 True ms 2 True
+2 17 2 c1p 3 [1, 1, 2] sing 1  2 True ms 1 True
+2 17 2 c2 2 [2, 2] sing 3  4 True ms 4 True
+2 31 1 a 2 [4, 4] sing 7  8 True ms 6 True
+2 31 1 b 2 [2, 2] sing 1  4 True ms 2 True
+2 31 1 c1 2 [2, 2] sing 1  2 True ms 2 True
+2 31 1 c1p 3 [1, 1, 2] sing 1  2 True ms 1 True
+2 31 1 c2 2 [2, 2] sing 3  4 True ms 4 True
+2 31 2 a 2 [4, 4] sing 7  8 True ms 6 True
+2 31 2 b 2 [2, 2] sing 1  4 True ms 2 True
+2 31 2 c1 2 [2, 2] sing 1  2 True ms 2 True
+2 31 2 c1p 3 [1, 1, 2] sing 1  2 True ms 1 True
+2 31 2 c2 2 [2, 2] sing 3  4 True ms 4 True
+2 101 1 a 2 [4, 4] sing 7  8 True ms 6 True
+2 101 1 b 2 [2, 2] sing 1  4 True ms 2 True
+2 101 1 c1 2 [2, 2] sing 1  2 True ms 2 True
+2 101 1 c1p 3 [1, 1, 2] sing 1  2 True ms 1 True
+2 101 1 c2 2 [2, 2] sing 3  4 True ms 4 True
+2 101 2 a 2 [4, 4] sing 7  8 True ms 6 True
+2 101 2 b 2 [2, 2] sing 1  4 True ms 2 True
+2 101 2 c1 2 [2, 2] sing 1  2 True ms 2 True
+2 101 2 c1p 3 [1, 1, 2] sing 1  2 True ms 1 True
+2 101 2 c2 2 [2, 2] sing 3  4 True ms 4 True
+3 11 1 a 3 [12, 12, 10] sing 30  384 True ms 17 True
+3 11 1 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 11 1 c1 3 [4, 4, 3] sing 7  16 True ms 6 True
+3 11 1 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 11 1 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 11 2 a 3 [12, 12, 12] sing 29  384 True ms 17 True
+3 11 2 b 3 [4, 4, 4] sing 6  64 True ms 8 True
+3 11 2 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 11 2 c1p 4 [2, 2, 2, 2] sing 3  16 True ms 4 True
+3 11 2 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 11 3 a 3 [12, 12, 12] sing 29  384 True ms 17 True
+3 11 3 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 11 3 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 11 3 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 11 3 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 13 1 a 3 [12, 12, 12] sing 29  384 True ms 17 True
+3 13 1 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 13 1 c1 3 [4, 4, 4] sing 6  16 True ms 5 True
+3 13 1 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 13 1 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 13 2 a 3 [12, 12, 12] sing 28  384 True ms 17 True
+3 13 2 b 3 [4, 4, 4] sing 6  64 True ms 8 True
+3 13 2 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 13 2 c1p 4 [2, 2, 2, 2] sing 3  16 True ms 4 True
+3 13 2 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 13 3 a 3 [12, 12, 12] sing 29  384 True ms 17 True
+3 13 3 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 13 3 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 13 3 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 13 3 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 17 1 a 3 [12, 12, 12] sing 28  384 True ms 17 True
+3 17 1 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 17 1 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 17 1 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 17 1 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 17 2 a 3 [12, 12, 12] sing 29  384 True ms 17 True
+3 17 2 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 17 2 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 17 2 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 17 2 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 17 3 a 3 [10, 10, 12] sing 27  384 True ms 17 True
+3 17 3 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 17 3 c1 3 [3, 3, 4] sing 6  16 True ms 6 True
+3 17 3 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 17 3 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 19 1 a 3 [12, 12, 12] sing 29  384 True ms 17 True
+3 19 1 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 19 1 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 19 1 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 19 1 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 19 2 a 3 [12, 12, 12] sing 29  384 True ms 17 True
+3 19 2 b 3 [4, 4, 4] sing 6  64 True ms 8 True
+3 19 2 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 19 2 c1p 4 [2, 2, 2, 2] sing 3  16 True ms 4 True
+3 19 2 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 19 3 a 3 [12, 12, 12] sing 29  384 True ms 17 True
+3 19 3 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 19 3 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 19 3 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 19 3 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 23 1 a 3 [12, 10, 12] sing 29  384 True ms 17 True
+3 23 1 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 23 1 c1 3 [4, 3, 4] sing 7  16 True ms 6 True
+3 23 1 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 23 1 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 23 2 a 3 [12, 12, 12] sing 29  384 True ms 17 True
+3 23 2 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 23 2 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 23 2 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 23 2 c2 3 [4, 4, 4] sing 10  64 True ms 11 True
+3 23 3 a 3 [12, 12, 12] sing 29  384 True ms 17 True
+3 23 3 b 3 [4, 4, 4] sing 8  64 True ms 10 True
+3 23 3 c1 3 [4, 4, 4] sing 7  16 True ms 6 True
+3 23 3 c1p 4 [2, 2, 2, 2] sing 4  16 True ms 5 True
+3 23 3 c2 3 [4, 4, 4] sing 10  64 True ms 11 True

@@ -1,0 +1,102 @@
+[
+ {
+  "a2": 1,
+  "a6": 1,
+  "n": 8,
+  "ell": 2,
+  "m": 3,
+  "model": "unsplit",
+  "K": 80,
+  "deg_min": 3,
+  "deg_med": 3.0,
+  "deg_max": 3,
+  "deg_hist": {
+   "3": 80
+  },
+  "n_frob": 1,
+  "frob_degs": [
+   3
+  ],
+  "intrinsic": true
+ },
+ {
+  "a2": 1,
+  "a6": 1,
+  "n": 8,
+  "ell": 2,
+  "m": 3,
+  "model": "split",
+  "K": 40,
+  "deg_min": 5,
+  "deg_med": 5.0,
+  "deg_max": 5,
+  "deg_hist": {
+   "5": 40
+  },
+  "n_frob": 1,
+  "frob_degs": [
+   5
+  ],
+  "intrinsic": true
+ },
+ {
+  "a2": 1,
+  "a6": 1,
+  "n": 10,
+  "ell": 2,
+  "m": 3,
+  "model": "split",
+  "K": 30,
+  "deg_min": 5,
+  "deg_med": 5.0,
+  "deg_max": 5,
+  "deg_hist": {
+   "5": 30
+  },
+  "n_frob": 1,
+  "frob_degs": [
+   5
+  ],
+  "intrinsic": true
+ },
+ {
+  "a2": 1,
+  "a6": 1,
+  "n": 8,
+  "ell": 4,
+  "m": 2,
+  "model": "s3",
+  "K": 80,
+  "deg_min": 3,
+  "deg_med": 3.0,
+  "deg_max": 3,
+  "deg_hist": {
+   "3": 80
+  },
+  "n_frob": 1,
+  "frob_degs": [
+   3
+  ],
+  "intrinsic": true
+ },
+ {
+  "a2": 1,
+  "a6": 1,
+  "n": 10,
+  "ell": 5,
+  "m": 2,
+  "model": "s3",
+  "K": 60,
+  "deg_min": 4,
+  "deg_med": 4.0,
+  "deg_max": 4,
+  "deg_hist": {
+   "4": 60
+  },
+  "n_frob": 1,
+  "frob_degs": [
+   4
+  ],
+  "intrinsic": true
+ }
+]

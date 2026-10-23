@@ -1,0 +1,257 @@
+[
+ {
+  "a2": 1,
+  "a6": 1,
+  "n": 6,
+  "l": 3,
+  "m": 2,
+  "seed": 1,
+  "aux_in_V": false,
+  "nvars": 6,
+  "neqs": 6,
+  "xR": 60,
+  "sys_sha": "c0c1d494b8746fdc",
+  "first_fall_degree": 2,
+  "macaulay": [
+   {
+    "D": 1,
+    "rows": 0,
+    "cols": 7,
+    "rank": 0,
+    "low_in_rowspace": 0,
+    "falls": 0
+   },
+   {
+    "D": 2,
+    "rows": 6,
+    "cols": 22,
+    "rank": 6,
+    "low_in_rowspace": 1,
+    "falls": 1
+   },
+   {
+    "D": 3,
+    "rows": 42,
+    "cols": 42,
+    "rank": 35,
+    "low_in_rowspace": 19,
+    "falls": 13
+   },
+   {
+    "D": 4,
+    "rows": 132,
+    "cols": 57,
+    "rank": 55,
+    "low_in_rowspace": 40,
+    "falls": 5
+   },
+   {
+    "D": 5,
+    "rows": 248,
+    "cols": 63,
+    "rank": 61,
+    "low_in_rowspace": 55,
+    "falls": 0
+   },
+   {
+    "D": 6,
+    "rows": 322,
+    "cols": 64,
+    "rank": 62,
+    "low_in_rowspace": 61,
+    "falls": 0
+   },
+   {
+    "D": 7,
+    "rows": 342,
+    "cols": 64,
+    "rank": 62,
+    "low_in_rowspace": 62,
+    "falls": 0
+   }
+  ],
+  "singular": {
+   "solving_degree": 3,
+   "vdim": 2,
+   "dim": 0
+  },
+  "t_macaulay": 0.01,
+  "t_singular": 0.01,
+  "msolve": {
+   "ok": true,
+   "raw_len": 303,
+   "msolve_out_head": "#Reduced Groebner basis data\n#---\n#field characteristic: 2\n#variable order:       c0, c1, c2, c3, c4, c5\n#monomial order:       graded reverse lexicographical\n#length of basis:      6 elements sorted "
+  },
+  "t_msolve": 0.01
+ },
+ {
+  "a2": 1,
+  "a6": 1,
+  "n": 8,
+  "l": 4,
+  "m": 2,
+  "seed": 1,
+  "aux_in_V": false,
+  "nvars": 8,
+  "neqs": 8,
+  "xR": 53,
+  "sys_sha": "a1dcd28dd6e9757b",
+  "first_fall_degree": 2,
+  "macaulay": [
+   {
+    "D": 1,
+    "rows": 0,
+    "cols": 9,
+    "rank": 0,
+    "low_in_rowspace": 0,
+    "falls": 0
+   },
+   {
+    "D": 2,
+    "rows": 8,
+    "cols": 37,
+    "rank": 8,
+    "low_in_rowspace": 1,
+    "falls": 1
+   },
+   {
+    "D": 3,
+    "rows": 72,
+    "cols": 93,
+    "rank": 69,
+    "low_in_rowspace": 29,
+    "falls": 21
+   },
+   {
+    "D": 4,
+    "rows": 296,
+    "cols": 163,
+    "rank": 156,
+    "low_in_rowspace": 91,
+    "falls": 22
+   },
+   {
+    "D": 5,
+    "rows": 744,
+    "cols": 219,
+    "rank": 217,
+    "low_in_rowspace": 161,
+    "falls": 5
+   },
+   {
+    "D": 6,
+    "rows": 1304,
+    "cols": 247,
+    "rank": 245,
+    "low_in_rowspace": 217,
+    "falls": 0
+   },
+   {
+    "D": 7,
+    "rows": 1742,
+    "cols": 255,
+    "rank": 253,
+    "low_in_rowspace": 245,
+    "falls": 0
+   }
+  ],
+  "singular": {
+   "solving_degree": 3,
+   "vdim": 2,
+   "dim": 0
+  },
+  "t_macaulay": 0.08,
+  "t_singular": 0.01,
+  "msolve": {
+   "ok": true,
+   "raw_len": 363,
+   "msolve_out_head": "#Reduced Groebner basis data\n#---\n#field characteristic: 2\n#variable order:       c0, c1, c2, c3, c4, c5, c6, c7\n#monomial order:       graded reverse lexicographical\n#length of basis:      8 elements"
+  },
+  "t_msolve": 0.01
+ },
+ {
+  "a2": 1,
+  "a6": 1,
+  "n": 10,
+  "l": 5,
+  "m": 2,
+  "seed": 1,
+  "aux_in_V": false,
+  "nvars": 10,
+  "neqs": 10,
+  "xR": 457,
+  "sys_sha": "2b5df790ea5ee906",
+  "first_fall_degree": 2,
+  "macaulay": [
+   {
+    "D": 1,
+    "rows": 0,
+    "cols": 11,
+    "rank": 0,
+    "low_in_rowspace": 0,
+    "falls": 0
+   },
+   {
+    "D": 2,
+    "rows": 10,
+    "cols": 56,
+    "rank": 10,
+    "low_in_rowspace": 1,
+    "falls": 1
+   },
+   {
+    "D": 3,
+    "rows": 110,
+    "cols": 176,
+    "rank": 109,
+    "low_in_rowspace": 29,
+    "falls": 19
+   },
+   {
+    "D": 4,
+    "rows": 560,
+    "cols": 386,
+    "rank": 359,
+    "low_in_rowspace": 174,
+    "falls": 65
+   },
+   {
+    "D": 5,
+    "rows": 1760,
+    "cols": 638,
+    "rank": 630,
+    "low_in_rowspace": 384,
+    "falls": 25
+   },
+   {
+    "D": 6,
+    "rows": 3860,
+    "cols": 848,
+    "rank": 846,
+    "low_in_rowspace": 636,
+    "falls": 6
+   },
+   {
+    "D": 7,
+    "rows": 6380,
+    "cols": 968,
+    "rank": 966,
+    "low_in_rowspace": 846,
+    "falls": 0
+   }
+  ],
+  "singular": {
+   "solving_degree": 4,
+   "vdim": 2,
+   "dim": 0
+  },
+  "t_macaulay": 1.15,
+  "t_singular": 0.02,
+  "msolve": {
+   "ok": true,
+   "raw_len": 388,
+   "msolve_out_head": "#Reduced Groebner basis data\n#---\n#field characteristic: 2\n#variable order:       c0, c1, c2, c3, c4, c5, c6, c7, c8, c9\n#monomial order:       graded reverse lexicographical\n#length of basis:      10"
+  },
+  "t_msolve": 0.01
+ }
+]

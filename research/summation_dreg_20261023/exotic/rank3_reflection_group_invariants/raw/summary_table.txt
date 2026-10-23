@@ -1,0 +1,24 @@
+m=n=2: instances=10
+| system | vars | max eq deg | Bezout | vdim | Singular d (min..max) | Singular d_eff=max(d,eqdeg) | msolve d (min..max) | planted recovered |
+|---|---|---|---|---|---|---|---|---|
+| a | 2 | 4..4 | 8..16 | 8..8 | 5..7 | 5..7 | 4..6 | True |
+| b | 2 | 2..2 | 4..4 | 4..4 | 1..1 | 2..2 | 2..2 | True |
+| c1 | 2 | 2..2 | 2..4 | 2..2 | 1..1 | 2..2 | 2..2 | True |
+| c1p | 3 | 2..2 | 2..2 | 2..2 | 1..1 | 2..2 | 1..1 | True |
+| c2 | 2 | 2..2 | 4..4 | 4..4 | 3..3 | 3..3 | 4..4 | True |
+  c1 vs b, sing: {'=': 10}
+  c1 vs b, ms: {'=': 10}
+  c1p vs b, sing: {'=': 10}
+  c1p vs b, ms: {'<': 10}
+m=n=3: instances=15
+| system | vars | max eq deg | Bezout | vdim | Singular d (min..max) | Singular d_eff=max(d,eqdeg) | msolve d (min..max) | planted recovered |
+|---|---|---|---|---|---|---|---|---|
+| a | 3 | 12..12 | 1200..1728 | 384..384 | 27..30 | 27..30 | 17..17 | True |
+| b | 3 | 4..4 | 64..64 | 64..64 | 6..8 | 6..8 | 8..10 | True |
+| c1 | 3 | 4..4 | 36..64 | 16..16 | 6..7 | 6..7 | 5..6 | True |
+| c1p | 4 | 2..2 | 16..16 | 16..16 | 3..4 | 3..4 | 4..5 | True |
+| c2 | 3 | 4..4 | 64..64 | 64..64 | 10..10 | 10..10 | 11..11 | True |
+  c1 vs b, sing: {'<': 12, '>': 3}
+  c1 vs b, ms: {'<': 15}
+  c1p vs b, sing: {'<': 15}
+  c1p vs b, ms: {'<': 15}

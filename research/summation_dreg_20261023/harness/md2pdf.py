@@ -153,18 +153,31 @@ def render(md, out_path, base_dir='', title=None, subtitle=None, meta_lines=None
         if ln.strip() == '---':
             story.append(Spacer(1, 3)); story.append(HRFlowable(width='100%', color=RULE, thickness=0.7)); story.append(Spacer(1, 3)); i += 1; continue
         if ln.startswith('> '):
-            story.append(Paragraph(_inline(ln[2:]), S['quote'])); i += 1; continue
-        if re.match(r'^\s*[-*] ', ln):
-            items = []
-            while i < len(lines) and re.match(r'^\s*[-*] ', lines[i]):
-                items.append(Paragraph(_inline(re.sub(r'^\s*[-*] ', '', lines[i])), S['bullet'])); i += 1
-            story.append(ListFlowable([ListItem(it, leftIndent=12, value='•') for it in items], bulletType='bullet', start='•', leftIndent=10))
-            story.append(Spacer(1, 4)); continue
-        if re.match(r'^\s*\d+\. ', ln):
-            items = []
-            while i < len(lines) and re.match(r'^\s*\d+\. ', lines[i]):
-                items.append(Paragraph(_inline(re.sub(r'^\s*\d+\. ', '', lines[i])), S['bullet'])); i += 1
-            story.append(ListFlowable([ListItem(it, leftIndent=12) for it in items], bulletType='1', leftIndent=12))
+            buf = []
+            while i < len(lines) and lines[i].startswith('> '):
+                buf.append(lines[i][2:]); i += 1
+            story.append(Paragraph(_inline(' '.join(buf)), S['quote'])); continue
+        for marker, btype in ((r'^\s*[-*] ', 'bullet'), (r'^\s*\d+\. ', '1')):
+            if re.match(marker, ln):
+                break
+        else:
+            marker = None
+        if marker:
+            texts = []
+            while i < len(lines) and re.match(marker, lines[i]):
+                parts = [re.sub(marker, '', lines[i])]; i += 1
+                # continuation lines: indented, non-blank, not a new item or block element
+                while (i < len(lines) and lines[i].strip() and re.match(r'^\s{2,}\S', lines[i])
+                       and not re.match(marker, lines[i])):
+                    parts.append(lines[i].strip()); i += 1
+                texts.append(' '.join(parts))
+            items = [Paragraph(_inline(t), S['bullet']) for t in texts]
+            if btype == 'bullet':
+                story.append(ListFlowable([ListItem(it, leftIndent=12, value='•') for it in items],
+                                          bulletType='bullet', start='•', leftIndent=10))
+            else:
+                story.append(ListFlowable([ListItem(it, leftIndent=12) for it in items],
+                                          bulletType='1', leftIndent=12))
             story.append(Spacer(1, 4)); continue
         if ln.strip() == '':
             i += 1; continue

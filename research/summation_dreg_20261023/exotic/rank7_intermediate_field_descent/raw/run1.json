@@ -1,0 +1,610 @@
+[
+ {
+  "n": 4,
+  "k": 2,
+  "m": 2,
+  "a6": "koblitz",
+  "status": "no generic planted decomposition (xR in V always)"
+ },
+ {
+  "n": 4,
+  "k": 2,
+  "m": 2,
+  "a2": 1,
+  "a6": "generic",
+  "a6_val": 7,
+  "xs": [
+   6,
+   7
+  ],
+  "xR": 3,
+  "nfb": 7,
+  "brute_count": 4,
+  "numeric_S_count": 4,
+  "numeric_eq_brute": true,
+  "planted_in_brute": true,
+  "A0_hash": "d91a898e4df9f879",
+  "A0": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 6,
+   "dim": 0,
+   "vdim": 8,
+   "eq_degrees": [
+    4,
+    2
+   ],
+   "bezout": 8,
+   "planted_ok": true,
+   "neq": 2
+  },
+  "A1_hash": "04a93ca815ccc82d",
+  "A1": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 6,
+   "dim": 0,
+   "vdim": 4,
+   "eq_degrees": [
+    4,
+    2
+   ],
+   "bezout": 8,
+   "planted_ok": true,
+   "neq": 2
+  },
+  "B_hash": "a5439f9d4b9be172",
+  "B_nvars": 4,
+  "B_neq": 4,
+  "B_eq_degrees": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "B_planted_ok": true,
+  "B_msolve": {
+   "status": "ok",
+   "solving_degree": 3
+  },
+  "B_singular": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 5,
+   "vdim": 4
+  }
+ },
+ {
+  "n": 6,
+  "k": 3,
+  "m": 2,
+  "a2": 1,
+  "a6": "koblitz",
+  "a6_val": 1,
+  "xs": [
+   1,
+   22
+  ],
+  "xR": 28,
+  "nfb": 15,
+  "brute_count": 4,
+  "numeric_S_count": 4,
+  "numeric_eq_brute": true,
+  "planted_in_brute": true,
+  "A0_hash": "38228dba737e5277",
+  "A0": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 6,
+   "dim": 0,
+   "vdim": 8,
+   "eq_degrees": [
+    4,
+    2
+   ],
+   "bezout": 8,
+   "planted_ok": true,
+   "neq": 2
+  },
+  "A1_hash": "efd3fb33f5e39190",
+  "A1": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 68,
+   "dim": 0,
+   "vdim": 4,
+   "eq_degrees": [
+    4,
+    2
+   ],
+   "bezout": 8,
+   "planted_ok": true,
+   "neq": 2
+  },
+  "B_hash": "dd7bed23380e6019",
+  "B_nvars": 6,
+  "B_neq": 6,
+  "B_eq_degrees": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "B_planted_ok": true,
+  "B_msolve": {
+   "status": "ok",
+   "solving_degree": 3
+  },
+  "B_singular": {
+   "status": "ok",
+   "solving_degree": 3,
+   "max_label_degree": 5,
+   "vdim": 4
+  }
+ },
+ {
+  "n": 6,
+  "k": 3,
+  "m": 2,
+  "a2": 1,
+  "a6": "generic",
+  "a6_val": 7,
+  "xs": [
+   1,
+   14
+  ],
+  "xR": 17,
+  "nfb": 7,
+  "brute_count": 2,
+  "numeric_S_count": 2,
+  "numeric_eq_brute": true,
+  "planted_in_brute": true,
+  "A0_hash": "b99c9ed160e2ff0d",
+  "A0": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 6,
+   "dim": 0,
+   "vdim": 8,
+   "eq_degrees": [
+    4,
+    2
+   ],
+   "bezout": 8,
+   "planted_ok": true,
+   "neq": 2
+  },
+  "A1_hash": "c285a1d21acd89a2",
+  "A1": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 68,
+   "dim": 0,
+   "vdim": 2,
+   "eq_degrees": [
+    4,
+    2
+   ],
+   "bezout": 8,
+   "planted_ok": true,
+   "neq": 2
+  },
+  "B_hash": "74529d3b6048597b",
+  "B_nvars": 6,
+  "B_neq": 6,
+  "B_eq_degrees": [
+   1,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "B_planted_ok": true,
+  "B_msolve": {
+   "status": "ok",
+   "solving_degree": 3
+  },
+  "B_singular": {
+   "status": "ok",
+   "solving_degree": 3,
+   "max_label_degree": 5,
+   "vdim": 2
+  }
+ },
+ {
+  "n": 8,
+  "k": 4,
+  "m": 2,
+  "a2": 1,
+  "a6": "koblitz",
+  "a6_val": 1,
+  "xs": [
+   92,
+   80
+  ],
+  "xR": 14,
+  "nfb": 31,
+  "brute_count": 4,
+  "numeric_S_count": 4,
+  "numeric_eq_brute": true,
+  "planted_in_brute": true,
+  "A0_hash": "a4d41dc5f924bf46",
+  "A0": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 6,
+   "dim": 0,
+   "vdim": 8,
+   "eq_degrees": [
+    4,
+    2
+   ],
+   "bezout": 8,
+   "planted_ok": true,
+   "neq": 2
+  },
+  "A1_hash": "448f163a018dd0b7",
+  "A1": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 616,
+   "dim": 0,
+   "vdim": 4,
+   "eq_degrees": [
+    4,
+    2
+   ],
+   "bezout": 8,
+   "planted_ok": true,
+   "neq": 2
+  },
+  "B_hash": "681b5868a4860e11",
+  "B_nvars": 8,
+  "B_neq": 8,
+  "B_eq_degrees": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "B_planted_ok": true,
+  "B_msolve": {
+   "status": "ok",
+   "solving_degree": 3
+  },
+  "B_singular": {
+   "status": "ok",
+   "solving_degree": 3,
+   "max_label_degree": 7,
+   "vdim": 4
+  }
+ },
+ {
+  "n": 8,
+  "k": 4,
+  "m": 2,
+  "a2": 1,
+  "a6": "generic",
+  "a6_val": 7,
+  "xs": [
+   1,
+   189
+  ],
+  "xR": 247,
+  "nfb": 15,
+  "brute_count": 2,
+  "numeric_S_count": 2,
+  "numeric_eq_brute": true,
+  "planted_in_brute": true,
+  "A0_hash": "063b9a7e8f9f15e6",
+  "A0": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 6,
+   "dim": 0,
+   "vdim": 8,
+   "eq_degrees": [
+    4,
+    2
+   ],
+   "bezout": 8,
+   "planted_ok": true,
+   "neq": 2
+  },
+  "A1_hash": "977f2140d645855e",
+  "A1": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 616,
+   "dim": 0,
+   "vdim": 2,
+   "eq_degrees": [
+    4,
+    2
+   ],
+   "bezout": 8,
+   "planted_ok": true,
+   "neq": 2
+  },
+  "B_hash": "317cf89cca8af83b",
+  "B_nvars": 8,
+  "B_neq": 8,
+  "B_eq_degrees": [
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "B_planted_ok": true,
+  "B_msolve": {
+   "status": "ok",
+   "solving_degree": 3
+  },
+  "B_singular": {
+   "status": "ok",
+   "solving_degree": 3,
+   "max_label_degree": 7,
+   "vdim": 2
+  }
+ },
+ {
+  "n": 6,
+  "k": 2,
+  "m": 3,
+  "a6": "koblitz",
+  "status": "no generic planted decomposition (xR in V always)"
+ },
+ {
+  "n": 6,
+  "k": 2,
+  "m": 3,
+  "a2": 1,
+  "a6": "generic",
+  "a6_val": 7,
+  "xs": [
+   1,
+   58,
+   59
+  ],
+  "xR": 26,
+  "nfb": 7,
+  "brute_count": 6,
+  "numeric_S_count": 6,
+  "numeric_eq_brute": true,
+  "planted_in_brute": true,
+  "A0_hash": "9e90e968b3b0fae3",
+  "A0": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 28,
+   "dim": 0,
+   "vdim": 384,
+   "eq_degrees": [
+    12,
+    9,
+    9
+   ],
+   "bezout": 972,
+   "planted_ok": true,
+   "neq": 3
+  },
+  "A1_hash": "e4ebf93146f5ad4b",
+  "A1": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 17,
+   "dim": 0,
+   "vdim": 6,
+   "eq_degrees": [
+    12,
+    9,
+    9
+   ],
+   "bezout": 972,
+   "planted_ok": true,
+   "neq": 3
+  },
+  "B_hash": "f85912c2a88c92ba",
+  "B_nvars": 6,
+  "B_neq": 6,
+  "B_eq_degrees": [
+   4,
+   5,
+   5,
+   6,
+   6,
+   6
+  ],
+  "B_planted_ok": true,
+  "B_msolve": {
+   "status": "ok",
+   "solving_degree": 6
+  },
+  "B_singular": {
+   "status": "ok",
+   "solving_degree": 3,
+   "max_label_degree": 9,
+   "vdim": 6
+  }
+ },
+ {
+  "n": 9,
+  "k": 3,
+  "m": 3,
+  "a6": "koblitz",
+  "status": "no generic planted decomposition (xR in V always)"
+ },
+ {
+  "n": 9,
+  "k": 3,
+  "m": 3,
+  "a2": 1,
+  "a6": "generic",
+  "a6_val": 7,
+  "xs": [
+   29,
+   336,
+   0
+  ],
+  "xR": 27,
+  "nfb": 5,
+  "brute_count": 6,
+  "numeric_S_count": 6,
+  "numeric_eq_brute": true,
+  "planted_in_brute": true,
+  "A0_hash": "91df4774062ac939",
+  "A0": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 27,
+   "dim": 0,
+   "vdim": 384,
+   "eq_degrees": [
+    12,
+    9,
+    9
+   ],
+   "bezout": 972,
+   "planted_ok": true,
+   "neq": 3
+  },
+  "A1_hash": "1763319ddcdfc5f0",
+  "A1": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 24,
+   "dim": 0,
+   "vdim": 6,
+   "eq_degrees": [
+    12,
+    9,
+    9
+   ],
+   "bezout": 972,
+   "planted_ok": true,
+   "neq": 3
+  },
+  "B_hash": "8fe68e6a018a5e12",
+  "B_nvars": 9,
+  "B_neq": 9,
+  "B_eq_degrees": [
+   5,
+   5,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6
+  ],
+  "B_planted_ok": true,
+  "B_msolve": {
+   "status": "ok",
+   "solving_degree": 6
+  },
+  "B_singular": {
+   "status": "ok",
+   "solving_degree": 4,
+   "max_label_degree": 17,
+   "vdim": 6
+  }
+ },
+ {
+  "n": 12,
+  "k": 4,
+  "m": 3,
+  "a6": "koblitz",
+  "status": "no generic planted decomposition (xR in V always)"
+ },
+ {
+  "n": 12,
+  "k": 4,
+  "m": 3,
+  "a2": 1,
+  "a6": "generic",
+  "a6_val": 7,
+  "xs": [
+   1,
+   2037,
+   71
+  ],
+  "xR": 985,
+  "nfb": 15,
+  "brute_count": 6,
+  "numeric_S_count": 6,
+  "numeric_eq_brute": true,
+  "planted_in_brute": true,
+  "A0_hash": "95dab22411b4b2c0",
+  "A0": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 27,
+   "dim": 0,
+   "vdim": 384,
+   "eq_degrees": [
+    12,
+    9,
+    9
+   ],
+   "bezout": 972,
+   "planted_ok": true,
+   "neq": 3
+  },
+  "A1_hash": "6cb1fb7c2e1f4d4b",
+  "A1": {
+   "status": "ok",
+   "solving_degree": 2,
+   "max_label_degree": 40,
+   "dim": 0,
+   "vdim": 6,
+   "eq_degrees": [
+    12,
+    9,
+    9
+   ],
+   "bezout": 972,
+   "planted_ok": true,
+   "neq": 3
+  },
+  "B_hash": "1fef363fb80913b5",
+  "B_nvars": 12,
+  "B_neq": 12,
+  "B_eq_degrees": [
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6
+  ],
+  "B_planted_ok": true,
+  "B_msolve": {
+   "status": "ok",
+   "solving_degree": 6
+  },
+  "B_singular": {
+   "status": "ok",
+   "solving_degree": 4,
+   "max_label_degree": 33,
+   "vdim": 6
+  }
+ }
+]

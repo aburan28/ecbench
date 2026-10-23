@@ -1,0 +1,929 @@
+{
+ "n": 8,
+ "l": 3,
+ "m": 3,
+ "model": "split",
+ "seed": 1,
+ "xR": 115,
+ "xs": [
+  75,
+  146,
+  75
+ ],
+ "aux": 216,
+ "B_adapted": [
+  35,
+  177,
+  250
+ ],
+ "nsol_numeric": 6,
+ "n_tuples": 6,
+ "n_BF": 6,
+ "n_BFc": 6,
+ "full": {
+  "nvars": 17,
+  "neqs": 16,
+  "din": 3,
+  "sha": "ce75b2d18a8fbe3e",
+  "singular": {
+   "status": "ok",
+   "deg": 6,
+   "vdim": 6,
+   "dim": 0
+  },
+  "msolve": {
+   "status": "ok",
+   "deg": 4
+  },
+  "mac": {
+   "ff": 2,
+   "Dmax": 4
+  }
+ },
+ "full0_origcoords": {
+  "nvars": 17,
+  "neqs": 16,
+  "din": 3,
+  "sha": "070c32bb5ffb5f65",
+  "singular": {
+   "status": "ok",
+   "deg": 6,
+   "vdim": 6,
+   "dim": 0
+  },
+  "msolve": {
+   "status": "ok",
+   "deg": 4
+  }
+ },
+ "checks": {
+  "BF_subset_SF": true,
+  "BFnondegenerate_subset_SF": true,
+  "BF_missing_from_SF": 0,
+  "planted_in_BF": true,
+  "planted_in_SF": true,
+  "spurious_tuples": 0,
+  "full_vdim_eq_numeric": true
+ },
+ "as": {
+  "nbranches": 16,
+  "branches": [
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "754f3090a7b9a46f",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 2
+    },
+    "bits": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "2610b1db764d3dbf",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "a6f0d7025d4cd337",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 1,
+     "dim": 0
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 1,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "370e00aa122bfea6",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 2
+    },
+    "bits": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "eaca25d0b4caadae",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 2
+    },
+    "bits": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "9410f1b30bc49ccc",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 1,
+     "dim": 0
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "mac": {
+     "ff": 3,
+     "Dmax": 5
+    },
+    "bits": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "planted": true,
+    "numeric_count": 1,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "2dfad18b6ca29461",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "b8203def24cd47ed",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 2
+    },
+    "bits": [
+     0,
+     1,
+     1,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "bffd71bba1c97fe5",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 2
+    },
+    "bits": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "fe38228e13a27843",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 1,
+     "dim": 0
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 1,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "4295ad148b7e78da",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "3e76f5b1dbf0f190",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 2
+    },
+    "bits": [
+     1,
+     0,
+     1,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "700c08b895c03866",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 2
+    },
+    "bits": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "8bdf1ab59e42bfeb",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     1,
+     1,
+     0,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "d514541f8aad97c1",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 3,
+     "dim": 0
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     1,
+     1,
+     1,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 3,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "b4cd340541d83976",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 2
+    },
+    "bits": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   }
+  ],
+  "vdim_sum": 6,
+  "all_branch_vdim_match": true,
+  "sum_vdim_eq_numeric": true,
+  "agg": {
+   "singular": {
+    "max": 5,
+    "min": 5,
+    "planted": 5,
+    "any_timeout": false,
+    "n_none": 0
+   },
+   "msolve": {
+    "max": 4,
+    "min": 2,
+    "planted": 4,
+    "any_timeout": false,
+    "n_none": 0
+   }
+  },
+  "nvars_branch": 13,
+  "neqs_max": 16
+ },
+ "control": {
+  "nbranches": 16,
+  "branches": [
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "156efec3926e3514",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "329809d1bd5ff252",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "f598b28783991b02",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "6ef35748afcf2e36",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 1,
+     "dim": 0
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 1,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "0f7a3e1c17716938",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "a68a4a3c63f504a5",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 1,
+     "dim": 0
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 1,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "bfb17277447d53cc",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "d67b0d95eee113ae",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 1,
+     "dim": 0
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     0,
+     1,
+     1,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 1,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "b73f84c42f500f75",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "69efab4bc8a048ae",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 1,
+     "dim": 0
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 1,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "be761c5758a013d7",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "9f1dc02f5a134438",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 1,
+     "dim": 0
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "mac": {
+     "ff": 2,
+     "Dmax": 5
+    },
+    "bits": [
+     1,
+     0,
+     1,
+     1
+    ],
+    "planted": true,
+    "numeric_count": 1,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "f0449bde89d08308",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "7be813391050df92",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 1,
+     "dim": 0
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 4
+    },
+    "bits": [
+     1,
+     1,
+     0,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 1,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "3927a88d85eaed2f",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     1,
+     1,
+     1,
+     0
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   },
+   {
+    "nvars": 13,
+    "neqs": 16,
+    "din": 3,
+    "sha": "f34b39dfccc2fbca",
+    "singular": {
+     "status": "ok",
+     "deg": 5,
+     "vdim": 0,
+     "dim": -1
+    },
+    "msolve": {
+     "status": "ok",
+     "deg": 3
+    },
+    "bits": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "planted": false,
+    "numeric_count": 0,
+    "vdim_match": true
+   }
+  ],
+  "vdim_sum": 6,
+  "all_branch_vdim_match": true,
+  "sum_vdim_eq_numeric": true,
+  "agg": {
+   "singular": {
+    "max": 5,
+    "min": 5,
+    "planted": 5,
+    "any_timeout": false,
+    "n_none": 0
+   },
+   "msolve": {
+    "max": 4,
+    "min": 3,
+    "planted": 3,
+    "any_timeout": false,
+    "n_none": 0
+   }
+  },
+  "nvars_branch": 13,
+  "neqs_max": 16
+ },
+ "wall_s": 9.1
+}

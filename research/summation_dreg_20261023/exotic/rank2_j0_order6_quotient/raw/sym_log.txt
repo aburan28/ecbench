@@ -1,0 +1,2 @@
+semi-invariance residue: 0
+Q degs in u1,u2: 6 6 total 12 terms 49

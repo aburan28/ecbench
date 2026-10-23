@@ -8,7 +8,7 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     permissions:
       contents: read
     steps:
@@ -19,3 +19,15 @@ jobs:
         run: ./tools/bootstrap_crypto.sh
       - name: Check CLI
         run: cargo check --locked --bin ecbench
+      - name: Build release CLI
+        run: cargo build --locked --release --bin ecbench
+      - name: Check the CLI copy matches the pinned crypto source
+        run: |
+          diff -u deps/crypto/src/bin/ecbench.rs src/bin/ecbench.rs
+          diff -ru deps/crypto/src/bin/ecbench src/bin/ecbench
+      - name: Smoke session
+        run: ./target/release/ecbench run --spec deps/crypto/docs/ecbench/specs/smoke-prime.json --out "$RUNNER_TEMP/smoke" --cpus none
+      - name: Verify smoke session with every run replayed
+        run: ./target/release/ecbench verify --dir "$RUNNER_TEMP/smoke" --replay-all --exit-code
+      - name: Compare two arms of the smoke session
+        run: ./target/release/ecbench compare --dir "$RUNNER_TEMP/smoke" --a rho-neg --b bsgs-neg

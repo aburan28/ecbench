@@ -1,0 +1,451 @@
+% survey_E_literature.bib
+% Literature for: index calculus for ECDLP via Semaev summation polynomials,
+% focused on controlling degree of regularity / solving degree of the
+% point-decomposition (PDP) polynomial systems.
+% Compiled 2026-10-22. eprint ids verified against eprint.iacr.org unless marked VERIFY.
+
+@misc{semaev2004,
+  author = {Igor Semaev},
+  title  = {Summation polynomials and the discrete logarithm problem on elliptic curves},
+  year   = {2004},
+  note   = {Cryptology ePrint Archive, Paper 2004/031},
+  howpublished = {\url{https://eprint.iacr.org/2004/031}}
+}
+
+@article{gaudry2009,
+  author  = {Pierrick Gaudry},
+  title   = {Index calculus for abelian varieties of small dimension and the elliptic curve discrete logarithm problem},
+  journal = {Journal of Symbolic Computation},
+  volume  = {44},
+  number  = {12},
+  pages   = {1690--1702},
+  year    = {2009}
+}
+
+@inproceedings{diem2006,
+  author    = {Claus Diem},
+  title     = {An index calculus algorithm for plane curves of small degree},
+  booktitle = {ANTS VII},
+  series    = {LNCS},
+  volume    = {4076},
+  pages     = {543--557},
+  year      = {2006}
+}
+
+@article{diem2011mathcomp,
+  author  = {Claus Diem},
+  title   = {On the discrete logarithm problem in elliptic curves over {$\mathbb{F}_{q^n}$}},
+  journal = {Mathematics of Computation},
+  volume  = {80},
+  number  = {273},
+  pages   = {443--475},
+  year    = {2011},
+  note    = {Fixed $n\ge2$: expected time $\tilde O(q^{2-2/n})$}
+}
+
+@article{diem2011compositio,
+  author  = {Claus Diem},
+  title   = {On the discrete logarithm problem in elliptic curves},
+  journal = {Compositio Mathematica},
+  volume  = {147},
+  number  = {1},
+  pages   = {75--104},
+  year    = {2011},
+  note    = {Subexponential for $n_i\to\infty$, $n_i/\log q_i \to 0$}
+}
+
+@article{diem2013,
+  author  = {Claus Diem},
+  title   = {On the discrete logarithm problem in elliptic curves {II}},
+  journal = {Algebra \& Number Theory},
+  volume  = {7},
+  number  = {6},
+  pages   = {1281--1323},
+  year    = {2013}
+}
+
+@inproceedings{fppr2012,
+  author    = {Jean-Charles Faug\`ere and Ludovic Perret and Christophe Petit and Gu\'ena\"el Renault},
+  title     = {Improving the complexity of index calculus algorithms in elliptic curves over binary fields},
+  booktitle = {EUROCRYPT 2012},
+  series    = {LNCS},
+  volume    = {7237},
+  pages     = {27--44},
+  year      = {2012},
+  note      = {Cryptology ePrint Archive 2012/146}
+}
+
+@inproceedings{petitquisquater2012,
+  author    = {Christophe Petit and Jean-Jacques Quisquater},
+  title     = {On polynomial systems arising from a {Weil} descent},
+  booktitle = {ASIACRYPT 2012},
+  series    = {LNCS},
+  volume    = {7658},
+  pages     = {451--466},
+  year      = {2012},
+  note      = {Heuristic $O(2^{c n^{2/3}\log n})$, $c<2$, under first-fall-degree assumption}
+}
+
+@article{fghr2014,
+  author  = {Jean-Charles Faug\`ere and Pierrick Gaudry and Louise Huot and Gu\'ena\"el Renault},
+  title   = {Using symmetries in the index calculus for elliptic curves discrete logarithm},
+  journal = {Journal of Cryptology},
+  volume  = {27},
+  number  = {4},
+  pages   = {595--635},
+  year    = {2014},
+  note    = {Cryptology ePrint Archive 2012/199; symmetric-group + torsion invariants}
+}
+
+@inproceedings{fhjrv2014,
+  author    = {Jean-Charles Faug\`ere and Louise Huot and Antoine Joux and Gu\'ena\"el Renault and Vanessa Vitse},
+  title     = {Symmetrized summation polynomials: using small order torsion points to speed up elliptic curve index calculus},
+  booktitle = {EUROCRYPT 2014},
+  series    = {LNCS},
+  volume    = {8441},
+  pages     = {40--57},
+  year      = {2014},
+  note      = {hal-00935050; 2-torsion, computes up to S8 symmetrized; Lemma 6 every deg-2 coord is a homography}
+}
+
+@inproceedings{hpst2013,
+  author    = {Yun-Ju Huang and Christophe Petit and Naoyuki Shinohara and Tsuyoshi Takagi},
+  title     = {Improvement of {Faug\`ere} et al.'s method to solve {ECDLP}},
+  booktitle = {IWSEC 2013},
+  series    = {LNCS},
+  volume    = {8231},
+  pages     = {115--132},
+  year      = {2013},
+  note      = {Symmetrized variables; first-fall-degree assumption held in their experiments}
+}
+
+@inproceedings{shantzteske2013,
+  author    = {Michael Shantz and Edlyn Teske},
+  title     = {Solving the elliptic curve discrete logarithm problem using {Semaev} polynomials, {Weil} descent and {Gr\"obner} basis methods --- an experimental study},
+  booktitle = {Number Theory and Cryptography (LNCS 8260)},
+  pages     = {94--107},
+  year      = {2013},
+  note      = {Cryptology ePrint Archive 2013/596; experimental test of Petit-Quisquater heuristic}
+}
+
+@inproceedings{galbraithgebregiyorgis2014,
+  author    = {Steven D. Galbraith and Shishay W. Gebregiyorgis},
+  title     = {Summation polynomial algorithms for elliptic curves in characteristic two},
+  booktitle = {INDOCRYPT 2014},
+  series    = {LNCS},
+  volume    = {8885},
+  pages     = {409--427},
+  year      = {2014},
+  note      = {Cryptology ePrint Archive 2014/806; binary Edwards invariant variables lower S_m degree; symmetry-breaking factor base; SAT; rho still wins}
+}
+
+@misc{semaev2015,
+  author = {Igor Semaev},
+  title  = {New algorithm for the discrete logarithm problem on elliptic curves},
+  year   = {2015},
+  note   = {Cryptology ePrint Archive 2015/310; arXiv:1504.01175; splits S_m via resultants into an S_3 chain; heuristic $2^{c\sqrt{n\ln n}}$, $c\approx1.69$ under first-fall assumption},
+  howpublished = {\url{https://eprint.iacr.org/2015/310}}
+}
+
+@misc{karabina2015,
+  author = {Koray Karabina},
+  title  = {Point decomposition problem in binary elliptic curves},
+  year   = {2015},
+  note   = {Cryptology ePrint Archive 2015/319; arXiv:1504.02347},
+  howpublished = {\url{https://eprint.iacr.org/2015/319}}
+}
+
+@inproceedings{hky2015,
+  author    = {Ming-Deh A. Huang and Michiel Kosters and Sze Ling Yeo},
+  title     = {Last fall degree, {HFE}, and {Weil} descent attacks on {ECDLP}},
+  booktitle = {CRYPTO 2015},
+  series    = {LNCS},
+  volume    = {9215},
+  pages     = {581--600},
+  year      = {2015},
+  note      = {Cryptology ePrint Archive 2015/573; introduces order-independent last fall degree; computational evidence casting doubt on the first-fall-degree assumption; constructs a Weil-descent system where it likely fails}
+}
+
+@article{hkyy2018,
+  author  = {Ming-Deh A. Huang and Michiel Kosters and Yun Yang and Sze Ling Yeo},
+  title   = {On the last fall degree of zero-dimensional {Weil} descent systems},
+  journal = {Journal of Symbolic Computation},
+  volume  = {87},
+  pages   = {207--226},
+  year    = {2018},
+  note    = {arXiv:1505.02532; non-heuristic, between full Gr\"obner and first-fall-degree}
+}
+
+@article{kostersyeo2016,
+  author  = {Michiel Kosters and Sze Ling Yeo},
+  title   = {Notes on summation polynomials},
+  journal = {arXiv:1503.08001},
+  year    = {2015},
+  note    = {First fall degree of S_3 systems; m=2 case ``somewhat pathological''; d_reg likely grows with n}
+}
+
+@misc{kousidiswiemers2015,
+  author = {Stavros Kousidis and Andreas Wiemers},
+  title  = {On the first fall degree of summation polynomials},
+  year   = {2015},
+  note   = {Cryptology ePrint Archive 2015/1121; first fall degree of the S_{m+1} Weil-descent system bounded by $m^2-m+1$ (improves earlier $m^2+1$)},
+  howpublished = {\url{https://eprint.iacr.org/2015/1121}}
+}
+
+@misc{hpst2015generalized,
+  author = {Yun-Ju Huang and Christophe Petit and Naoyuki Shinohara and Tsuyoshi Takagi},
+  title  = {On generalized first fall degree assumptions},
+  year   = {2015},
+  note   = {Cryptology ePrint Archive 2015/358},
+  howpublished = {\url{https://eprint.iacr.org/2015/358}}
+}
+
+@misc{courtois2016,
+  author = {Nicolas T. Courtois},
+  title  = {On splitting a point with summation polynomials in binary elliptic curves},
+  year   = {2016},
+  note   = {Cryptology ePrint Archive 2016/003},
+  howpublished = {\url{https://eprint.iacr.org/2016/003}}
+}
+
+@inproceedings{pkm2016,
+  author    = {Christophe Petit and Michiel Kosters and Ange Messeng},
+  title     = {Algebraic approaches for the elliptic curve discrete logarithm problem over prime fields},
+  booktitle = {PKC 2016, Part II},
+  series    = {LNCS},
+  volume    = {9615},
+  pages     = {3--18},
+  year      = {2016},
+  note      = {Factor base {(x,y): L(x)=0}, L a composition of low-degree rational maps; asymptotics ``limited by our understanding of Gr\"obner basis algorithms''}
+}
+
+@article{aps2018,
+  author  = {Alessandro Amadori and Federico Pintore and Massimiliano Sala},
+  title   = {A new index calculus algorithm with complexity {$L(1/4+o(1))$} ... for the {ECDLP} over prime fields},
+  journal = {Finite Fields and Their Applications},
+  volume  = {51},
+  pages   = {168--182},
+  year    = {2018},
+  note    = {Cryptology ePrint Archive 2017/609; single Gr\"obner basis computation}
+}
+
+@misc{mcguiremueller2017,
+  author = {Gary McGuire and Daniela Mueller},
+  title  = {A new index calculus algorithm for the elliptic curve discrete logarithm problem and summation polynomial evaluation},
+  year   = {2017},
+  note   = {Cryptology ePrint Archive 2017/1262; fast summation-polynomial evaluation, no Gr\"obner basis},
+  howpublished = {\url{https://eprint.iacr.org/2017/1262}}
+}
+
+@misc{momonarikudo2016,
+  author = {Koji Momonari and Momonari Kudo},
+  title  = {Improvement of the algorithm of {Petit--Kosters--Messeng} for the {ECDLP} over prime fields},
+  year   = {2016},
+  note   = {VERIFY exact title/venue; cited secondhand via Hu 2024/1923}
+}
+
+@article{galbraithgaudry2016,
+  author  = {Steven D. Galbraith and Pierrick Gaudry},
+  title   = {Recent progress on the elliptic curve discrete logarithm problem},
+  journal = {Designs, Codes and Cryptography},
+  volume  = {78},
+  number  = {1},
+  pages   = {51--72},
+  year    = {2016},
+  note    = {Cryptology ePrint Archive 2015/1022; survey; prime-degree binary curves ``not threatened'' and ``still safe''}
+}
+
+@inproceedings{trimoska2020,
+  author    = {Monika Trimoska and Sorina Ionica and Gilles Dequen},
+  title     = {A {SAT}-based approach for index calculus on binary elliptic curves},
+  booktitle = {AFRICACRYPT 2020},
+  series    = {LNCS},
+  volume    = {12174},
+  pages     = {214--235},
+  year      = {2020},
+  note      = {Cryptology ePrint Archive 2019/313; WDSat solver; symmetry breaking gives m! speedup on the (m+1)-th summation polynomial; up to 300x faster than Magma F4}
+}
+
+@misc{trimoska2020xor,
+  author = {Monika Trimoska and Sorina Ionica and Gilles Dequen},
+  title  = {Parity ({XOR}) reasoning for the index calculus attack},
+  year   = {2020},
+  note   = {arXiv:2001.11229; XG-ext captures a cancellation property algebraic methods use; MVC branching rule},
+  howpublished = {\url{https://arxiv.org/abs/2001.11229}}
+}
+
+@inproceedings{wdsat2021,
+  author    = {Monika Trimoska and Gilles Dequen and Sorina Ionica},
+  title     = {Logical cryptanalysis with {WDSat}},
+  booktitle = {SAT 2021},
+  series    = {LNCS},
+  pages     = {545--561},
+  year      = {2021}
+}
+
+@inproceedings{ggmp2020,
+  author    = {Steven D. Galbraith and Robert Granger and Simon-Philipp Merz and Christophe Petit},
+  title     = {On index calculus algorithms for subfield curves},
+  booktitle = {SAC 2020},
+  series    = {LNCS},
+  volume    = {12804},
+  pages     = {115--138},
+  year      = {2020},
+  note      = {Cryptology ePrint Archive 2020/1315; Frobenius-invariant factor bases; ~1/n fewer systems, n^2 linear-algebra speedup}
+}
+
+@article{hkpyy2020,
+  author  = {Ming-Deh Huang and Christophe Petit and Nitin Kumar and ... and Sze Ling Yeo},
+  title   = {Quasi-subfield polynomials and the elliptic curve discrete logarithm problem},
+  journal = {Journal of Mathematical Cryptology},
+  volume  = {14},
+  number  = {1},
+  pages   = {25--38},
+  year    = {2020},
+  note    = {arXiv:1909.11326; factor bases from quasi-subfield polynomials}
+}
+
+@article{eulerpetit2021,
+  author  = {... Euler and Christophe Petit},
+  title   = {New results on quasi-subfield polynomials},
+  journal = {Finite Fields and Their Applications},
+  volume  = {75},
+  year    = {2021},
+  note    = {Negative: no speedup over earlier approaches}
+}
+
+@misc{tsakouionica2021,
+  author = {Madeline Tsakou and Sorina Ionica},
+  title  = {Index calculus with effective endomorphisms for abelian varieties},
+  year   = {2021},
+  note   = {Cryptology ePrint Archive 2021/721; VERIFY author initials; endomorphism-shrunk factor base in genus 1 and 2},
+  howpublished = {\url{https://eprint.iacr.org/2021/721}}
+}
+
+@inproceedings{joyvitse2010,
+  author    = {Antoine Joux and Vanessa Vitse},
+  title     = {Elliptic curve discrete logarithm problem over small degree extension fields},
+  booktitle = {Cryptology ePrint Archive 2010/157; later J. Cryptology},
+  year      = {2010}
+}
+
+@article{caminatagorla2021,
+  author  = {Alessio Caminata and Elisa Gorla},
+  title   = {Solving multivariate polynomial systems and an invariant from commutative algebra},
+  journal = {WAIFI 2020, LNCS 12542},
+  pages   = {3--36},
+  year    = {2021},
+  note    = {Cryptology ePrint Archive 2017/593; solving degree $\le$ Castelnuovo--Mumford regularity of the homogenized ideal; field equations $\Rightarrow$ generic coordinates}
+}
+
+@article{caminatagorla2023,
+  author  = {Alessio Caminata and Elisa Gorla},
+  title   = {The complexity of {MinRank} and solving polynomial systems: relating solving degree, last fall degree, and degree of regularity},
+  journal = {Journal of Symbolic Computation},
+  year    = {2023},
+  note    = {ePrint 2021/1611; links solving degree<->last fall degree, degree of regularity<->CM regularity}
+}
+
+@article{bfs2004,
+  author  = {Magali Bardet and Jean-Charles Faug\`ere and Bruno Salvy},
+  title   = {On the complexity of the {$F_5$} {Gr\"obner} basis algorithm},
+  journal = {Journal of Symbolic Computation (and INRIA RR; Bardet PhD 2004)},
+  year    = {2004},
+  note    = {Degree of regularity and asymptotic $d_{reg}$ for semi-regular sequences}
+}
+
+@article{dingschmidt2013,
+  author  = {Jintai Ding and Dieter Schmidt},
+  title   = {Solving degree and degree of regularity for polynomial systems over a finite field},
+  journal = {Number Theory and Cryptography (LNCS 8260)},
+  pages   = {34--49},
+  year    = {2013},
+  note    = {degree of regularity vs solving degree vs first fall degree distinctions}
+}
+
+@misc{drylo2026,
+  author = {Robert Dry{\l}o},
+  title  = {Compressions of degree two on elliptic curves},
+  year   = {2026},
+  note   = {Cryptology ePrint Archive 2026/1299; a G-compression equals $f\circ\Phi$ for a separable isogeny $\Phi$ with kernel G and a degree-2 compression f on the target; underpins ``symmetrisation = Semaev of E/G''},
+  howpublished = {\url{https://eprint.iacr.org/2026/1299}}
+}
+
+@misc{wu2026,
+  author = {... Wu},
+  title  = {Binary state models / split {Z/4} normal form for summation (title per repo W8)},
+  year   = {2026},
+  note   = {arXiv:2608.01675 per repo W8; VERIFY}
+}
+
+@misc{bariant2026,
+  author = {Augustin Bariant},
+  title  = {Linearized-resultant / Frobenius-power auxiliary variables (title per repo W8)},
+  year   = {2026},
+  note   = {Cryptology ePrint Archive 2026/1927 per repo W8; VERIFY}
+}
+
+@misc{lascala2026,
+  author = {Roberto La Scala and ... Marchesin and Sharwan K. Tiwari},
+  title  = {Convolution splitting of elementary symmetric polynomials (title per repo W8)},
+  year   = {2026},
+  note   = {arXiv:2609.18866 per repo W8; VERIFY}
+}
+
+@article{faugere1999,
+  author  = {Jean-Charles Faug\`ere},
+  title   = {A new efficient algorithm for computing {Gr\"obner} bases ({F4})},
+  journal = {Journal of Pure and Applied Algebra},
+  volume  = {139},
+  pages   = {61--88},
+  year    = {1999}
+}
+
+@inproceedings{faguresvartz2013,
+  author    = {Jean-Charles Faug\`ere and Jules Svartz},
+  title     = {{Gr\"obner} bases of ideals invariant under a commutative group: the non-modular case},
+  booktitle = {ISSAC 2013},
+  pages     = {347--354},
+  year      = {2013},
+  note      = {Representation-theoretic block decomposition of the Macaulay matrix; basis for equivariant summation solving}
+}
+
+@article{gtthd2007,
+  author  = {Pierrick Gaudry and Emmanuel Thom\'e and Nicolas Th\'eriault and Claus Diem},
+  title   = {A double large prime variation for small genus hyperelliptic index calculus},
+  journal = {Mathematics of Computation},
+  volume  = {76},
+  pages   = {475--492},
+  year    = {2007}
+}
+
+@inproceedings{ghs2002,
+  author    = {Pierrick Gaudry and Florian Hess and Nigel P. Smart},
+  title     = {Constructive and destructive facets of {Weil} descent on elliptic curves},
+  booktitle = {Journal of Cryptology 15(1):19--46},
+  year      = {2002}
+}
+
+@article{wenger2016,
+  author  = {Erich Wenger and Paul Wolfger},
+  title   = {Harder, better, faster, stronger: elliptic curve discrete logarithm computations on {FPGAs}},
+  journal = {Journal of Cryptographic Engineering},
+  year    = {2016},
+  note    = {ECC2K-130 / rho on FPGA; rho is the attacker's actual tool}
+}
+
+@misc{gorlamassierer2014,
+  author = {Elisa Gorla and Maike Massierer},
+  title  = {Point compression for the trace zero subgroup over a small degree extension field},
+  year   = {2014},
+  note   = {Cryptology ePrint Archive 2014/158; trace-zero subvariety structure}
+}
+
+@misc{couveigneslercier2009,
+  author = {Jean-Marc Couveignes and Reynald Lercier},
+  title  = {Elliptic periods for finite fields},
+  journal = {Finite Fields and Their Applications},
+  volume = {15},
+  year   = {2009},
+  note   = {invariant factor bases via isogenies between tori and elliptic curves}
+}

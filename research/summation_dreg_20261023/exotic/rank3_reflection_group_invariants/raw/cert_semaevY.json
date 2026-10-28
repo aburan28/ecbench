@@ -1,0 +1,112 @@
+[
+ {
+  "p": 11,
+  "n": 2,
+  "m": 2,
+  "seed": 1,
+  "fb": 6,
+  "tuples": 216,
+  "false_pos": 0,
+  "false_neg": 0
+ },
+ {
+  "p": 13,
+  "n": 2,
+  "m": 2,
+  "seed": 2,
+  "fb": 4,
+  "tuples": 64,
+  "false_pos": 0,
+  "false_neg": 0
+ },
+ {
+  "p": 11,
+  "n": 3,
+  "m": 2,
+  "seed": 3,
+  "fb": 2,
+  "tuples": 8,
+  "false_pos": 0,
+  "false_neg": 0
+ },
+ {
+  "p": 13,
+  "n": 3,
+  "m": 2,
+  "seed": 4,
+  "fb": 2,
+  "tuples": 8,
+  "false_pos": 0,
+  "false_neg": 0
+ },
+ {
+  "p": 11,
+  "n": 2,
+  "m": 3,
+  "seed": 5,
+  "fb": 2,
+  "tuples": 16,
+  "false_pos": 0,
+  "false_neg": 0
+ },
+ {
+  "p": 13,
+  "n": 3,
+  "m": 3,
+  "seed": 6,
+  "fb": 8,
+  "tuples": 4096,
+  "false_pos": 0,
+  "false_neg": 0
+ },
+ {
+  "p": 11,
+  "n": 3,
+  "m": 3,
+  "seed": 7,
+  "fb": 6,
+  "tuples": 1296,
+  "false_pos": 0,
+  "false_neg": 0
+ },
+ {
+  "p": 17,
+  "n": 2,
+  "m": 3,
+  "seed": 8,
+  "fb": 8,
+  "tuples": 4096,
+  "false_pos": 0,
+  "false_neg": 0
+ },
+ {
+  "p": 31,
+  "n": 2,
+  "m": 2,
+  "seed": 9,
+  "fb": 16,
+  "tuples": 4096,
+  "false_pos": 0,
+  "false_neg": 0
+ },
+ {
+  "p": 23,
+  "n": 2,
+  "m": 3,
+  "seed": 10,
+  "fb": 12,
+  "tuples": 20736,
+  "false_pos": 0,
+  "false_neg": 0
+ },
+ {
+  "p": 19,
+  "n": 3,
+  "m": 3,
+  "seed": 11,
+  "fb": 6,
+  "tuples": 1296,
+  "false_pos": 0,
+  "false_neg": 0
+ }
+]

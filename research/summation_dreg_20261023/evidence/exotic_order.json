@@ -1,0 +1,59 @@
+[
+ {
+  "n": 8,
+  "ell": 2,
+  "m": 3,
+  "model": "unsplit",
+  "nvars": 6,
+  "order_dp": 3,
+  "order_Dp": 3,
+  "order_lp": 2,
+  "grevlex_randperm": [
+   3,
+   3,
+   3,
+   3
+  ],
+  "all_equal": false,
+  "max_over_orders": 3,
+  "min_over_orders": 2
+ },
+ {
+  "n": 10,
+  "ell": 2,
+  "m": 3,
+  "model": "unsplit",
+  "nvars": 6,
+  "order_dp": 3,
+  "order_Dp": 3,
+  "order_lp": 2,
+  "grevlex_randperm": [
+   3,
+   3,
+   3,
+   3
+  ],
+  "all_equal": false,
+  "max_over_orders": 3,
+  "min_over_orders": 2
+ },
+ {
+  "n": 8,
+  "ell": 2,
+  "m": 3,
+  "model": "split",
+  "nvars": 14,
+  "order_dp": 5,
+  "order_Dp": 5,
+  "order_lp": 4,
+  "grevlex_randperm": [
+   5,
+   5,
+   5,
+   5
+  ],
+  "all_equal": false,
+  "max_over_orders": 5,
+  "min_over_orders": 4
+ }
+]

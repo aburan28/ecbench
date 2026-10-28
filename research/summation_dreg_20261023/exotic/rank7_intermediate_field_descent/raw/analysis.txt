@@ -1,0 +1,15 @@
+twice-run identical (hashes, degrees, vdim, everything): True
+SKIP 4 2 2 koblitz no generic planted decomposition (xR in V always)
+SKIP 6 2 3 koblitz no generic planted decomposition (xR in V always)
+SKIP 9 3 3 koblitz no generic planted decomposition (xR in V always)
+SKIP 12 4 3 koblitz no generic planted decomposition (xR in V always)
+| n | k | m | curve | brute #sol | A0 eqdeg / Bezout / vdim | A0 Sing [k:d]/label | A1 vdim | B vars | B msolve | B Sing [k:d]/label | B vdim | planted |
+| 4 | 2 | 2 | generic | 4 | [4, 2] / 8 / 8 | 2/6 | 4 | 4 | 3 | 2/5 | 4 | True |
+| 6 | 3 | 2 | koblitz | 4 | [4, 2] / 8 / 8 | 2/6 | 4 | 6 | 3 | 3/5 | 4 | True |
+| 6 | 3 | 2 | generic | 2 | [4, 2] / 8 / 8 | 2/6 | 2 | 6 | 3 | 3/5 | 2 | True |
+| 8 | 4 | 2 | koblitz | 4 | [4, 2] / 8 / 8 | 2/6 | 4 | 8 | 3 | 3/7 | 4 | True |
+| 8 | 4 | 2 | generic | 2 | [4, 2] / 8 / 8 | 2/6 | 2 | 8 | 3 | 3/7 | 2 | True |
+| 6 | 2 | 3 | generic | 6 | [12, 9, 9] / 972 / 384 | 2/28 | 6 | 6 | 6 | 3/9 | 6 | True |
+| 9 | 3 | 3 | generic | 6 | [12, 9, 9] / 972 / 384 | 2/27 | 6 | 9 | 6 | 4/17 | 6 | True |
+| 12 | 4 | 3 | generic | 6 | [12, 9, 9] / 972 / 384 | 2/27 | 6 | 12 | 6 | 4/33 | 6 | True |
+count gate OK

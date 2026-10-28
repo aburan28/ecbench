@@ -1,2 +1,4 @@
 /target/
 /deps/crypto/
+__pycache__/
+*.pyc

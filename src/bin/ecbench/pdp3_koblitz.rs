@@ -82,6 +82,14 @@
 //!   that unit unpriced, so `S` is a lower bound and the record says so.
 //!   Reductions, splits, propagations and every F6 gate counter ride in the
 //!   totals' `extra` map.
+//! - The whole of each call — the system's instantiation (and, on the
+//!   first call, its template's symbolic `F_{2^n}` build), the solver's
+//!   Macaulay builds, sorts, indexes, packing, pivot searches, read-back
+//!   and tree scans, the lift of each root and the gate's lookups — is
+//!   also reported in `bitop/v1` primitives through the `bitop_*` keys of
+//!   `extra` with `bitop_complete = 1`
+//!   ([`crypto_lib::cryptanalysis::bitop_tally`]), which is what the
+//!   `bitop/v1` work view prices.
 //!
 //! The word-XOR counter is per thread.  `ic.pipeline` decomposes on its
 //! calling thread, and the elimination runs there.
@@ -112,6 +120,7 @@ use num_traits::One;
 
 use crypto_lib::binary_ecc::{BinaryCurve, F2mElement};
 
+use crypto_lib::cryptanalysis::bitop_tally;
 use crypto_lib::cryptanalysis::ecbench::methods::BinaryPlugins;
 use crypto_lib::cryptanalysis::ic_boundary::{
     decompose_mitm, koblitz_factor_base, lift_abscissae, BinaryGroup, BinaryInstance, ColumnFold,
@@ -123,7 +132,8 @@ use crypto_lib::cryptanalysis::ic_framework::stages::{
 };
 use crypto_lib::cryptanalysis::koblitz_fast::FastPoint;
 use crypto_lib::cryptanalysis::koblitz_groebner::{
-    f4_word_ops_thread, FieldStructure, SolveStats, SolverEngine,
+    f4_word_ops_thread, parse_linear_harvest, set_linear_harvest, FieldStructure, LinearHarvest,
+    SolveStats, SolverEngine,
 };
 use crypto_lib::cryptanalysis::koblitz_index_calculus::{
     build_standard_subspace_factor_base, groebner_decompose, groebner_decompose_f6_ic, point_key,
@@ -473,7 +483,7 @@ fn stats_extra(s: &SolveStats) -> BTreeMap<String, u64> {
     e
 }
 
-/// `pdp3-koblitz:m=3,engine=inherited-f4|f6-ic,degree=D,node_budget=N`,
+/// `pdp3-koblitz:m=3,engine=inherited-f4|f6-ic,degree=D,node_budget=N[,linear_harvest=H]`,
 /// `pdp3-koblitz:m=2|3,engine=rootfind`,
 /// `pdp3-koblitz:m=3,engine=rootfind-window`,
 /// `pdp3-koblitz:m=2|3,engine=rootfind-negfold`, or
@@ -485,6 +495,12 @@ pub struct Pdp3KoblitzOracle<'i> {
     engine: Pdp3Engine,
     solver: SolverEngine,
     node_budget: usize,
+    /// The root linear-row harvest of `koblitz_groebner` (PR #1862) for
+    /// this arm: `None` leaves the library's process default in force (the
+    /// parameter was not given, so the method's identity and counters are
+    /// those of every earlier session); `Some(None)` switches it off;
+    /// `Some(Some(h))` forces configuration `h`.
+    linear_harvest: Option<Option<LinearHarvest>>,
     frob: Option<FrobeniusFactorBase>,
     index_of: HashMap<(BigUint, BigUint), usize>,
     st: Option<FieldStructure>,
@@ -519,6 +535,7 @@ impl<'i> Pdp3KoblitzOracle<'i> {
             engine: Pdp3Engine::InheritedF4,
             solver: SolverEngine::InheritedF4 { max_degree: 3 },
             node_budget: 0,
+            linear_harvest: None,
             frob: None,
             index_of: HashMap::new(),
             st: None,
@@ -719,12 +736,19 @@ impl<'a> DecompositionOracle<BinaryGroup<'a>> for Pdp3KoblitzOracle<'_> {
                  refused under every rootfind* engine",
             ),
             (
+                "linear_harvest",
+                "optional, inherited-f4 and f6-ic only: off (the engine before PR #1862), \
+                 default (the library default now in force), gpv (PR #1862's gate alone) or \
+                 every (every node, no gate). Omitted: the library default, with the \
+                 method's identity unchanged. Refused under every other engine",
+            ),
+            (
                 "dimension",
                 "the base's; copied from koblitz-standard-subspace when omitted",
             ),
             (
                 "window_div",
-                "required under rootfind-window-negfold: window length ⌈|F|/div⌉; \
+                "under rootfind-window-negfold (default 3): window length ⌈|F|/div⌉; \
                  refused under other engines (rootfind-window stays fixed at div=3)",
             ),
         ]
@@ -780,6 +804,29 @@ impl<'a> DecompositionOracle<BinaryGroup<'a>> for Pdp3KoblitzOracle<'_> {
             self.node_budget = budget
                 .parse()
                 .map_err(|_| format!("node_budget `{budget}` is not a number"))?;
+            self.linear_harvest = match params.get("linear_harvest") {
+                None => None,
+                Some(raw) => {
+                    if !matches!(self.engine, Pdp3Engine::InheritedF4 | Pdp3Engine::F6Ic) {
+                        return Err(format!(
+                            "engine={} does not take linear_harvest (only inherited-f4 and \
+                             f6-ic harvest the root's linear rows)",
+                            self.engine.name()
+                        ));
+                    }
+                    Some(match raw {
+                        "off" => None,
+                        "default" => parse_linear_harvest("1"),
+                        "gpv" => parse_linear_harvest("gpv"),
+                        "every" => parse_linear_harvest("every"),
+                        other => {
+                            return Err(format!(
+                                "linear_harvest `{other}` is not off, default, gpv or every"
+                            ))
+                        }
+                    })
+                }
+            };
             self.scan_window_len = 0;
             self.window_div = 0;
             self.pair_table_points = 0;
@@ -789,7 +836,7 @@ impl<'a> DecompositionOracle<BinaryGroup<'a>> for Pdp3KoblitzOracle<'_> {
             // A root-finding engine has no Groebner search to bound.  A
             // bound it ignored would be a parameter in the method's
             // identity that changes nothing, so it is refused.
-            for key in ["degree", "node_budget"] {
+            for key in ["degree", "node_budget", "linear_harvest"] {
                 if params.get(key).is_some() {
                     return Err(format!(
                         "engine={} performs no Groebner search and takes no `{key}`",
@@ -804,17 +851,21 @@ impl<'a> DecompositionOracle<BinaryGroup<'a>> for Pdp3KoblitzOracle<'_> {
                     self.summands
                 ));
             }
-            // window_div changes the search; required under
+            // window_div changes the search; optional (default 3) under
             // rootfind-window-negfold, refused elsewhere (the fixed
             // rootfind-window engine keeps div=3 with no parameter).
             match self.engine {
                 Pdp3Engine::RootfindWindowNegfold => {
-                    let raw = params.get("window_div").ok_or(
-                        "engine=rootfind-window-negfold requires window_div (try 2, 3 or 4)",
-                    )?;
-                    let div: usize = raw
-                        .parse()
-                        .map_err(|_| format!("window_div `{raw}` is not a number"))?;
+                    // Absent means the window `rootfind-window-negfold` had
+                    // before the divisor became a parameter (`⌈|F|/3⌉`): the
+                    // committed parity cycle-1 session names the engine without
+                    // one and must keep replaying.  New specs should state it.
+                    let div: usize = match params.get("window_div") {
+                        None => 3,
+                        Some(raw) => raw
+                            .parse()
+                            .map_err(|_| format!("window_div `{raw}` is not a number"))?,
+                    };
                     if !(2..=8).contains(&div) {
                         return Err(format!("window_div must be 2..=8, got {div}"));
                     }
@@ -980,7 +1031,11 @@ impl<'a> DecompositionOracle<BinaryGroup<'a>> for Pdp3KoblitzOracle<'_> {
             _ => groebner_decompose,
         };
         let before = f4_word_ops_thread();
+        let tally_before = bitop_tally::snapshot();
         let started = Instant::now();
+        // The harvest is a thread-local override, read on the solving
+        // thread; set for this solve and always cleared after it.
+        set_linear_harvest(self.linear_harvest);
         let (indices, stats) = decompose(
             kc,
             frob,
@@ -991,10 +1046,29 @@ impl<'a> DecompositionOracle<BinaryGroup<'a>> for Pdp3KoblitzOracle<'_> {
             self.solver,
             self.node_budget,
         );
+        set_linear_harvest(None);
         let word_xors = f4_word_ops_thread().wrapping_sub(before);
         let wall_ns = started.elapsed().as_nanos() as u64;
         // The gate's point additions are group work: charge them.
         ops.adds += stats.geometric_group_additions;
+        // The whole call in `bitop/v1` primitives: the engine's word XORs
+        // (`ops`), everything else `bitop_tally` saw on this thread — the
+        // system's instantiation from its template (and the template's
+        // symbolic `F_{2^n}` build on the first call), the solver's
+        // Macaulay builds, column sorts and indexes, packing, pivot
+        // searches, read-back and splitting-tree scans, and the lift of
+        // each root (`F_{2^n}` operations and base lookups) — and the
+        // F6 gate's lookups, a hash probe each, and support checks, a
+        // word operation a coordinate.  The gate's point additions are
+        // group work, charged to `ops.adds` above, not here.
+        let mut tally = bitop_tally::snapshot().since(tally_before);
+        tally.hash_probes += stats.geometric_residual_lookups
+            + stats.geometric_fast_residual_lookups
+            + stats.geometric_pair_index_lookups;
+        tally.word_ops += (stats.geometric_support_checks + stats.geometric_partial_support_checks)
+            * u64::from(frob.ell);
+        let mut extra = stats_extra(&stats);
+        tally.put_complete(&mut extra, word_xors);
         let cost = SolverCost {
             ops: word_xors,
             op_unit: WORD_XOR_UNIT.into(),
@@ -1003,7 +1077,7 @@ impl<'a> DecompositionOracle<BinaryGroup<'a>> for Pdp3KoblitzOracle<'_> {
             degree_reached: Some(stats.max_degree_built),
             solving_degree: None,
             timed_out: stats.exhausted,
-            extra: stats_extra(&stats),
+            extra,
         };
         self.totals.absorb(shape, Some(&cost), stats.exhausted);
         let indices = indices?;
@@ -1016,6 +1090,22 @@ impl<'a> DecompositionOracle<BinaryGroup<'a>> for Pdp3KoblitzOracle<'_> {
                 None
             }
         }
+    }
+
+    fn setup_work_native(&self) -> BTreeMap<String, u64> {
+        // The full pair-sum table inserts every unordered pair once; the
+        // negation-folded PairTable counts its own attempts; the algebraic
+        // engines build no table.
+        let mut c = match (&self.pair, &self.pair_neg) {
+            (Some(_), _) => {
+                let f = self.pair_table_points as u64;
+                BTreeMap::from([("table_insert_attempts".to_string(), f * (f + 1) / 2)])
+            }
+            (None, Some(t)) => t.work_counters(),
+            (None, None) => BTreeMap::new(),
+        };
+        c.insert("counted:table_insert_attempts".to_string(), 1);
+        c
     }
 
     fn setup_native(&self) -> BTreeMap<String, u64> {
@@ -1081,5 +1171,190 @@ pub fn plugins() -> BinaryPlugins {
             Some(Box::new(Pdp3KoblitzOracle::new(name, summands, instance))
                 as Box<dyn DecompositionOracle<BinaryGroup<'_>> + '_>)
         },
+    }
+}
+
+/// Committed sessions recorded before later changes altered what a
+/// registered method counts under the same id (`ecbench::legacy`): they
+/// must still replay bit for bit, each under the accounting that produced
+/// it.  The oracle lives in this binary, so the replays do too.
+#[cfg(test)]
+mod committed_replays {
+    use crypto_lib::cryptanalysis::ecbench::audit::{
+        replay_input_json, replay_record, replay_with_accounting,
+    };
+    use crypto_lib::cryptanalysis::ecbench::methods::register_binary_plugins;
+    use crypto_lib::cryptanalysis::ecbench::runner::read_records;
+    use crypto_lib::cryptanalysis::ecbench::spec::{plan, Spec};
+    use std::path::PathBuf;
+
+    fn root() -> PathBuf {
+        PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+    }
+
+    /// Replay `seq` of `rel`; `None` when the checkout does not carry the session.
+    fn replay(rel: &str, seq: u64) -> Option<(bool, String)> {
+        register_binary_plugins(crate::binary_plugins());
+        let dir = root().join(rel);
+        dir.join("session.json")
+            .exists()
+            .then(|| replay_record(&dir, seq).unwrap())
+    }
+
+    #[test]
+    fn rootfind_records_predating_the_set_up_descriptors_replay() {
+        // oracle_setup then carried `pair_table_entries` alone.
+        let rel = "research/ecbench_rootfind_engine_20261012/abandoned/claim-n13-interrupted";
+        if let Some((ok, detail)) = replay(rel, 59) {
+            assert!(ok && detail == "identical", "{detail}");
+        }
+    }
+
+    #[test]
+    fn inherited_f4_record_from_apple_silicon_replays_under_the_pre_2043_accounting() {
+        // Recorded on aarch64 before the eager rewrite and before the F4
+        // word XORs were priced: lazy rewrite, wall-priced solver term
+        // taken back out, 300,531 word XORs (current accounting: 301,961).
+        let rel = "research/ecbench_rootfind_engine_20261012/abandoned/claim-n13-interrupted";
+        if let Some((ok, detail)) = replay(rel, 58) {
+            assert!(ok && detail.contains("pre-2043"), "{detail}");
+        }
+    }
+
+    #[test]
+    fn priced_inherited_f4_record_replays_under_the_pre_2043_priced_accounting() {
+        let rel = "research/ecbench_rootfind_faster_20261014/sessions/cycle1";
+        if let Some((ok, detail)) = replay(rel, 10) {
+            assert!(ok && detail.contains("pre-2043-priced"), "{detail}");
+        }
+    }
+
+    #[test]
+    fn f6_ic_ladder_record_replays_under_the_pre_1646_accounting() {
+        // Recorded 2026-10-05, before the early node oracle and the Four
+        // Russians echelon of #1646, the harvest and gate-first defaults.
+        let rel = "research/f6_ic_ecbench_ladder_20261005/sessions/n13";
+        for seq in [24, 25] {
+            if let Some((ok, detail)) = replay(rel, seq) {
+                assert!(ok && detail.contains("pre-1646"), "seq {seq}: {detail}");
+            }
+        }
+    }
+
+    #[test]
+    fn exhausted_inherited_f4_record_replays_under_the_pre_2043_accounting() {
+        let rel = "research/f6_ic_ecbench_ladder_20261005/sessions/n7";
+        if let Some((ok, detail)) = replay(rel, 1) {
+            assert!(ok, "{detail}");
+        }
+    }
+
+    #[test]
+    fn calibration_row_added_in_1640_is_not_applied_to_older_records() {
+        let rel = "research/ecbench_all_candidates_20261003/sessions/koblitz";
+        if let Some((ok, detail)) = replay(rel, 625) {
+            assert!(ok && detail.contains("pre-1646"), "{detail}");
+        }
+    }
+
+    #[test]
+    fn window_negfold_without_a_divisor_is_the_original_third_window() {
+        let rel = "research/ecbench_rootfind_parity_20261013/sessions/cycle1";
+        if let Some((ok, detail)) = replay(rel, 17) {
+            assert!(ok, "{detail}");
+        }
+    }
+
+    /// Replay record `seq` of `rel` after `edit` has changed the record
+    /// (not its session): `None` when the checkout does not carry it.
+    fn replay_edited(
+        rel: &str,
+        seq: u64,
+        edit: impl FnOnce(&mut crypto_lib::cryptanalysis::ecbench::record::Record),
+    ) -> Option<(bool, String)> {
+        register_binary_plugins(crate::binary_plugins());
+        let dir = root().join(rel);
+        if !dir.join("session.json").exists() {
+            return None;
+        }
+        let spec_text = std::fs::read_to_string(dir.join("spec.json")).unwrap();
+        let p = plan(Spec::from_json(&spec_text).unwrap()).unwrap();
+        let mut records = read_records(&dir).unwrap();
+        let r = records.iter_mut().find(|r| r.seq == seq).unwrap();
+        edit(r);
+        let session = crypto_lib::cryptanalysis::ecbench::runner::read_session(&dir).unwrap();
+        let host: crypto_lib::cryptanalysis::ecbench::host::HostCapsule =
+            serde_json::from_str(&std::fs::read_to_string(dir.join("host.json")).unwrap()).unwrap();
+        Some(replay_with_accounting(
+            &replay_input_json(&p, r).unwrap(),
+            r,
+            &host,
+            &session,
+        ))
+    }
+
+    /// A legacy accounting is accepted only when the whole record
+    /// reproduces: one word XOR more in the record, and it does not.
+    #[test]
+    fn a_legacy_accounting_does_not_excuse_a_changed_count() {
+        let rel = "research/ecbench_rootfind_engine_20261012/abandoned/claim-n13-interrupted";
+        if let Some((ok, detail)) = replay_edited(rel, 58, |r| {
+            *r.phases[2].native.get_mut("solver_ops").unwrap() += 1;
+        }) {
+            assert!(!ok, "{detail}");
+            assert!(detail.contains("phase counts"), "{detail}");
+        }
+    }
+
+    /// A record that names a binary no profile lists is replayed exactly:
+    /// the same committed record, one digit of its binary hash changed,
+    /// is not excused by any legacy accounting.  One case per profile, and
+    /// one for the set-up descriptors and the missing `window_div`.
+    #[test]
+    fn a_record_from_an_unlisted_binary_is_not_excused() {
+        let unlisted = "0".repeat(64);
+        let cases = [
+            // pre-2043: lazy rewrite, F4 solver term taken out
+            (
+                "research/ecbench_rootfind_engine_20261012/abandoned/claim-n13-interrupted",
+                58,
+            ),
+            // pre-2043-priced
+            (
+                "research/ecbench_rootfind_faster_20261014/sessions/cycle1",
+                10,
+            ),
+            // pre-1646
+            ("research/f6_ic_ecbench_ladder_20261005/sessions/n13", 25),
+            // the calibration row of #1640, under pre-1646
+            (
+                "research/ecbench_all_candidates_20261003/sessions/koblitz",
+                625,
+            ),
+            // set-up descriptors the record predates
+            (
+                "research/ecbench_rootfind_engine_20261012/abandoned/claim-n13-interrupted",
+                59,
+            ),
+            // rootfind-window-negfold without window_div
+            (
+                "research/ecbench_rootfind_parity_20261013/sessions/cycle1",
+                17,
+            ),
+        ];
+        for (rel, seq) in cases {
+            let listed = replay_edited(rel, seq, |_| {});
+            let Some((ok, detail)) = listed else { continue };
+            assert!(ok, "{rel} seq {seq} replays as committed: {detail}");
+            let (ok, detail) = replay_edited(rel, seq, |r| {
+                r.binary_sha256 = Some(unlisted.clone());
+            })
+            .unwrap();
+            assert!(
+                !ok,
+                "{rel} seq {seq} excused from an unlisted binary: {detail}"
+            );
+            assert!(!detail.contains("accounting of the code"), "{detail}");
+        }
     }
 }
